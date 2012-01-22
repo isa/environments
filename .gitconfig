@@ -1,0 +1,43 @@
+[user]
+	name = Isa Goksu
+	email = isa.goksu@gmail.com
+[alias]
+   ll = log --pretty=format:'%Creset%C(black)%ad %C(blue bold)%h%Creset%C(magenta bold)%d %Creset%s %C(green bold)(%an)%Creset' --abbrev-commit --date=short
+   co = checkout
+   st = status
+   ci = !git add -A && git commit
+   rh = reset --hard HEAD^
+   ps = push -u origin
+[color]
+   branch = auto
+   diff = auto
+   status = auto
+[color "branch"]
+   current = red bold
+   local = yellow
+   remote = green
+[color "diff"]
+   meta = white
+   frag = blue
+   old = magenta
+   new = green
+[color "status"]
+   added = green
+   changed = blue
+   untracked = magenta
+[difftool "Kaleidoscope"]
+   cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[difftool]
+   prompt = false
+[diff]
+   tool = Kaleidoscope
+[core]
+   editor = mvim -f
+   quotepath = false
+	excludesfile = /Users/isa/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
