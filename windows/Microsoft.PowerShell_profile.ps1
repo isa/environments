@@ -80,3 +80,12 @@ function ll {
       }
     }
 }
+
+function Get-FilesOnly() {
+   gci . *.* -rec | where { ! $_.PSIsContainer }
+}
+
+function Get-FoldersOnly() {
+   gci . *.* -rec | where { $_.PSIsContainer }
+}
+
