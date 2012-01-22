@@ -89,3 +89,6 @@ function Get-FoldersOnly() {
    gci . *.* -rec | where { $_.PSIsContainer }
 }
 
+function Compare-Files($file1, $file2) {
+   Compare-Object (Get-Content $file1) (Get-Content $file2) | Where-Object { $_.SideIndicator -eq '=>' } | Select-Object -ExpandProperty InputObject
+}
