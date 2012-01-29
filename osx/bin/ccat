@@ -1,13 +1,6 @@
 #!/bin/bash
 
-if [ ! -t 0 ];then
-        file=/dev/stdin
-elif [ -f $1 ];then
-        file=$1
-else
-        echo "Usage: $0 code.c"
-        echo "or e.g. head code.c|$0"
-        exit 1
-fi
+FILE=$1
+PATTERN=$2
 
-pygmentize -f terminal -g $file
+cat $FILE | sed "s/\(.*$PATTERN.*\)/$(tput setaf 4)\1$(tput sgr0)/g"

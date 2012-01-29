@@ -1,3 +1,5 @@
+# define colorset
+
 BLACK="\[\e[0;30m\]"
 DGRAY="\[\e[1;30m\]"
 BLUE="\[\e[0;34m\]"
@@ -16,10 +18,22 @@ LGRAY="\[\e[0;37m\]"
 WHITE="\[\e[1;37m\]"
 RESET_COLOR="\[\e[0m\]"
 
-if [[ -n "$PS1" ]]; then
-  export PS1="$BLUE\\u$WHITE in $DGRAY\\w\\n${GREEN}λ ${RESET_COLOR}"
-  export SUDO_PS1="$BLUE\\u$WHITE in $DGRAY\\w\\n${RED}λ ${RESET_COLOR}"
-fi
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
+export PS1="$BLUE\\u$WHITE in $DGRAY\\w\\n${GREEN}λ ${RESET_COLOR}"
+export SUDO_PS1="$BLUE\\u$WHITE in $DGRAY\\w\\n${RED}λ ${RESET_COLOR}"
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
 
 alias ls='ls -G'
 alias ll='ls -alh'
@@ -31,19 +45,21 @@ alias pp='cd ~/Projects'
 alias grep='grep -r --color'
 alias vm='VBoxManage'
 alias rspec='rspec --color --format documentation'
-alias pnc='pn `pwd`'
-alias clj='rlwrap clj'
-alias g='mvim --remote-tab-silent'
+alias e='mvim --remote-tab-silent'
 alias df='df -h'
 alias du='du -sh'
-alias fansh='rlwrap fansh'
 alias import=python_import
+
+# Read-Line Wraps
+alias clj='rlwrap clj'
+alias fansh='rlwrap fansh'
+alias sqlplus='rlwrap sqlplus'
+
 
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
 export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/mysql/bin:$JAVA_HOME/bin:$PATH
 export EDITOR="mvim -f"
-export ANDROID_HOME=/usr/local/Cellar/android-sdk/r14
-export ECHO_NEST_API_KEY="TA4OHCAV5FQCJTWVJ"
+export PAGER="/bin/less"
 
 function uservm() {
    . "$HOME/.rvm/scripts/rvm"
@@ -55,8 +71,4 @@ function python_import() {
 
 function svnst() {
    svn st | ack --match '^[ADM\?]'
-}
-
-function pn() {
-    open "peepopen://$1?editor=MacVim"
 }
