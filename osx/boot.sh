@@ -28,15 +28,3 @@ setup_user
 # also download some necessary packages
 download "http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-7.2.0.pkg.zip" "PCKeyboardHack.zip"
 download "http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.5.0.pkg.zip" "KeyRemap4MacBook.zip"
-
-
-
-# don't forget
-# apply iTerm settings
-# download pckeyboardhack, keyremap4macbook
-
-# keyboard speed
-# tap to click
-# touchpad speed
-# desktop icon size
-# dock magnification, dock size, minimize to app

@@ -33,11 +33,28 @@ Current setup does following:
 3. After finishing all, it starts installing my minimum required apps:
    * Google Chrome
    * LaunchBar
+   * DropBox
    * iTerm2
    * Speed Download Lite
 4. After above packages are installed, it tries to setup the user's home directory:
    * Downloads and configures my [**Vim**-vironment](http://github.com/isa/vim-vironment)
    * Creates all the symbolic links necessary to work with anything (.profile, .git-config, .hgrc, etc)
+   * Does bunch of customizations that I like:
+		* Sets the network name to **isa**
+		* Sets the 'natural' scrolling to real 'natural' scrolling
+		* Gives keyboard to ability to go through all controls
+		* Sets keyboard repeat and initial delay to 0 and 4
+		* Disables capslock
+		* Makes faster trackpad and mouse
+		* Disables opening apps on reboot
+		* Enables subpixel rendering for non-Apple LCDs
+		* Displays all extensions and allows them to change withouth confirmation
+		* Disables 'are you sure you wanna open this app' dialogs
+		* Sets the number of recents apps, docs, servers to 0
+		* Disables spotlight shortcuts
+		* Sets dock animation to 'suck' and turns on magnification with the icon sizes 42 and 56
+		* Downloads one of my favorite wallpapers and sets it as background
+		* Enables **Flurry** screensaver and password on wake up
 
 ### Ubuntu
 

@@ -42,6 +42,7 @@ function copy_app_from_image() {
 # if it is homebrew, it's a special installation
 # if it is pipe delimited, then each parameter has to be brew-package-name;executable-name-after-installation format
 # if it is dmg, then it is plain copy
+# if it is zip, then it is sorta plain copy
 # sorry for the long method, but bash has limited function capabilities
 function require() {
    if [[ $1 == "homebrew" ]]; then
@@ -97,6 +98,92 @@ function require() {
    fi
 }
 
+function setup_network() {
+   # set computer name
+   /usr/sbin/networksetup -setcomputername 'isa'
+
+   # show IP address in the login screen
+   defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo IPAddress
+}
+
+function setup_peripherals() {
+   # revert back to real "natural scrolling"
+   defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+   # enable keyboard access for all controls
+   defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
+   # speed up the keyboard
+   defaults write NSGlobalDomain InitialKeyRepeat -int 4
+   defaults write NSGlobalDomain KeyRepeat -int 0
+   # disable capslock
+   defaults -currentHost write -g 'com.apple.keyboard.modifiermapping.1452-566-0' -array '<dict><key>HIDKeyboardModifierMappingDst</key><integer>-1</integer><key>HIDKeyboardModifierMappingSrc</key><integer>0</integer></dict>'
+   defaults -currentHost write -g 'com.apple.keyboard.modifiermapping.1452-544-0' -array '<dict><key>HIDKeyboardModifierMappingDst</key><integer>-1</integer><key>HIDKeyboardModifierMappingSrc</key><integer>0</integer></dict>'
+
+   # set up trackpad and mouse
+   defaults write -g com.apple.trackpad.scaling -float 1.5
+   defaults write -g com.apple.mouse.scaling -float 2.0
+
+   #?????? find a solution to tap and click ??
+}
+
+function setup_finder() {
+   # disable re-opening apps on logon
+   defaults write com.apple.loginwindow TALLogoutSavesState -bool false
+
+   # enable subpixel font rendering on non-Apple LCDs
+   defaults write NSGlobalDomain AppleFontSmoothing -int 2
+
+   # show all file extensions and remove the warning when changing extension
+   defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+   defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+   
+   # disable are you sure you want to open this app thing
+   defaults write com.apple.LaunchServices LSQuarantine -bool false
+
+   # set number of recent applications to 0
+   osascript -e 'tell application "System Events" to tell appearance preferences to set recent applications limit to 0'
+
+   # set number of recent documents to 0
+   osascript -e 'tell application "System Events" to tell appearance preferences to set recent documents limit to 0'
+
+   # set number of recent servers to 0
+   osascript -e 'tell application "System Events" to tell appearance preferences to set recent servers limit to 0'
+
+   # disable spotlight shortcuts
+   /usr/libexec/PlistBuddy "$HOME/Library/Preferences/com.apple.symbolichotkeys.plist" -c 'Delete AppleSymbolicHotKeys:64' > /dev/null 2>&1
+   /usr/libexec/PlistBuddy "$HOME/Library/Preferences/com.apple.symbolichotkeys.plist" -c 'Add AppleSymbolicHotKeys:64:enabled bool false'
+}
+
+function setup_dock() {
+   defaults write com.apple.dock mineffect suck
+
+   # these are for macbook air, change if you need it
+   defaults write com.apple.dock tilesize -int 42
+   defaults write com.apple.dock magnification -bool true
+   defaults write com.apple.dock largesize -int 56
+}
+
+function setup_customizations() {
+   # change background
+   curl -s "http://ns223506.ovh.net/rozne/b47a59331f4f1ba89c13d494cdefe08e/wallpaper-314929.jpg" -o $HOME/Pictures/desktop.jpg
+   defaults write com.apple.desktop Background '{default = {ImageFilePath = "~/Pictures/desktop.jpg"; };}'
+
+   # screensaver settings - this might require reboot for some reason
+   defaults -currentHost write com.apple.screensaver '{ idleTime = 0; moduleDict = { moduleName = Flurry; path = "/System/Library/Screen Savers/Flurry.saver"; type = 0; }; }';
+   defaults -currentHost write com.apple.screensaver askForPassword -int 0
+   defaults -currentHost write com.apple.screensaver askForPasswordDelay -int 0
+}
+
+function setup_system() {
+   setup_network
+   setup_peripherals
+
+   setup_finder
+   setup_dock
+   setup_customizations
+}
+
 function configure_vim() {
    git clone http://github.com/isa/vim-vironment $HOME/.vim-vironment > /dev/null
    cd $HOME/.vim-vironment
@@ -116,60 +203,6 @@ function link_user_folder() {
 
    ln -s $HOME/.vim-vironment/vim $HOME/.vim
    ln -s $HOME/.vim-vironment/vimrc $HOME/.vimrc
-}
-
-function setup_dock() {
-   # dock
-   defaults write com.apple.dock mineffect suck
-   # these are for macbook air, change if you need it
-   defaults write com.apple.dock tilesize -int 42
-   defaults write com.apple.dock magnification -bool true
-   defaults write com.apple.dock largesize -int 56
-
-   # enable iTunes notifications
-   defaults write com.apple.dock itunes-notifications -bool TRUE
-
-
-}
-
-function setup_system() {
-   # show IP address in the login screen
-   defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo IPAddress
-
-   # change background
-   # login window
-   curl -s "http://ns223506.ovh.net/rozne/16fddb6222d841e447f89002e4554593/wallpaper-444284.jpg" -o $HOME/Pictures/login.jpg
-   defaults write /Library/Preferences/com.apple.loginwindow DesktopPicture "$HOME/Pictures/login.jpg"
-   # desktop
-   curl -s "http://ns223506.ovh.net/rozne/b47a59331f4f1ba89c13d494cdefe08e/wallpaper-314929.jpg" -o $HOME/Pictures/desktop.jpg
-   defaults write com.apple.desktop Background '{default = {ImageFilePath = "~/Pictures/desktop.jpg"; };}'
-
-   # fix iTunes zoom button
-   defaults write com.apple.iTunes full-window 1
-
-   setup_dock
-
-   # require password when waking from sleep
-   defaults -currentHost write com.apple.screensaver askForPassword -int 0
-
-   # disable re-opening apps on logon
-   defaults write com.apple.loginwindow TALLogoutSavesState -bool false
-
-   # revert back to real "natural scrolling"
-   defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
-
-   # enable keyboard access for all controls
-   defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
-
-   # enable subpixel font rendering on non-Apple LCDs
-   defaults write NSGlobalDomain AppleFontSmoothing -int 2
-
-   # show all file extensions
-   defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-   
-   # speed up the keyboard
-   defaults write NSGlobalDomain InitialKeyRepeat -int 4
-   defaults write NSGlobalDomain KeyRepeat -int 0.02
 }
 
 function setup_user() {
