@@ -15,6 +15,10 @@ function message() {
    echo -e "$1${NORMAL}"
 }
 
+function download() {
+   curl "$1" -o $HOME/Downloads/$2
+}
+
 function homebrew() {
    exists=`which brew`
 
@@ -112,6 +116,60 @@ function link_user_folder() {
 
    ln -s $HOME/.vim-vironment/vim $HOME/.vim
    ln -s $HOME/.vim-vironment/vimrc $HOME/.vimrc
+}
+
+function setup_dock() {
+   # dock
+   defaults write com.apple.dock mineffect suck
+   # these are for macbook air, change if you need it
+   defaults write com.apple.dock tilesize -int 42
+   defaults write com.apple.dock magnification -bool true
+   defaults write com.apple.dock largesize -int 56
+
+   # enable iTunes notifications
+   defaults write com.apple.dock itunes-notifications -bool TRUE
+
+
+}
+
+function setup_system() {
+   # show IP address in the login screen
+   defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo IPAddress
+
+   # change background
+   # login window
+   curl -s "http://ns223506.ovh.net/rozne/16fddb6222d841e447f89002e4554593/wallpaper-444284.jpg" -o $HOME/Pictures/login.jpg
+   defaults write /Library/Preferences/com.apple.loginwindow DesktopPicture "$HOME/Pictures/login.jpg"
+   # desktop
+   curl -s "http://ns223506.ovh.net/rozne/b47a59331f4f1ba89c13d494cdefe08e/wallpaper-314929.jpg" -o $HOME/Pictures/desktop.jpg
+   defaults write com.apple.desktop Background '{default = {ImageFilePath = "~/Pictures/desktop.jpg"; };}'
+
+   # fix iTunes zoom button
+   defaults write com.apple.iTunes full-window 1
+
+   setup_dock
+
+   # require password when waking from sleep
+   defaults -currentHost write com.apple.screensaver askForPassword -int 0
+
+   # disable re-opening apps on logon
+   defaults write com.apple.loginwindow TALLogoutSavesState -bool false
+
+   # revert back to real "natural scrolling"
+   defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+   # enable keyboard access for all controls
+   defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
+   # enable subpixel font rendering on non-Apple LCDs
+   defaults write NSGlobalDomain AppleFontSmoothing -int 2
+
+   # show all file extensions
+   defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+   
+   # speed up the keyboard
+   defaults write NSGlobalDomain InitialKeyRepeat -int 4
+   defaults write NSGlobalDomain KeyRepeat -int 0.02
 }
 
 function setup_user() {

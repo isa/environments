@@ -8,7 +8,7 @@ Here we go.. One side note here is, I'm not planning to solve everyone's problem
 
 ## Installation
 
-For Ubuntu and OSX you can use the **boot.sh** and for Windows you should use **boot.ps1**. There are of course some pre-conditions for your machines. I'll explain why in a bit. But these are something you have to do anyways. Just follow the instructions for each platform.
+For Ubuntu and OSX you can use the **boot.sh** and for Windows you should use **boot.ps1**. There are of course some pre-conditions for your machines. I'll explain why in a bit. But these are the things you have to do it anyways. Just follow the instructions for each platform.
 
 ### OSX
 
@@ -28,15 +28,37 @@ Current setup does following:
    * groovy
    * mercurial
    * fantom
+   * wget
+   * tree
 3. After finishing all, it starts installing my minimum required apps:
    * Google Chrome
    * LaunchBar
    * iTerm2
    * Speed Download Lite
-4. After above packages are installed, it tries to setup the user's home directory by:
-   * Download and configure my [**Vim**vironment](http://github.com/isa/vim-vironment)
+4. After above packages are installed, it tries to setup the user's home directory:
+   * Downloads and configures my [**Vim**-vironment](http://github.com/isa/vim-vironment)
    * Creates all the symbolic links necessary to work with anything (.profile, .git-config, .hgrc, etc)
 
 ### Ubuntu
 
 Coming soon..
+
+### Windows
+
+Coming soon..
+
+## What's Next?
+
+Well, there are couple more steps for you to be ready.
+
+First let's make your **Vim** awesome. Just launch vim and type:
+
+    :BundleInstall
+
+This will setup your vim plugins.
+
+## Done?
+
+For now, but you can always add more confgiuration any time. The idea is just making things easier. This works for me, and I'm not intending to replace any of the devops solutions out there. This is not a devops tool. This is just a bunch of scripts that speeds up machine setup.
+
+Hope you like it.
