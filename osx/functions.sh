@@ -17,7 +17,7 @@ function message() {
 
 function download() {
    message "$PROGRESS downloading $2"
-   curl -s "$1" -o $HOME/Downloads/$2
+   curl -sL "$1" -o $HOME/Downloads/$2
 }
 
 function homebrew() {
@@ -59,7 +59,7 @@ function require() {
          mkdir -p $HOME/.temp && cd $HOME/.temp
 
          message "$PROGRESS downloading.."
-         curl --silent "$2" -o app.dmg
+         curl -sL "$2" -o app.dmg
 
          message "$PROGRESS installing.."
          copy_app_from_image
@@ -76,7 +76,7 @@ function require() {
          mkdir -p $HOME/.temp && cd $HOME/.temp
 
          message "$PROGRESS downloading.."
-         curl --silent "$2" -o app.zip
+         curl -sL "$2" -o app.zip
 
          message "$PROGRESS installing.."
          unzip app.zip > /dev/null
@@ -179,7 +179,7 @@ function setup_dock() {
 
 function setup_customizations() {
    # change background
-   curl -s "http://ns223506.ovh.net/rozne/b47a59331f4f1ba89c13d494cdefe08e/wallpaper-314929.jpg" -o $HOME/Pictures/desktop.jpg
+   curl -sL "http://ns223506.ovh.net/rozne/b47a59331f4f1ba89c13d494cdefe08e/wallpaper-314929.jpg" -o $HOME/Pictures/desktop.jpg
    defaults write com.apple.desktop Background '{default = {ImageFilePath = "~/Pictures/desktop.jpg"; };}'
 
    # screensaver settings - this might require reboot for some reason
@@ -197,6 +197,8 @@ function setup_system() {
    setup_finder
    setup_dock
    setup_customizations
+
+   sudo ln -s /usr/bin/less /bin/less
 }
 
 function configure_vim() {
