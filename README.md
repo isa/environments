@@ -8,7 +8,11 @@ Here we go.. One side note here is, I'm not planning to solve everyone's problem
 
 ## Installation
 
-For Ubuntu and OSX you can use the **boot.sh** and for Windows you should use **boot.ps1**. There are of course some pre-conditions for your machines. I'll explain why in a bit. But these are the things you have to do it anyways. Just follow the instructions for each platform.
+Well first of all, just do following:
+
+    git clone https://github.com/isa/environments ~/.environments
+
+And then for Ubuntu and OSX you can use the **boot.sh** and for Windows you should use **boot.ps1**. There are of course some pre-conditions for your machines. I'll explain why in a bit. But these are the things you have to do it anyways. Just follow the instructions for each platform.
 
 ### OSX
 
@@ -55,6 +59,7 @@ Current setup does following:
 		* Sets dock animation to 'suck' and turns on magnification with the icon sizes 42 and 56
 		* Downloads one of my favorite wallpapers and sets it as background
 		* Enables **Flurry** screensaver and password on wake up
+5. Well, if all goes alright, it downloads couple handy packages like **PCKeyboardHack** and **KeyRemap4MacBook** kinda..
 
 ### Ubuntu
 

@@ -22,7 +22,7 @@ function download() {
 function homebrew() {
    exists=`which brew`
 
-   if [[ $exists != *brew ]]; then
+   if [[ $exists == *brew ]]; then
       message "$PROGRESS Well, seems like you've already installed. ${GREEN}✔"
    else
       message "$PROGRESS installing.."
