@@ -16,7 +16,8 @@ function message() {
 }
 
 function download() {
-   curl "$1" -o $HOME/Downloads/$2
+   message "$PROGRESS downloading $2"
+   curl -s "$1" -o $HOME/Downloads/$2
 }
 
 function homebrew() {
@@ -32,10 +33,11 @@ function homebrew() {
 }
 
 function copy_app_from_image() {
-   yes | hdiutil attach app.dmg -mountpoint /Volumes/app > /dev/null
+   yes | sudo hdiutil attach app.dmg -mountpoint /Volumes/app > /dev/null
    app=`find /Volumes/app -name *.app -prune 2>/dev/null | head -1`
    cp -R "$app" /Applications/
-   hdiutil detach /Volumes/app > /dev/null
+   sleep 3
+   sudo hdiutil detach /Volumes/app > /dev/null
 }
 
 # installing required app
@@ -49,36 +51,47 @@ function require() {
       homebrew
    elif [[ $2 == *dmg ]]; then
       message "$INFO Installing ${MAGENTA}$1"
-      mkdir -p $HOME/.temp && cd $HOME/.temp
+      app=`find /Applications -name "$1*.app" -prune`
 
-      message "$PROGRESS downloading.."
-      curl --silent "$2" -o app.dmg
+      if [[ $app == *$1* ]]; then
+         message "$PROGRESS Well, seems like you've already installed. ${GREEN}✔"
+      else
+         mkdir -p $HOME/.temp && cd $HOME/.temp
 
-      message "$PROGRESS installing.."
-      copy_app_from_image
+         message "$PROGRESS downloading.."
+         curl --silent "$2" -o app.dmg
 
-      rm -rf $HOME/.temp
-      message "$PROGRESS done. ${GREEN}✔"
+         message "$PROGRESS installing.."
+         copy_app_from_image
+
+         rm -rf $HOME/.temp
+         message "$PROGRESS done. ${GREEN}✔"
+      fi
    elif [[ $2 == *zip ]]; then
       message "$INFO Installing ${MAGENTA}$1"
-      mkdir -p $HOME/.temp && cd $HOME/.temp
-
-      message "$PROGRESS downloading.."
-      curl --silent "$2" -o app.zip
-
-      message "$PROGRESS installing.."
-      unzip app.zip > /dev/null
-      app=`find . -name *.app -prune 2>/dev/null`
-
-      if [[ $app == *app ]]; then
-         cp -R "$app" /Applications/
+      app=`find /Applications -name "$1*.app" -prune`
+      if [[ $app == *$1* ]]; then
+         message "$PROGRESS Well, seems like you've already installed. ${GREEN}✔"
       else
-         mv *.dmg app.dmg
-         copy_app_from_image
-      fi
+         mkdir -p $HOME/.temp && cd $HOME/.temp
 
-      message "$PROGRESS done. ${GREEN}✔"
-      rm -rf $HOME/.temp
+         message "$PROGRESS downloading.."
+         curl --silent "$2" -o app.zip
+
+         message "$PROGRESS installing.."
+         unzip app.zip > /dev/null
+         app=`find . -name *.app -prune 2>/dev/null`
+
+         if [[ $app == *app ]]; then
+            cp -R "$app" /Applications/
+         else
+            mv *.dmg app.dmg
+            copy_app_from_image
+         fi
+
+         message "$PROGRESS done. ${GREEN}✔"
+         rm -rf $HOME/.temp
+      fi
    else
       IFS="|"
       formulas="$1"
@@ -100,10 +113,10 @@ function require() {
 
 function setup_network() {
    # set computer name
-   /usr/sbin/networksetup -setcomputername 'isa'
+   sudo /usr/sbin/networksetup -setcomputername 'isa'
 
    # show IP address in the login screen
-   defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo IPAddress
+   sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo IPAddress
 }
 
 function setup_peripherals() {
@@ -129,7 +142,7 @@ function setup_peripherals() {
 
 function setup_finder() {
    # disable re-opening apps on logon
-   defaults write com.apple.loginwindow TALLogoutSavesState -bool false
+   sudo defaults write com.apple.loginwindow TALLogoutSavesState -bool false
 
    # enable subpixel font rendering on non-Apple LCDs
    defaults write NSGlobalDomain AppleFontSmoothing -int 2
@@ -151,8 +164,8 @@ function setup_finder() {
    osascript -e 'tell application "System Events" to tell appearance preferences to set recent servers limit to 0'
 
    # disable spotlight shortcuts
-   /usr/libexec/PlistBuddy "$HOME/Library/Preferences/com.apple.symbolichotkeys.plist" -c 'Delete AppleSymbolicHotKeys:64' > /dev/null 2>&1
-   /usr/libexec/PlistBuddy "$HOME/Library/Preferences/com.apple.symbolichotkeys.plist" -c 'Add AppleSymbolicHotKeys:64:enabled bool false'
+   sudo /usr/libexec/PlistBuddy "$HOME/Library/Preferences/com.apple.symbolichotkeys.plist" -c 'Delete AppleSymbolicHotKeys:64' > /dev/null 2>&1
+   sudo /usr/libexec/PlistBuddy "$HOME/Library/Preferences/com.apple.symbolichotkeys.plist" -c 'Add AppleSymbolicHotKeys:64:enabled bool false'
 }
 
 function setup_dock() {
@@ -173,6 +186,8 @@ function setup_customizations() {
    defaults -currentHost write com.apple.screensaver '{ idleTime = 0; moduleDict = { moduleName = Flurry; path = "/System/Library/Screen Savers/Flurry.saver"; type = 0; }; }';
    defaults -currentHost write com.apple.screensaver askForPassword -int 0
    defaults -currentHost write com.apple.screensaver askForPasswordDelay -int 0
+
+   open $HOME/.environments/osx/pastel.itermcolors
 }
 
 function setup_system() {
@@ -185,7 +200,7 @@ function setup_system() {
 }
 
 function configure_vim() {
-   git clone http://github.com/isa/vim-vironment $HOME/.vim-vironment > /dev/null
+   git clone https://github.com/isa/vim-vironment.git $HOME/.vim-vironment > /dev/null
    cd $HOME/.vim-vironment
    git submodule init > /dev/null
    git submodule update > /dev/null
