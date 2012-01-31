@@ -3,39 +3,40 @@ Remove-Item Alias:ls -Force -ErrorAction SilentlyContinue
 Remove-Item Alias:ll -Force -ErrorAction SilentlyContinue
 Remove-Item Alias:g -Force -ErrorAction SilentlyContinue
 Remove-Item Alias:rm -Force -ErrorAction SilentlyContinue
+Remove-Item Alias:sp -Force -ErrorAction SilentlyContinue
 
 # set the encoding
 $OutputEncoding = [text.encoding]::utf8
 
 # custom functions
 function pp {
-   cd C:\p4\1953\e3\components\omt\bundles\oms\pOMS.main
+   cd C:\Projects
 }
 
-function g {
+function e {
       param($file)
 
       gvim --remote-tab-silent $file
 }
 
-function shorten-path([string] $path) { 
-   $loc = $path.Replace($HOME, '~') 
-   # remove prefix for UNC paths 
-   $loc = $loc -replace '^[^:]+::', '' 
-   # make path shorter like tabs in Vim, 
-   # handle paths starting with \\ and . correctly 
-   return ($loc -replace '\\(\.?)([^\\])[^\\]*(?=\\)','\$1$2') 
+function shorten-path([string] $path) {
+   $loc = $path.Replace($HOME, '~')
+   # remove prefix for UNC paths
+   $loc = $loc -replace '^[^:]+::', ''
+   # make path shorter like tabs in Vim,
+   # handle paths starting with \\ and . correctly
+   return ($loc -replace '\\(\.?)([^\\])[^\\]*(?=\\)','\$1$2')
 }
 
-function prompt { 
-   $green = [ConsoleColor]::Green 
+function prompt {
+   $green = [ConsoleColor]::Green
    $blue = [ConsoleColor]::Blue
 
    write-host "$([char]0x1A9) " -n -f $green
-   #write-host ([net.dns]::GetHostName()) -n -f $chost 
+   #write-host ([net.dns]::GetHostName()) -n -f $chost
    write-host (shorten-path (pwd).Path) -n -f $blue
    write-host " $([char]0x0BB)" -n -f $green
-   return ' ' 
+   return ' '
 }
 
 # source: http://www.gregorystrike.com/2011/01/27/how-to-tell-if-powershell-is-32-bit-or-64-bit/
@@ -45,6 +46,16 @@ function ?64 {
         8 { return "64-bit" }
         default { return "Unknown Type" }
     }
+}
+
+# source: http://poshcode.org/1384
+function Get-HostName($fqdm = $true) {
+   $ipProperties = [System.Net.NetworkInformation.IPGlobalProperties]::GetIPGlobalProperties()
+   if ($fqdm) {
+      return $ipProperties.HostName
+   }
+
+   return "{0}.{1}" -f $ipProperties.HostName, $ipProperties.DomainName
 }
 
 # source: http://tasteofpowershell.blogspot.com/2009/02/get-childitem-dir-results-color-coded.html
