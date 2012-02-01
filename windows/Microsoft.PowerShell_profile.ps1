@@ -1,4 +1,4 @@
-# remove any existing aliases
+# remove any of the existing aliases for following
 Remove-Item Alias:ls -Force -ErrorAction SilentlyContinue
 Remove-Item Alias:ll -Force -ErrorAction SilentlyContinue
 Remove-Item Alias:g -Force -ErrorAction SilentlyContinue
@@ -8,7 +8,7 @@ Remove-Item Alias:sp -Force -ErrorAction SilentlyContinue
 # set the encoding
 $OutputEncoding = [text.encoding]::utf8
 
-# custom functions
+# ---- Custom Functions ----
 function pp {
    cd C:\Projects
 }
@@ -37,6 +37,13 @@ function prompt {
    write-host (shorten-path (pwd).Path) -n -f $blue
    write-host " $([char]0x0BB)" -n -f $green
    return ' '
+}
+
+# ---- Powershell Enhancements ----
+
+# custom ternary operator, stupid powershell doesn't have one
+function ?: ([scriptblock]$Condition, [scriptblock]$IfTrue, [scriptblock]$IfFlase) {
+   if (&$Condition) { &$IfTrue } else { &$IfFalse }
 }
 
 # source: http://www.gregorystrike.com/2011/01/27/how-to-tell-if-powershell-is-32-bit-or-64-bit/
