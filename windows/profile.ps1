@@ -134,3 +134,8 @@ function Time() {
 function Tail($Log) {
    Get-Content -Path $Log -Wait
 }
+
+# find command-lines of given process i.e java, powershell, cmd
+function Find-CommandLine($ProcessName) {
+   Get-WmiObject Win32_Process -Filter "Name like '%$ProcessName%'" | Select-Object CommandLine
+}
