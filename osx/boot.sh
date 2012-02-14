@@ -12,7 +12,7 @@ brew update
 require "git;git|ack;ack|rlwrap;rlwrap|unrar;unrar"
 require "virtualhost.sh;virtualhost.sh|macvim;mvim"
 require "python3;python3|groovy;groovy|mercurial;hg"
-require "fantom;fansh|tree;tree|wget;wget"
+require "rename|rename;fantom;fansh|tree;tree|wget;wget"
 
 # install mac apps
 require "Google Chrome" "https://dl.google.com/chrome/mac/stable/CHFA/googlechrome.dmg"
@@ -28,5 +28,6 @@ setup_user
 # also download some necessary packages
 download "http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-7.2.0.pkg.zip" "PCKeyboardHack.zip"
 download "http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.5.0.pkg.zip" "KeyRemap4MacBook.zip"
+download "http://dl.google.com/googletalk/googletalkplugin/GoogleVoiceAndVideoSetup.dmg" "GoogleVoiceAndVideo.dmg"
 
 message "$INFO Alrighty, it's all done and ready! ${GREEN}✔"

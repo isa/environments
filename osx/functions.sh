@@ -128,7 +128,7 @@ function setup_peripherals() {
 
    # speed up the keyboard
    defaults write NSGlobalDomain InitialKeyRepeat -int 4
-   defaults write NSGlobalDomain KeyRepeat -int 0
+   defaults write NSGlobalDomain KeyRepeat -int 15
    # disable capslock
    defaults -currentHost write -g 'com.apple.keyboard.modifiermapping.1452-566-0' -array '<dict><key>HIDKeyboardModifierMappingDst</key><integer>-1</integer><key>HIDKeyboardModifierMappingSrc</key><integer>0</integer></dict>'
    defaults -currentHost write -g 'com.apple.keyboard.modifiermapping.1452-544-0' -array '<dict><key>HIDKeyboardModifierMappingDst</key><integer>-1</integer><key>HIDKeyboardModifierMappingSrc</key><integer>0</integer></dict>'

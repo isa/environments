@@ -49,12 +49,12 @@ alias e='mvim --remote-tab-silent'
 alias df='df -h'
 alias du='du -sh'
 alias import=python_import
+alias cls='clear'
 
 # Read-Line Wraps
 alias clj='rlwrap clj'
 alias fansh='rlwrap fansh'
 alias sqlplus='rlwrap sqlplus'
-
 
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
 export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/mysql/bin:$JAVA_HOME/bin:$PATH

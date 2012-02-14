@@ -59,7 +59,7 @@ Current setup does following:
 		* Sets dock animation to 'suck' and turns on magnification with the icon sizes 42 and 56
 		* Downloads one of my favorite wallpapers and sets it as background
 		* Enables **Flurry** screensaver and password on wake up
-5. Well, if all goes alright, it downloads couple handy packages like **PCKeyboardHack** and **KeyRemap4MacBook** kinda..
+5. Well, if all goes alright, it downloads couple handy packages like **PCKeyboardHack**, **KeyRemap4MacBook** and **GoogleVoiceAndVideo** kinda..
 
 ### Ubuntu
 
