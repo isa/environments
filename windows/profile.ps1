@@ -123,8 +123,14 @@ function Get-AllTypes($object) {
    $object.GetType().Assembly.GetTypes()
 }
 
+# find the total execution time
 function Time() {
    $History = Get-History
    write-host $History
    $History[$History.Length].EndExecutionTime - $history[$History.Length].StartExecutionTime
+}
+
+# tails a file
+function Tail($Log) {
+   Get-Content -Path $Log -Wait
 }
