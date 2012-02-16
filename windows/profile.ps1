@@ -131,8 +131,19 @@ function Time() {
 }
 
 # tails a file
-function Tail($Log) {
-   Get-Content -Path $Log -Wait
+function Tail($LogFile) {
+   #Get-Content -Path $Log -Wait
+   $Content = gc $LogFile
+   $Size = $Content.Length
+
+   while($True) {
+      $Content = gc $LogFile
+      $CurrentSize = $Content.Length
+
+      $Content[$Size .. $CurrentSize]
+
+      $Size = $CurrentSize
+   }
 }
 
 # find command-lines of given process i.e java, powershell, cmd
