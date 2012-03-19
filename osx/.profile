@@ -59,7 +59,7 @@ alias sqlplus='rlwrap sqlplus'
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
 export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/mysql/bin:$JAVA_HOME/bin:$PATH
 export EDITOR="mvim -f"
-export PAGER="/bin/less"
+export PAGER="vimpager"
 
 function uservm() {
    . "$HOME/.rvm/scripts/rvm"

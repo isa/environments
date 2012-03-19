@@ -1,0 +1,63 @@
+setopt prompt_subst
+autoload -U colors && colors
+autoload -Uz vcs_info
+
+zstyle ':vcs_info:*' stagedstr '%F{green}●%f'
+zstyle ':vcs_info:*' unstagedstr '%F{yellow}●%f'
+zstyle ':vcs_info:*' check-for-changes true
+zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{white} :: %f%F{yellow}%r%f'
+zstyle ':vcs_info:*' enable git svn hg
+
+precmd () {
+   if [[ -z $(git ls-files --other --exclude-standard 2> /dev/null) ]] {
+      zstyle ':vcs_info:*' formats '%F{white}|%f %F{green}%b%c%u%f'
+   } else {
+      zstyle ':vcs_info:*' formats '%F{white}|%f %F{green}%b%c%u%f%F{red}●%f%F{white}%f'
+   }
+   vcs_info
+}
+
+function prompt_char {
+   WARN="%{$fg[green]%}"
+   if test "$UID" = 0; then
+      WARN="%{$fg[red]%}"
+   fi
+
+   git branch >/dev/null 2>/dev/null && echo "${WARN}±" && return
+   hg root >/dev/null 2>/dev/null && echo "${WARN}☿" && return
+   svn info >/dev/null 2>/dev/null && echo "${WARN}⚡" && return
+   echo "${WARN}λ"
+}
+
+PROMPT='%{$fg[blue]%}%n%{$fg[white]%} in %{$fg[grey]%}${PWD/#$HOME/~} ${vcs_info_msg_0_}
+%(!.%{$fg[green]%}.%{$fg[red]%})$(prompt_char) %{$reset_color%}'
+
+# -- Loop prompt --
+PROMPT2='{%_}  '
+
+# -- Selection prompt --
+PROMPT3='{ … }  '
+
+# -- Aliases --
+alias ls='ls -G'
+alias ll='ls -alh'
+
+# -- ZSH settings --
+bindkey -v # vim bindings
+bindkey '[1~' beginning-of-line
+bindkey '[4~' end-of-line
+bindkey '[3~' delete-char
+
+setopt extendedglob # enables more complex "extended glob" (needed to make colours work in auto-completion)
+autoload -U compinit && compinit # enables extra auto-completion
+
+zstyle ':completion::complete:*' use-cache 1 # enables caching for auto-completion
+zstyle ':completion:*:descriptions' format '%U%B%d%b%u'
+zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
+
+zmodload zsh/complist
+
+zstyle ':completion:*:*:*:*:processes' menu yes select # a nice menu for commands that use PID for an argument (e.g. 'kill')
+zstyle ':completion:*:*:*:*:processes' force-list always
+zstyle ':completion:*:processes-names' command  'ps c -u ${USER} -o command | uniq'
+
