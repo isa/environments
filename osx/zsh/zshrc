@@ -61,3 +61,5 @@ zstyle ':completion:*:*:*:*:processes' menu yes select # a nice menu for command
 zstyle ':completion:*:*:*:*:processes' force-list always
 zstyle ':completion:*:processes-names' command  'ps c -u ${USER} -o command | uniq'
 
+source $HOME/.environments/osx/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
