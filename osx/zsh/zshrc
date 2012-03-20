@@ -1,65 +1,88 @@
-setopt prompt_subst
-autoload -U colors && colors
-autoload -Uz vcs_info
+# == ZSH SETTINGS ==
 
-zstyle ':vcs_info:*' stagedstr '%F{green}●%f'
-zstyle ':vcs_info:*' unstagedstr '%F{yellow}●%f'
-zstyle ':vcs_info:*' check-for-changes true
-zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{white} :: %f%F{yellow}%r%f'
-zstyle ':vcs_info:*' enable git svn hg
+# -- Bindings --
+bindkey -e # emacs mode line editting
+bindkey '\e[1~' beginning-of-line
+bindkey '\e[4~' end-of-line
+bindkey '\e[3~' delete-char
 
-precmd () {
-   if [[ -z $(git ls-files --other --exclude-standard 2> /dev/null) ]] {
-      zstyle ':vcs_info:*' formats '%F{white}|%f %F{green}%b%c%u%f'
-   } else {
-      zstyle ':vcs_info:*' formats '%F{white}|%f %F{green}%b%c%u%f%F{red}●%f%F{white}%f'
-   }
-   vcs_info
-}
+# -- History --
+export HISTFILE=$HOME/.environments/osx/zsh/history
+export HISTSIZE=10000
+export SAVEHIST=10000 
 
-function prompt_char {
-   WARN="%{$fg[green]%}"
-   if test "$UID" = 0; then
-      WARN="%{$fg[red]%}"
-   fi
+setopt extendedglob # enables more complex "extended glob" (needed to make colours work in auto-completion)
 
-   git branch >/dev/null 2>/dev/null && echo "${WARN}±" && return
-   hg root >/dev/null 2>/dev/null && echo "${WARN}☿" && return
-   svn info >/dev/null 2>/dev/null && echo "${WARN}⚡" && return
-   echo "${WARN}λ"
-}
+# -- Completions --
+setopt AUTO_LIST
+setopt AUTO_MENU
+setopt MENU_COMPLETE
 
-PROMPT='%{$fg[blue]%}%n%{$fg[white]%} in %{$fg[grey]%}${PWD/#$HOME/~} ${vcs_info_msg_0_}
-%(!.%{$fg[green]%}.%{$fg[red]%})$(prompt_char) %{$reset_color%}'
+WORDCHARS='*?_-[]~=&;!#$%^(){}<>' # chars as part of filename
 
-# -- Loop prompt --
-PROMPT2='{%_}  '
+autoload -U compinit && compinit # enables extra auto-completion
 
-# -- Selection prompt --
-PROMPT3='{ … }  '
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path $HOME/.environments/osx/zsh/cache
+zstyle ':completion:*:cd:*' ignore-parents parent pwd
+zstyle ':completion:*:match:*' original only
+zstyle ':completion::prefix-1:*' completer _complete
+zstyle ':completion:predict:*' completer _complete
+zstyle ':completion:incremental:*' completer _complete _correct
+zstyle ':completion:*' completer _complete _prefix _correct _prefix _match _approximate
+zstyle ':completion:*' expand true
+zstyle ':completion:*' squeeze-shlashes true
+zstyle ':completion::complete:*' '\\'
+zstyle ':completion:*:*:*:default' menu yes select
+zstyle ':completion:*:*:default' force-list always
+zmodload  zsh/complist
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31' 
+
+zstyle ':completion:*' completer _complete _match _approximate
+zstyle ':completion:*:match:*' original only
+zstyle ':completion:*:approximate:*' max-errors 1 numeric
+
+compdef pkill=kill
+compdef pkill=killall
+zstyle ':completion:*:*:kill:*' menu yes select
+zstyle ':completion:*:processes' command 'ps -au$USER'
+
+zstyle ':completion:*:matches' group 'yes'
+zstyle ':completion:*:options' description 'yes'
+zstyle ':completion:*:options' auto-description '%d'
+zstyle ':completion:*:descriptions' format $'\e[01;33m -- %d --\e[0m'
+zstyle ':completion:*:messages' format $'\e[01;35m -- %d --\e[0m'
+zstyle ':completion:*:warnings' format $'\e[01;31m -- No Matches Found --\e[0m'
 
 # -- Aliases --
 alias ls='ls -G'
 alias ll='ls -alh'
+alias mkdir='mkdir -p'
+alias cp='cp -R'
+alias chown='chown -R'
+alias chmod='chmod -R'
+alias pp='cd ~/Projects'
+alias grep='grep -r --color'
+alias vm='VBoxManage'
+alias rspec='rspec --color --format documentation'
+alias e='mvim --remote-tab-silent'
+alias df='df -h'
+alias du='du -sh'
+alias import=python_import
+alias cls='clear'
 
-# -- ZSH settings --
-bindkey -v # vim bindings
-bindkey '[1~' beginning-of-line
-bindkey '[4~' end-of-line
-bindkey '[3~' delete-char
+# read-line wraps
+alias clj='rlwrap clj'
+alias fansh='rlwrap fansh'
+alias sqlplus='rlwrap sqlplus'
 
-setopt extendedglob # enables more complex "extended glob" (needed to make colours work in auto-completion)
-autoload -U compinit && compinit # enables extra auto-completion
-
-zstyle ':completion::complete:*' use-cache 1 # enables caching for auto-completion
-zstyle ':completion:*:descriptions' format '%U%B%d%b%u'
-zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
-
-zmodload zsh/complist
-
-zstyle ':completion:*:*:*:*:processes' menu yes select # a nice menu for commands that use PID for an argument (e.g. 'kill')
-zstyle ':completion:*:*:*:*:processes' force-list always
-zstyle ':completion:*:processes-names' command  'ps c -u ${USER} -o command | uniq'
+# -- Variables --
+export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
+export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:$JAVA_HOME/bin:$PATH
+export EDITOR="mvim -f"
+export PAGER="vimpager"
 
 source $HOME/.environments/osx/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.environments/osx/zsh/isa.theme
 
