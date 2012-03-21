@@ -150,3 +150,28 @@ function Tail($LogFile) {
 function Find-CommandLine($ProcessName) {
    Get-WmiObject Win32_Process -Filter "Name like '%$ProcessName%'" | Select-Object CommandLine
 }
+
+# find ldap settings
+function Domain-Info() {
+   $RootDSE = ([ADSI]"LDAP://RootDSE")
+
+   $DomainInfo = @{}
+
+   $DomainInfo['FQDN'] = (Get-HostName $False).ToUpper()
+   $DomainInfo['HostName'] = (Get-HostName).ToUpper()
+
+   $DomainFunctionality = $rootDSE.domainFunctionality
+   switch ($DomainFunctionality)
+   {
+      0 { $DomainInfo['DomainFunctionality'] = "Windows 2000 Domain Mode" }
+      1 { $DomainInfo['DomainFunctionality'] = "Windows Server 2003 Interim Domain Mode" }
+      2 { $DomainInfo['DomainFunctionality'] = "Windows Server 2003 Domain Mode" }
+   }
+
+   $DomainInfo['DefaultNamingContext'] = $RootDSE.defaultNamingContext
+   $DomainInfo['RootdomainNamingContext'] = $RootDSE.rootDomainNamingContext
+   $DomainInfo['ConfigurationNamingContext'] = $RootDSE.configurationNamingContext
+   $DomainInfo['DnsHostName'] = $RootDSE.dnsHostName
+
+   return $DomainInfo
+}
