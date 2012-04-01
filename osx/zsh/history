@@ -1,0 +1,150 @@
+exit
+ll
+ll
+cd ..
+ll
+ll
+e
+mvim
+brew install graphviz
+dot --help
+cd Desktop
+dot -Tpng process-mapping.dot -o process.png
+open process.png
+dot -Tpng process-mapping.dot -o process.png
+open process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+twopi -Tpng process-mapping.dot -o process.png
+fdp -Tpng process-mapping.dot -o process.png
+circo -Tpng process-mapping.dot -o process.png
+neato -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+cd /usr/local/Cellar/graphviz
+dir
+ll
+cd 2.28.0
+ll
+cd bin
+ll
+brew update
+ping github.com
+ping google.com
+ifconfig
+nslookup
+cd Dropbox/js_book/language/dots
+ll
+cat custom-function.dot
+cd ~/Desktop
+ll
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+open process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+dot -Tpng process-mapping.dot -o process.png
+ll
+mv process-mapping.dot purchase-order.dot
+cp purchase-order.dot invoicing.dot
+rm -rf process.png
+dot -Tpng purchase-order.dot -o purchase-order.png
+e invoicing.dot
+dot -Tpng invoicing.dot -o invoicing.png
+open invoicing.png
+dot -Tpng purchase-order.dot -o purchase-order.png
+open purchase-order.png
+open purchase-order.png
+dot -Tpng purchase-order.dot -o purchase-order.png
+open purchase-order.png
+dot -Tpng purchase-order.dot -o purchase-order.png
+open purchase-order.png
+dot -Tpng invoicing.dot -o invoicing.png
+open invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+open invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng invoicing.dot -o invoicing.png
+dot -Tpng to-be.dot -o to-be.png
+open to-be.png
+dot -Tpng to-be.dot -o to-be.png
+dot -Tpng to-be.dot -o to-be.png
+dot -Tpng to-be.dot -o to-be.png
+dot -Tpng to-be.dot -o to-be.png
+dot -Tpng to-be.dot -o to-be.png
+dot -Tpng to-be.dot -o to-be.png
+dot -Tpng to-be.dot -o to-be.png
+dot -Tpng to-be.dot -o to-be.png
+dot -Tpng to-be.dot -o to-be.png
+open to-be.png
+open to-be.png
+nslookup
+cls
+ping jira.gid.gap.com
+telnet jira.grid.gap.com 8083
+telnet jira.grid.gap.com 80
+telnet jira.gid.gap.com 80
+brew install python
+ifconfig
+ping google.com
+nslookup
+dot -Tpng to-be.dot -o to-be.png
+ll
+mv to-be.dot first-cost-tobe.dot
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+cp first-cost-tobe.dot non-first-cost-tobe.dot
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+open non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+ping google.com
+ping google.com
+bash
+ping google.com
+export HTTP_PROXY='prox0xrcc.gap.com:80'
+ping google.com
+curl google.com
+nslookup
+nslookup
+export HTTP_PROXY="prox0xrcc.gap.com:80"
+echo $HTTP_PROXY 
+ping google.com
+curl google.com
+bash
+e ~/.zshrc
+ll /usr/local/share/python

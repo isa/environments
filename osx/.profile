@@ -57,7 +57,7 @@ alias fansh='rlwrap fansh'
 alias sqlplus='rlwrap sqlplus'
 
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
-export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/mysql/bin:$JAVA_HOME/bin:$PATH
+export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/share/python:$JAVA_HOME/bin:$PATH
 export EDITOR="mvim -f"
 export PAGER="vimpager"
 
