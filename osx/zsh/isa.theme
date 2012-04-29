@@ -3,8 +3,8 @@ setopt prompt_subst
 autoload -U colors && colors
 autoload -Uz vcs_info
 
-zstyle ':vcs_info:*' stagedstr '%F{green}●%f'
-zstyle ':vcs_info:*' unstagedstr '%F{yellow}●%f'
+zstyle ':vcs_info:*' stagedstr '%F{green} ●%f'
+zstyle ':vcs_info:*' unstagedstr '%F{yellow} ●%f'
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{white} :: %f%F{yellow}%r%f'
 zstyle ':vcs_info:*' enable git svn hg
@@ -13,7 +13,7 @@ precmd () {
    if [[ -z $(git ls-files --other --exclude-standard 2> /dev/null) ]] {
       zstyle ':vcs_info:*' formats '%F{white}|%f %F{green}%b%c%u%f'
    } else {
-      zstyle ':vcs_info:*' formats '%F{white}|%f %F{green}%b%c%u%f%F{red}●%f%F{white}%f'
+      zstyle ':vcs_info:*' formats '%F{white}|%f %F{green}%b%c%u%f%F{red} ●%f%F{white}%f'
    }
    vcs_info
 }

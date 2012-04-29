@@ -1,20 +1,22 @@
 [user]
-	name = Isa Goksu
-	email = isa.goksu@gmail.com
+   name = Isa Goksu
+   email = isa.goksu@gmail.com
 [alias]
-   ll = log --pretty=format:'%Creset%C(black)%ad %C(blue bold)%h%Creset%C(magenta bold)%d %Creset%s %C(green bold)(%an)%Creset' --abbrev-commit --date=short
+   ll = "!source ~/.githelpers && pretty_git_log"
    co = checkout
    st = status
    ci = !git add -A && git commit
    rh = reset --hard HEAD^
+   rs = reset --soft HEAD^
    ps = push -u origin
+   br = branch
 [color]
    branch = auto
    diff = auto
    status = auto
 [color "branch"]
-   current = red bold
-   local = yellow
+   current = yellow
+   local = blue
    remote = green
 [color "diff"]
    meta = white
@@ -34,10 +36,4 @@
 [core]
    editor = mvim -f
    quotepath = false
-	excludesfile = /Users/isa/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+   excludesfile = /Users/isa/.gitignore

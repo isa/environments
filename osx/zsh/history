@@ -148,3 +148,1817 @@ curl google.com
 bash
 e ~/.zshrc
 ll /usr/local/share/python
+git ll
+git
+which easy_install
+pip --version
+pip install http curlish
+cd .environments
+git st
+git ci . -m 'Updated my path for python binaries'
+git ll
+git ll
+git ls
+git log
+ll
+git alias
+git
+git ll
+bash
+git ps master
+git ll
+git st
+networksetup -getWebProxy Wi-Fi
+export HTTP_PROXY=prox0xrcc.gap.com:80
+echo $HTTP_PROXY 
+ping google.com
+nslookup
+bash
+mvim
+pip install http curlish
+ll /usr/local/Cellar/python/2.7.2/lib/python2.7/site-packages
+ll /usr/local/lib/python2.7/site-packages/
+ll /usr/local/lib/python2.7/site-packages/http
+pip install mockito nose
+brew install elinks
+elinks
+elinks
+export HTTP_PROXY=prox0xrcc.gap.com:80
+echo $HTTP_PROXY
+curl -x $HTTP_PROXY http://google.com
+curl google.com
+nslookup
+irb
+export http_proxy=prox0xrcc.gap.com:80
+curl google.com
+elinks
+elinks
+e ~/.zshrc
+ping google.com
+cd Desktop
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+dot -Tpng non-first-cost-tobe.dot -o non-first-cost-tobe.png
+ping google.com
+curl google.com
+curl -x http://autoconfig.gap.com/proxy.dat http://google.com
+ll
+cat process-mapping.26.dot
+cat proxy.dat.txt
+cat proxy.dat.txt | grep gap.com
+cat proxy.dat.txt | grep PROXY
+cat proxy.dat.txt | grep PROXY | sort | uniq
+grep PROXY proxy.dat.txt| sort | uniq
+grep PROXY proxy.dat.txt| sort | uniq -c
+curl -x prox0xsdc.gap.com:80 http://google.com
+grep PROXY proxy.dat.txt| sort | uniq -c
+curl -x prox01sdc.gap.com:80 http://google.com
+grep PROXY proxy.dat.txt| sort | uniq -c
+curl -x prox02sdc.gap.com:80 http://google.com
+grep PROXY proxy.dat.txt| sort | uniq -c
+curl -x prox0xrcc.gap.com:80 http://google.com
+grep PROXY proxy.dat.txt| sort | uniq -c
+curl -x prox01uk.gap.com:80 http://google.com
+grep PROXY proxy.dat.txt| sort | uniq -c
+curl -x prox01hk.gap.com:80 http://google.com
+grep PROXY proxy.dat.txt| sort | uniq -c
+grep prox0 proxy.dat.txt
+grep prox0*.com proxy.dat.txt | 
+grep "prox0.*com" proxy.dat.txt | \
+\
+
+grep "prox0.*com" proxy.dat.txt\
+\
+
+grep "prox0.*com" proxy.dat.txt
+grep "prox0.*com:80;" proxy.dat.txt
+grep "\"prox0.*com:80;" proxy.dat.txt
+grep '"prox0.*com:80;' proxy.dat.txt
+grep "prox0.*com:80;" proxy.dat.txt
+grep "prox0.*com:80;" proxy.dat.txt | sed '/PROXY //g'
+grep "prox0.*com:80;" proxy.dat.txt | sed -i '/PROXY //g'
+grep "prox0.*com:80;" proxy.dat.txt | sed -e '/PROXY //g'
+grep "prox0.*com:80;" proxy.dat.txt | sed -e '/PROXY //'
+grep "prox0.*com:80;" proxy.dat.txt | sed 's/PROXY //'
+grep "prox0.*com:80;" proxy.dat.txt | sed 's/PROXY //g'
+grep "prox0.*com:80;" proxy.dat.txt | sed 's/(PROXY|return) //g'
+grep "prox0.*com:80;" proxy.dat.txt | sed 's/PROXY |return //g'
+grep "prox0.*com:80;" proxy.dat.txt | sed 's/PROXY //g'
+grep "prox0.*com:80;" proxy.dat.txt | sed 's/PROXY //g' | sed 's/return //g'
+grep "prox0.*com:80;" proxy.dat.txt | sed 's/PROXY //g' | sed 's/return //g' | sort
+grep "prox0.*com:80;" proxy.dat.txt | sed 's/PROXY //g' | sed 's/return //g' | sort | uniq -c
+ping google.com
+networksetup -getwebproxy Ethernet
+networksetup -getwebproxy Airport
+networksetup
+networksetup -showBMCSettings
+networksetup -getAirportNetwork
+ping google.com
+env
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+networksetup -listallnetworkservices
+networksetup -getwebproxy Wi-Fi
+curl -x prox0xrcc.gap.com:80 http://google.com
+link
+links
+elinks
+curl -x prox0xrcc.gap.com:80 http://google.com
+curl -x prox0xrcc.gap.com:80 https://portal.gap.com/idm8/user/processLaunch.jsp?newView=true&id=gapInternetAccessAutoProvisioningWF
+networksetup -getwebproxy Wi-Fi
+nslookup
+curl -x gw.gap.com:80 google.com
+python
+ll /usr/local/Cellar/python
+ping google.com
+ping google.com
+ping google.com
+python
+which easy_install
+ll /usr/local/Cellar/python/bin/
+ll /usr/local/Cellar/python/bin/
+ll /usr/local/Cellar/python/
+ll /usr/local/Cellar/python/2.7.2
+ll /usr/local/Cellar/python/2.7.2/bin
+curl http://pypi.python.org/packages/2.3/s/setuptools/setuptools-0.6c11-py2.3.egg#md5=2baeac6e13d414a9d28e7ba5b5a596de -o setuptools.egg
+curl http://pypi.python.org/packages/2.3/s/setuptools/setuptools-0.6c11-py2.3.egg -o setuptools.egg
+ll
+python setuptools.egg
+unzip setuptools.egg -d setup
+cd setup
+ll
+python easy_install.py
+cd ..
+ll
+ll
+rm -rf setup
+ll
+mv setuptools.egg /usr/local/Cellar/python/2.7.2/lib/python2.7/site-packages
+which easy_install
+ll
+curl http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz -o setup.tar.gz
+mv /usr/local/Cellar/python/2.7.2/lib/python2.7/site-packages/setuptools.egg ~/Desktop/setuptools-0.6c11.egg
+ll
+sh setuptools-0.6c11.egg
+rm -rf *.egg
+ll
+rm -rf setup.tar.gz
+wget http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11-py2.7.egg 
+ll
+sh setuptools-0.6c11-py2.7.egg
+ll
+ll ~
+brew search easy_install
+brew search setuptools
+brew update
+brew update
+brew install jruby
+brew install mongodb
+jgem install cucumber
+jgem install cucumber
+say "hello isa"
+say "hello grant"
+say "this is bullshit"
+say do do do do
+say do do do do do do do do do
+say cello do do do do do do do do do
+say - cello do do do do do do do do do
+say --help
+man say
+export PAGER='less -R'
+man say
+say -v cello do
+say -v cello do do do do do do do do do
+say -v cello do do do do do do do do do do do do do do do do do do do do do
+man say
+say -v robot "You broke the fucking build"
+say -v bahh "You broke the fucking build"
+say -v zarvox "You broke the fucking build"
+say -v "good news" "You broke the fucking build"
+say -v deranged "You broke the fucking build"
+say -v "bad news" "You broke the fucking build"
+say -v "good news" "You broke the fucking build"
+say -v bells "You broke the fucking build"
+say -v alber "You broke the fucking build"
+say -v albert "You broke the fucking build"
+say -v whisper "You broke the fucking build"
+say -v whisper "You broke the fucking build"
+say -v whisper "stupid shit, you broke the build"
+say -v whisper "stupid shit, you broke the build"
+say -v hysterical "stupid shit, you broke the build"
+say -v hysterical "you fucker"
+say -v trinoids "you fucker"
+say -v trinoids "you! fucker"
+say -v trinoids "cellos"
+say -v cellos "you! fucker"
+say -v bruce "you! fucker"
+say -v bruce "yoooooo\
+
+say -v bruce "yoooooo"\
+
+say -v bruce "yoohooo"\
+
+say -v bruce "yawwwwwww"\
+
+say -v bruce "yowwwwwww"\
+
+say -v bruce "yowwww"\
+
+say -v bruce "yoowwww"\
+
+say -v bruce "yoawwww"\
+
+say -v bruce "yaowwww"\
+
+say -v bruce "ywwwww"\
+
+say -v bruce "yowwwww"\
+
+say -v bruce "yawwwww"\
+
+say -v bruce "yawwwww, you broke the fucking build"\
+
+say -v bruce "yawwwww, you broke the fucking build"\
+
+say -v victoria "yawwwww, you broke the fucking build"\
+
+say -v victoria "yawwwww, you broke the fucking build? are you gonna fix something"\
+
+say -v victoria "yawwwww, you broke the fucking build? are you gonna fix it or shall I call superman?"\
+
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+cd Desktop
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+open gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+dot -Tpng gtn-flow.dot -o gtn-flow.png
+ping google.com
+ping isa.io
+curlish http://google.com
+networksetup -getWebProxy Wi-Fi
+export http_proxy=http://Is1z1j6:Th0ughtW0rks@prox0xrcc.gap.com:80
+echo $http_proxy
+curlish google.com
+curlish http://google.com
+export http_proxy=http://Is1z1j6:Gis1gz1j6@prox0xrcc.gap.com:80
+curlish http://google.com
+elinks
+. ~/.zshrc
+curlish http://google.com
+ping google.com
+nslookup
+nslookup
+ping google.com
+curl http://google.com
+curlish google.com
+curlish http://google.com
+echo $http_proxy
+curl google.com
+brew update
+brew upgrade
+curl --proxy-ntlm google.com
+curl --proxy-ntlm isa.io
+ssh isagoksu.com
+ping google.com
+nslookup
+ssh isa.io
+ssh google.com
+curlish http://google.com
+curl http://google.com
+brew upgrade
+java -version
+java -version
+echo $http_proxy
+ping google.com
+ping yahoo.com
+curl yahoo.com
+ping google.com
+ifconfig
+say "everyday I'm shuffling"
+say "everyday I'm shuffling"
+say -v cello "everyday I'm shuffling"
+say -v hysterical "everyday I'm shuffling"
+nslookup
+hostname -a
+nslookup
+echo $http_proxy
+ping googlecom
+ping google.com
+dig github.com
+netstat -rn
+host portal.gap.com
+host jira
+host apple.com
+host gaplcom
+host gap.com
+dig -x apple.com
+ps uax | grep mDNS
+scutil --dns
+cd Proj
+mkdir Projects
+ll
+cd Projects
+ll
+svn ls http://svn.gap.dev/svn/supplychain
+dscacheutil -configuration
+nslookup
+cat /etc/resolv.conf
+traceroute google.com
+ping 8.8.8.8
+brew update
+ping google.com
+echo $http_proxy 
+ch
+csh
+exit
+brew update
+brew upgrade
+echo $http_proxy
+say fart
+say faaaaaaaaaaaart
+say this is bullshit
+say I'm sexy and I know it\
+
+say I amm sexy and I know it\
+
+say -v hysterical I am sexy and I know it
+brew update
+bash
+brew update
+cd /usr/local/Cellar
+git update
+git pull
+cd ..
+ll
+git pull
+git fetch
+bash
+cd /var/folders/ns/
+ll
+cd lsp5wfx14y54y31d_93tr3bm0000gn
+ll
+tree
+du -sh
+du -h
+du
+alias du=du
+du
+du -h
+cd T/MediaCache
+l
+ll
+open .
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+cd Desktop
+grep assumptions assumptions.txt
+cat assumptions.txt
+ack assumption assumptions.txt
+ack assumption
+cd ../Downloads
+grep assumption SCMS-MP\ Application\ Capabilities\ and\ Stories_Updated\ -\ 20120413\ -\ First\ Cost.csv
+cat SCMS-MP\ Application\ Capabilities\ and\ Stories_Updated\ -\ 20120413\ -\ First\ Cost.csv
+grep ssumption SCMS-MP\ Application\ Capabilities\ and\ Stories_Updated\ -\ 20120413\ -\ First\ Cost.csv
+grep ssum SCMS-MP\ Application\ Capabilities\ and\ Stories_Updated\ -\ 20120413\ -\ First\ Cost.csv
+grep Ass SCMS-MP\ Application\ Capabilities\ and\ Stories_Updated\ -\ 20120413\ -\ First\ Cost.csv
+curl http://google.com
+cd Desktop
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+open first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+java -version
+dot -Tpng first-cost-tobe.dot -o first-cost-tobe.png
+open first-cost-tobe.png
+brew update
+brew search cucumber
+brew list
+brew uninstall jruby
+brew info swif
+brew info swig
+man swig
+swig
+swig --help
+pip install http
+pip upgrade
+pip --upgrade
+pip install --upgrade *
+pip install --upgrade http
+pip install --upgrade curlish
+pip install --upgrade mockito
+pip install --upgrade nose
+brew install spring-roo
+e ~/.zshrc
+enable_proxy
+curl google.com
+curl isa.io
+brew update
+cd ~/Projects/scms
+ll
+cd src/functional
+ll
+cd test
+ll
+cd ..
+cd ..
+ll
+find . -name jasmine\*
+cd unit/webapp
+ll
+tree
+cd spec
+ll
+cd ..
+cd ..
+ll
+cd ..
+ll
+tree
+find -name exchangeRateViewModelSpec.js
+find . -name exchangeRateViewModelSpec.js
+e ./unit/javascript/scms/viewModels/exchangeRateViewModelSpec.js
+brew update
+enable_proxy
+brew update
+brew info grok
+ll
+brew upgrade
+brew upgrade
+enable_proxy
+brew upgrade
+brew install node
+. ~/.zshrc
+brew update
+brew search node
+brew info ndoe
+brew info node
+brew install node
+wget http://lesscss.googlecode.com/files/less-1.3.0.min.js
+ll
+play
+brew search play
+brew help
+brew help install
+brew install
+brew install play12
+brew install play --version 1.2.6
+brew update
+brew upgrade
+brew install node
+brew install mongodb
+cat /var/log/install.log
+brew install npm
+curl http://npmjs.org/install.sh | sh
+brew install npm
+brew search nvm
+brew info phantomjs
+brew install phantomjs
+phantomjs
+phantomjs --help
+say "born to be wild"
+ifconfig
+ll
+cd Desktop/merchandize-payables
+tree
+ll
+cd src
+ll
+mv asset/* main/
+ll
+rm -rf asset
+ll
+cd main
+ll
+cd ..
+ll
+cd ..
+ll
+mkdir lib
+ll
+cd lib
+ll
+mkdir client server
+mv replace-me-with-real.file client
+cp client/replace-me-with-real.file server
+ll
+tree
+cd ..
+ll
+cd devops
+mkdir db
+ll
+cp ci/replace-me-with-real.file db/
+ll
+tree
+cd ..
+ll
+find . -type d -exec chmod 755 {}\;
+find . -type d | xargs -n1 chmod 755
+ll
+find . -type f | xargs -n1 chmod 755
+tree
+ll
+find . -type f | xargs -n1 chmod 744
+ll
+rvm
+curl -L get.rvm.io | bash -s stable
+rvm
+rvm use
+rvm use 1.8.7
+zsh
+rvm install 1.8.7
+brew search gcc
+brew install homebrew/dupes/apple-gcc42
+brew install https://raw.github.com/Homebrew/homebrew-dupes/master/apple-gcc42.rb
+CC=gcc-4.2 rvm install 1.8.7
+rvm use 1.8.7 --default
+e ~/.zshrc
+rmv()
+rvm
+e ~/.zshrc
+. ~/.zshrc
+rvm
+rvm use 1.8.7
+which ruby
+cd Downloads
+ll
+cd codahale-dropwizard-83bcaa2
+ll
+mvn package
+ll
+e pom.xml
+mvn install
+ll
+cd dropwizard-auth/
+ll
+cd ..
+ll
+ll
+open .m2/repository/
+cd /Volumes/MEDIA/
+ll
+mv Pictures .Pictures
+/Volumes/VirtualBox/VirtualBox_Uninstall.tool ; exit;
+which rvm
+rvm use 1.8.7
+rvm
+sh rvm use 1.8.7
+command rvm use 1.8.7
+rvm use 1.8.7
+. .zshrc
+. ~/.zshrc
+rvm 
+rvm install 1.8.7
+rvm use 1.8.7 --default
+gem list
+cd ~/Desktop/merchandize-payables
+ll
+cat Gemfile
+bundle
+bundle
+bundle
+bundle
+bundle
+bundle
+ll
+gem list
+buildr
+brew java
+brew search java
+buildr
+buildr
+buildr
+buildr help
+ll target
+buildr
+curl http://www.ibiblio.org/maven2/
+buildr
+buildr
+buildr
+buildr
+buildr
+ll
+ll target
+ll target/classes
+buildr tasks
+buildr
+buildr --help
+buildr help
+buildr test
+ll target
+ll target/classes
+ll target/artifacts
+ll
+git
+git ll
+ll
+guard
+bundle exec guard
+ll
+ll
+cd resources
+ll
+ll
+cd main
+ll
+cd java
+ll
+mkdir templates
+ll
+cd templates
+ll
+e main.ftl
+ll
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+cd lib
+ll
+ll
+cd ..
+ll
+buildr package
+ll
+ll target
+irb
+buildr
+ll
+buildr
+buildr help
+buildr artifacts
+buildr artifacts
+buildr artifacts
+buildr artifacts
+buildr artifacts
+buildr artifacts
+buildr artifacts
+buildr artifacts
+buildr artifacts --trace
+buildr artifacts --trace
+buildr artifacts
+buildr artifacts
+buildr artifacts
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr 
+buildr
+buildr idea
+ll
+rm -rf *.i*
+ll
+buildr
+buildr
+buildr test
+buildr test
+buildr help:projects
+buildr
+buildr
+buildr
+buildr compile
+buildr package
+ll
+ll target
+open target
+ll
+buildr
+buildr
+buildr compile
+buildr compile
+ll target
+ll target
+buildr compile
+ll
+ll target
+rm -rf target/classes
+ll target
+buildr compile
+rm -rf target/classes
+buildr compile
+rm -rf target/classes
+buildr compile
+rm -rf target/classes
+buildr compile
+buildr compile
+buildr compile
+ll target
+ll
+rm -rf out
+ll
+buildr compile
+buildr compile
+find /usr/lib/virtualbox -maxdepth 1 -name '*.so' -exec ln -s \{\} /usr/lib/virtualbox/components/ \;
+ll
+cd /usr
+find . -name virtual
+find / -name virtual
+find . -name \*virtual\*
+cd /
+find . -name \*virtual\* 2>/dev/null
+find . -name \*virtualbox\* 2>/dev/null
+sudo open -a /Applications/VirtualBox.app
+sudo open -a /Applications/VirtualBox.app
+df
+drutil
+drutils tatus
+drutil status
+http
+cd Desktop/merchandize-payables
+. ~/.zshrc
+cd target
+curlish http://isa.io
+curlish GET http://isa.io
+which curlish
+curlish --version
+pip install http
+http
+http.py
+ll /usr/local/lib/python2.7/site-packages
+ll /usr/local/lib/python2.7/site-packages/http
+pip remove http
+pip uninstall http
+pip install http
+http
+cd /usr/local/lib/python2.7/site-packages
+ll
+cd cd ~/Des
+cd ~/Desktop
+ll
+cd merchandize-payables
+buidlr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr
+buildr --trace
+mv Build.yml build.yaml
+buildr
+buildr
+nslookup
+ll
+ll
+cd resources
+ll
+cd main
+ll
+cd java/templates
+ll
+e main.ftl
+cd ../../../..
+ll
+buildr
+git config -l
+cat ~/.gitconfig
+less ~/.gitconfig
+ll
+less ~/.gitconfig
+cd ~/Desktop/geekly-weekly
+cd .git
+ll
+e config
+cd Desktop
+git clone ssh://scms-mp@aerlithiworks.gap.com/Users/scms-mp/geekly-weekly.git
+ll
+cd geekly-weekly
+ll
+git ll
+cd devops
+ll
+cd developer-box
+ll
+cd git
+ll
+cat git_setup.sh
+./git_setup.sh
+ll
+cat commit-template
+cat commit-msg
+git co development
+git branch
+cat ~/.gitconfig
+ll
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+mkdir isa
+cd isa
+ll
+e something
+ll
+git pod
+git ll
+git ci
+git ll
+git ll --all
+git reset --soft HEAD~1
+git ll
+git st
+git co feature/isa-1
+git co -b feature/isa-1
+git st
+git ci 
+git ll
+e someotherthing
+git branch
+git ci
+git ll
+git pod
+git co development
+ll
+cd..
+ll
+cd ~/Desktop
+ll
+cd geekly-weekly
+ll
+cd isa
+ll
+cd ..
+ll
+git pod
+git merge feature/isa-1
+git branch
+git co development
+git branch
+git pod
+git ll
+git merge feature/isa-1
+git commit
+git ll
+ll
+cd .git
+ll
+cat config
+ll
+cd ..
+ll
+git ll
+less .git/config
+git config -l
+git st
+git --version
+git l
+git lg
+git pod
+git ll
+git ll
+git pod
+git ll
+git push
+git ll
+gitk --all
+ll
+git co -b feature/isa-2
+git branch
+cd isa
+ll
+e someotherthing
+ll
+git ci
+git ll
+git pull --rebase origin development
+git ll
+git co development
+ll
+ll
+git merge feature/isa-2
+git st
+gitk --all
+git pod
+git ll
+git ll
+gitk --all
+git co -b feature/isa-3
+git ll
+e something
+git ll
+git st
+git ci
+git ll
+git co development
+git pull --rebase origin development
+git ll
+ll
+git merge --no-commit feature/isa-3
+git commit
+git ll
+git push
+gitk --al
+cd ~/Desktop/geekly-weekly
+ll
+gitk --all
+ll
+cd ../
+dir
+cd merchandize-payables/docs
+e developers-handbook.md
+ssh git@merchpayci.gap.com
+ll
+cd Desktop
+ll
+cd merchandize-payables
+ll
+cd docs
+tree
+ssh-keygen -t rsa -C 'isa.goksu@gmail.com'
+ssh-keygen -t rsa -C 'isa.goksu@gmail.com'
+ssh admin@merchpayci.gap.com
+cd Desktop
+ll
+rm -rf geekly-weekly
+git clone ssh://scms-mp@aerlithiworks.gap.com/Users/scms-mp/geekly-weekly2.git
+cd geekly-weekly2
+sh devops/developer-box/git/git_setup.sh
+cd devops/developer-box/git
+ll
+ll
+./git_setup.sh
+cd ..
+cd. .
+cd ..
+ll
+ll
+cd ..
+ll
+git ll
+git co development
+ll
+git branch
+git co -b feature/isa-1
+mkdir isa
+cd isa
+e dummy
+git st
+ll
+cd ..
+ll
+git ll
+git st
+git ci
+git ll
+e isa/something
+git ll
+git st
+git ci
+git ll
+git pull --rebase origin development
+git co development
+git merge --no-commit --no-ff feature/isa-1
+git commit
+git ll
+git push
+gitk --al
+gitk --all
+touch dummy.rb
+open .
+ll
+git pull --rebase origin development
+git ll
+gitk --all
+git pull --rebase origin development
+gitk --all
+git pull --rebase origin development
+gitk --all
+git pull --rebase origin development
+gitk --all
+git pull --rebase origin development
+gitk --all
+git ll
+brew install gradle
+gradle
+gradle
+buildr
+cd ~/Desktop/merchandize-payables
+buildr
+gradle
+ll
+mv Buildfile build.gradle
+ll
+gradle
+e build.gradle
+gradle
+gradle help
+gradle --deamon
+gradle --daemon
+gradle --daemon
+gradle --daemon
+ps -fe | grep java
+df -h
+gradle -q
+gradle help
+gradle tasks
+gradle -- tasks
+gradle --tasks
+gradle --gui
+gradle --gui
+gradle --gui
+gradle
+gradle tasks
+ll
+e ~/.zshrc
+. ~/.zshrc
+gradle
+gradle
+gradle tasks
+ll
+e README
+tree
+ll
+cd docs
+ll
+mv architecture.md 01.architecture.md
+mv configuration.md 02.configuration.md
+ll
+mv installation.md 03.installation.md
+ll
+cp 03.installation.md 04.continuous-integration.md
+ll
+mv troubleshooting.md 05.troubleshooting.md
+ll
+e 04.continuous-integration.md
+rm -rf 04.continuous-integration.md
+mv 05.troubleshooting.md 04.troubleshooting.md
+ll
+e developers-handbook.md
+mkdir development
+mkdir production
+ll
+cp -R *.md images stylesheets production
+ll
+mv *.md images stylesheets development
+ll
+ll
+tree
+cd production
+ll
+rm -rf developers-handbook.md
+ll
+cd ..
+ll
+cd development
+ll
+rm -rf 0*.md
+ll
+cd ..
+cd ..
+e Gemfile
+ll
+rm -rf Gemfile
+mv Gemfile.lock Gemfile
+e Gemfile
+e Gemfile
+ll
+ll
+cat gradle-app.setting
+rm -rf gradle-app.setting
+ll
+mkdir core
+mkdir rms feed exchange router
+ll
+ll
+e .gitignore
+ll
+open .
+e settings.gradle
+ll modules
+ll
+gradle -t
+gradle tasks
+open /usr/local/Cellar/gradle/1.0-rc-1/
+ll
+mv build.gradle modules/core
+ll
+gradle taks
+gradle tasks
+ll
+gradle tasks --all
+gradle modules:core:build
+ll
+e README
+e build.gradle
+cat build.yaml
+gradle
+e modules/core/build.gradle
+gradle -q dependencies
+gradle -q modules:core:dependencies
+gradle -modules:core:dependencies
+gradle modules:core:dependencies
+gradle compile
+gradle compileJava
+gradle compileJava --info
+gradle compileJava --debug
+gradle compileJava --stacktrace
+gradle compileTest
+cd modules/core
+gradle compileJava
+cd ../..
+ll
+gradle compileJava
+gradle compileJava
+gradle compileJava
+gradle compileJava
+gradle compileJava --info
+gradle compileJava --info
+ll
+gradle compileJava --info
+gradle compileJava --info
+gradle compileJava --info
+gradle compileJava --info
+gradle compileJava --info
+gradle compileJava --info
+ll
+cd modules
+ll
+cd core
+ll
+tree
+ll
+cd lib
+ll
+cd server
+ll
+rm -rf repository
+ll
+cd ..
+cd ..
+tree
+cd ..
+ll
+cd core
+ll
+rm -rf build
+ll
+cd ..
+cd ..
+ll
+ll
+tree
+open .
+gradle test
+gradle test
+gradle test
+gradle test
+gradle test --stacktrace
+gradle test --stacktrace
+gradle test
+gradle test
+gradle test
+gradle test
+gradle test --info
+gradle test --info
+gradle test --info
+gradle test --info
+gradle test --info
+gradle test --info
+gradle test --info
+gradle test --info
+gradle test --info
+gradle test --info
+open ~/.m2
+gradle test --info
+cd ..
+ll
+netstat
+nslookup
+ll
+cd Proj
+cd ~/Projects
+ll
+git clone ssh://git@merchpayci.gap.com/Users/git/merchpay.git merchandize-payables
+ll
+cd merchandize-payables
+ll
+cd devops
+ll
+cd developer-box/git
+ll
+sh git_setup.sh
+cat addThisKeyToRepoBox.sh
+git config user.name 'Isa Goksu'
+git config user.email 'Isa_Goksu@gap.com'
+cat ../../.git/config
+cat ../../../.git/config
+cat ~/.gitconfig
+ll
+ssh-keygen -t 'Isa_Goksu@gap.com'
+ssh-keygen -t rsa -C 'Isa_Goksu@gap.com'
+ssh-keygen -t rsa -C 'Isa_Goksu@gap.com'
+ssh-keygen -t rsa -C 'isa.goksu@gmail.com'
+ll
+ssh-keygen -t rsa -C 'isa.goksu@gmail.com'
+ll
+sh addThisKeyToRepoBox.sh ~/.ssh/id_gap.pub
+ll
+git ll
+cd ..
+ll
+cd ..
+cd ..
+ll
+git co development
+git branch
+git ll
+ll
+mkdir src/main/java
+ll
+git co -b story-1000
+ll
+git branch
+ll
+git st
+cd src/main/java
+ll
+e Demo.java
+ll
+git st
+cd ../../..
+ll
+git ci
+git ll
+git branch
+git fetch --all
+git fetch --all
+git merge origin/development
+git pod
+git co development
+git signoff
+git signoff story-1000
+git st
+git branch
+git signoff story-1000
+git ll
+gitk --all
+ll
+git branch
+ssh merchpayci.gap.com
+ssh merchpayci.gap.com
+ssh gap@merchpayci.gap.com
+ssh-keygen -t rsa -C 'Isa_Goksu@gap.com'
+ssh gap@merchpayci.gap.com
+ssh git@merchpayci.gap.com
+cd devops/developer-box/git
+ll
+sh addThisKeyToRepoBox.sh
+git fetch-all
+git fetch --all
+ll
+sh addThisKeyToRepoBox.sh
+git fetch --all
+git ll
+git pod
+git ll
+git branch
+ll
+cd ..
+ll
+ll
+cd ..
+ll
+ll
+cd ...
+cd ..
+ll
+nslookup
+ll
+ll
+ll
+ll
+git ll
+git branch
+cd ..
+rm -rf merchandize-payables
+ll
+git clone ssh://git@merchpayci.gap.com/Users/git/merchpay.git merchandize-payables
+cd merchandize-payables
+ll
+git ll
+git branch
+git co development
+ll
+git co development
+git co development
+cd ..
+rm -rf merchandize-payables
+git clone ssh://git@merchpayci.gap.com/Users/git/merchpay.git merchandize-payables
+cd merchandize-payables
+ll
+git co development
+ll
+git branch
+git config user.name "Isa Goksu"
+git config user.email "Isa_Goksu@gap.com"
+cd devops/git/
+cd devops
+ll
+cd developer-box/git
+ll
+sh git_setup.sh
+cd ..
+cd ..
+cd ..
+ll
+git ll
+git branch
+git co -b tech-114
+git branch
+ll
+git st
+git ci .
+git ll
+git co development
+git signoff tech-114
+git ll
+gitk --all
+git push
+ll
+cd docs
+ll
+cd production
+ll
+git ll
+cd ~/Desktop/merchandize-payables
+ll
+gree
+tree
+ll
+e .gitignore
+cd devops/ci
+ll
+chmod +x create-ram-drive.sh
+ll
+rm -rf replace-me-with-real.file
+ll
+./create-ram-drive.sh
+ll
+cd ..
+cd ..
+ll
+tree
+cd ~/Projects/merchandize-payables
+ll
+git branch
+gitk --all
+ll
+git branch
+tree
+ll
+cd docs
+ll
+cd development
+ll
+cd ../production
+ll
+cd ..
+cd ..
+ll
+less README
+cd docs
+ll
+cd production
+ll
+cd ...
+cd ..
+ll
+cd ..
+ll
+cd devops
+ll
+cd developer-box/
+ll
+cd git
+ll
+cat pre-commit
+open .
+cd ~/Projects/merchandize-payables\ copy
+git st
+git ll
+git branch
+git co -b story-115
+ll
+e settings.gradle
+git st
+git ci .
+git ll
+gitk --all
+git co development
+git signoff story-115
+less .git/config
+cd ..
+ll
+ll
+e ~/.gitconfig
+e ~/.gitconfig
+ll
+ll
+ll
+vim
+python
+which vim
+which mvim
+. ~/.zshrc
+vim
+. ~/.zshrc
+vim
+vim
+ll
+ll
+. ~/.zshrc
+cd ~/Projects/scms
+ll
+git ll
+git ll
+git ll
+git ll
+git ll
+git ll
+git ll
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/ago(\s+<)/\1/'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/ago(\s+<)/\1/g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed 's/ago(\s+<)/\1/'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -e 's/ago(\s+<)/\1/'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/ago(\s+<)/\1/g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -i 's/ago(\s+<)/\1/g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/ago(.*)/\1/g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/\t+/ /g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/\s{2,}/ /g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/[[:space:]]{2,}/ /g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -i 's/ago([[:space:]+<)/\1/g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -eE 's/ago([[:space:]+<)/\1/g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/ago([[:space:]+<)/\1/g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/ago([[:space:]]+<)/\1/g'
+git ll
+git ll
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/ago([[:space:]]+<)/\1/' 
+git ll
+git ll
+git ll
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/[[:space:]]+/ /' 
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/[[:space:]]+/ /' 
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/[[:space:]]{2,}/ /' 
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/[[:space:]]{2,}/ /g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/[[:space:]]{2,}/ /'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/[[:space:]]{2,}/ /g'
+echo "* d626e57   4 weeks ago    <ti8y6e6>        ITSCMS-505 [TO, CR] adopting rms retry service to use service run" | sed -Ee 's/[[:space:]]{2,}/ /g'
+git ll
+git ll
+git ll
+git ll
+git ll
+git ll
+echo "* 4a0ef79   4 weeks ago    al8x1x9        ITSCMS-581 [AG,PM] Added country of origin to lading and discharge " | sed -Ee 's/ago([[:space:]]{2,})/\1/g'
+git ll
+git ll
+git ll
+. ~/.zshrc
+ll
+git ll
+git ll
+git ll --all
+git ll
+git ll
+git ll
+echo "âƒ¶ª 3588cd8   4 weeks ago   to0j3k4        ITSCMS-413 [AG,TC] Updated POService to call Factory directly, added" | sed -Ee 's/(second[s]?|minute[s]?|hour[s]?|day[s]?|month[s]?|year[s]?) ago/\1/'
+git ll
+git ll --all
+git ll
+git ll --all
+cd ~/Desktop/demo
+cat hello-world.yaml
+curl http://localhost:8081/helloworld
+curl http://localhost:8081/hello0world
+curl http://localhost:8081/hello-world
+curl http://localhost:8080/helloworld
+curl http://localhost:8080/hello-world
+curlish http://localhost:8080/hello-world
+curlish http://localhost:8080/hello-world?name=Scott
+curlish http://localhost:8080/hello-world?template=Scott
+cat hello-world.yaml
+curlish http://localhost:8080/hello-world?name=Scott
+curlish http://localhost:8080/hello-world?defaultName=Scott
+curlish http://localhost:8080/hello-world?name=Scott
+ll
+cd ~/Projects/merchandize-payables
+git ll
+git ll | less -FXRS
+alias
+ll
+git ll
+git ll
+git ll
+git ll
+git ll
+git ll
+git ll
+git ll
+git br
+git br
+git br
+git br
+git ll
+git ll
+git ll
+ssh isa@isa2
+ssh isa@isa2.local
+ssh isa@192.168.1.126
+scp -r isa@192.168.1.126:~/Desktop/demo ~/Desktop/
+cd ~/Desktop
+ll
+cd demo
+ll
+rm -rf ~/.m2
+ll
+cat pom.xml
+mvn test
+ll
+open ~/.m2
+mvn dependency:tree
+e pom.xml
+mvn dependency:tree
+mvn dependency:tree
+ll
+cd target/
+ll
+java -jar my-project-0.0.1-SNAPSHOT.jar
+java -jar my-project-0.0.1-SNAPSHOT.jar server ../hello-world.yaml
+ll
+ls -alh
+ll
+ll
+cd ~/Projects
+ll
+cd merchandize-payables
+ll
+. ~/.zshrc
+ll
+e ~/.githelpers
+e ~/.gitconfig
+chmod +x ~/.githelpers
+git ll
+e ~/.githelpers
+git ll
+git ll
+git ll
+git ll
+git ll
+git ll
+git ll
+git ll
+git ll
+ll
+git ll
+man column
+git ll
+git ll
+gitk --all
+git st
+cat .gitig
+ll
+open .
+ll modules/core
+find . -name .gitignore
+ll
+git st
+git br
+git co -b tech-0
+e .gitignore
+git st
+git ci
+git ll
+ll
+cd devops/developer-box/git
+ll
+e Git.md
+ll
+rm -rf Git.md
+git st
+git ci
+git ll
+git ll
+. ~/.zshrc
+git ll
+. ~/.zshrc
+ll
+alias
+ll
+git ll
+git br
+ll
+git st
+ll
+cd ../..
+ll
+cd ..
+ll
+gradle
+git st
+e .gitignore
+git st
+git ci .
+git ll
+git st
+ll
+gradle
+gradle test
+rm -rf .gradle
+ll
+gradle test
+gradle test
+gradle test
+cd devops/
+ll
+cd environments
+ll
+cd ..
+ll
+cd ..
+git st
+ll
+e build.gradle
+gradle test
+gradle test
+gradle test
+gradle test
+gradle test
+gradle test
+gradle test
+gradle test
+gradle test
+gradle test
+gradle test
+gradle dependencies
+git st
+ll
+cat .gitignore
+e .gitignore
+git st
+git rm modules/core/.DS_Store
+git rm modules/core/.DS_Store -f
+git st
+git st
+cd modules/core/lib/server/
+ll production
+ls production
+ls -C production
+ls -w production
+ls -l production
+ls -a production
+ls -d production
+ls -z production
+ls -t production
+ls -A production
+ls -i production
+ls -k production
+ls -v production
+ls -l production
+ls -l production | awk '{ print $5 }'
+ls -l production | awk '{ print $6 }'
+ls -l production | awk '{ print $9 }'
+ls -l production | awk '{ print $5 }'\
+
+ls -l test | awk '{ print $9 }'
+ll
+git st
+e ~/.gitconfig
+git ll
+git st
+git ci 
+git ll
+git st
+ll
+rm -rf replace-me-with-real.file
+ll
+git rm .DS_Store
+git st
+cd ..
+cd ..
+cd ..
+cd ..
+find . -name .DS_Store
+find . -name .DS_Store | xargs -n1 git rm
+git st
+git ci .
+git ll
+ll
+gradle
+gradle
+gradle test
+ll
+ll
+gi tst
+git st
+ll modules/core
+ll modules/core/target
+e .gitignore
+git ll
+gradle
+gradle test
+gradle test
+gradle test
+gradle -q
+gradle tasks
+gradle projects
+gradle check
+gradle tasks
+gradle compileJava
+gradle compileJava
+brew search casperjs
+brew search casper
+brew udpate
+brew update
+brew upgrade
+ll
+cd ~/Projects/merchandize-payables
+git ll
+git st
+ll
+git ll
+git st
+ll
+tree
