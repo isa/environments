@@ -3,7 +3,7 @@
 
 # Log output:
 #
-# * 51c333e    (12 days)    <Gary Bernhardt>   add vim-eunuch
+# * 51c333e    12 days    Gary Bernhardt   add vim-eunuch
 #
 # The log format uses } characters between each field, and `column` is later
 # used to split on them. A } in the commit subject or any other field will
@@ -11,7 +11,7 @@
 
 HASH="%C(black)%h%Creset"
 RELATIVE_TIME="%C(green)%ar%Creset"
-AUTHOR="%C(bold blue)%an%Creset"
+AUTHOR="%C(blue)%an%Creset"
 REFS="%C(red)%d%Creset"
 SUBJECT="%s"
 

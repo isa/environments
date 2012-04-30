@@ -1962,3 +1962,28 @@ git ll
 git st
 ll
 tree
+ll
+mv .githelpers ~/.environments
+ll .environments
+cd en
+cd .environments
+git st
+git rm .ssh
+git rm osx/.ssh
+git rm osx/.ssh -r
+git rm osx/.ssh -r --cached
+git st
+git add -i
+git st
+git commit -m 'Added git helper script\
+'
+git st
+git ll
+ln -s ~/.environments/.githelpers ~/.githelpers
+git ll
+git ll --all
+git ps master
+git st
+ll
+ll
+git ll

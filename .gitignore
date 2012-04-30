@@ -1,4 +1,4 @@
 zsh/history
 *.swp
-id_rsa
+.ssh
 
