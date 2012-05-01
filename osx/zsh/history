@@ -1987,3 +1987,260 @@ git st
 ll
 ll
 git ll
+cd ~/Projects/merchandize-payables/ll
+cd ~/Projects/merchandize-payables/
+ll
+git ll
+git ll --all
+git pod
+gitk --all
+ll
+ll
+gitk --all
+git br
+git co tech-0
+git branch -m isatech-0
+git br
+gitk --all
+git branch -m tech-0
+gitk --all
+git co development
+gitk --all
+cd /tmp
+git clone merchpayci.gap.com:8080/merchpay
+git clone mp@merchpayci.gap.com:8080/merchpay
+git clone http://mp@merchpayci.gap.com:8080/merchpay
+git clone http://mp@merchpayci.gap.com:8080/merchpay.git
+git clone http://mp@merchpayci.gap.com:8080/mp/merchpay
+git clone http://mp@merchpayci.gap.com:8080/mp/merchpay.git
+git clone http://merchpayci.gap.com:8080/mp/merchpay
+git clone http://merchpayci.gap.com:8080/mp/merchpay.git
+git clone git@merchpayci.gap.com:8080:merchpay.git
+git clone git@merchpayci.gap.com:merchpay.git
+ll
+rm -rf *
+ll
+cd ..
+ll
+cd tmp
+ll
+ssh teamcity@merchpayci.gap.com
+ssh -T git@merchpayci.gap.com
+ssh -T git@merchpayci.gap.com
+pwd
+git clone git@merchpayci.gap.com:gitolite-admin
+git clone git@merchpayci.gap.com:gitolite-admin.git
+git clone git@git@merchpayci.gap.com:gitolite-admin
+git clone git@gitolite-admin@merchpayci.gap.com:gitolite-admin
+git clone git@admin@merchpayci.gap.com:gitolite-admin
+git clone git@merchpayci.gap.com:gitolite-admin
+git clone git@merchpayci.gap.com:gitolite-admin
+rvm use 1.8.7
+gem list
+rvm install 1.9.3
+rvm use 1.9.3
+gem list
+rvm use
+rvm use 1.8.7
+gem list
+cd Projects
+mkdir merchpay
+cp merchandize-payables/README merchandize-payables/.gitignore merchpay
+ll
+cd merchpay
+ll
+git init
+git ll
+git ci . -m 'First commit'
+git ll
+git remote add origin git@localhost:merchandize-payables.git
+ll
+git config user.name "mp"
+git config user.email "mp@local.host"
+git push -u origin master
+git help push
+git remote -v
+git remote remove origin
+git remote rm origin
+git remote -v
+git remote add origin git@merchpayci.gap.com:8080:merchandize-payables.git
+git push -u origin master
+git help push
+git remote rm origin
+git remote add origin git@mp@merchpayci.gap.com:8080:merchandize-payables.git
+git push -u origin master
+git remote rm origin
+cat ~/.ssh/id_rsa
+ll
+cd ~/Projects
+cd merchandize-payables
+ll
+git st
+git ll
+e build.gradle
+ifconfig
+ping google.com
+nslookup
+curl google.com
+curl --follow google.com
+curl 
+curl --help | grep follow
+curl --help | grep 301
+curl --help | ack 301
+curl https://google.com
+links
+brew update
+brew update
+brew update
+git ll
+git ll
+git st
+e ~/.githelpers
+git ll
+brew update
+phantomjs --version
+cd /usr/local/Cellar
+ll
+brew search casperjs
+ll
+ll
+git ll
+cd ~/Projects/merchandize-payables
+ll
+git st
+git ci .
+git ll
+git co development
+git st
+git co tech-0
+git ll
+git pod
+git pod
+git co development
+git signoff tech-0
+git ll
+git push
+gitk --all
+cd docs/
+ll
+cd development
+ll
+less developers-handbook.md
+cd ../../devops/developer-box/git/
+ll
+cd ../../../
+ll
+git ll
+git branch
+ll
+cd modules/core/lib
+ll
+cd server
+ll
+cd production
+ll
+ls -l test | awk '{ print $9 }'
+ls -l | awk '{ print $9 }'
+ls -l | awk '{ print $9 }' | pbcopy
+open ~/.m2/repository
+casperjs --version
+curl http://merchpayci.gap.com:8080
+curl http://merchpayci.gap.com:8080/users/sign_in
+links
+brew install links
+brew install elinks
+elinks http://merchpayci.gap.com:8080/users/sign_in
+elinks http://merchpayci.gap.com:8080/users/sign_in
+cd ~/Projects/merchandize-payables
+git ll --al
+git ll
+git ll --all
+git ll
+git pod
+git ll
+ll
+git pod
+git pod
+git ll
+gitk --all
+cat ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+rm -rf ~/.ssh
+ssh-keygen -t rsa -C 'Isa_Goksu@gap.com'
+cat ~/.ssh/id_rsa.pub
+cd /tmp
+git clone git@merchpayci.gap.com:retarded.git
+ll
+cd retarded
+ll
+cat README
+git ll
+cd /usr/local
+ll
+git ll
+ll
+cd ~/.environments/osx/bin
+ll
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+rm -rf .buildr
+mv .gitk ~/.environments
+ln -s ~/.environments/.gitk ~/.gitk
+ll
+cd .environments
+ll
+git st
+git ci . -m 'Added gitk configuration'
+git ll
+git reset --soft HEAD^1
+git reset --soft HEAD~1
+git st
+ll
+vim .gitignore
+git st
+git rm --cached osx/.ssh
+git rm --cached osx/.ssh -r
+git st
+git ci . -m 'Added gitk configuration'
+git ll
+git diff
+git diff 79b38dd
+ll
+git ll
+git ps mastergit ps master
+git ps maste
+git ps master
+git st
+git ll
+ll
+cd ..
+ll
+cd /usr/
+ll
+cd share
+ll
+git clone git://github.com/n1k0/casperjs.git
+sudo git clone git://github.com/n1k0/casperjs.git
+ll
+cd casperjs
+git checkout tags/0.6.6
+sudo git checkout tags/0.6.6
+ln -sf `pwd`/bin/casperjs /usr/local/bin/casperjs
+git ll
+say "what da
+say 'what da'
+say 'what dha'
+say 'whaat dha'
+cd ~/Projects
+cd merchandize-payables
+git pod
+ll
+ll
+git ll
+cd .environments
+git ll
+git ll --all
