@@ -63,16 +63,16 @@ alias cp='cp -R'
 alias chown='chown -R'
 alias chmod='chmod -R'
 alias pp='cd ~/Projects'
-alias grep='grep -r --color'
+alias grep='grep --color'
 alias vm='VBoxManage'
 alias rspec='rspec --color --format documentation'
 alias e='mvim --remote-tab-silent'
+alias vim='mvim -v'
 alias df='df -h'
 alias du='du -sh'
 alias import=python_import
 alias cls='clear'
 alias gradle='gradle --daemon'
-alias vim='/usr/local/Cellar/macvim/7.3-64/MacVim.app/Contents/MacOS/Vim'
 alias less='less -FXR'
 
 # read-line wraps
@@ -84,15 +84,15 @@ alias sqlplus='rlwrap sqlplus'
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
 export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/share/python:$JAVA_HOME/bin:$PATH
 export EDITOR="mvim -f"
-export PAGER="less -R"
+export VISUAL="mvim -f"
 
 # -- Proxy Settings --
 function enable_proxy() {
-   export http_proxy="http://Is1z1j6:Gis1gz1j6@prox0xrcc.gap.com:80"
-   export https_proxy="http://Is1z1j6:Gis1gz1j6@prox0xrcc.gap.com:80"
-   export ftp_proxy="http://Is1z1j6:Gis1gz1j6@prox0xrcc.gap.com:80"
-   export no_proxy=localhost,127.0.0.0/8,10.0.0.0/8,192.168.0.0/16
-   alias curl="curl -x $http_proxy --proxy-ntlm"
+   export http_proxy="http://qaproxy.gid.gap.com:8080/"
+   export https_proxy="http://qaproxy.gid.gap.com:8080/"
+   export ftp_proxy="http://qaproxy.gid.gap.com:8080/"
+   export no_proxy="localhost,*.gap.com,127.0.0.0/8,10.0.0.0/8,192.168.0.0/16"
+   # alias curl="curl -x $http_proxy --proxy-ntlm"
 }
 
 source $HOME/.environments/osx/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

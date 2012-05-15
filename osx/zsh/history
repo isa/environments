@@ -2244,3 +2244,3925 @@ git ll
 cd .environments
 git ll
 git ll --all
+say "this is bullshit"
+say "this is bullshit"
+say -v Samantha  "this is bullshit"
+man say
+say -v Alex "hello"
+say -v Mike "hello"
+say -v Alex "opppppppppppppppppppp.."
+say -v Alex "Jack Fair Boos"
+say -v Alex "Rohflcopter"
+say -v Alex "shooooooot me"
+cd Desktop
+cd /tmp
+git clone https://github.com/livereload/livereload-extensions
+cd livereload-extensions
+rake help
+rake
+npm install -g coffeescript
+npm install -g coffee-script
+npm install -g coffee-script
+npm install -g coffee-script
+npm install -g coffee-script
+rake
+ll
+cd dist
+ll
+cd ..
+rake dist
+ll dist
+ll Chrome
+ll Chrome/LiveReload
+ll
+rake -t
+rake list
+rake --help
+rake -D
+rake all
+rake upload:chrome
+rake firefox
+rake chrome
+rake safari
+rake Safari
+cd /tmp
+e sol.rb
+ruby sol.rb
+e sol.rb
+e sol.rb
+ruby sol.rb
+cd ~/.environments
+ll
+git ps
+git st
+git ci . -m 'Changed the default graph option'
+git ps master
+git remote -v
+git remote rm origin
+git remote add https://isa@github.com/isa/environments
+git remote add origin https://isa@github.com/isa/environments
+git ps master
+git ps master
+git ll
+cd ~/Projects/merchandize-payables/devops
+ll
+cd ci/documentation
+ll
+cd release.notes
+ll
+e release.notes.generator.rb
+chmod +x release.notes.generator.rb
+./release.notes.generator.rb
+rvm use 1.8.7
+./release.notes.generator.rb
+pushd .
+cd ../../../../
+ll
+bundle
+bundle gem install grid
+bundle install grit
+bundle help
+e Gemfile
+git co tech-0
+git ci .
+git co development
+git pod
+bundle
+git signoff tech-0
+git push
+bundle
+gem list
+popd
+ll
+./release.notes.generator.rb
+pwd
+git ll
+./release.notes.generator.rb
+./release.notes.generator.rb -sd . -td /tmp -f dummy
+./release.notes.generator.rb -sd $HOME/Projects/merchandize-payables -td /tmp -f dummy
+open /tmp
+git ll
+ll
+cd resources
+ll
+e release.notes.git.workflow.grammar.citrus
+ll
+cd ..
+cd ..
+cd ..
+cd ../..
+git pull
+git pod
+git ll
+git ll --graph
+git st
+git co tech-0
+git st
+git co development
+git ll
+git br -D tech-0
+git ll --graphy
+git ll --graph
+ll
+cd devops/ci/documentation
+ll
+cd release.notes
+ll
+open .
+open ~/Projects/merchandize-payables/docs/development/images/logo.png
+git st
+cp ../../../../docs/development/images/logo.png ../../../../docs/production/images/logo.png
+git st
+gitk --all
+ll
+open ../../../../docs/development/images/logo.png
+gitk --all
+git help log
+git log --merge
+git log --merges
+git log --merges --online
+git ll --merges
+git ll --merges --branch=development
+git ll
+git ll --graph
+git ll --merges
+vim
+ssh admin@merchpayci.gap.com
+cd ~/Projects
+ll
+cd scms
+ll
+git ll
+git ll --merge
+git ll --merges
+git ll
+git ll --graph
+git br
+git help log
+cd ~/Desktop
+ll
+~/Projects/merchandize-payables/docs/development/images/logo.png .
+cp ~/Projects/merchandize-payables/docs/development/images/logo.png .
+ls
+mkdir docs
+mv demo.html style.css logo.png docs
+zip docs
+zip -c docs
+zip -9 docs
+zip
+zip -r docs.zip docs/
+ll
+ssh admin@merchpayci.gap.com
+ssh git@merchpayci.gap.com
+ssh admin@merchpayci.gap.com
+cd ~/Projects
+ll
+cd merchandize-payables/ll
+cd merchandize-payables/
+ll
+git st
+git reset --hard HEAD
+git ll
+git pod
+ll
+tree
+gradle tasks
+cd modules/core
+ll
+gradle test
+ll
+open target
+gradle package
+gradle jar
+cd target
+java -jar libs/core-1.0-SNAPSHOT.jar
+java -jar libs/core-1.0-SNAPSHOT.jar server 
+ll
+cd libs
+tar l core-1.0-SNAPSHOT.jar
+tar -vf core-1.0-SNAPSHOT.jar
+tar -zvf core-1.0-SNAPSHOT.jar
+tar -zxvf core-1.0-SNAPSHOT.jar
+ll
+cd META-INF
+ll
+cd ..
+cd ..
+cd ..
+ll
+e build.gradle
+svn ls http://svn.gap.dev/svn/supplychain
+svn ls http://svn.gap.dev/svn/
+svn ls http://svn.gap.dev/svn/supplychain
+svn ls http://svn.gap.dev/svn/
+cd /tmp
+ll
+mkdir scms-mp
+cd scms-mp
+mkdir tags branches trunk
+ll
+cd ..
+svn help import
+svn import scms-mp http://svn.gap.dev/svn/scms-mp
+svn ls http://svn.gap.dev/svn/scms
+svn ls http://svn.gap.dev/svn/supplychain
+svn ls http://svn.gap.dev/svn/supplychain/glv
+svn import scms-mp http://svn.gap.dev/svn/scms-mp
+svn help co
+svn co --depth=immediates http://svn.gap.dev/svn/supplychain
+cd supplychain
+ll
+mv ../scms-mp .
+ll
+svn st
+svn add scms-mp
+svn ci .
+svn ci .
+ll
+svn ls http://svn.gap.dev/svn/scms-mp
+svn ls http://svn.gap.dev/svn/supplychain/scms-mp
+cd Desktop
+ll
+cd perf-test
+ll
+cat result.csv
+rm -rf result.csv
+cat result.csv
+ll
+rm -rf result.csv
+ll
+cat result.csv
+cat result.csv | wc -l
+open /usr/local/Cellar/jmeter
+catalina stop
+cd Desktop
+mkdir perf-test
+cd perf-test
+ll
+mkdir tomcat
+mkdir jetty
+cd jetty
+ll
+java -jar /Users/isa/Desktop/perf-test/jetty/target/jetty-perf-1.0.jar
+java -jar /Users/isa/Desktop/perf-test/jetty/target/jetty-perf-1.0.jar
+java -jar /Users/isa/Desktop/perf-test/jetty/target/jetty-perf-1.0.jar
+java -jar /Users/isa/Desktop/perf-test/jetty/target/jetty-perf-1.0.jar
+java -jar /Users/isa/Desktop/perf-test/jetty/target/jetty-perf-1.0.jar
+java -jar /Users/isa/Desktop/perf-test/jetty/target/jetty-perf-1.0.jar
+java -jar /Users/isa/Desktop/perf-test/jetty/target/jetty-perf-1.0.jar
+java -jar /Users/isa/Desktop/perf-test/jetty/target/jetty-perf-1.0.jar
+ps -ef | grep java
+curl localhost:8080
+curl localhost:8080/hello-world
+curl localhost:8080/hello-world?name=isa
+cd ~/Projects/merchandize-payables
+ll
+git co -b tech-0
+git co tech-0
+ll
+cd devops/ci/documentation/
+ll
+e release.notes.html.template.html
+chmod +x *.rb
+ll
+git st
+./release.notes.generator.rb
+bundle
+cd ..
+cd documentation
+pushd .
+cd ../../../
+ll
+rvm use 1.8.7
+bundle
+bundle
+ll
+git ll
+irb
+l devops
+ll devops
+git reset --hard HEAD
+git st
+e .gitignore
+git st
+git pod
+ll
+cat Gemfile
+e Gemfile
+ll
+git st
+git co tech-0
+git st
+git ci .
+git ll
+git co development
+git signoff tech-0
+git push
+git remote -v
+git remote rm origin
+git remote add origin git@merchpayci.gap.com:merchpay.git
+git remote -v
+git push
+git pull
+git pod
+git br
+git push
+l
+ll
+ll
+git ll
+e ~/.githelpers
+git ll
+git ll --graph
+ll
+git ll
+git log --oneline
+git log --oneline --pretty
+gitk
+gitk
+git ll --merges
+git show bcaab01
+git show --verbose bcaab01
+git help show
+git log bcaab01 -v
+git log -v bcaab01
+git help log
+git log bcaab01 --name-only
+git show bcaab01 --name-only
+git show 32 --name-only
+git show 3223 --name-only
+git show 3523 --name-only
+git l
+git ll
+git ll --merges
+e ~/.gitconfig
+git help log
+git lm
+git lm
+git lm
+git lm
+git lm
+git lm
+git lm
+git pod
+git ll
+cd devops/developer-box/git/
+ll
+./git_setup.sh
+24 * 60 * 60
+cal 24 * 60 * 60
+echo 24 * 60 * 60
+echo "${24 * 60 * 60}"
+echo [24 * 60 * 60]
+echo "[24 * 60 * 60]"
+echo $[24 * 60 * 60]
+echo $[1000000/24 * 60 * 60]
+echo $[1000000 / 24 * 60 * 60]
+echo $[1000000 / 24 * 60 * 60]
+irb
+curl localhost:8888
+curl localhost:8888
+brew install jmeter
+jmeter --help
+jmeter
+cd ~/Desktop/perf-test
+ll
+jmeter -n -t 15000.jmx
+jmeter
+jmeter -n -t 15000.jmx
+jmeter
+ll
+cat result.csv
+rm -rf result.csv
+jmeter 15000.jmx
+jmeter -t 15000.jmx
+ll
+cat result.csv
+jmeter -t 15000.jmx
+java -jar /usr/local/Cellar/jmeter/2.6/libexec/lib/ext/CMDRunner.jar
+java -jar /usr/local/Cellar/jmeter/2.6/libexec/lib/ext/CMDRunner.jar --tool Report
+java -jar /usr/local/Cellar/jmeter/2.6/libexec/lib/ext/CMDRunner.jar --tool Reporter
+java -jar /usr/local/Cellar/jmeter/2.6/libexec/lib/ext/CMDRunner.jar --tool Reporter --plugin-type ResponseTimesOverTime
+jmeter -t 15000.jmx
+jmeter -n -t 15000.jmx
+brew search tomcat
+brew info tomcat
+brew install tomcat
+ll /usr/local/Cellar/tomcat/bin
+ll /usr/local/Cellar/tomcat
+ll /usr/local/Cellar/tomcat/7.0.26
+ll /usr/local/Cellar/tomcat/7.0.26/bin
+catalina
+catalina start
+ll
+cp 15000.jmx 15000-jetty.jmx
+mv 15000.jmx 15000-tomcat.jmx
+jmeter -t 15000-tomcat.jmx
+jmeter -t 15000-jetty.jmx&
+jmeter -t 15000-jetty.jmx &
+cd ~/Projects/merchandize-payables/modules/core
+ll
+gradle stop
+jps -m
+jps -l
+jps -l
+gradle stop
+brew update
+brew upgrade
+gradle start
+gradle stop
+gradle stop
+gradle start
+gradle start
+gradle start
+gradle start
+gradle start
+gradle start
+gradle start
+gradle start
+gradle start
+gradle start
+cd Desktop
+git clone https://github.com/spinscale/dropwizard-blog-sample.git
+mv dropwizard-blog-sample blog
+cd blog
+ll
+mvn test
+ll
+ll target
+ll data
+ll data/mycluster
+ll data/mycluster/nodes
+ll data/mycluster/nodes/0
+ll data/mycluster/nodes/0/indices
+ll data/mycluster/nodes/0/indices/articles
+ll data/mycluster/nodes/0/indices/users
+ll
+vim README.textile
+mvn package
+ll target
+mvn package
+ll
+java -jar target/dropwizard-blog-0.0.1-SNAPSHOT.jar
+ll
+mvn dependency:tree
+ll
+cd src
+tree
+cd main/resources
+ll
+vim blogservice.yaml
+cd views
+ll
+vim header.ftl
+cd Desktop
+mkdir casperjs
+cd casperjs
+ll
+e extract.coffee
+cd ~/.environments
+git pull
+ll
+cd ..
+ll
+cd .vim-vironment
+git st
+git pull
+git st
+ll vim/syntax
+ll
+ll vim
+ll vim/
+cd vim
+ll
+pwd
+ll
+rm -rf vim
+ll
+ll syntax
+cd ..
+ll
+ll
+git st
+git diff
+git ci . -m 'Changed the font and added coffeescript syntax'
+git ps master
+git st
+cd ~/Desktop/casperjs
+ll
+casperjs --coffee extract.coffee
+cd ..
+mv casperjs mechanizer
+mv mechanizer timesheet
+cd timesheet
+ll
+rvm list
+rvm use 1.9.3
+gem list
+gem install mechanize
+ll
+mv extract.coffee fill.rb
+e fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+ruby fill.rb
+irb
+ruby fill.rb
+ll
+rm -rf ss
+ll
+e fill.rb
+chmod +x fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+./fill.rb
+curl https://augustus.iqnavigator.com/
+./fill.rb
+./fill.rb
+./fill.rb
+cd ../100D5100
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+mkdir ../upload
+cp *.jpg ../upload
+mv *.jpg ../upload
+ll
+cd ..
+ll
+cd 100D5100
+cd ../upload
+ll
+brew install rename
+rename 's/ copy//' *
+ll
+cd ~/Desktop/demo
+ll
+cd ..
+ll
+rm -rf docs.zip
+cd docs
+ll
+cd ..
+rm -rf docs
+l
+ll
+while true; do ps -ef | grep java; done
+ll
+cd ~/Projects/merchandize-payables/
+ll
+e devops/ci/documentation/release.notes/release.notes.generator.rb
+cd ..
+cd ..
+cd ..
+cd ..
+cd ~/Projects
+ll
+cd merchandize-payables/
+ll
+cd docs
+ll
+cd production
+ll
+cd ..
+cd development
+ll
+e developers-handbook.md
+ll
+cd ../production
+ll
+git lm
+git ll
+git lm
+ll
+cd ..
+cd ..
+e build.gradle
+ll
+while true; do ps -ef | grep java; done
+while true; do sleep 1; ps -ef | grep java; done
+svn ls http://svn.gap.dev/svn/supplychain/scms-mp
+ll ~/.subversion
+ll ~/.subversion/auth
+ll ~/.subversion/auth/svn.username
+ll ~/.subversion/auth/
+ll ~/.subversion/auth/svn.simple
+cat ~/.subversion/auth/svn.simple/bcb7ac94d4c7af69381bde340d9e1905
+ssh teamcity@merchpayci.gap.com
+cd Desktop
+hg clone https://vim.googlecode.com/hg/ vim
+enable_proxy
+hg clone https://vim.googlecode.com/hg/ vim
+hg clone https://vim.googlecode.com/hg/ vim
+cd ~/Desktop
+hg clone https://vim.googlecode.com/hg/ vim
+cd vim
+./configure --with-features=huge --enable-cscope --enable-pythoninterp --enable-rubyinterp --enable-perlinterp --enable-gui=macvim --enable-multibyte --enable-clipboard=yes --enable-xterm_clipboard=yes
+./configure --with-features=huge --enable-cscope --enable-pythoninterp --enable-rubyinterp --enable-perlinterp --enable-gui=macvim --enable-multibyte
+make
+src/vim --version
+src/vim
+./configure --with-features=huge --enable-cscope --enable-pythoninterp --enable-python3interp --enable-rubyinterp --enable-perlinterp --enable-gui=macvim --enable-multibyte
+make
+src/vim --version
+src/vim
+sudo make install
+ll /usr/bin/vi*
+which vim
+vim
+vim --version
+vim 
+vim
+vim
+src/vim
+ll
+e configure
+e src/configure
+ll /System/Library/Frameworks/Python.framework/Versions/2.7/lib
+ll /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7
+ll /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config
+./configure --with-features=huge --enable-cscope --enable-pythoninterp --enable-python3interp --with-python-config-dir=/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config --enable-rubyinterp --enable-perlinterp --enable-gui=macvim --enable-multibyte
+env ARCHFLAGS="-arch x86_64" make
+src/vim
+make clean
+env ARCHFLAGS="-arch x86_64" ./configure --with-features=huge --enable-cscope --enable-pythoninterp --enable-python3interp --with-python-config-dir=/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config --enable-rubyinterp --enable-perlinterp --enable-gui=macvim --enable-multibyte
+rvm system
+make clean
+env ARCHFLAGS="-arch x86_64" ./configure --with-features=huge --enable-cscope --enable-pythoninterp --with-python-config-dir=/usr/local/Cellar/python/2.7.3/lib/python2.7/config --enable-rubyinterp --enable-perlinterp --enable-gui=macvim --enable-multibyte --enable-clipboard=yes --enable-xterm_clipboard=yes
+e ~/.zshrc
+. ~/.zshrc
+which ruby
+make clean
+env ARCHFLAGS="-arch x86_64" ./configure --prefix=/usr/local --with-features=huge --enable-cscope --enable-pythoninterp --with-python-config-dir=/usr/local/Cellar/python/2.7.3/lib/python2.7/config --enable-rubyinterp --enable-perlinterp --enable-gui=macvim --enable-multibyte
+vim
+vim
+which vim
+vim --version
+mvim -v
+ll /usr/local
+ll
+cd /usr/local
+ll
+cd lib
+ll
+cd ../bin
+ll
+ll vi*
+rm -rf view vim vimdiff vimtutor
+cd ..
+ll
+cd include
+ll
+cd ..
+find . name vim
+rm -rf share/vim
+sudo rm -rf share/vim
+ll
+find . name vim
+vim
+which vim
+vim --vesion
+vim --version
+vim
+vim
+which python
+ll /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config/python2.7/config
+ll /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config/
+ll /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7
+ll /Library/Frameworks/Python.framework/Versions/2.7
+ll /Library/Frameworks/Python.framework/Versions
+ll /Library/Frameworks/Python.framework
+cd /usr/local/Cellar/python
+ll
+cd 2.7.3
+ll
+cd lib/python2.7/config
+pwd
+ll
+rvm system
+which ruby
+ruby --version
+cd ~/Desktop/vim
+ll
+make clean
+env ARCHFLAGS="-arch x86_64" ./configure --prefix=/usr/local --with-features=huge --enable-cscope --enable-pythoninterp --with-python-config-dir=/usr/local/Cellar/python/2.7.3/lib/python2.7/config --enable-rubyinterp --enable-perlinterp --enable-gui=macvim --enable-multibyte
+cd ..
+rm -rf vim
+ruby --version
+which ruby
+mv ~/.rvm ~/.rrvm
+hg clone https://vim.googlecode.com/hg/ vim
+cd vim
+env ARCHFLAGS="-arch x86_64" ./configure --prefix=/usr/local --with-features=huge --enable-cscope --enable-pythoninterp --with-python-config-dir=/usr/local/Cellar/python/2.7.3/lib/python2.7/config --enable-rubyinterp --enable-perlinterp --enable-gui=macvim --enable-multibyte
+env ARCHFLAGS="-arch x86_64" make
+src/vim
+sudo make install
+cd ~/Desktop
+cd blog
+ll
+mvn dependency:tree
+cd ..
+dir
+cd trash
+ll
+rm -rf *
+ll
+git init --bare root
+ll
+git clone root repo1
+cd repo1
+echo "README" > README
+git ci . -m 'Initial check in'
+git ll
+git push -u origin master
+git st
+legit install
+git switch feature-1
+git branches
+git br
+git sync
+git ll
+git ll --graph --all
+git sprout feature-1
+git br
+git co -b feature-1
+vim main.c
+ll /usr/bin/vi*
+sudo rm -rf /usr/bin/vi
+sudo rm -rf /usr/bin/view
+sudo rm -rf /usr/bin/vim
+sudo rm -rf /usr/bin/vimdiff
+ll /usr/bin/vi*
+cd ~/Desktop/trash/repo1
+git pull
+git pull
+git st
+ll
+git pull
+git ll
+git pull
+git br
+gitk --all
+gitx
+git co development
+git br
+git ll
+gitk --all
+git co -b feature2 master
+ll
+git co master
+git pull
+git co feature2
+git co development
+ll
+git pull
+gitk --all
+gitx
+cd ~/Desktop/demo
+ll
+vim pom.xml
+e pom.xml
+mvn dependency:tree
+mvn test
+mvn package
+mvn dependency:tree
+e ~/.gitconfig
+ll
+mv ~/.rrvm ~/.rvm
+ll
+which vim
+cd Desktop
+git clone git@merchpayci.gap.com:merchpay.git
+cd merchpay
+git co development
+rm -rf ~/.m2
+ll
+gradle test
+rm -rf ~/.gradle
+gradle test
+bundle
+cat Gemfile
+rm -rf Gemfile.lock
+bundle
+bundle exec mongoose
+bundle install
+bundle exec mongoose
+which mongoose
+ll
+cd ~/Desktop
+ll
+cd demo
+ll
+mvn dependency:tree
+cd /tmp
+ll
+mkdir stupid
+cd stupid
+vim build.gradle
+gradle test
+vim build.gradle
+gradle test
+gradle compile
+gradle compileJava
+gradle tasks
+gradle dependencies
+vim build.gradle
+vim build.gradle
+gradle dependencies
+vim build.gradle
+gradle dependencies
+vim
+git ll
+cd Desktop/trash
+ll
+git clone root repo2
+cd repo1/ll
+cd repo2
+ll
+git br
+git co development
+git br
+git br -v
+gitx
+gitx .
+git pull
+git co -b feature2 master
+vim main.h
+git ci . -m 'some header from f2'
+vim main.h
+git ci . -m 'Added copyright'
+git ll
+git co development
+git merge --squash feature2
+git push
+git ci . -m 'f2 Sending CI'
+git push
+git incoming
+git outgoing
+git fetch
+ll
+cd ..
+ll
+cd repo2
+git fetch
+gitk --all
+git pull
+git ll
+gitk --all
+git co -b feature2 master
+vim config.yaml
+git ci . -m 'added config file'
+git co origin/development
+git co feature2
+git br -a
+git co origin development
+git co "origin/development"
+git br
+git co feature2
+git co development
+git br
+git merge --stash feature2
+git merge --squash feature2
+git commit 'syncing CI f2'
+git commit -m 'syncing CI f2'
+git push
+git pull
+gitx .
+gitx .
+git co feature2
+ll
+vim main.c
+git ci . -m 'added copyright info'
+git co master
+git pull
+git merge --no-ff feature2
+git ll
+git lm
+git ll --graph
+git co development
+git merge --squash master
+git commit -m 'syncing with master'
+git push
+gitx .
+cd Desktop
+ll
+mkdir trash
+cd trash
+git init
+echo "dd" > README
+git ll
+git addall
+git st
+git ll
+git ci . -m 'added read me'
+git ll
+git co -b bug123 master
+git br
+vim README
+git ci . -m 'fixed'
+git co -b feature123 master
+cat "#include <stdio.h>" > main.c
+ll
+git st
+git add .
+git st
+git ci . -m 'added impl'
+git co master
+git merge --squash bug123
+git ll
+git ll --all
+git ll --graph
+git commit
+git ll
+git ll --graph
+gitk --all
+git br
+git co feature123
+vim main.h
+git add .
+git ci . -m 'added nice little header file'
+git ll
+git co master
+git merge --squash feature123
+git commit -m 'finished feature 123'
+git ll
+gitk --all
+gitk
+git br -D bug123
+gitk --all
+git ll --graph
+git ll --graph --all
+git co -b trash-it master
+git br
+e README
+git ci . -m 'amend me'
+git ll
+git amend
+git ll
+git amend
+which vim
+which vi
+ll /usr/bin/vi*
+sudo mv /usr/bin/vi /usr/bin/vi.old
+sudo mv /usr/bin/view /usr/bin/view.old
+sudo mv /usr/bin/vim /usr/bin/vim.old
+sudo mv /usr/bin/vimdiff /usr/bin/vimdiff.old
+sudo ln -s /usr/local/Cellar/macvim/7.3-64/MacVim.app/Contents/MacOS/Vim /usr/bin/vim
+sudo cp /usr/bin/vim /usr/bin/vi
+sudo cp /usr/bin/vim /usr/bin/view
+sudo cp /usr/bin/vim /usr/bin/vimdiff
+ll /usr/bin/vi*
+vi
+vim
+git amend
+vim
+. ~/.zshrc
+vi
+vim 
+e ~/.gitconfig
+. ~/.zshrc
+ll
+git amend
+brew search vim
+brew install vimeo-downloader
+brew update
+brew upgrade
+git amend .
+git st
+git ll
+ll
+vim main.h
+git amend -a .
+git amend -a
+git ll
+git lm
+git reset --soft HEAD~2
+git st
+git ll
+git --graph
+git ll --graph
+git ll --all --graph
+git reset --soft HEAD~3
+git ci . -m 'whatever'
+git ll
+git st
+git ll --graph --all
+git log -p
+git log
+git log -p --grep 'whatever'
+ll
+rm -rf .*
+ll
+git init
+git ll
+git add README
+git commit -m 'Initial commit'
+ll
+git ll
+rm -rf .git
+mkdir repo1
+mv * repo1
+ll
+mkdir root
+cd root && git init --bare
+ll
+cd ..
+ll
+cd repo1
+ll
+git clone ../root .
+ll
+git clone ../root ../repo1
+cd ..
+git clone root repo1
+git clone root repo2
+ll
+mv repo1/* repo2/
+ll
+rm -rf repo1
+git clone root repo1
+cd repo2
+ll
+git add README
+git commit -m 'Initial checkin'
+git st
+git push
+git st
+git ll
+git push -u origin master
+ll
+git co -b feature1 master
+git st
+git add main.h
+git commit -m 'adding header'
+git add main.c
+git commit -m 'adding impl'
+git st
+git ll
+git co -b development origin/master
+git merge --no-ff feature1
+git ll
+git ll --graph --all
+gitk
+git push -u
+git push origin master
+git push origin development
+gitk --all
+git co master
+git merge --no-ff development
+git push -u origin master
+git ll
+git st
+ll
+cd ..
+ll
+cd repo1
+ll
+git ll
+git editor
+ll
+git br
+git co master
+git co -b origin development
+git br -D feature-1
+git br
+git co development
+git co origin development
+git co -b origin development
+git co -b development
+git br
+git push -u origin development
+git co
+ll
+git co master
+ll
+gitx .
+git co -b feature1 master
+echo "//dummy" > main.c
+git ci . -m 'added dummy impl'
+git ll
+vim main.c
+git ci . -m 'Added some more logic'
+git ll
+git merge --rebase development
+ll
+git st
+git co development
+git squash feature1
+git merge --squash feature1
+git push -u origin development
+git push
+git st
+git ci . -m 'f1 Sending CI'
+git push
+git co feature1
+git help merge
+git pull --rebase origin development
+vim main.c
+git rebase --continue
+git add main.c
+git rebase --continue
+git st
+git ll
+chmod +x ../g.pl
+../g.pl
+perl
+cpan
+git rebase --abort
+git st
+git help pull
+git pull --squash origin development
+git st
+vim ~/.gitconfig
+git ci -m 'Latest f2'
+git ll
+git st
+ll
+vim main.h
+git ci . -m 'Added pragma 3'
+git st
+git ll
+git co development
+git merge --squash feature1
+git ci . -m 'f1 Sending CI 2'
+git push
+git pull
+vim main.h
+git ci . -m 'fixed conflicts'
+git st
+git commit
+git ll
+git reset --hard HEAD~2
+git st
+git pull
+git merge --squash feature1
+git st
+git revert HEAD
+git reset HEAD
+ll
+git st
+git reset --hard HEAD
+git st
+git br -a
+git br -av
+git st
+ll
+vim main.c
+git st
+git st -s
+git ss
+tree
+tree -a
+tree -a .git
+git ll
+git outgoing
+git st
+git status
+git st
+git ss
+git st
+git co -- .
+git st
+git ll
+git mergetool
+git difftool
+cd ..
+ll
+rm -rf repo*
+rm -rf root
+rm -rf g.pl
+git init --bare root
+git clone root repo1
+cd repo1
+echo "README" > README
+git st
+git ss
+git ss
+git ci . -m 'initial check-in'
+git ll
+git push -u origin master
+cd ..
+git clone root repo2
+cd repo1
+ll
+git co -b development
+git push -u origin development
+cd ../repo2
+git pull
+git st
+git br -a
+git br -a ../repo1
+cd ..
+cd repo1
+git br -a 
+git co master
+git br -D development
+git br -a
+git push
+cd ../repo2
+git push
+git br -a
+git ll
+git br -D origin/HEAD
+git br -D origin HEAD
+git br -D origin/HEAD
+git br -d origin/HEAD
+git co origin/HEAD
+git br -a
+git co master
+git st
+git br -a
+rm -rf .git/refs/remotes/origin/HEAD
+git br -a
+git st
+git push
+cd ..
+cd repo1
+git push
+git br -a
+git co -b feature1 master
+vim main.c
+git ci . -m 'added feature impl'
+git ll
+vim main.h
+git ci . -m 'added feature header'
+git ll
+git co master
+git merge feature1 --no-ff
+git ll
+gitk --all
+git push
+git pull
+git co development
+git st
+gitk --all
+gitx .
+gitx .
+git co -b feature3 master
+vim data.xml
+git ci . -m 'added data file'
+git rebase development
+vim data.xml
+git ci . -m 'forgot this label'
+git co master
+git merge --no-ff feature3
+git push
+git co development
+git merge --squash master
+git commit -m 'sync with master'
+git push
+git pull --all
+gitx .
+cd ~/Projects/merchandize-payables
+ll
+git ll --graph --simplify-by-decoration
+git log --graph --simplify-by-decoration
+git log --graph --simplify-by-decoration --pretty=format:'%d' --all
+git log --graph --simplify-by-decoration
+git ll --graph --simplify-by-decoration
+git ll --all
+git ll --all --graph
+cd .git/refs
+ll
+cd heads
+ll
+cat master
+cat development
+git br
+cd ..
+ll
+ll tags
+ll remotes
+ll remotes/origin
+e ~/.gitconfig
+git br -v
+git remote
+git remote -v
+git tag -l
+git kill
+git st
+cd ..
+cd ..
+git st
+git addall
+git addall
+git st
+git diff
+git diff --cached
+e ~/.gitconfig
+gitx
+git pod
+git pod
+git st
+brew install legit
+enable_proxy
+brew install legit
+git br -a
+git pod
+git lm
+git ll
+git show -v 98fb6d8
+git st
+gradle test
+gradle test
+git co -b tech-0-ig
+git st
+git ss
+cd modules/core/lib
+ll
+cd ..
+mv lib libs
+ll
+cd libs
+ll
+cd client
+ll
+cd ..
+ll
+cd server
+ll
+rm -rf test
+cd production
+ll
+rm -rf a* d* f* g*
+ll
+rm -rf c* h* jac* jdb* jul* log* jsr* met* slf4* sna* tom* val*
+ll
+rm -rf mockito-all-1.9.0.jar
+ll
+rm -rf jer*
+ll
+mv jetty-* /tmp/
+ll
+mv /tmp/jetty-server-8.1.2.v20120308.jar .
+ll
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+ll
+rm -rf ~/.m2
+gradle test
+gradle test
+gradle test
+ll modules/core/libs
+ll modules/core/libs/server/production
+gradle dependencies
+gradle help dependencies
+mv /tmp/jetty* modules/core/libs/server/production/
+gradle test
+ll modules/core/libs/server/production/
+gradle test
+gradle test
+gradle test
+rm -rf ~/.m2
+gradle compileJava
+ll
+rm -rf .gradle
+gradle compileJava
+gradle compileJava
+gradle test
+rm -rf .gradle
+rm -rf ~/.m2
+gradle test
+rm -rf modules/core/libs/server
+git st
+rm -rf .gradle
+rm -rf ~/.m2
+ll
+git ci .
+mvim -c ':normal ggVG'
+git ci .
+rm -rf devops/developer-box/ide/idea/replace-me-with-real.file
+git st
+git ss
+git st
+git ss
+git ss
+git ss
+git ss
+git ss
+rm -rf .idea/gradle_settings2_config.xml
+git ss
+git ci .
+du -sh
+du -sh .gradle
+du -h
+du -s
+ll
+du -sh devops
+du -sh docs
+du -sh modules
+du -sh idea
+du -sh .ida
+du -sh .idea
+du -sh .git
+ll
+cd ..
+ll
+ll merchpay
+rm -rf merchpay
+mv merchandize-payables merchpay
+ll
+cd merchpay
+e build.gradle
+gralde -r
+gradle -r 
+gradle -r  | grep name
+gradle tasks
+gradle dependencies
+cd modules/core && gradle dependencies
+cd modules/core && gradle dependencies | grep compile
+`cd modules/core && gradle dependencies` | grep compile
+cd modules/core
+gradle dependencies | grep compile
+gradle dependencies | grep compile | pbcopy
+gradle dependencies | grep testompile | pbcopy
+gradle dependencies | grep testCompile | pbcopy
+gradle dependencies | grep testCompile
+gradle dependencies | pbcopy
+git st
+git co src
+git st
+cd ../../
+git co .idea
+git st
+rm -rf .idea/libraries
+ll
+cd ..
+mv merchpay merchandize-payables
+cd .idea
+ll
+cd merchandize-payables/.idea
+ll
+ack gradle
+vim gradle.xml
+vim workspace.xml
+cd ..
+vim .gitignore
+ll
+cat config
+cat config.rb
+git st
+git add .idea/libraries
+git st
+rm -rf lib
+git st
+git st
+git add .idea
+git st
+git st
+git add .
+git st
+git ci .
+git st
+git ll
+git ss
+git pod
+vim .idea/libraries/test.xml
+git rm .idea/libraries/test.xml
+vim .gitignore
+git add .gitignore
+rm -rf .idea/libraries/production.xml
+rm -rf .idea/libraries/test.xml
+git st
+git add .
+git st
+git rm .idea/libraries/production.xml
+git st
+git 
+git commit
+git st
+git ll
+git pod
+ll
+rm -rf .ide
+rm -rf .l
+rm -rf .li
+ll
+git st
+ll
+ll l
+rm -rf l
+ll
+rm -rf li
+ll
+rm -rf .id
+ll
+git st
+git add -u
+ll
+git st
+rm -rf modules/core/lib
+git st
+git add modules
+git st
+git add -u modules
+git st
+git st
+git add -u .
+git st
+git ci .
+git st
+git signoff tech-0-ig
+rvm use 1.8.7
+git signoff tech-0-ig
+bundle 
+ll devops/developer-box/git
+git signoff tech-0-ig
+git st
+vim .gitignore
+git st
+git ci .
+git ci .
+git ci .
+git st
+git ll
+git ll
+git reset --soft HEAD~1
+git st
+git co tech-0-ig
+git stash
+git co tech-0-ig
+git st
+git stash pop
+vim .gitignore
+git add .gitignore
+git st
+git ss
+git stash pop
+git st
+git reset .gitignore
+git st
+git co .gitignore
+git st
+git stash pop
+git reset --hard .gitignore
+git co .gitignore
+git reset .gitignore
+git co .gitignore
+git st
+git stash pop
+git reset .gitignore
+git co .gitignore
+git pod
+git reset --hard
+git stash pop
+git reset --hard
+git stash pop
+cat build.gradle
+git reset --hard
+git st
+cat build.gradle
+gradle test
+gradle test
+gradle test
+gradle test
+gradle test
+rm -rf ~/.m2
+rm -rf .gradle
+gradle test
+ll
+gradle clean
+gradle test
+git st
+git ci .
+git st
+git signoff tech-0-ig
+vim /Users/isa/Projects/merchandize-payables/devops/developer-box/git/fetch_issue_desc.rb
+e /Users/isa/Projects/merchandize-payables/devops/developer-box/git/fetch_issue_desc.rb
+curl -s -u Al4s8r0:Gap@12345 -X GET -H 'Content-Type: application/json' https://jira.gid.gap.com/rest/api/2.0.alpha1/issue/ITMERCHPAY-#{issue}
+curl -s -u Al4s8r0:Gap@12345 -X GET -H 'Content-Type: application/json' https://jira.gid.gap.com/rest/api/2.0.alpha1/issue/ITMERCHPAY-0
+git st
+git ci .
+git st
+git ll
+cat build.gradle
+cat modules/core/build.gradle
+git signoff tech-0-ig
+git st
+git co tech-0-ig
+irb
+git ci .
+git st
+git signoff tech-0-ig
+git st
+git ll
+git co tech-0-ig
+irb
+git st
+git ci .
+git st
+git signoff tech-0-ig
+git st
+git push
+git st
+cd modules
+ll
+cd ../.idea
+ll
+ll m
+ll maven
+ll mav
+ll maven-
+ll maven-l
+ll maven-li
+ll maven-lib
+ll maven-libs
+ll maven*
+ll
+rm -rf maven*
+ll
+rm -rf l libraries m mav
+ll
+git st
+git co libraries
+git st
+git ll
+ll
+ll libs
+ll
+ll
+ll libraries/
+cd ..
+git remove -v
+git remote -v
+ssh admin@merchpayci.gap.com
+ssh git@merchpayci.gap.com
+ssh admin@merchpayci.gap.com
+ruby /tmp/demo.rb
+ruby /tmp/demo.rb -v
+ruby /tmp/demo.rb -h
+ruby /tmp/demo.rb --help
+ruby /tmp/demo.rb help
+svn ls http://svn.gap.dev/svn/supplychain/scms-mp
+svn ls http://svn.gap.dev/svn/supplychain/scms-mp/trunk
+svn ls http://svn.gap.dev/svn/supplychain/scms-mp/branches
+svn ls http://svn.gap.dev/svn/supplychain/scms-mp/trunk
+svn ls http://svn.gap.dev/svn/supplychain/scms-mp/trunk/.idea/libs
+svn ls http://svn.gap.dev/svn/supplychain/scms-mp/trunk/.idea/
+svn ls http://svn.gap.dev/svn/supplychain/scms-mp/trunk/.idea/
+cd Projects
+mkdir libraries
+cd libraries
+git init
+touch README
+git add README
+git commit -m 'first commit'
+git remote add origin git@merchpayci.gap.com:libraries.git
+git push -u origin master
+git push -u origin master
+ll
+rm *
+ll
+rm -rf *
+ll
+git st
+cp ../merchandize-payables/.idea/libraries/* .
+ll
+rm -rf *.xml
+ll
+cp ../merchandize-payables/.idea/libs/* .
+ll
+git st
+git ci . -m 'Added initial library set'
+git st
+git push -u
+ll
+git remote -v
+cd ~/Projects
+cd merchandize-payables
+ll
+cd .idea
+ll
+ll libs
+cp * ../../libraries
+ll
+ll
+git co tech-0-ig
+git st
+git ci .
+git st
+ll
+rm -rf libs
+git st
+ll
+vim ../.gitignore
+git st
+git ci .
+git st
+git help submodule
+git submodule add git@merchpayci.gap.com:libraries.git libs
+cd ..
+git submodule add git@merchpayci.gap.com:libraries.git .idea/libs
+git st
+vim docs/development/developers-handbook.md
+git st
+git ci .
+git st
+git signoff tech-0-ig
+git st
+git push
+cd ~/Projects/merchandize-payables/
+ll
+git pod
+git co -b tech-0-ig
+cd modules/core
+e build.gradle
+ll
+gradle --daemon jar
+ll
+java -jar target/libs/core-1.0-SNAPSHOT.jar
+java -jar target/libs/core-1.0-SNAPSHOT.jar server 
+java -jar target/libs/core-1.0-SNAPSHOT.jar server ../../devops/environments/dev.yml
+e ../../devops/environments/dev.yml
+java -jar target/libs/core-1.0-SNAPSHOT.jar server ../../devops/environments/dev.yml
+hostname
+ifconfig
+git st
+git ci .
+git ll
+gradle tasks
+jps -m java
+jps -m java
+jps -m
+jps -m | grep jetty
+jps -m | ack jetty
+jps -m | ack jetty | cut -d\  -f1
+jps -m | grep jetty | cut -d\  -f1
+alias grep
+. ~/.zshrc
+jps -m | grep jetty | cut -d\  -f1
+ll target/lib/
+ll target/lib
+ll target
+ll target/libs
+gradle clean
+gradle jar
+ll target/libs
+gradle tasks
+gradle tasks --all
+gradle tasks
+gradle tasks
+gradle tasks
+gradle tasks --all
+gradle tasks --all
+gradle tasks --all
+gradle tasks
+gradle start
+gradle start
+gradle start
+gradle start
+gradle start --stacktrace
+gradle start
+gradle start --stacktrace
+gradle start --stacktrace
+gradle start --stacktrace
+gradle start --stacktrace
+gradle start
+gradle start
+gradle start
+gradle start
+gradle start --debug
+gradle simple
+gradle simple
+gradle simple
+gradle simple
+gradle simple
+gradle start
+gradle start
+gradle start
+gradle simple
+gradle simple
+gradle start
+ll
+ll /Users/isa/Projects/merchandize-payables/modules/core/target
+gradle clean start
+gradle clean start
+gradle clean start
+gradle start
+gradle start
+ps -ef | grep java
+gradle start
+gradle start
+gradle start
+gradle start
+ps -ef | grep java
+nohup java -jar target/libs/core-1.0-SNAPSHOT.jar 
+ll
+cat nohup.out
+rm -rf nohup.out
+gradle start
+gradle start
+gradle start
+ll
+gradle start
+gradle start
+ll
+gradle start
+gradle start
+ps -ef | grep java
+curl localhost:8080
+ps -ef | grep java
+gradle start
+gradle start
+git st
+git diff
+git ci .
+git ll
+ps -ef | grep java
+gradle start
+gradle start
+gradle stop
+jps -l
+gradle stop
+gradle stop
+gradle stop
+gradle stop
+gradle stop
+gradle stop
+gradle stop
+gradle stop
+jps -l
+gradle stop
+gradle stop
+gradle stop
+gradle stop
+java -jar target/libs/core-1.0-SNAPSHOT.jar server ../../devops/environments/dev.yml
+casperjs
+cd ..
+ll
+cd ..
+ll
+tree
+find . name -target
+find . -name -target
+find . -name target
+find . -name target | xargs -n1 rm -rf 
+tree
+git ll
+git lm
+git lm
+git ll
+git ll --graph
+git lm
+git ll
+git ci .
+brew update
+mongod --help
+git st
+git pod
+git st
+git diff
+e modules/core/build.gradle
+gradle start
+ps -ef | grep java
+gradle start
+gradle --version
+git st
+gradle --version
+gradle --version --daemon
+gradle --daemon start
+gradle --daemon start
+gradle start
+e ~/.zshrc
+ps -ef | grep java
+gradle start
+gradle start
+gradle start
+tree
+tree | grep Test
+ll
+git help svn
+cat ~/.subversion/auth/svn.simple/bcb7ac94d4c7af69381bde340d9e1905
+git st
+git push
+git pod
+git ci .
+git ll
+git pod
+git ll
+git ll --graph
+ll
+git ll
+git lm
+git signoff tech-0-ig
+git lm
+git pus
+git ps
+e ~/.githelpers
+cat ~/.subversion/servers
+git pod
+ll
+sh devops/developer-box/git/git_setup.sh
+ll
+git config
+cat .git/config
+svn ls http://svn.gap.dev/svn/supplychain
+git pod
+cat modules/core/src/main/compass/elements/_.sass
+git ll --graph
+gitk --all
+git ll --graph
+gitk --all
+gitk
+git br
+git br -d tech-0-ig
+git br -d tech-114
+git br
+gitk
+git config --global core.autocrlf input
+git config --global core.safecrlf true
+e ~/.gitconfig
+git config --global core.autocrlf input
+e ~/.gitconfig
+git help revert
+git ll
+git ll --graph
+git ll
+git ll --graph
+git outgoing
+git incoming
+git incoming
+git config alias
+cat .git/config
+vim /Users/isa/Projects/merchandize-payables/devops/developer-box/git/signoff.sh
+vim /Users/isa/Projects/merchandize-payables/devops/developer-box/git/signoff.sh
+git pod
+git show -v +List XUNIT = [
++   'junit:junit:4.10',
++   'org.mockito:mockito-all:1.9.0'
++]
++
++List CUCUMBER = [
++   'info.cukes:cucumber-java:1.0.3',
++   'info.cukes:cucumber-junit:1.0.3',
+git show -v 98fb6d8
+cd devops/
+ll
+cd ci/documentation
+ll
+cd release.notes
+ll
+vim release.notes.generator.rb
+cd ..
+cd ~/Projects/merchandize-payables
+gradle test
+ll modules/core/target/test-results
+open modules/core/target/test-results
+git co tech-0-ig
+ll
+git pod
+git pod
+git pod
+git pod
+git pod
+git pod
+which bundle
+vim `which bundle`
+vim `which bundle`
+cd Projects/merchandize-payables/.idea/libs
+git br
+git co tech-0-ig
+git br
+cd ..
+cd libs
+git pull
+ll lom*
+ll
+ls -alh
+ll
+ll
+cd /tmp
+git clone https://github.com/chriskempson/tomorrow-theme.git
+open tomorrow-theme
+ll
+open tomorrow-theme
+ll
+cd /tmp
+mkdir demo
+cd demo
+ll
+touch file
+ll
+cd ..
+ll
+cd ~/Downloads
+ll
+ftp ftp.gap.com
+ftp ftp.gap.com
+cd ~/Desktop/xyz/repo2
+git remote rm origin
+git remote add origin ../root
+git br
+git co -b f2
+ll
+vim demo.rb
+git ci . -m 'added library'
+git ll
+git pull --rebase origin development
+git ll
+gitk --all
+cd ..
+ll
+cd repo1
+ll
+git br -av
+git pull
+git pull origin master
+ll
+git br -av
+git co development
+git co -b f1
+ll
+vim st.rb
+git ci . -m 'something method'
+git ll
+gitk --all
+git ll
+vim st.rb
+git ci . -m 'something 2\
+'
+git ll
+git co master
+git merge --no-ff f1
+git ll
+gitk --all
+git remote -v
+git branch -av
+git co f1
+git br --set-upstream f1 origin/development
+git co -b f3 master
+git br --set-upstream f3 origin/development
+git fetch
+git branch -av
+git br -av
+git co origin/development
+gi br
+git br
+git co remotes/origin/development
+git br -av
+cd ..
+cd ..
+ll
+rm -rf trash* xyz xxx
+ll
+rm -rf untitled\ folder
+ll
+cd vim
+ll
+cd ..
+rm -rf vim
+ll
+cd demo
+ll
+cd ..
+ll
+cdhello
+cd hello
+ll
+cd ..
+ll
+rm -rf hello
+ll
+rm -rf licenses
+ll
+find . -type d | xargs -n1 chmod 755
+ll
+sudo ll
+sudo find . -type d | xargs -n1 chmod 755
+ll
+sudo find Windows -type d | xargs -n1 chmod 755
+ll
+cd Desktop
+ll
+cp -r trash\ 2 xyz
+cp -R trash\ 2 xyz
+ll
+cd xyz
+ll
+cd repo1
+git ll
+ll
+git branch
+git help branch
+git br --list
+echo $(git branch | grep "*" | sed "s/* //")
+git co -b f1 master
+vim README
+git ci . -m 'updated read me'
+vim main.rb
+git ci . -m 'added main file'
+git ll
+git co development
+git merge --squash f1
+git commit -m 'syncing...'
+git push -u origin development
+git push origin development
+git remote -v
+git remote rm origin
+git remote add origin ../root
+git remote -v
+git push -u origin development
+git co f1
+git st
+git ll
+git ll --graph
+ll
+vim main.rb
+git ci . -m 'added puts'
+ll
+git co master
+git merge --no-ff f1
+git ll
+git ll --graph
+git push -u origin master
+cd ..
+cd ..
+ll
+rm -rf xyz
+cp -R trash\ 2 xyz
+cd xyz
+ll
+cd repo1
+git remote rm origin
+git remote add origin ../root
+cd ..
+cd repo2
+git remote rm origin
+git remote add origin ../root
+git co -b f2
+vim README
+git ci . -m 'edited read me'
+vim main.rb
+git ci . -m 'added main library'
+git st
+git co development
+git br
+git co development
+git br -a
+git br -
+git br -v
+git br -v --remote
+git br -v -a
+git co master
+git pull
+git pull origin master
+git pull --all origin master
+git br
+git br -av
+git co development
+git rebase f2
+ll
+git ll
+git push
+git co f2
+ll
+vim main.rb
+git ci . -m 'hello message'
+git ll
+git ll --graph
+ssh admin@merchpayci.gap.com
+cd ~/Projects/merchandize-payables
+git submodule update
+git submodule init
+git submodule update --force
+git help submodule
+cd .idea/libs
+git pull
+cd ..
+cd ..
+git pod
+irb
+phlow
+cd ~
+phlow
+which phlow
+bundle install
+phlow
+phlow help
+cd Desktop
+mkdir hello
+cd hello
+phlow init
+phlow init
+phlow init
+phlow init
+ll
+cat LICENSE
+git ll
+git log
+git st
+git st
+rm -rf *.*
+ll
+git *
+ll
+rm -rf *
+ll
+rm -rf .git
+ll
+phlow init
+ll
+git ll
+rm -rf .git LICENSE
+ll
+phlow init
+ll
+git br
+irb
+ll
+rm -rf .git LICENSE
+ll
+phlow init
+phlow help
+phlow
+phlow
+phlow asdf
+phlow init
+git init --bare ../xxx
+ll
+phlow init ../xxx
+git remote -v
+ll
+git remote add ../xxx
+git remote add origin ../xxx
+rm -rf .git LICENSE
+ll
+phlow init ../xxx
+git ll
+git br
+phlow
+ll
+git co development
+git co development 2>&1 1>/dev/null
+git co master 2>&1 1>/dev/null
+git co master  1>/dev/null
+git help
+ll
+git type HEAD
+cat ~/.gitconfig
+git dump HEAD
+ll
+irb
+ll
+rm -rf ../xxx
+git init --bare ../xxx
+rm -rf .git LICENSE
+phlow init
+phlow init ../xxx
+ll
+git ll
+git clone ../xxx 
+ll
+cd xx
+cd xxx
+ll
+git ll
+git remote -v
+cd ..
+ll
+rm -rf *
+ll
+rm -rf .git
+ll
+rm -rf ../xxx
+ll
+git init --bare ../xxx
+phlow init ../xxx
+ll
+git br
+git push -u master
+git push -u origin master
+ll
+git pull origin development
+ll
+git pull origin master
+ll
+git ll --graph
+git fetch --all origin development
+git help fetch
+git status
+git status -s
+cd /tmp/demo
+ll
+git clone root repo2
+ll
+cd repo2
+git br -av
+git co development
+git br -av
+git st
+git br -av
+git co -b f2
+vim lib.rb
+git ci . -m 'Added lib'
+git fetch --all
+git rebase origin/development
+gitk
+git co master
+git merge --no-ff f2
+git st
+gitk
+git push
+git co development
+git merge origin/development
+git st
+git co master
+git push
+git push origin development
+gitk
+cd ../repo1
+ll
+git co -b f1 master
+git br f1 --set-upstream origin/development
+ll
+vim main.rb
+git ci . -m 'doing stuff'
+vim main.rb
+git ci . -m 'added more functionality'
+git ll
+git pull
+git push
+git fetch --all
+git pull origin development
+git ll
+git co master
+git merge --no-ff f1
+git push origin master
+git br
+git br -d f1
+gitk
+git br -D f1
+gitk
+git pull
+git fetch --all
+git br -av
+git ll
+git co development
+git pull
+git push
+ll
+git ll
+git push origin development
+git pull
+git ll
+git pull origin development -u
+git ll
+gitk --all
+git ll
+git pull
+git br -av
+git fetch --all
+git br -av
+git merge origin/development
+git ll
+gitk --all
+git co -b f3 master
+ll
+git br f3 --set-upstream origin/development
+git pull -rebase
+git pull -rebase origin development
+git pull --rebase origin development
+git ll
+vim lib.sh
+git ci . -m 'awesome'
+git ll
+git fetch --all
+git push --force
+git push --force origin development
+git ll
+git fetch --all
+git merge origin/development
+git push -u --force origin development
+ll
+git ll
+git push -u origin development
+df -h
+git push --dry-run
+git push --dry-run origin development
+git pull
+git pull --rebase origin development
+git ll
+git push
+git br -av
+git co origin/development
+git merge f3
+git push
+git co development
+git merge f2
+git merge f3
+git push
+git ll
+cd ~/Projects/merchandize-payables
+git pod
+e docs/development/developers-handbook.md
+git st
+git ci .
+git signoff tech-0-ig
+git push
+cd /tmp
+ll
+cd demo
+ll
+rm -rf file
+ll
+git init --bare root
+git clone ./root repo1
+cd repo1
+echo "README" > README
+git ci . -m 'Added readme'
+git co -b development --track
+git push
+git push origin master
+git push origin development
+git ps
+git co master
+ll
+git br -av
+git co -b f1 master
+vim main.rb
+git ci . -m 'added main'
+vim main.rb
+git ci . -m 'hello'
+git co development
+git help merge
+git merge --squash --commit f1
+git st
+git reset --hard HEAD
+git merge --squash --commit --force f1 
+git rebase f1
+git push
+git co f1
+ll
+git rebase origin/development
+ll
+git fetch --all
+git rebase origin/development
+ll
+gitk
+gitk --all
+cd ..
+ll
+rm -rf *
+ll
+git init --bare root
+git clone repo1
+cd repo1
+ll
+git clone root repo1
+cd repo1
+ll
+vim README
+git ci . -m 'first commit'
+git co -b development --track
+git push origin development
+git co master
+git push origin master
+git st
+git br -av
+cd ..
+git clone root repo2
+cd repo2
+ll
+git br -av
+git co development
+ll
+git help branch
+ll
+git co master
+git pull
+ll
+gitk 
+git co -b f2 master
+git br f1 --set-upstream origin/development
+vim lib.sh
+git ci . -m 'feature 2'
+git ll
+git push
+git push origin development
+git br
+git br -av
+ll
+git br -av
+git push origin/development
+git push origin
+git push -u origin development
+gitk --all
+git help push
+git push
+git pull
+git br f2 --set-upstream origin development
+git br f2 --set-upstream remote/origin/development
+git br f2 --set-upstream origin/development
+git push
+git pull
+git ll
+git fetch --all
+git ll
+git co development
+git pull
+git ll
+git ll
+git br -av
+git co f2
+git fetch --all
+git ll
+git ll
+gitk --all
+git push
+git push origin development
+git pull origind evelopment
+git pull origind development
+git pull origin development
+git st
+git ll
+git push origin development
+git push
+git push -u origin development
+git push -u origin development --force
+git ll
+gitk --all
+git co development
+git merge f2
+git push 
+git br -v
+git br -va
+git co f2
+git ll
+git ll
+git fetch --all
+git pull --rebase
+git ll
+mongo --version
+cd ~/Projects/merchandize-payables
+gradle test
+gradle test
+gradle test
+gradle test
+gradle dependencies
+gradle :core:dependencies
+cd modules/core
+gradle dependencies
+gradle dependencies
+gradle dependencies
+gradle dependencies
+gradle compileJava
+gradle test
+open /Users/isa/Projects/merchandize-payables/modules/core/target/reports/tests
+gradle dependencies
+gradle test
+gradle compileJava
+git st
+gradle testCompile
+gradle tasks
+gti st
+git st
+git ci .
+git signoff 
+git signoff tech-0-ig
+git signoff tech-0-ig
+git push
+git push
+git push
+cd ../../.idea
+cd libs
+git pull
+cd ~/Projects/merchandize-payables
+ll
+git pod
+ll
+git ll
+git lm
+vim build.gradle
+ll
+git co tech-0-ig
+ll
+git co tech-0-ig
+git stash list
+git stash rm
+git stash clear
+git stash list
+git stash
+git ll
+git stash list
+git co tech-0-ig
+git pod
+ll
+git stash pop
+ll
+rm -rf ~/.gradle
+ll
+gradle test
+vim build.gradle
+gradle test
+brew update
+brew upgrade
+gradle test
+vim modules/core/build.gradle
+gradle test
+gradle clean test
+git st
+cd /tmp
+cd phlow
+mkdir root
+cd root
+phlow init
+git init --bare
+cd ..
+phlow init root
+ll
+rm -rf .git LICENSE
+ll
+cd demo
+ll
+cd ../
+ll
+mkdir repo1
+cd repo1
+phlow init ../root
+git br -av
+git push -u origin development
+git push -u origin development --force
+git push origin development --force
+git push origin development
+git co -b development
+git push -u origin development
+git co master
+git br -D development
+git br -av
+cd ..
+rm -rf *
+ll
+mkdir mkdir demo
+rm -rf mkdir
+ll
+cd demo
+cd Desktop/phlow
+cd repo2
+ll
+git fetch --all
+git co -b f2 master
+ll
+vim conf.yml
+git ci . -m 'added port'
+git pull --rebase origin development
+git co development
+git merge f2
+git push -u origin development
+git co f2
+vim conf.yml
+git co f2
+git co -- f2
+git co -- HEAD
+git co --
+git reset --hard HEAD
+git co master
+git merge --no-ff f2
+git push -u origin master
+git ll
+gitk --all
+git br -D f2
+gitk --all
+git co development
+git merge f2
+git merge master
+git push -u origin development
+gitk -all
+gitk --all
+git ll
+git co -b f4
+vim conf.yml
+git ci . -m 'db added'
+vim conf.yml
+git ci . -m 'added db host'
+git ll
+git checkout development
+git rebase f4 --autosquash
+git ll
+git push
+git fetch --all
+git co master
+git merge origin/master
+ll
+git ll
+gitx .
+git merge --no-ff f4
+cd ..
+cd Projects
+ll
+cat ~/.gitconfig
+bundle gem phlow
+cd phlow
+ll
+ll
+e phlow.gemspec
+e phlow.gemspec
+ll
+git st
+git ci . -m 'First commit'
+git st
+git remote add origin git@github.com:isa/phlow.git
+git st
+mkdir bin
+ll
+cd bin
+e phlow
+cd ..
+bundle exec bin/phlow
+chmod +x bin/phlow
+bundle exec bin/phlow
+bundle exec phlow
+bundle exec bin/phlow
+bundle exec bin/phlow
+bundle gem help
+rm -rf help
+ll
+git st
+git add bin
+git st
+git ci . -m 'Initial binaries and gem dependencies'
+git st
+git ss
+ll
+gem install _
+ll
+gem list
+gem uninstall _
+bundle exec bin/phlow
+bundle exec bin/phlow -v
+bundle exec bin/phlow -v
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow -h
+bundle exec bin/phlow -h
+bundle exec bin/phlow -h
+bundle exec bin/phlow -h
+bundle exec bin/phlow -h
+bundle exec bin/phlow -h
+bundle exec bin/phlow -h
+bundle exec bin/phlow help
+bundle exec bin/phlow ini
+bundle exec bin/phlow init
+bundle exec bin/phlow clone http://isa
+bundle exec bin/phlow clone http://isa
+bundle exec bin/phlow -v
+bundle exec bin/phlow -v
+bundle exec bin/phlow -v
+bundle exec bin/phlow -v
+bundle exec bin/phlow help
+bundle exec bin/phlow clone http://isa
+bundle exec bin/phlow clone= http://isa
+bundle exec bin/phlow clone=http://isa
+bundle exec bin/phlow -c http://isa
+bundle exec bin/phlow -c=http://isa
+bundle exec bin/phlow -c=http://isa
+bundle exec bin/phlow -c http://isa
+bundle exec bin/phlow clone 
+bundle exec bin/phlow clone 
+bundle exec bin/phlow clone asdf
+bundle exec bin/phlow clone=asdf
+bundle exec bin/phlow help
+bundle exec bin/phlow version
+bundle exec bin/phlow -v
+bundle exec bin/phlow --version
+bundle exec bin/phlow --clone asdf
+bundle exec bin/phlow --clone=asdf
+bundle exec bin/phlow
+bundle exec bin/phlow -v
+bundle exec bin/phlow -h
+bundle exec bin/phlow --asdf
+bundle exec bin/phlow --asdf
+bundle exec bin/phlow
+git st
+git st
+bundle exec bin/phlow
+bundle exec bin/phlow
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow clone http://isa
+bundle exec bin/phlow clone http://isa
+bundle exec bin/phlow clone http://isa
+bundle exec bin/phlow clone http://isa
+bundle exec bin/phlow clone http://isa
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+bundle exec bin/phlow version
+bundle exec bin/phlow version
+bundle exec bin/phlow help
+git st
+git ci . -m 'Added usage'
+git st
+bundle exec bin/phlow help
+irb
+irb
+bundle exec bin/phlow help
+bundle exec bin/phlow help
+irb
+ll
+bundle install phlow
+bundle install
+bundle gem build
+rm -rf build
+bundle build 
+gem build
+gem build phlow
+ll
+gem build phlow
+gem build phlow.gemspec
+ll
+git st
+gem install phlow-0.0.1.gem
+gem build phlow.gemspec
+gem install phlow-0.0.1.gem
+gem build phlow.gemspec
+gem install phlow-0.0.1.gem
+gem build phlow.gemspec
+gem install phlow-0.0.1.gem
+gem build phlow.gemspec
+gem remove phlow
+gem uninstall phlow
+gem install phlow-0.0.2.gem
+gem uninstall phlow
+ll
+rm -rf *.gem
+ll
+gem build phlow.gemspec
+gem install phlow-0.0.3.gem
+bundle exec bin/phlow
+bundle exec bin/phlow d
+bundle exec bin/phlow d
+bundle exec bin/phlow
+bundle exec bin/phlow
+bundle exec bin/phlow init
+gem build phlow.gemspec
+gem install phlow-0.0.3.gem
+gem build phlow.gemspec
+gem install phlow-0.0.3.gem
+gem build phlow.gemspec
+gem install phlow-0.0.3.gem
+rm -rf *.gem
+git st
+git ci . -m 'Finished initialization'
+git ll
+git ps master
+git remote -v
+git remote remove origin
+git remote rm origin
+git remote -v
+git remote add origin https://isa@github.com/isa/phlow.git
+git st
+git remote -v
+git ps master
+ll
+git st
+gem build phlow.gemspec
+gem uninstall phlow
+gem install phlow-0.2.0.gem
+git st
+ll
+rm -rf *.gem
+gem build phlow.gemspec
+gem uninstall phlow
+gem install phlow-0.5.0.gem
+gem uninstall phlow
+gem build phlow-0.5.0.gem
+gem build phlow.gemspec
+gem install phlow-0.5.0.gem
+ll
+gem uninstall phlow
+ll
+rm -rf *.gem
+ll
+cd Desktop/phlow/repo2
+ll
+cd Desktop
+ll
+ll
+mkdir phlow
+cd phlow
+ll
+git init --bare root
+git clone root repo1
+cd repo1
+echo "HELLO" > README
+git ci . -m 'First commit'
+git ll
+git co -b development
+git co master
+git push -u origin master
+git co development
+git push -u origin development
+ll
+ll
+git ll
+git fetch --all
+git ll
+cd ..
+rm -rf repo1
+ll
+git clone repo1
+git clone root repo1
+ll
+cd repo1
+git ll
+git br -av
+cd ..
+rm -rf repo1
+cd ..
+cp -R phlow phlow.backup
+ll
+cd phlow
+ll
+git clone root repo1
+git clone root repo2
+cd rpeo1
+cd repo1
+ll
+git br -av
+git co -b f1
+ll
+vim demo.sh
+git ci . -m 'shell script'
+git ll
+git br f1 --set-upstream origin/development
+git rebase origin development
+git rebase origin/development
+git push
+git push -u origin development
+git br f1 --set-upstream origin/development
+git push -u origin development
+git push -u origin development --force
+git co master
+git br -D f1
+gitk
+git co -b f1 --track origin/development
+vim demo.sh
+git ci . -m 'shell script'
+git ll
+git push
+git pull
+git pull --rebase
+git br -av
+git push
+git push -u origin development
+git co development
+vim conf.yml
+git ci . -m 'something'
+git push
+gitk --all
+cd ../..
+ll
+rm -rf phlow
+cp -R phlow.backup phlow
+cd phlow
+ll
+git clone root repo1
+git clone root repo2
+cd repo1
+ll
+git br -av
+git fetch --all
+git co -b f1 master
+vim script.sh
+git ci . -m 'added script\
+'
+git ll
+git st
+git st -s
+git pull --rebase origin development
+git co development
+git merge f1
+git push -u origin development
+git co f1
+gitk --all
+git rebase origin development
+git br -av
+git co f1
+git pull --rebase origin development
+git ll
+gitk --all
+git co development
+git merge f1
+git push -u origin development
+git co f1
+git co master
+git merge --no-ff f1
+git push -u origin master
+gitk --all
+gitx .
+git help rebase
+cd ../..
+ll
+rm -rf phlow
+cp -R phlow.backup phlow
+cd phlow
+ll
+git clone root repo1
+git clone root repo2
+ll
+mv repo* ../phlow.backup
+ll
+git clone root repo1
+git clone root repo2
+ll
+cd repo1
+ll
+git br -av
+git co -b f1 master
+vim c.sh
+git ci . -m 'echoed'
+ll
+/Volumes/VirtualBox/VirtualBox_Uninstall.tool ; exit;
+git help checkout
+ping google.com
+brew update
+brew info vimpc
+brew search virtual
+cd ~/Library
+ll
+cd Preferences
+ll
+ll com*
+find . -name *oracle*
+find . -name \*oracle\*
+cd ..
+find . -name \*oracle\*
+find . -name \*racle\*
+find . -name \*irtual\*
+rm -rf /Caches/Homebrew/virtualhost.sh-1.23.tgz
+./Caches/org.virtualbox.app.VirtualBox
+./Caches/org.virtualbox.app.VirtualBoxVM
+./LaunchAgents/org.virtualbox.vboxwebsrv.plist
+./Preferences/org.virtualbox.app.VirtualBox.plist
+./Preferences/org.virtualbox.app.VirtualBox.plist.lockfile
+./Preferences/org.virtualbox.app.VirtualBoxVM.plist
+./Preferences/org.virtualbox.app.VirtualBoxVM.plist.lockfile
+./Saved Application State/org.virtualbox.app.VirtualBox.savedState
+./Saved Application State/org.virtualbox.app.VirtualBoxVM.savedState
+./VirtualBox
+./VirtualBox/VirtualBox.xml
+e
+vim
+rm -rf ./Caches/org.virtualbox.app.VirtualBox¬
+rm -rf ./Caches/org.virtualbox.app.VirtualBoxVM¬
+rm -rf ./LaunchAgents/org.virtualbox.vboxwebsrv.plist¬
+rm -rf ./Preferences/org.virtualbox.app.VirtualBox.plist¬
+rm -rf ./Preferences/org.virtualbox.app.VirtualBox.plist.lockfile¬
+rm -rf ./Preferences/org.virtualbox.app.VirtualBoxVM.plist¬
+rm -rf ./Preferences/org.virtualbox.app.VirtualBoxVM.plist.lockfile¬
+rm -rf ./Saved Application State/org.virtualbox.app.VirtualBox.savedState¬
+rm -rf ./Saved Application State/org.virtualbox.app.VirtualBoxVM.savedState¬
+rm -rf ./VirtualBox¬
+rm -rf ./VirtualBox/VirtualBox.xml¬
+rm -rf ./VirtualBox/VirtualBox.xml-prev¬
+~                                              ll
+ll
+vm --help
+vm extpack install ~/Downloads/Oracle_VM_VirtualBox_Extension_Pack-4.1.14-77440.vbox-extpack
+cd ~/Desktop
+ll
+rm -rf phlow
+cp -R phlow.backup phlow
+cd phlow
+ll
+cd repo1
+ll
+git br -av
+git co -b master f1
+git co -b f1 master
+git br f1 --set-upstream origin/development
+git pull --rebase origin development
+vim something.sh
+git ci . -m 'added bash script'
+git push origin f1:development
+gitx .
+git pull --rebase origin development
+git ll
+git co master
+git merge --no-ff f1
+git push origin master
+git pull --rebase
+cd ..
+cd ..
+ll
+rm -rf phlow
+cp -R phlow.backup phlow
+cd phlow
+ll
+ll
+cd repo1
+ll
+git co -b f1 master
+git br f1 --set-upstream origin/f1
+git br f1 --set-upstream origin/development
+vim config.rb
+git ci . -m 'f1: config added'
+git push origin f1:development
+git co master
+git co f1
+vim main.rb
+git ci . -m 'f1: main added'
+git ll
+git push origin f1:development
+git co master
+git fetch --all
+git br -av
+git merge --no-ff f1
+git br -d f1
+git br -av
+git push
+git br -av
+git fetch --all
+git br -av
+git pull
+cd ..
+cd ..
+rm -rf phlow
+cp -R phlow.backup phlow
+ll
+cd phlow/repo1
+ll
+ll
+git co -b f1 master
+vim config.rb
+git ci -m 'f1: config'
+git br f1 --set-upstream origin/development
+git br -av
+vim config.rb
+git ci . -m 'f1: config 2'
+git st
+git push origin f1:development
+git pull --rebase
+ll
+git co master
+git pull --rebase
+git merge --no-ff f1
+git ll
+git push
+git br -av
+cd ..
+cd ..
+rm -rf phlow
+cp -R phlow.backup phlow
+cd phlow
+cd repo1
+git co -b f1
+vim a.tx
+mv a.tx a.log
+git ci . -m 'f1: log'
+git ll
+git br f1 --set-upstream origin/development
+git push origin f1:development
+git ll
+ll
+vim README
+git ci . -m 'f1: readme'
+git push origin f1:development
+git st
+git br -av
+git co master
+git merge --no-ff f1
+git push 
+git br -av
+git pull
+git br -av
+git fetch --all
+git br -av
+cd ..
+cd ..
+rm -rf phlow
+cp -R phlow.backup phlow
+cd phlow/repo1
+git co -b f1
+git br f1 --set-upstream origin/development
+vim main.rb
+git ci . -m 'f1: added main'
+git push origin f1:development
+git fetch --all
+git merge --squash origin/development
+git amend
+git ll
+git co master
+git pull
+git pull
+git merge --no-ff f2
+git merge --no-ff f1
+git push
+cd ../..
+rm -rf phlow
+cd Desktop
+cd cd ph
+cd phlow
+cd repo2
+git co -b f2 master
+git pull --rebase origin development
+git ll
+ll
+vim conf.yml
+git ci . -m 'added port'
+git push origin f2:development
+git ll
+gitx .
+vim something.sh
+git ci . -m 'echoed'
+git pull --rebase origin development
+git ll
+ll
+git co master
+git pull --rebase
+git merge --no-ff f2
+git push
+ll
+cd ../rep
+cd ../../phlow/repo2
+ll
+git fetch --all
+git ll
+git br -av
+git co -b f2 master
+git br f2 --set-upstream origin/development
+vim dummy.log
+git ci . -m 'f2: logger'
+git ll
+git br -av
+git pull --rebase
+git br -av
+git push origin f2:development
+git br -av
+ll
+git br -av
+git fetch --all
+git br -av
+git log 
+ll
+vim config.rb
+git ci . -m 'f2: edited config'
+git push origin f2:development
+git co master
+git pull
+git merge --no-ff f2
+git ll
+git push
+git br -av
+cd ..
+cd ..
+ll
+cd phlow
+cd repo2
+git co -b f2 master
+git br f2 --set-upstream origin/development
+vim main.rb
+git ci . -m 'f2: added main'
+git br -av
+git pull --rebase
+git pull --rebase
+git ll
+vim main.rb
+git ci . -m 'f2: more main'
+git br -av
+git push origin f2:development
+git pull --rebase
+git co master
+git pull --rebase
+git merge --no-ff f2
+git push
+cd ..
+cd ..
+cd phlow/repo2
+git co -b f2
+vim demo.conf
+git ci . -m 'f2: conf'
+git br f2 --set-upstream origin/development
+git fetch --all
+git fetch --all
+git br -av
+git merge origin/development --squash
+git push origin f2:development
+git br -av
+git co -- f2
+git co
+git st
+git ss
+git reset --hard HEAD
+ll
+git s
+git ss
+git st
+git st
+git pull
+ll
+vim main.rb
+git ci . -m 'f2: main'
+git pull
+git co master
+git pull
+git merge --no-ff f2
+git ll --graph --all
+git ll --graph 
+git ll --graph --decorate
+git ll --graph
+git ll
+git lm
+git ll
+git push
+cd ..
+cd ..
+cd phlow/repo2
+git co -b f2
+git br f2 --set-upstream origin/development
+vim dummy.log
+git ci . -m 'f2: dummy log'
+git fetch --all
+git br -av
+git merge --squash origin/development
+git st
+git commit --amend
+git ll
+git push origin f2:development
+git pull
+git push origin f2:development
+git co master
+git merge --no-ff f2
+git amend -m 'merged feature 2'
+git push 
+git pull
+cd ../..
+curlish -i http://google.com
+pip install httpie
+http http://google.com
+http GET http://google.com
+http GET twitter.com/#/IsaGoksu
+http GET twitter.com/IsaGoksu
+http GET twitter.com/IsaGoksu/rss
+curlish -i http://twitter.com
+ll
+ll
+ll
+ll
+ll
+ll
+ls -alh
+ll
+cd Desktop
+ll
+ll ~/
+git ll
+cp -R phlow.backup phlow
+ll
+ll
+cd phlow/repo1
+git ll
+cd .git
+ll
+ll branches
+git br -av
+cd ..
+git pull
+git co -b XYZ
+vim demo.rb
+git ci . -m 'XYZ: demo'
+git co master
+git pull
+git co XYZ
+git rebase master
+git ll
+git reset --hard 02985d6
+git ll
+git compress
+git gz
+git gc
+git ll
+du -sh
+cd ~/Projects/merchandize-payables
+ll
+cd modules
+ll
+cd core
+ll
+cd sr
+cd src
+tree
+tree -d
+tree -d
+cd /tmp
+ll
+mkdir demo
+cd demo
+ll
+phlow init remote
+rm -rf *
+ll
+rm -rf .git
+ll
+git init --bare root
+mkdir repo1
+cd repo1
+phlow init ../root
+cd ..
+git clone root repo2
+cd repo2
+ll
+git br -av
+irb
+phlow signoff f1
+irb
+phlow signoff f1
+phlow signoff f1
+phlow signoff f1
+phlow signoff f1
+phlow signoff f1
+cd Desktop/phlow/repo2
+git co development
+git co -b f2 master
+touch config.rb
+git ci . -m 'f2: added config'
+touch dummy.log
+git ci . -m 'f2: dummy log'
+git fetch --all
+git co development
+git rebase origin/development
+git ll
+git merge --squash f2
+git ci . -m 'f2: synced'
+git push
+git co master
+git merge --no-ff f2
+git br -d f2
+git push
+git pull
+gitx .
+cd ..
+cd ..
+rm -rf phlow
+cp -R phlow.backup phlow
+cd phlow/repo2
+git co development
+git co -b f2 master
+touch config.rb
+git ci -m 'f2: config rb'
+touch dummy.log
+git ci -m 'f2: dummy log'
+git co development
+git pull
+git pull
+git merge --squash f2
+git ci . -m 'f2: synced'
+git push
+gitx .
+git co master
+git pull --rebase
+git merge --no-ff f2
+git rebase master f2
+cd ..
+git ll
+cd ph
+ll
+cd repo2
+ll
+git ll
+cd ..
+cd ..
+rm -rf phlow
+cp -R phlow.backup phlow
+cd phlow/repo2
+touch config.yml
+git ci . -m 'f2: added config'
+touch config.ru
+git ci . -m 'f2: added config.ru'
+git ll
+git reset --hard 0298
+git ll
+git pull
+git ll
+git co -b f2 master
+touch config.ru
+git ci . -m 'f2: config'
+touch stupid.log
+git ci . -m 'f2: stupid log'
+git rebase master f2
+git co development
+git pull
+git merge --squash f2
+git ci . -m 'f2: synced'
+git push
+git co f2
+git rebase master f2
+git fetch --all
+git rebase master f2
+git co master
+git pull
+git co f2
+git rebase master f2
+git co master
+git merge --no-ff f2
+git push
+git co development
+ll
+vim config.ru
+git ci . -m 'added host'
+git push
+cd Desktop
+ll
+rm -rf phlow
+cp -R phlow.backup phlow
+ll
+cd phlow/
+ll
+cd rpeo1
+cd repo1
+git co development
+git co -b f1 master
+touch dummy
+git ci . -m 'f1: added dummy'
+git co development
+git co f1
+touch main.rb
+git ci . -m 'f1: added main.rb'
+git co development
+git merge --squash f1
+git ci . -m 'f1: synced'
+git push
+git push --all
+git br -av
+git push origin :f1
+git br -av
+git pull --rebase
+git co master
+git pull
+git merge --no-ff f1
+git br -d f1
+git push
+cd ../..
+cd phlow/repo1
+git help rebase
+git co development
+git co -b f1 master
+touch something
+git ci -m 'f1: something'
+touch main.rb
+git ci . -m 'f1: main rb'
+git co development
+git merge --squash f1
+git ci . -m 'f1: synced'
+git push
+git co master
+git pull --rebase
+gitx .
+git merge --no-ff f1
+git push
+git co development
+git pull
+git push
+cd ..
+cd repo1
+git co master
+git push
+cd ../../phlow/repo1
+git co -b f1
+touch x.log
+git ci -m 'f1: added log'
+touch main.rb
+git ci . -m 'f1: added main rb'
+git ll
+git rebase master f1
+git co development
+git pull
+git merge --squash f1
+git ci . -m 'f1: synced'
+git push
+git push
+git pull
+git ll
+git pull
+git co master
+git pull
+git merge --no-ff f1
+git push
+git pull
+git pull
+ll
+ll .git
+ll .git/refs/remote
+ll .git/refs/
+ll .git/refs/remotes/origin
+git dump .git/refs/remotes/origin/master
+git dump `cat .git/refs/remotes/origin/master`
+git ll --all
+git ll --all --graph
+git pull
+git rebase development master -i
+git rebase --abort
+git co development && git pull
+git rebase development master
+git ll
+git merge development
+git pull
+git br -av
+git revert 5f81560
+git reset --hard 5f81560
+git br -av
+git diff master development
+git merge development 
+git ll
+git ll --all --graph
+gitx .
+git reset --hard 5f81560
+git ll --all --graph
+git rebase development master
+git ll --all --graph
+git reset --hard 5f81560
+git ll
+git ll --graph
+git ll --graph --all
+git merge development --squash
+git st
+git ll --all --graph
+git amend
+git ll
+git ll --all --graph
+gitx .
+git reset --hard 5f81560
+git help merge
+git merge development --no-ff
+git ll --graph
+git ll --graph --all
+git reset --hard 5f81560
+git help merge
+git merge development --no-ff --squash
+git merge development --squash
+git ci . -m 'maintanence'
+git amend -m 'operational'
+git ll --graph --all
+git ll --graph
+git help add
+ssh admin@merchpayci.gap.com
+cd /tmp/demo
+git clone root repo2
+cd repo2
+git br -av
+phlow branch f2
+touch config.rb
+git ci . -m 'f2: config'
+phlow sync
+phlow sync ""
+phlow sync
+phlow sync
+git st
+git ss
+git status -s
+phlow sync
+git br -av
+phlow sync
+git ll --graph
+cd ..
+mkdir repo2
+phlow init ../root
+git br -av
+git pull
+ll
+rm -rf .git
+ll
+rm -rf LICENSE
+ll
+cd repo2
+ll
+phlow init ../root
+git br -av
+git pull
+git br -av
+cd ..
+rm -rf repo2
+mkdir repo2
+cd repo2
+phlow init
+phlow init ../root
+cd ..
+rm -rf repo2
+mkdir repo2
+cd repo2
+phlow init ../root
+git br -av
+git br -d qa
+git br -av
+git co -b qa master
+cd ..
+rm -rf repo2
+mkdir repo2 && cd repo2
+ll
+phlow init ../root
+git br -av
+git pull --all
+git pull
+git pull origin
+git pull --all origin
+git pull --all
+git br -av
+git ll
+git pull
+git pull origin master
+git ll
+git pull --all
+git fetch --all
+git br -av
+gitx .
+gitx ~/Desktop/phlow
+cd ~/Desktop/phlow/repo1
+gitx .
+cd ~/Projects/merchandize-payables
+git pod
+ssh admin@merchpayci.gap.com
+ssh admin@merchpayci.gap.com
+cd /tmp
+ll
+cd demo
+ll
+rm -rf *
+ll
+git init --bare root
+git clone root repo1
+cd repo1
+phlow init ../root
+git br -av
+cd ..
+ll
+rm -rf repo1 root
+git init --bare root
+git clone root repo1
+rm -rf repo1
+mkdir repo1
+cd repo1
+phlow init ../root
+git br -av
+cd ..
+rm -rf root repo1
+git init --bare root
+mkdir repo1
+cd repo1 
+phlow init ../root
+git br -av
+phlow branch f1
+git br -av
+touch dummy
+git ci . -m 'f1: dummy'
+cd ..
+rm -rf 
+rm -rf root repo*
+git init --bare root
+mkdir repo1
+cd repo1
+phlow init ../root
+git br -av
+git pull
+git pull --all
+git br -av
+cd ~/Projects/merchandize-payables
+git pod
+ll
+git st
+git reset --hard HEAD
+cd /tmp
+ll
+cd demo
+ll
+rm -rf *
+ll
+ll
+rm -rf *
+ll
+git init --bare root
+mkdir repo1 && cd repo1
+ll
+phlow init ../root
+ll
+git br -av
+cd ..
+mkdir repo2
+cd repo2
+phlow init ../root
+git br -av
+cd ..
+mkdir repo3
+cd repo3
+phlow init
+phlow init ../root
+cd ..
+mkdir repo4
+cd repo
+cd repo4
+phlow init ../root
+ll
+git br -av
+ll
+cd ..
+ll
+rm -rf *
+ll
+git init --bare root
+mkdir repo1
+cd repo1
+git init ../root
+git st
+git ll
+l
+ll
+ll
+phlow init ../root
+git st
+git br -av
+git br -av
+git push -u origin master
+git pull
+git fetch --all
+git br -av
+cd ../
+mkdir repo2 && cd 
+cd /tmp/demo/repo2
+git clone .
+ll
+git clone ../root .
+ll
+cd ..
+rm -rf *
+git init --bare root
+mkdir repo1
+cd repo1
+git clone ../root .
+git st
+git br -av
+git fetch --all
+git br -av
+touch demo
+git ci . -m 'demo'
+git br -av
+git push -u origin master
+git br -av
+cd ..
+mkdir repo2
+cd repo2
+git clone ../root .
+ll
+irb
+git push -u origin master
+git br -av

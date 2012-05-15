@@ -3,17 +3,29 @@
    email = isa.goksu@gmail.com
 [alias]
    ll = "!source ~/.githelpers && pretty_git_log"
+   lm = "!source ~/.githelpers && pretty_git_merges"
+   addall = !git add . && git add -u
    co = checkout
    st = status
+   ss = status -s
    ci = !git add -A && git commit
-   rh = reset --hard HEAD^
-   rs = reset --soft HEAD^
+   amend = commit --amend
+   cp = cherry-pick -x
+   unstage = reset HEAD
+   uncommit = reset --soft HEAD^
+   kill = reset --hard HEAD^
    ps = push -u origin
    br = branch
+   type = cat-file -t
+   dump = cat-file -p
+   incoming = !git fetch && git log master ^origin/master
+   outgoing = !git fetch && git log origin/master ^master
 [color]
    branch = auto
    diff = auto
    status = auto
+   interactive = auto
+   ui = auto
 [color "branch"]
    current = yellow
    local = blue
@@ -37,3 +49,9 @@
    editor = mvim -f
    quotepath = false
    excludesfile = /Users/isa/.gitignore
+   autocrlf = input
+   safecrlf = true
+[gc]
+   auto = 1
+[merge]
+   summary = true

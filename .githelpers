@@ -23,7 +23,7 @@ show_git_head() {
 }
 
 pretty_git_log() {
-    git log --abbrev-commit --date=relative --pretty="tformat:${FORMAT}" $* |
+    git log --abbrev-commit --decorate --date=relative --pretty="tformat:${FORMAT}" $* |
         sed -Ee 's/(second[s]?|minute[s]?|hour[s]?|day[s]?|week[s]?|month[s]?|year[s]?) ago/\1/' |
         sed -Ee 's/\*[[:space:]]+/▪ /g' |
         # Line columns up based on } delimiter
@@ -32,3 +32,13 @@ pretty_git_log() {
         less -FXRS
 }
 
+pretty_git_merges() {
+    git log --merges --abbrev-commit --decorate --date=relative --pretty="tformat:${FORMAT}" $* |
+        sed -Ee 's/(second[s]?|minute[s]?|hour[s]?|day[s]?|week[s]?|month[s]?|year[s]?) ago/\1/' |
+        sed -Ee 's/\*[[:space:]]+/▪ /g' |
+        sed -Ee '/Merge( remote.tracking)? branch/d' |
+        # Line columns up based on } delimiter
+        column -s '}' -t |
+        # Page only if we need to
+        less -FXRS
+}
