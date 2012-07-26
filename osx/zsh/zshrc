@@ -9,7 +9,7 @@ bindkey '\e[3~' delete-char
 # -- History --
 export HISTFILE=$HOME/.environments/osx/zsh/history
 export HISTSIZE=10000
-export SAVEHIST=10000 
+export SAVEHIST=10000
 
 setopt extendedglob # enables more complex "extended glob" (needed to make colours work in auto-completion)
 
@@ -37,7 +37,7 @@ zstyle ':completion:*:*:*:default' menu yes select
 zstyle ':completion:*:*:default' force-list always
 zmodload  zsh/complist
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
-zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31' 
+zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 
 zstyle ':completion:*' completer _complete _match _approximate
 zstyle ':completion:*:match:*' original only
@@ -66,7 +66,7 @@ alias pp='cd ~/Projects'
 alias grep='grep --color'
 alias vm='VBoxManage'
 alias rspec='rspec --color --format documentation'
-alias e='mvim --remote-tab-silent'
+alias e='subl'
 alias vim='mvim -v'
 alias df='df -h'
 alias du='du -sh'
@@ -82,22 +82,29 @@ alias sqlplus='rlwrap sqlplus'
 
 # -- Variables --
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
-export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/share/python:$JAVA_HOME/bin:$PATH
-export EDITOR="mvim -f"
-export VISUAL="mvim -f"
+export GROOVY_HOME=/usr/local/Cellar/groovy/2.0.0/libexec
+export EDITOR="subl -w"
+export VISUAL="subl -w"
 
 # -- Proxy Settings --
 function enable_proxy() {
    export http_proxy="http://qaproxy.gid.gap.com:8080/"
    export https_proxy="http://qaproxy.gid.gap.com:8080/"
    export ftp_proxy="http://qaproxy.gid.gap.com:8080/"
-   export no_proxy="localhost,*.gap.com,127.0.0.0/8,10.0.0.0/8,192.168.0.0/16"
-   # alias curl="curl -x $http_proxy --proxy-ntlm"
+   export no_proxy="localhost,.gap.com,.gap.dev,127.0.0.0/8,10.0.0.0/8,192.168.0.0/16"
 }
 
-source $HOME/.environments/osx/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $HOME/.environments/osx/zsh/isa.theme
+function disable_proxy() {
+   export http_proxy=""
+   export https_proxy=""
+   export ftp_proxy=""
+   export no_proxy=""
+}
 
-
+export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/share/python:$JAVA_HOME/bin:/usr/local/Cellar/tomcat/6.0.26/bin:$PATH
 . "$HOME/.rvm/scripts/rvm"
+PATH=$PATH:"/Applications/Sublime Text 2.app/Contents/SharedSupport/bin"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+source $HOME/.environments/osx/zsh/isa.theme
+source $HOME/.environments/osx/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

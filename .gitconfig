@@ -6,6 +6,7 @@
    lm = "!source ~/.githelpers && pretty_git_merges"
    addall = !git add . && git add -u
    co = checkout
+   dt = difftool
    st = status
    ss = status -s
    ci = !git add -A && git commit
@@ -46,7 +47,7 @@
 [diff]
    tool = Kaleidoscope
 [core]
-   editor = mvim -f
+   editor = subl -w
    quotepath = false
    excludesfile = /Users/isa/.gitignore
    autocrlf = input

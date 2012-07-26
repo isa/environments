@@ -6,14 +6,14 @@ autoload -Uz vcs_info
 zstyle ':vcs_info:*' stagedstr '%F{green} ●%f'
 zstyle ':vcs_info:*' unstagedstr '%F{yellow} ●%f'
 zstyle ':vcs_info:*' check-for-changes true
-zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{white} :: %f%F{yellow}%r%f'
+zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{yellow} :: %f%F{yellow}%r%f'
 zstyle ':vcs_info:*' enable git svn hg
 
 precmd () {
    if [[ -z $(git ls-files --other --exclude-standard 2> /dev/null) ]] {
-      zstyle ':vcs_info:*' formats '%F{white}|%f %F{green}%b%c%u%f'
+      zstyle ':vcs_info:*' formats '%F{yellow}|%f %F{green}%b%c%u%f'
    } else {
-      zstyle ':vcs_info:*' formats '%F{white}|%f %F{green}%b%c%u%f%F{red} ●%f%F{white}%f'
+      zstyle ':vcs_info:*' formats '%F{yellow}|%f %F{green}%b%c%u%f%F{red} ●%f%F{white}%f'
    }
    vcs_info
 }
@@ -30,9 +30,9 @@ function prompt_char {
    echo "${WARN}λ"
 }
 
-PROMPT='%{$fg[blue]%}%n%{$fg[white]%} in %{$fg[grey]%}${PWD/#$HOME/~} ${vcs_info_msg_0_}%{$reset_color%}
+PROMPT='%{$fg[blue]%}%n%{$reset_color%} in %{$fg[yellow]%}${PWD/#$HOME/~} ${vcs_info_msg_0_}%{$reset_color%}
 %(!.%{$fg[green]%}.%{$fg[red]%})$(prompt_char) %{$reset_color%}'
-RPROMPT='%{$fg[grey]%}%t%{$fg[reset_color]%}'
+RPROMPT='%{$reset_color%}%t%{$fg[reset_color]%}'
 
 # -- Loop prompt --
 PROMPT2='{%_}  '
