@@ -1,0 +1,528 @@
+{
+	"folder_history":
+	[
+		"/Users/isa/Projects/merchandise-payables"
+	],
+	"last_window_id": 20,
+	"settings":
+	{
+		"new_window_height": 793.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"mark",
+						"Set Syntax: MultiMarkdown"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"uuid",
+						"Generate UUID v4"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"cloju",
+						"SublimeREPL: Clojure"
+					],
+					[
+						"repl",
+						"SublimeREPL: CoffeScript"
+					],
+					[
+						"indent",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"toggp",
+						"View: Toggle Minimap"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Discover Packages"
+					],
+					[
+						"ruby",
+						"Set Syntax: Ruby"
+					],
+					[
+						"prop",
+						"Set Syntax: Java Properties"
+					],
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						":w",
+						":w - Save"
+					],
+					[
+						"gro",
+						"Set Syntax: Groovy"
+					],
+					[
+						"task",
+						"Tasks: New document"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"sidebar",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"mana",
+						"Fetch: Manage remote files"
+					],
+					[
+						"fetch",
+						"Fetch: Manage remote files"
+					]
+				],
+				"width": 435.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/src/shell.rb",
+				"/Users/isa/Projects/merchandise-payables/docs/development/qa-handbook.md",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java",
+				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/generate.rb",
+				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/src/jira_api_interrogator.rb",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+				"/Users/isa/Desktop/nfc.xml",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+				"/Users/isa/Projects/merchandise-payables/.gitignore",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"logger.i",
+					"true",
+					"theme",
+					"Vintage"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"@logger.i"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"fccontr",
+						"modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java"
+					],
+					[
+						"build",
+						"build.gradle"
+					],
+					[
+						"ji",
+						"devops/ci/documentation/release-notes/src/jira_api_interrogator.rb"
+					],
+					[
+						"shel",
+						"devops/ci/documentation/release-notes/src/shell.rb"
+					],
+					[
+						"gener",
+						"devops/ci/documentation/release-notes/generate.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 300.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1440.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"mark",
+						"Set Syntax: MultiMarkdown"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"uuid",
+						"Generate UUID v4"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"cloju",
+						"SublimeREPL: Clojure"
+					],
+					[
+						"repl",
+						"SublimeREPL: CoffeScript"
+					],
+					[
+						"indent",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"toggp",
+						"View: Toggle Minimap"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Discover Packages"
+					],
+					[
+						"ruby",
+						"Set Syntax: Ruby"
+					],
+					[
+						"prop",
+						"Set Syntax: Java Properties"
+					],
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						":w",
+						":w - Save"
+					],
+					[
+						"gro",
+						"Set Syntax: Groovy"
+					],
+					[
+						"task",
+						"Tasks: New document"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"sidebar",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"mana",
+						"Fetch: Manage remote files"
+					],
+					[
+						"fetch",
+						"Fetch: Manage remote files"
+					]
+				],
+				"width": 435.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/src/shell.rb",
+				"/Users/isa/Projects/merchandise-payables/docs/development/qa-handbook.md",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java",
+				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/generate.rb",
+				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/src/jira_api_interrogator.rb",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+				"/Users/isa/Desktop/nfc.xml",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+				"/Users/isa/Projects/merchandise-payables/.gitignore",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"logger.i",
+					"true",
+					"theme",
+					"Vintage"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"@logger.i"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0 63 1440 815 0 0 1440 878 ",
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"fccontr",
+						"modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java"
+					],
+					[
+						"build",
+						"build.gradle"
+					],
+					[
+						"ji",
+						"devops/ci/documentation/release-notes/src/jira_api_interrogator.rb"
+					],
+					[
+						"shel",
+						"devops/ci/documentation/release-notes/src/shell.rb"
+					],
+					[
+						"gener",
+						"devops/ci/documentation/release-notes/generate.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 300.0,
+			"status_bar_visible": true,
+			"window_id": 20
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

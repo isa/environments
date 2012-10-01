@@ -1,0 +1,223 @@
+[
+    {
+        "caption": "Schemr: All Hallow's Eve", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/All Hallow's Eve.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Amy", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Amy.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Blackboard", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Blackboard.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Cobalt", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Cobalt.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Dawn", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Dawn.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Eiffel", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Eiffel.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Espresso Libre", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Espresso Libre.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: IDLE", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/IDLE.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: iPlastic", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/iPlastic.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: LAZY", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/LAZY.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Mac Classic", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Mac Classic.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: MagicWB (Amiga)", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/MagicWB (Amiga).tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Monokai Bright", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Monokai Bright.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Monokai", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Monokai.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Pastels on Dark", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Pastels on Dark.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Slush & Poppies", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Slush & Poppies.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Solarized (Dark)", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Solarized (Light)", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Solarized (Light).tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: SpaceCadet", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/SpaceCadet.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Sunburst", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Sunburst.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Twilight", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Twilight.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Zenburnesque", 
+        "args": {
+            "s": "Packages/Color Scheme - Default/Zenburnesque.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Solarized (dark)", 
+        "args": {
+            "s": "Packages/Solarized Color Scheme (TextMate)/Solarized (dark).tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Solarized (light)", 
+        "args": {
+            "s": "Packages/Solarized Color Scheme (TextMate)/Solarized (light).tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Tomorrow-Night-Blue", 
+        "args": {
+            "s": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Blue.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Tomorrow-Night-Bright", 
+        "args": {
+            "s": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Tomorrow-Night-Eighties", 
+        "args": {
+            "s": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Tomorrow-Night", 
+        "args": {
+            "s": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Tomorrow", 
+        "args": {
+            "s": "Packages/Tomorrow Color Schemes/Tomorrow.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Espresso Soda", 
+        "args": {
+            "s": "Packages/Color Schemes/Espresso Soda.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Monokai Soda", 
+        "args": {
+            "s": "Packages/Color Schemes/Monokai Soda.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
+        "caption": "Schemr: Reload schemes", 
+        "command": "reload_schemes"
+    }
+]

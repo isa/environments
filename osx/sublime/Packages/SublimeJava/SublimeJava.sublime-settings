@@ -1,0 +1,31 @@
+{
+    // You probably want to configure this to something of your own
+    // ${home}, ${env:<variable>}, ${project_path:} and ${folder:} tokens can be used in the sublimejava_classpath option.
+    //
+    // ${home} is replaced with the value of the HOME environment variable.
+    //
+    // ${env:<variable>} is replaced with the "variable" environment variable.
+    //
+    // ${project_path:} tries to find a file with the given name in all the registered project folders and
+    // returns the first file found, or the original file name if none is found.
+    // Example: ${project_path:main.cpp} tries to find a file named "main.cpp" relative
+    // to the current project's folders. If none is found, it is replaced with "main.cpp".
+    //
+    // ${folder:} is replaced with the dirname of the given path.
+    // Example: ${folder:/path/to/file} is replaced with "/path/to".
+    //
+    // Replacement is done sequentially, first all ${project_path:} are resolved, then ${home} and
+    // ${env:<variable>} tokens,  and then the ${folder:} are replaced,
+    "sublimejava_classpath": ["/Users/quarnster/android/android-sdk-mac_86/platforms/android-14/android.jar"],
+
+    "sublimejava_dotcomplete": true,
+
+    // When set to true will inhibit the completions suggested
+    // by default by Sublime Text 2 if SublimeJava can't
+    // find anything to complete
+    "completioncommon_inhibit_sublime_completions": true,
+
+    // When set to true will shorten class names in the completion list
+    // by removing the package name.
+    "completioncommon_shorten_names": true
+}
