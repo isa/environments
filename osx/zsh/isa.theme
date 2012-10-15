@@ -26,7 +26,7 @@ function prompt_char {
 
    git branch >/dev/null 2>/dev/null && echo "${WARN}±" && return
    hg root >/dev/null 2>/dev/null && echo "${WARN}☿" && return
-   svn info >/dev/null 2>/dev/null && echo "${WARN}⚡" && return
+   svn info >/dev/null 2>/dev/null && echo "${WARN}ϟ" && return
    echo "${WARN}λ"
 }
 

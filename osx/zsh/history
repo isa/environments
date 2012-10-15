@@ -10047,3 +10047,6 @@ open /Volumes/Data/.XXX
 open /Volumes/Data/.XXX
 open /Volumes/Data/.XXX
 open /Volumes/Data/.XXX
+java -version
+java -version
+javac -version
