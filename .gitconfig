@@ -50,7 +50,7 @@
    editor = subl -w
    quotepath = false
    excludesfile = /Users/isa/.gitignore
-   autocrlf = input
+	autocrlf = false
    safecrlf = true
 [gc]
    auto = 1

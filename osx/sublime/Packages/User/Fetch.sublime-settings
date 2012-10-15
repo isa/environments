@@ -6,6 +6,7 @@
 	},
 	"packages":
 	{
+		"bootstrap": "https://github.com/twitter/bootstrap/zipball/master",
 		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master",
 		"wordpress": "http://wordpress.org/latest.zip"
 	}

@@ -5,7 +5,7 @@
 		"/Users/isa/Projects/scms/mp",
 		"/Users/isa/Projects"
 	],
-	"last_window_id": 64,
+	"last_window_id": 65,
 	"settings":
 	{
 		"new_window_height": 689.0,
@@ -510,6 +510,17 @@
 					]
 				]
 			},
+			"buffers":
+			[
+				{
+					"file": "/Users/isa/.gitconfig",
+					"settings":
+					{
+						"buffer_size": 1260,
+						"line_ending": "Unix"
+					}
+				}
+			],
 			"build_system": "",
 			"command_palette":
 			{
@@ -757,6 +768,43 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/isa/.gitconfig",
+							"settings":
+							{
+								"buffer_size": 1260,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1200,
+										1200
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 3,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 548.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
 			"incremental_find":
 			{
 				"height": 0.0
@@ -792,7 +840,7 @@
 			{
 				"height": 132.0
 			},
-			"position": "253 125 938 711 0 0 1440 878 ",
+			"position": "251 63 938 711 0 0 1440 878 ",
 			"replace":
 			{
 				"height": 68.0
@@ -984,7 +1032,8 @@
 			"side_bar_visible": false,
 			"side_bar_width": 241.0,
 			"status_bar_visible": true,
-			"window_id": 64
+			"window_id": 65,
+			"workspace_name": ""
 		}
 	],
 	"workspaces":

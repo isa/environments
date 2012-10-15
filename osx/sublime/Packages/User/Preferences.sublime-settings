@@ -18,6 +18,7 @@
 		""
 	],
 	"indent_to_bracket": false,
+	"open_files_in_new_window": false,
 	"remember_open_files": false,
 	"shift_tab_unindent": true,
 	"smart_indent": true,

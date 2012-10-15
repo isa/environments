@@ -1,1515 +1,3 @@
-git push -u origin master
-git ll
-gitk --all
-git br -D f2
-gitk --all
-git co development
-git merge f2
-git merge master
-git push -u origin development
-gitk -all
-gitk --all
-git ll
-git co -b f4
-vim conf.yml
-git ci . -m 'db added'
-vim conf.yml
-git ci . -m 'added db host'
-git ll
-git checkout development
-git rebase f4 --autosquash
-git ll
-git push
-git fetch --all
-git co master
-git merge origin/master
-ll
-git ll
-gitx .
-git merge --no-ff f4
-cd ..
-cd Projects
-ll
-cat ~/.gitconfig
-bundle gem phlow
-cd phlow
-ll
-ll
-e phlow.gemspec
-e phlow.gemspec
-ll
-git st
-git ci . -m 'First commit'
-git st
-git remote add origin git@github.com:isa/phlow.git
-git st
-mkdir bin
-ll
-cd bin
-e phlow
-cd ..
-bundle exec bin/phlow
-chmod +x bin/phlow
-bundle exec bin/phlow
-bundle exec phlow
-bundle exec bin/phlow
-bundle exec bin/phlow
-bundle gem help
-rm -rf help
-ll
-git st
-git add bin
-git st
-git ci . -m 'Initial binaries and gem dependencies'
-git st
-git ss
-ll
-gem install _
-ll
-gem list
-gem uninstall _
-bundle exec bin/phlow
-bundle exec bin/phlow -v
-bundle exec bin/phlow -v
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow -h
-bundle exec bin/phlow -h
-bundle exec bin/phlow -h
-bundle exec bin/phlow -h
-bundle exec bin/phlow -h
-bundle exec bin/phlow -h
-bundle exec bin/phlow -h
-bundle exec bin/phlow help
-bundle exec bin/phlow ini
-bundle exec bin/phlow init
-bundle exec bin/phlow clone http://isa
-bundle exec bin/phlow clone http://isa
-bundle exec bin/phlow -v
-bundle exec bin/phlow -v
-bundle exec bin/phlow -v
-bundle exec bin/phlow -v
-bundle exec bin/phlow help
-bundle exec bin/phlow clone http://isa
-bundle exec bin/phlow clone= http://isa
-bundle exec bin/phlow clone=http://isa
-bundle exec bin/phlow -c http://isa
-bundle exec bin/phlow -c=http://isa
-bundle exec bin/phlow -c=http://isa
-bundle exec bin/phlow -c http://isa
-bundle exec bin/phlow clone 
-bundle exec bin/phlow clone 
-bundle exec bin/phlow clone asdf
-bundle exec bin/phlow clone=asdf
-bundle exec bin/phlow help
-bundle exec bin/phlow version
-bundle exec bin/phlow -v
-bundle exec bin/phlow --version
-bundle exec bin/phlow --clone asdf
-bundle exec bin/phlow --clone=asdf
-bundle exec bin/phlow
-bundle exec bin/phlow -v
-bundle exec bin/phlow -h
-bundle exec bin/phlow --asdf
-bundle exec bin/phlow --asdf
-bundle exec bin/phlow
-git st
-git st
-bundle exec bin/phlow
-bundle exec bin/phlow
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow clone http://isa
-bundle exec bin/phlow clone http://isa
-bundle exec bin/phlow clone http://isa
-bundle exec bin/phlow clone http://isa
-bundle exec bin/phlow clone http://isa
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-bundle exec bin/phlow version
-bundle exec bin/phlow version
-bundle exec bin/phlow help
-git st
-git ci . -m 'Added usage'
-git st
-bundle exec bin/phlow help
-irb
-irb
-bundle exec bin/phlow help
-bundle exec bin/phlow help
-irb
-ll
-bundle install phlow
-bundle install
-bundle gem build
-rm -rf build
-bundle build 
-gem build
-gem build phlow
-ll
-gem build phlow
-gem build phlow.gemspec
-ll
-git st
-gem install phlow-0.0.1.gem
-gem build phlow.gemspec
-gem install phlow-0.0.1.gem
-gem build phlow.gemspec
-gem install phlow-0.0.1.gem
-gem build phlow.gemspec
-gem install phlow-0.0.1.gem
-gem build phlow.gemspec
-gem remove phlow
-gem uninstall phlow
-gem install phlow-0.0.2.gem
-gem uninstall phlow
-ll
-rm -rf *.gem
-ll
-gem build phlow.gemspec
-gem install phlow-0.0.3.gem
-bundle exec bin/phlow
-bundle exec bin/phlow d
-bundle exec bin/phlow d
-bundle exec bin/phlow
-bundle exec bin/phlow
-bundle exec bin/phlow init
-gem build phlow.gemspec
-gem install phlow-0.0.3.gem
-gem build phlow.gemspec
-gem install phlow-0.0.3.gem
-gem build phlow.gemspec
-gem install phlow-0.0.3.gem
-rm -rf *.gem
-git st
-git ci . -m 'Finished initialization'
-git ll
-git ps master
-git remote -v
-git remote remove origin
-git remote rm origin
-git remote -v
-git remote add origin https://isa@github.com/isa/phlow.git
-git st
-git remote -v
-git ps master
-ll
-git st
-gem build phlow.gemspec
-gem uninstall phlow
-gem install phlow-0.2.0.gem
-git st
-ll
-rm -rf *.gem
-gem build phlow.gemspec
-gem uninstall phlow
-gem install phlow-0.5.0.gem
-gem uninstall phlow
-gem build phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-ll
-gem uninstall phlow
-ll
-rm -rf *.gem
-ll
-cd Desktop/phlow/repo2
-ll
-cd Desktop
-ll
-ll
-mkdir phlow
-cd phlow
-ll
-git init --bare root
-git clone root repo1
-cd repo1
-echo "HELLO" > README
-git ci . -m 'First commit'
-git ll
-git co -b development
-git co master
-git push -u origin master
-git co development
-git push -u origin development
-ll
-ll
-git ll
-git fetch --all
-git ll
-cd ..
-rm -rf repo1
-ll
-git clone repo1
-git clone root repo1
-ll
-cd repo1
-git ll
-git br -av
-cd ..
-rm -rf repo1
-cd ..
-cp -R phlow phlow.backup
-ll
-cd phlow
-ll
-git clone root repo1
-git clone root repo2
-cd rpeo1
-cd repo1
-ll
-git br -av
-git co -b f1
-ll
-vim demo.sh
-git ci . -m 'shell script'
-git ll
-git br f1 --set-upstream origin/development
-git rebase origin development
-git rebase origin/development
-git push
-git push -u origin development
-git br f1 --set-upstream origin/development
-git push -u origin development
-git push -u origin development --force
-git co master
-git br -D f1
-gitk
-git co -b f1 --track origin/development
-vim demo.sh
-git ci . -m 'shell script'
-git ll
-git push
-git pull
-git pull --rebase
-git br -av
-git push
-git push -u origin development
-git co development
-vim conf.yml
-git ci . -m 'something'
-git push
-gitk --all
-cd ../..
-ll
-rm -rf phlow
-cp -R phlow.backup phlow
-cd phlow
-ll
-git clone root repo1
-git clone root repo2
-cd repo1
-ll
-git br -av
-git fetch --all
-git co -b f1 master
-vim script.sh
-git ci . -m 'added script\
-'
-git ll
-git st
-git st -s
-git pull --rebase origin development
-git co development
-git merge f1
-git push -u origin development
-git co f1
-gitk --all
-git rebase origin development
-git br -av
-git co f1
-git pull --rebase origin development
-git ll
-gitk --all
-git co development
-git merge f1
-git push -u origin development
-git co f1
-git co master
-git merge --no-ff f1
-git push -u origin master
-gitk --all
-gitx .
-git help rebase
-cd ../..
-ll
-rm -rf phlow
-cp -R phlow.backup phlow
-cd phlow
-ll
-git clone root repo1
-git clone root repo2
-ll
-mv repo* ../phlow.backup
-ll
-git clone root repo1
-git clone root repo2
-ll
-cd repo1
-ll
-git br -av
-git co -b f1 master
-vim c.sh
-git ci . -m 'echoed'
-ll
-/Volumes/VirtualBox/VirtualBox_Uninstall.tool ; exit;
-git help checkout
-ping google.com
-brew update
-brew info vimpc
-brew search virtual
-cd ~/Library
-ll
-cd Preferences
-ll
-ll com*
-find . -name *oracle*
-find . -name \*oracle\*
-cd ..
-find . -name \*oracle\*
-find . -name \*racle\*
-find . -name \*irtual\*
-rm -rf /Caches/Homebrew/virtualhost.sh-1.23.tgz
-./Caches/org.virtualbox.app.VirtualBox
-./Caches/org.virtualbox.app.VirtualBoxVM
-./LaunchAgents/org.virtualbox.vboxwebsrv.plist
-./Preferences/org.virtualbox.app.VirtualBox.plist
-./Preferences/org.virtualbox.app.VirtualBox.plist.lockfile
-./Preferences/org.virtualbox.app.VirtualBoxVM.plist
-./Preferences/org.virtualbox.app.VirtualBoxVM.plist.lockfile
-./Saved Application State/org.virtualbox.app.VirtualBox.savedState
-./Saved Application State/org.virtualbox.app.VirtualBoxVM.savedState
-./VirtualBox
-./VirtualBox/VirtualBox.xml
-e
-vim
-rm -rf ./Caches/org.virtualbox.app.VirtualBox¬
-rm -rf ./Caches/org.virtualbox.app.VirtualBoxVM¬
-rm -rf ./LaunchAgents/org.virtualbox.vboxwebsrv.plist¬
-rm -rf ./Preferences/org.virtualbox.app.VirtualBox.plist¬
-rm -rf ./Preferences/org.virtualbox.app.VirtualBox.plist.lockfile¬
-rm -rf ./Preferences/org.virtualbox.app.VirtualBoxVM.plist¬
-rm -rf ./Preferences/org.virtualbox.app.VirtualBoxVM.plist.lockfile¬
-rm -rf ./Saved Application State/org.virtualbox.app.VirtualBox.savedState¬
-rm -rf ./Saved Application State/org.virtualbox.app.VirtualBoxVM.savedState¬
-rm -rf ./VirtualBox¬
-rm -rf ./VirtualBox/VirtualBox.xml¬
-rm -rf ./VirtualBox/VirtualBox.xml-prev¬
-~                                              ll
-ll
-vm --help
-vm extpack install ~/Downloads/Oracle_VM_VirtualBox_Extension_Pack-4.1.14-77440.vbox-extpack
-cd ~/Desktop
-ll
-rm -rf phlow
-cp -R phlow.backup phlow
-cd phlow
-ll
-cd repo1
-ll
-git br -av
-git co -b master f1
-git co -b f1 master
-git br f1 --set-upstream origin/development
-git pull --rebase origin development
-vim something.sh
-git ci . -m 'added bash script'
-git push origin f1:development
-gitx .
-git pull --rebase origin development
-git ll
-git co master
-git merge --no-ff f1
-git push origin master
-git pull --rebase
-cd ..
-cd ..
-ll
-rm -rf phlow
-cp -R phlow.backup phlow
-cd phlow
-ll
-ll
-cd repo1
-ll
-git co -b f1 master
-git br f1 --set-upstream origin/f1
-git br f1 --set-upstream origin/development
-vim config.rb
-git ci . -m 'f1: config added'
-git push origin f1:development
-git co master
-git co f1
-vim main.rb
-git ci . -m 'f1: main added'
-git ll
-git push origin f1:development
-git co master
-git fetch --all
-git br -av
-git merge --no-ff f1
-git br -d f1
-git br -av
-git push
-git br -av
-git fetch --all
-git br -av
-git pull
-cd ..
-cd ..
-rm -rf phlow
-cp -R phlow.backup phlow
-ll
-cd phlow/repo1
-ll
-ll
-git co -b f1 master
-vim config.rb
-git ci -m 'f1: config'
-git br f1 --set-upstream origin/development
-git br -av
-vim config.rb
-git ci . -m 'f1: config 2'
-git st
-git push origin f1:development
-git pull --rebase
-ll
-git co master
-git pull --rebase
-git merge --no-ff f1
-git ll
-git push
-git br -av
-cd ..
-cd ..
-rm -rf phlow
-cp -R phlow.backup phlow
-cd phlow
-cd repo1
-git co -b f1
-vim a.tx
-mv a.tx a.log
-git ci . -m 'f1: log'
-git ll
-git br f1 --set-upstream origin/development
-git push origin f1:development
-git ll
-ll
-vim README
-git ci . -m 'f1: readme'
-git push origin f1:development
-git st
-git br -av
-git co master
-git merge --no-ff f1
-git push 
-git br -av
-git pull
-git br -av
-git fetch --all
-git br -av
-cd ..
-cd ..
-rm -rf phlow
-cp -R phlow.backup phlow
-cd phlow/repo1
-git co -b f1
-git br f1 --set-upstream origin/development
-vim main.rb
-git ci . -m 'f1: added main'
-git push origin f1:development
-git fetch --all
-git merge --squash origin/development
-git amend
-git ll
-git co master
-git pull
-git pull
-git merge --no-ff f2
-git merge --no-ff f1
-git push
-cd ../..
-rm -rf phlow
-cd Desktop
-cd cd ph
-cd phlow
-cd repo2
-git co -b f2 master
-git pull --rebase origin development
-git ll
-ll
-vim conf.yml
-git ci . -m 'added port'
-git push origin f2:development
-git ll
-gitx .
-vim something.sh
-git ci . -m 'echoed'
-git pull --rebase origin development
-git ll
-ll
-git co master
-git pull --rebase
-git merge --no-ff f2
-git push
-ll
-cd ../rep
-cd ../../phlow/repo2
-ll
-git fetch --all
-git ll
-git br -av
-git co -b f2 master
-git br f2 --set-upstream origin/development
-vim dummy.log
-git ci . -m 'f2: logger'
-git ll
-git br -av
-git pull --rebase
-git br -av
-git push origin f2:development
-git br -av
-ll
-git br -av
-git fetch --all
-git br -av
-git log 
-ll
-vim config.rb
-git ci . -m 'f2: edited config'
-git push origin f2:development
-git co master
-git pull
-git merge --no-ff f2
-git ll
-git push
-git br -av
-cd ..
-cd ..
-ll
-cd phlow
-cd repo2
-git co -b f2 master
-git br f2 --set-upstream origin/development
-vim main.rb
-git ci . -m 'f2: added main'
-git br -av
-git pull --rebase
-git pull --rebase
-git ll
-vim main.rb
-git ci . -m 'f2: more main'
-git br -av
-git push origin f2:development
-git pull --rebase
-git co master
-git pull --rebase
-git merge --no-ff f2
-git push
-cd ..
-cd ..
-cd phlow/repo2
-git co -b f2
-vim demo.conf
-git ci . -m 'f2: conf'
-git br f2 --set-upstream origin/development
-git fetch --all
-git fetch --all
-git br -av
-git merge origin/development --squash
-git push origin f2:development
-git br -av
-git co -- f2
-git co
-git st
-git ss
-git reset --hard HEAD
-ll
-git s
-git ss
-git st
-git st
-git pull
-ll
-vim main.rb
-git ci . -m 'f2: main'
-git pull
-git co master
-git pull
-git merge --no-ff f2
-git ll --graph --all
-git ll --graph 
-git ll --graph --decorate
-git ll --graph
-git ll
-git lm
-git ll
-git push
-cd ..
-cd ..
-cd phlow/repo2
-git co -b f2
-git br f2 --set-upstream origin/development
-vim dummy.log
-git ci . -m 'f2: dummy log'
-git fetch --all
-git br -av
-git merge --squash origin/development
-git st
-git commit --amend
-git ll
-git push origin f2:development
-git pull
-git push origin f2:development
-git co master
-git merge --no-ff f2
-git amend -m 'merged feature 2'
-git push 
-git pull
-cd ../..
-curlish -i http://google.com
-pip install httpie
-http http://google.com
-http GET http://google.com
-http GET twitter.com/#/IsaGoksu
-http GET twitter.com/IsaGoksu
-http GET twitter.com/IsaGoksu/rss
-curlish -i http://twitter.com
-ll
-ll
-ll
-ll
-ll
-ll
-ls -alh
-ll
-cd Desktop
-ll
-ll ~/
-git ll
-cp -R phlow.backup phlow
-ll
-ll
-cd phlow/repo1
-git ll
-cd .git
-ll
-ll branches
-git br -av
-cd ..
-git pull
-git co -b XYZ
-vim demo.rb
-git ci . -m 'XYZ: demo'
-git co master
-git pull
-git co XYZ
-git rebase master
-git ll
-git reset --hard 02985d6
-git ll
-git compress
-git gz
-git gc
-git ll
-du -sh
-cd ~/Projects/merchandize-payables
-ll
-cd modules
-ll
-cd core
-ll
-cd sr
-cd src
-tree
-tree -d
-tree -d
-cd /tmp
-ll
-mkdir demo
-cd demo
-ll
-phlow init remote
-rm -rf *
-ll
-rm -rf .git
-ll
-git init --bare root
-mkdir repo1
-cd repo1
-phlow init ../root
-cd ..
-git clone root repo2
-cd repo2
-ll
-git br -av
-irb
-phlow signoff f1
-irb
-phlow signoff f1
-phlow signoff f1
-phlow signoff f1
-phlow signoff f1
-phlow signoff f1
-cd Desktop/phlow/repo2
-git co development
-git co -b f2 master
-touch config.rb
-git ci . -m 'f2: added config'
-touch dummy.log
-git ci . -m 'f2: dummy log'
-git fetch --all
-git co development
-git rebase origin/development
-git ll
-git merge --squash f2
-git ci . -m 'f2: synced'
-git push
-git co master
-git merge --no-ff f2
-git br -d f2
-git push
-git pull
-gitx .
-cd ..
-cd ..
-rm -rf phlow
-cp -R phlow.backup phlow
-cd phlow/repo2
-git co development
-git co -b f2 master
-touch config.rb
-git ci -m 'f2: config rb'
-touch dummy.log
-git ci -m 'f2: dummy log'
-git co development
-git pull
-git pull
-git merge --squash f2
-git ci . -m 'f2: synced'
-git push
-gitx .
-git co master
-git pull --rebase
-git merge --no-ff f2
-git rebase master f2
-cd ..
-git ll
-cd ph
-ll
-cd repo2
-ll
-git ll
-cd ..
-cd ..
-rm -rf phlow
-cp -R phlow.backup phlow
-cd phlow/repo2
-touch config.yml
-git ci . -m 'f2: added config'
-touch config.ru
-git ci . -m 'f2: added config.ru'
-git ll
-git reset --hard 0298
-git ll
-git pull
-git ll
-git co -b f2 master
-touch config.ru
-git ci . -m 'f2: config'
-touch stupid.log
-git ci . -m 'f2: stupid log'
-git rebase master f2
-git co development
-git pull
-git merge --squash f2
-git ci . -m 'f2: synced'
-git push
-git co f2
-git rebase master f2
-git fetch --all
-git rebase master f2
-git co master
-git pull
-git co f2
-git rebase master f2
-git co master
-git merge --no-ff f2
-git push
-git co development
-ll
-vim config.ru
-git ci . -m 'added host'
-git push
-cd Desktop
-ll
-rm -rf phlow
-cp -R phlow.backup phlow
-ll
-cd phlow/
-ll
-cd rpeo1
-cd repo1
-git co development
-git co -b f1 master
-touch dummy
-git ci . -m 'f1: added dummy'
-git co development
-git co f1
-touch main.rb
-git ci . -m 'f1: added main.rb'
-git co development
-git merge --squash f1
-git ci . -m 'f1: synced'
-git push
-git push --all
-git br -av
-git push origin :f1
-git br -av
-git pull --rebase
-git co master
-git pull
-git merge --no-ff f1
-git br -d f1
-git push
-cd ../..
-cd phlow/repo1
-git help rebase
-git co development
-git co -b f1 master
-touch something
-git ci -m 'f1: something'
-touch main.rb
-git ci . -m 'f1: main rb'
-git co development
-git merge --squash f1
-git ci . -m 'f1: synced'
-git push
-git co master
-git pull --rebase
-gitx .
-git merge --no-ff f1
-git push
-git co development
-git pull
-git push
-cd ..
-cd repo1
-git co master
-git push
-cd ../../phlow/repo1
-git co -b f1
-touch x.log
-git ci -m 'f1: added log'
-touch main.rb
-git ci . -m 'f1: added main rb'
-git ll
-git rebase master f1
-git co development
-git pull
-git merge --squash f1
-git ci . -m 'f1: synced'
-git push
-git push
-git pull
-git ll
-git pull
-git co master
-git pull
-git merge --no-ff f1
-git push
-git pull
-git pull
-ll
-ll .git
-ll .git/refs/remote
-ll .git/refs/
-ll .git/refs/remotes/origin
-git dump .git/refs/remotes/origin/master
-git dump `cat .git/refs/remotes/origin/master`
-git ll --all
-git ll --all --graph
-git pull
-git rebase development master -i
-git rebase --abort
-git co development && git pull
-git rebase development master
-git ll
-git merge development
-git pull
-git br -av
-git revert 5f81560
-git reset --hard 5f81560
-git br -av
-git diff master development
-git merge development 
-git ll
-git ll --all --graph
-gitx .
-git reset --hard 5f81560
-git ll --all --graph
-git rebase development master
-git ll --all --graph
-git reset --hard 5f81560
-git ll
-git ll --graph
-git ll --graph --all
-git merge development --squash
-git st
-git ll --all --graph
-git amend
-git ll
-git ll --all --graph
-gitx .
-git reset --hard 5f81560
-git help merge
-git merge development --no-ff
-git ll --graph
-git ll --graph --all
-git reset --hard 5f81560
-git help merge
-git merge development --no-ff --squash
-git merge development --squash
-git ci . -m 'maintanence'
-git amend -m 'operational'
-git ll --graph --all
-git ll --graph
-git help add
-ssh admin@merchpayci.gap.com
-cd /tmp/demo
-git clone root repo2
-cd repo2
-git br -av
-phlow branch f2
-touch config.rb
-git ci . -m 'f2: config'
-phlow sync
-phlow sync ""
-phlow sync
-phlow sync
-git st
-git ss
-git status -s
-phlow sync
-git br -av
-phlow sync
-git ll --graph
-cd ..
-mkdir repo2
-phlow init ../root
-git br -av
-git pull
-ll
-rm -rf .git
-ll
-rm -rf LICENSE
-ll
-cd repo2
-ll
-phlow init ../root
-git br -av
-git pull
-git br -av
-cd ..
-rm -rf repo2
-mkdir repo2
-cd repo2
-phlow init
-phlow init ../root
-cd ..
-rm -rf repo2
-mkdir repo2
-cd repo2
-phlow init ../root
-git br -av
-git br -d qa
-git br -av
-git co -b qa master
-cd ..
-rm -rf repo2
-mkdir repo2 && cd repo2
-ll
-phlow init ../root
-git br -av
-git pull --all
-git pull
-git pull origin
-git pull --all origin
-git pull --all
-git br -av
-git ll
-git pull
-git pull origin master
-git ll
-git pull --all
-git fetch --all
-git br -av
-gitx .
-gitx ~/Desktop/phlow
-cd ~/Desktop/phlow/repo1
-gitx .
-cd ~/Projects/merchandize-payables
-git pod
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-cd /tmp
-ll
-cd demo
-ll
-rm -rf *
-ll
-git init --bare root
-git clone root repo1
-cd repo1
-phlow init ../root
-git br -av
-cd ..
-ll
-rm -rf repo1 root
-git init --bare root
-git clone root repo1
-rm -rf repo1
-mkdir repo1
-cd repo1
-phlow init ../root
-git br -av
-cd ..
-rm -rf root repo1
-git init --bare root
-mkdir repo1
-cd repo1 
-phlow init ../root
-git br -av
-phlow branch f1
-git br -av
-touch dummy
-git ci . -m 'f1: dummy'
-cd ..
-rm -rf 
-rm -rf root repo*
-git init --bare root
-mkdir repo1
-cd repo1
-phlow init ../root
-git br -av
-git pull
-git pull --all
-git br -av
-cd ~/Projects/merchandize-payables
-git pod
-ll
-git st
-git reset --hard HEAD
-cd /tmp
-ll
-cd demo
-ll
-rm -rf *
-ll
-ll
-rm -rf *
-ll
-git init --bare root
-mkdir repo1 && cd repo1
-ll
-phlow init ../root
-ll
-git br -av
-cd ..
-mkdir repo2
-cd repo2
-phlow init ../root
-git br -av
-cd ..
-mkdir repo3
-cd repo3
-phlow init
-phlow init ../root
-cd ..
-mkdir repo4
-cd repo
-cd repo4
-phlow init ../root
-ll
-git br -av
-ll
-cd ..
-ll
-rm -rf *
-ll
-git init --bare root
-mkdir repo1
-cd repo1
-git init ../root
-git st
-git ll
-l
-ll
-ll
-phlow init ../root
-git st
-git br -av
-git br -av
-git push -u origin master
-git pull
-git fetch --all
-git br -av
-cd ../
-mkdir repo2 && cd 
-cd /tmp/demo/repo2
-git clone .
-ll
-git clone ../root .
-ll
-cd ..
-rm -rf *
-git init --bare root
-mkdir repo1
-cd repo1
-git clone ../root .
-git st
-git br -av
-git fetch --all
-git br -av
-touch demo
-git ci . -m 'demo'
-git br -av
-git push -u origin master
-git br -av
-cd ..
-mkdir repo2
-cd repo2
-git clone ../root .
-ll
-irb
-git push -u origin master
-git br -av
-sudo bash
-sudo zsh
-. .zshrc
-pwd
-source ~/.zshrc
-ll
-curl http://oss.sonatype.org/content/repositories/releases/com/sun/jersey/jersey-test-framework/1.12/jersey-test-framework-1.12.pom
-open ~/.m2/repository
-ll
-e .tm_properties
-mate .tm_properties
-cd .environments
-git st
-git ci . -m 'Changed some zsh settings, added new git aliases'
-git push master
-git ps master
-ll
-cd ..
-ll
-ll
-cd Desktop
-ll
-cd ..
-ll
-cd Desktop
-ll
-cd ..
-ll
-ll
-cat .viminfo
-less .vimrc
-e .vimrc
-vim .vimrc
-ll
-cd Desktop
-cd ..
-vim .zshrc
-ll
-ll
-ll
-cd Desktop
-ll
-cd blog
-ll
-mvn test
-ll
-ll
-brew update
-enable_proxy
-brew update
-curl http://google.com
-curl http://google.com/ncr
-elinks http://google.com
-which curl
-alias
-cd /tmp
-git clone https://github.com/isa/phlow
-git clone git@github.com:isa/phlow.git
-enable_proxy
-git clone git@github.com:isa/phlow.git
-ping google.com
-echo $http_proxy
-cd ~/Projects/merchandize-payables
-git pull
-git pod
-ll
-gradle test
-vim build.gradle
-e build.gradle
-git st
-git ci .
-git push
-gradle test
-npm install -g jasmine-node
-gradle test
-cd modules/core
-ll
-ll
-git st
-cd ~/Projects/merchandize-payables
-git pod
-git log modules/core/lib/server/test/jersey-client-1.12.jar
-git ll
-ll
-git st
-git reset --hard HEAD
-git st
-e modules/core/build.gradle
-git st
-git ci .
-git st
-git pod
-git push
-curl http://google.com
-enable_proxy
-curl http://google.com
-brew update
-cd modules/core
-gradle dependencies | less -R
-gradle test InvoicesResourceTest
-gradle test InvoicesResourceTest.java
-gradle test -Dtest.single=InvoicesResourceTest
-gradle clean test -Dtest.single=InvoicesResourceTest
-gradle clean test -Dtest.single=InvoicesResourceTest --stacktrace
-open /Users/isa/Projects/merchandize-payables/modules/core/target/reports/tests/index.html
-gradle clean test -Dtest.single=InvoicesResourceTest -Dcontainer.type=EmbeddedGF
-git st
-vim ../../.gitignore
-git st
-git rm ../../.idea/gradle.xml
-git rm ../../.idea/gradle.xml --cached
-git st
-git st
-e ../../build.gradle
-gradle clean test -Dtest.single=InvoicesResourceTest -Dcontainer.type=EmbeddedGF
-gradle clean test -Dtest.single=InvoiceResourceTest -Dcontainer.type=EmbeddedGF
-gradle clean test -Dtest.single=InvoiceResourceTest -Dcontainer.type=EmbeddedGF
-gradle clean test -Dtest.single=InvoiceResourceTest
-gradle dependencies | less -R
-gradle clean test -Dtest.single=InvoiceResourceTest -Djersey.test.containerFactory=com.sun.jersey.test.framework.spi.container.inmemory.InMemoryTestContainerFactory
-gradle clean test -Dtest.single=InvoiceResourceTest -Dtest.containerFactory=com.sun.jersey.test.framework.spi.container.inmemory.InMemoryTestContainerFactory
-gradle help dependencies
-gradle help dependencies
-gradle help dependencies
-gradle clean test -Dtest.single=InvoiceResourceTest
-gradle clean test -Dtest.single=InvoiceResourceTest -Dcom.sun.jersey.config.feature.DisableWADL=true
-gradle clean test -Dtest.single=InvoiceResourceTest -ea
-gradle clean test -Dtest.single=InvoiceResourceTest -Dea
-export GRADLE_OPTS=-ea
-gradle clean test -Dtest.single=InvoiceResourceTest
-gradle clean test -Dtest.single=InvoiceResourceTest -Dtest.containerFactory=com.sun.jersey.test.framework.spi.container.inmemory.InMemoryTestContainerFactory
-gradle clean test -Dtest.single=InvoiceResourceTest
-gradle help dependencies
-gradle help dependencies | less -R
-gradle clean test -Dtest.single=InvoiceResourceTest
-gradle help dependencies | less -R
-git st
-gradle clean test -Dtest.single=InvoiceResourceTest
-gradle clean test -Dtest.single=InvoiceResourceTest
-gradle clean test -Dtest.single=InvoiceResourceTest
-gradle clean test -Dtest.single=InvoiceResourceTest
-git st
-git ci .
-git ci .
-git st
-cd /tmp/demo/repo2
-phlow new f2
-git touch config.rb
-touch config.rb
-git ci . -m 'f2: config'
-ll
-touch lib.rb
-git ci . -m 'f2: lib'
-phlow sync
-git ll --all --graph
-git signoff
-phlow signoff
-phlow signoff
-phlow signoff f2
-git ll --all --graph
-phlow signoff f2
-phlow signoff f2
-git ll --all --graph
-git co f2
-phlow signoff f2
-git rebase master f2
-git pull origin master
-git pull origin master
-git pull origin development
-git ll
-git reset --hard f8fa
-git ll
-irb
-git st
-cd /tmp
-ll
-cd demo
-ll
-rm -rf *
-git init --bare root
-irb
-ll
-git clone root
-git clone root repo1
-cd repo1
-phlow init
-phlow init ../root
-git br -av
-ll
-cd ..
-ll
-cd repo1
-ll
-phlow init ../root
-ll
-git br -av
-ll
-phlow init ../root
-ll
-git br -av
-cd ../
-mkdir repo2
-cd repo2
-phlow init ../root
-git br -av
-ll
-cd ../repo
-cd ../repo1
-phlow new f1
-touch main.rb
-git ci . -m 'f1: added main'
-touch dev.yml
-git ci . -m 'f1: dev.yml'
-phlow sync
-git ll --all
-git ll --all --grpah
-git ll --all --graph
-phlow signoff
-phlow signoff f1
-phlow signoff f1
-git br -av
-git pull
-git rebase master f1
-git help merge
-phlow signoff f1
-git br -av
-git br -d f1
-git ll --all --graph
-cd ..
-rm -rf *
-git init --bare root
-mkdir repo1
-cd repo1
-phlow init
-phlow init ../root
-ll
-git ll
-git br -av
-phlow new f1
-touch demo
-git ci . -m 'f1: added demo'
-touch config.rb
-git ci . -m 'f1: config.rb'
-git ll
-git --all --graph ll
-git ll --all --graph
-phlow sync
-gitx .
-phlow sync
-phlow signoff f1
-phlow sync
-cd ~/Projects
-cd phlow
-git st
-bundle exec bin/phlow
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-git st
-git ci . -m 'Added sync logic, now working on qa and operational branches'
-git ll
-git st
-git ci . -m 'sign off seems to be done, i gotta print the manual steps on failures though..'
-git ll
-git st
-git ci . -m 'operational branches are now also synced with development branch'
-git st
-git ll
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
 gem install phlow-0.5.0.gem
 gem build phlow.gemspec
 gem install phlow-0.5.0.gem
@@ -10000,6 +8488,1561 @@ java -version
 javac -v
 javac -version
 java
+open /Volumes/Data/.XXX
+open /Volumes/Data/.XXX
+open /Volumes/Data/.XXX
+open /Volumes/Data/.XXX
+cd .environments
+git st
+git dt
+ll
+cd osx
+ll
+mv ~/Library/Application\ Support/Sublime\ Text\ 2 SublimeText2
+ll
+ln -s SublimeText2 ~/Library/Application\ Support/Sublime\ Text\ 2
+ll
+ll ~/Library/Application\ Support
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2
+ln -s /Users/isa/.environments/osx/SublimeText2 ~/Library/Application\ Support/Sublime\ Text\ 2
+ll ~/Library/Application\ Support
+ll
+git st
+git ci -m 'Updated some zsh settings, adding sublime settings too'
+brew search dos2unix
+brew install dos2unix
+dos2unix osx/SublimeText2/Backup/20120930192632/VintageEx/CHANGELOG.txt
+ll osx/SublimeText2/Backup/20120930192632/VintageEx/CHANGELOG.txt
+ll osx/SublimeText2/Backup/20120930192632/VintageEx/
+ll osx/SublimeText2/Backup/20120930192632
+ll SublimeText2/Backup/20120930192632/VintageEx/CHANGELOG.txt
+ll
+dos2unix SublimeText2/Backup/20120930192632/VintageEx/CHANGELOG.txt
+git st
+mv SublimeText2 sublime
+ll
+git st
+git ci -m 'Updated some zsh settings, adding sublime settings too'
+cd ..
+git ci -m 'Updated some zsh settings, adding sublime settings too'
+rm -rf osx/sublime/Backup
+git st
+git ci -m 'Updated some zsh settings, adding sublime settings too'
+dos2unix osx/sublime/Packages/Format SQL/README.md
+dos2unix "osx/sublime/Packages/Format SQL/README.md"
+git ci -m 'Updated some zsh settings, adding sublime settings too'
+dos2unix "osx/sublime/Packages/Nettuts+ Fetch/Fetch.py"
+git ci -m 'Updated some zsh settings, adding sublime settings too'
+dos2unix "osx/sublime/Packages/Package Control/Package Control.py"
+git ci -m 'Updated some zsh settings, adding sublime settings too'
+dos2unix osx/sublime/Packages/Package Control/Package Control.sublime-settings
+dos2unix "osx/sublime/Packages/Package Control/Package Control.sublime-settings"
+git ci -m 'Updated some zsh settings, adding sublime settings too'
+dos2unix "osx/sublime/Packages/Schemr/readme.md"
+git ci -m 'Updated some zsh settings, adding sublime settings too'
+dos2unix osx/sublime/Packages/Schemr/schemr.py
+git ci -m 'Updated some zsh settings, adding sublime settings too'
+find osx/sublime -type f -exec dos2unix {}\;
+find osx/sublime -type f -exec dos2unix {} \;
+git st
+ll
+cd osx
+ll
+cd ..
+ll
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2
+ln -s /Users/isa/.environments/osx/sublime ~/Library/Application\ Support/Sublime\ Text\ 2
+e ~/Projects/merchandise-payables
+git st
+git ci -m 'Updated some zsh settings, adding sublime settings too'
+git st
+git push
+ll
+ll
+ll
+ll
+pp
+ll
+gradle modules:core:runLocalStubServer
+jps -
+jps -l
+gradle modules:core:runLocalStubServer
+jps -l
+gradle modules:core:runLocalStubServer
+jps -l
+git st
+git add modules/core/build.gradle
+git pull
+git co --  modules/core/src/integration
+git st
+git dt
+git co -- modules/ngf
+git st
+git co -- modules/core/src/
+git st
+git co -- modules/atom
+git st
+git co -- devops/developer-box
+git co -- devops/tools/
+git st
+git co -- devops/deploy
+git st
+git add devops/stubs/stubby4j/runStubby4j.sh
+git st
+git co -- devops/ci/commit-git-to-svn.gradle
+git st
+git co -- modules/core/config.rb
+git co -- qa/acceptance/support/lib
+git diff qa/acceptance/support/env.rb
+git co -- qa/acceptance/step_definitions
+git co -- qa/acceptance/Jmeterscripts
+git st
+git pull
+git st
+git commit -m 'ITMERCHPAY-0 Adding acceptance tests to our CI pipeline in TeamCity'
+git pull
+git st
+git ll
+git push
+git st
+git add modules/core/build.gradle
+git commit -m 'ITMERCHPAY-0 Fixed gradle execution for deployment by default'
+git push
+ll
+gradle qa:acceptance:runApiTests
+git pull
+git pull
+git st
+git dt
+git add modules/core/build.gradle
+git commit -m 'ITMERCHPAY-0 Added remote debugging option by default to the local Tomcat'
+git pull
+git st
+ll
+df -h
+git pull
+git st
+git pull
+git pull
+git st
+git add
+git add qa/acceptance/build.gradle
+git commit -m 'ITMERCHPAY-0 Added @api tags to the runApiTests task since it is running some ui tests too'
+git push
+git st
+git add qa/acceptance/config/cucumber.yml
+git commit -m 'ITMERCHPAY-0 Changed the default profile to use CI tag instead of webkit since we cannot run just API tests otherwise'
+git pull
+git push
+git pull
+git add qa/acceptance/build.gradle
+git st
+git commit -m 'ITMERCHPAY-0 Trying bundle exec instead of cucumber call directly'
+git push
+git st
+git add qa/acceptance/build.gradle
+git commit -m 'ITMERCHPAY-0 Trying bundle exec cucumber instead of cucumber.. Seems like direct cucumber call misses some tests'
+git pull
+git push
+cucumber --help
+cucumber --help | ack profile
+gradle runApiTests
+ll
+gradle runApiTests
+bundle exec cucumber irb
+irb
+irb
+irb
+gradle runApiTests
+irb
+gradle runApiTests
+irb
+gradle runApiTests
+gradle runApiTests
+irb
+irb
+gradle runApiTests
+gradle runApiTests --stacktrace
+bundle exec cucumber -r qa/acceptance/config
+bundle exec cucumber -r qa/acceptance/config qa/acceptance/features/api
+bundle exec cucumber -r qa/acceptance qa/acceptance/features/api
+f
+bundle exec cucumber -r qa/acceptance qa/acceptance/features/api
+bundle exec cucumber -r qa/acceptance qa/acceptance/features/api
+git st
+git add qa/acceptance/config/cucumber.yml qa/acceptance/build.gradle
+git st
+git pull
+git commit -m 'ITMERCHPAY-0 Still trying to make bundle exec work'
+git push
+git pull
+gradle runApiTests
+gradle runApiTests
+gradle runApiTests --debug
+cucumber --help
+gradle runApiTests
+git st
+git pull
+git add qa/acceptance/build.gradle qa/acceptance/config/
+git st
+git commit -m 'ITMERCHPAY-0 Trying to fix cucumber.yml problem'
+git push
+java -version
+java -version
+which java
+java -version
+gradle runSmokeTests
+java -version
+which gradle
+brew update
+ll
+cd qa/acceptance
+gradle runApiTests
+echo $JAVA_HOME
+ll /System/Library/Frameworks/JavaVM.framework/Home
+ll /System/Library/Frameworks/JavaVM.framework/Home/
+ll /System/Library/Frameworks/JavaVM.framework/Home
+ll /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+ll /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
+cd /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+ll
+cd Contents
+ll
+cd ..
+cd ..
+ll
+rm -rf 1.7*
+ll
+sudo ll
+tail history
+history | tail
+ll
+sudo rm -rf 1.7*
+ll
+rm -rf CurrentJDK
+sudo rm -rf CurrentJDK
+sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents CurrentJDK 1.7 1.70
+l
+ll
+sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents CurrentJDK
+ll
+sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents 1.7
+sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents 1.7.0
+ll
+which java
+java -version
+echo $JAVA_HOME
+$JAVA_HOME/bin/java
+$JAVA_HOME/bin/java -version
+cd ~/Projects/merchandise-payables
+ll
+gradle
+cd qa/acceptance
+gradle runApiTests
+ll
+cd support
+ll
+cd lib
+ll
+cd ..
+ll
+find . -f -name *.rb
+find . -f -name \*.rb
+find . -name \*.rb
+cd ..
+ll
+bundle exec cucumber features/api
+bundle exec cucumber features/api
+bundle exec cucumber features/api -p ci
+bundle exec cucumber features/api -p ci
+bundle exec cucumber features/api
+bundle exec cucumber features/api -p ci -v
+bundle exec cucumber features/api -p ci -v
+bundle exec cucumber features/api -p ci -v
+bundle exec cucumber features/api -p ci
+bundle exec cucumber features/api
+git st
+cd ..
+cd ..
+git st
+git add qa/acceptance/config/cucumber.yml
+git co -- qa/acceptance/support/env.rb
+git st
+git co -b release-notes
+git st
+git reset qa/acceptance/config/cucumber.yml
+git st
+git add -u devops
+git st
+git add -u docs
+git add -a devops
+git add -A devops
+git st
+git commit -m 'ITMERCHPAY-0 Refactoring and fixing document generation tasks'
+git st
+git br -av
+git co master
+git st
+gradle runApiTests
+open qa/acceptance/build/api.html
+git st
+rm -rf qa/acceptance/saved_json.json
+ll
+git st
+git ci -m 'ITMERCHPAY-0 Added @ci to the api tests'
+git push
+git pull
+git st
+git push
+ll
+gradle smokeTest
+ll qa/acceptance/build
+open qa/acceptance/build/smoke.html
+gradle smokeTest
+gradle runApiTests
+open qa/acceptance/build/api.html
+gradle startLocalTomcat
+gradle runApiTests
+open qa/acceptance/build/api.html
+cd qa/acceptance
+ll
+mv run_cucumber_tests.sh cuke.sh
+ll
+git st
+vim .gitignore
+git st
+git ci -m 'ITMERCHPAY-0 Removed redundant smoke tests and also added git ignore files to ignore dummy files generated during smoke test'
+git pull
+git push
+gradle runUiTests
+open build/ui.html
+ll
+ps -ef
+git st
+git st
+git reset --hard HEAD
+git st
+git pull
+git ll
+git br -av
+git co release-notes
+ll
+cd ../../
+ll
+git st
+cd devops/ci/documentation
+ll
+cd release-notes
+ll
+cat README
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+cat README
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+ll
+git log -- src/report_generator.rb
+gitk .
+gitk . --all
+gitk . -all
+gitk --all .
+gitk --all ../../../..
+git log -- src/report_generator.rb
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+ll /Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/resources/config.yml
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+irb
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+irb
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+ll /tmp
+ll /tmp/
+open /tmp/09.28.2012.release.notes.1.1.0.html
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+open /tmp/09.28.2012.release.notes.1.1.0.html
+open /tmp/09.28.2012.release.notes.1.1.0.html
+open /tmp/09.28.2012.release.notes.1.1.0.pdf
+./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
+open /tmp/09.28.2012.release.notes.1.1.0.pdf
+open /tmp/09.28.2012.release.notes.1.1.0.html
+open /tmp/09.28.2012.release.notes.1.0.0.html
+ll
+ll ..
+ll ../..
+ll ../../..
+ll ../../../../docs
+ll ../../../../docs/production
+find ../../../../ -name \*.gradle
+ll
+ll ../../../..
+ll ../../../../modules/core/target
+ll ../../../../modules/core/target/artifacts
+git st
+rm -rf ../../../../qa/acceptance/saved_json.json
+ll
+git st
+git ci -m 'ITMERCHPAY-0 Made release generation work again'
+git st
+ll
+open /tmp/09.28.2012.release.notes.1.0.0.pdf
+git st
+git co master
+git merge release-notes
+git br -av
+ll
+cd ..
+ll
+cd ..
+ll
+ll
+cd ~/Projects
+ll
+cd merchandise-payables
+git br -av
+git merge release-notes master
+git st
+git pull
+git push
+ll
+gradle tasks
+git pull
+git push
+git st
+git ci -m 'ITMERCHPAY-0 Apparently we were using git svn instead of svn'
+git push
+ll
+git svn log ../scms/mp
+cd ..
+git svn log scms/mp
+cd merchandise-payables
+ll
+gradle generateReleaseNotesTC
+gradle generateReleaseNotesTC
+ll
+open modules/core/target/artifacts/09.28.2012.release-notes.1.0.0..pdf
+git st
+git ci
+git ll
+git st
+git pull
+git push
+e .
+cd devops/ci/documentation/user-manual
+ll
+./generate.rb
+./generate.rb
+./generate.rb
+./generate.rb -sd ~/Projects/merchandise-payables/docs/production -td ~/Desktop -f mp
+open ~/Desktop/09.30.2012.mp.pdf
+defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
+./generate.rb -sd ~/Projects/merchandise-payables/docs/production -td ~/Desktop -f mp
+irb
+./generate.rb -sd ~/Projects/merchandise-payables/docs/production -td ~/Desktop -f mp
+./generate.rb -sd ~/Projects/merchandise-payables/docs/production -td ~/Desktop -f mp
+cat /usr/local/etc/mongod.conf
+ssh teamcity@merchpayci.gap.com
+brew update
+enable_proxy
+brew update
+ll
+ps -ef | grep mongod
+mongod --config /usr/local/etc/mongod.conf &
+jps -l
+killall mongod
+jps -l
+killall java
+jps -l
+ps -ef | grep catal
+ps -ef | grep java
+ssh isagoksu@ihateeclipse.com
+dig esragoksu.com
+man dig
+dig esragoksu.com mx
+mongo localhost:20003
+mongo localhost:20002
+cd .environments
+git st
+cd ~/Desktop
+ll
+cd threads
+ll
+java App1
+java App1
+java App1
+java App1
+java App1
+java App1
+cd ~/Projects/merchandise-payables
+e .
+git st
+git ci -m 'ITMERCHPAY-0 Fixed proxy problem with release notes'
+git push
+irb
+cd ../scms/mp
+cd ..
+ll
+svn info mp
+svn ls http://svn.gap.dev/svn/supplychain/scms/trun
+svn ls http://svn.gap.dev/svn/supplychain/scms/trunk
+svn co http://svn.gap.dev/svn/supplychain/scms/trunk po
+/Volumes/Data/.XXX/Pornstars/Holly\ Michaels
+open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
+cd ~/Downloads/Tutorials
+ll
+cd Java\ Threads
+ll
+rename 's/_/ /' *.*
+ll
+rename 's/_/ /g' *.*
+ll
+rename 's/Advanced Java Multi threading Part //g' *.*
+ll
+rename 's/^(\d+ )/\1- /g' *.*
+ll
+rename 's/^(\d{1})/0$1/g' *.*
+ll
+rename 's/^0(\d{2})/$1/g' *.*
+ll
+cat ~/.zshrc
+disable_proxy
+echo $http_proxy
+ssh teamcity@merchpayci.gap.com
+cd ~/Library/Application\ Support/
+ll
+mv Sublime\ Text\ 2 Sublime\ Text\ 2.backup
+ll
+cd Sublime\ Text\ 2.backup
+ll
+find . -name license
+find . -name \*license\*
+cat ./Settings/License.sublime_license
+ll
+cd Settings
+ll
+cd ..
+ll
+cd Packages
+ll
+cd User
+ll
+cat Default (OSX).sublime-keymap
+cat "Default (OSX).sublime-keymap"
+brew update
+brew install clojure
+brew search clojure
+cd ~/Desktop
+ll
+mkdir /tmp/data1 /tmp/data2 /tmp/data3
+mongod --help
+mongod --replSet mine --port 20000
+mongod --dbpath /tmp/data1 --replSet mine --port 20000
+mongod --dbpath /tmp/data1 --replSet mine --port 20001
+mongod --dbpath /tmp/data1 --replSet mine --port 20001 --host localhost
+mongod --help
+mongod --dbpath /tmp/data1 --replSet mine --port 20001 --host --bind_ip 0.0.0.0
+mongod --dbpath /tmp/data1 --replSet mine --port 20001 --bind_ip 0.0.0.0
+mongod --dbpath /tmp/data1 --replSet mine --port 20001 --bind_ip 0.0.0.0 --rest
+mongod --replSet mine --port 20001
+mongod --dbpath /tmp/data2 --replSet mine --port 20002
+mongod --dbpath /tmp/data2 --replSet mine --port 20002 --bind_ip 0.0.0.0
+mongod --dbpath /tmp/data2 --replSet mine --port 20002 --bind_ip 0.0.0.0 --rest
+mongod --dbpath /tmp/data3 --replSet mine --port 20003
+mongod --dbpath /tmp/data3 --replSet mine --port 20003 --bind_ip 0.0.0.0
+mongod --dbpath /tmp/data3 --replSet mine --port 20003 --bind_ip 0.0.0.0 --rest
+mongo localhost:20001
+mongo localhost:20001
+mongo localhost:20001
+mongo localhost:20002
+mongo localhost:20003
+mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest --fork
+mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/1.log
+tail -f /tmp/1.log
+mongod --dbpath /tmp/data2 --replSet cidemo --port 20002 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/2.log
+mongod --dbpath /tmp/data3 --replSet cidemo --port 20003 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/3.log
+tail /tmp/1.log
+tail /tmp/2.log
+tail /tmp/3.log
+mongo localhost:20001
+killall mongod
+rm -rf /tmp/data*
+mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/1.log
+mongod --dbpath /tmp/data2 --replSet cidemo --port 20002 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/2.log
+mongod --dbpath /tmp/data3 --replSet cidemo --port 20003 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/3.log
+tail -f /tmp/1.log
+ps -ef | grep mongod
+mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest
+mkdir /tmp/data1 /tmp/data2 /tmp/data3
+mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest
+mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/1.log
+mongod --dbpath /tmp/data2 --replSet cidemo --port 20002 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/2.log
+mongod --dbpath /tmp/data3 --replSet cidemo --port 20003 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/3.log
+mongo localhost:20001
+killall mongod
+java -version
+open /Volumes/Data/.XXX
+cd ~/Projects/merchandise-payables
+git st
+git ci -m 'ITMERCHPAY-0 Fixed document generation for user manual and dev handbook'
+git pull
+git push
+ssh teamcity@merchpayci.gap.com
+irb
+irb
+ssh teamcity@merchpayci.gap.com
+git st
+git ci -m 'ITMERCHPAY-0 Added a default description to the release notes scripts'
+git pull
+git push
+git pull
+gradle runApiTests
+git pull
+git pull
+rename
+git pull
+df -h
+git pull
+ll
+git pull
+e .
+git st
+git pull
+git ci -m 'ITMERCHPAY-0 Trying to fix catalina issue on delayed stopping of tomcat'
+git push
+curl --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X GET -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search?jql=project = "IT MERCH PAY" AND Status = "Done" AND ((issuetype = "Story" AND "Story Points" > 0) OR (issuetype = Defect)) AND fixVersion != "iteration 0" ORDER BY Rank ASC'
+curl --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d 'jql=project = "IT MERCH PAY" AND Status = "Done" AND ((issuetype = "Story" AND "Story Points" > 0) OR (issuetype = Defect)) AND fixVersion != "iteration 0" ORDER BY Rank ASC' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
+curl --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d 'project = "IT MERCH PAY" AND Status = "Done" AND ((issuetype = "Story" AND "Story Points" > 0) OR (issuetype = Defect)) AND fixVersion != "iteration 0" ORDER BY Rank ASC' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
+man bundle
+bundle --help
+vim ~/.gitconfig
+git pull
+git pull
+login
+who
+who -a
+who -av
+who -am i
+git pull
+git pull
+gradle test
+git pull
+cd ../scms/mp
+ll
+svn up
+ll
+svn rm merchpay-app-dev.war
+ll build
+svn rm build
+cd modules/core
+ll
+svn rm logs
+svn rm target
+svn rm mplogs
+svn rm build
+svn st
+cd ..
+ll
+cd ngs
+ll
+cd ngf
+ll
+svn rm target
+ll
+cd ..
+ll
+cd atom
+ll
+svn rm target
+svn ls
+ll
+cd ..
+ll
+cd ..
+ll
+svn st
+svn propset svn:ignore
+e ignore.txt
+svn propset svn:ignore -F ignore.txt .
+svn propget svn:ignore
+svn ci -m 'ITMERCHPAY-0 Added svn:ignore to ignore stupid files'
+svn ci -m 'ITMERCHPAY-0 [Isa Goksu] Added svn:ignore to ignore stupid files'
+svn propget svn:ignore
+cd ..
+ll
+cd mp
+svn up
+cd ~/Projects
+ll
+cd merchandise-payables
+ll
+rm -rf ../scms/mp/ignore.txt
+git pull
+git pull
+git pull
+ll
+git pull
+git pull
+git pull
+git pull
+git pull
+git st
+git pull
+ssh teamcity@merchpayci.gap.com
+netstat -an | grep 2000
+tail -f /tmp/1.log
+curl --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
+curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
+curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
+curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"fields": "*all", "maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
+curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"fields": "summary", "maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
+curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"fields": ["summary"], "maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
+curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"fields": ["id", "key"], "maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
+curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
+kill -9 28510
+cd ~/Projects/merchandise-payables
+ll
+cd modules/core
+ll
+cd ..
+ll
+cd ..
+ll
+git st
+git ll
+git pull
+ll
+cd modules/core
+ll
+git pull
+cd ../..
+ll
+ssh teamcity@merchpayci.gap.com
+cd /Applications/IntelliJ\ IDEA\ 11.app/Contents
+ll
+e Info.plist
+e Info.plist
+e Info.plist
+e Info.plist
+ll
+cd MacOS
+ll
+cd ../Resources
+ll
+cd ../_CodeSignature
+ll
+cd Co
+cd ..
+ll
+cd ..
+ll
+cd bin
+ll
+e inspect.sh
+./relaunch
+./inspect.sh
+which java
+java -versino
+java -version
+ll
+cd ..
+ll
+find . -name \*.sh
+./bin/inspect.sh
+e Contents/Info.plist
+./bin/inspect.sh
+./bin/inspect.sh
+/usr/libexec/java_home
+ll /usr/bin/java
+java -version
+which java
+ll /usr/bin/java
+/usr/libexec/java_home
+while true; do jps -l; sleep 1; done;
+mv ~/Downloads/look  /Volumes/Data/.XXX/Uncategorized/
+cd /Volumes/Data/.XXX/Uncategorized/
+du -sh
+ll
+cd look
+du -sh
+ll
+cd Downloads
+ll
+mv Made\ of\ Code.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Color\ Schemes
+ll
+pp
+git pull
+git pull
+git pua
+git pull
+git ll
+e -n ~/.zshrc
+. ~/.zshrc
+e .
+git pull
+pp
+e .
+git pull
+git ll
+git pull
+/bin/sh "/Applications/Anvil.app/Contents/Resources/InstallPow.sh"; exit
+open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
+open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
+open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
+open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
+open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
+open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
+cd Downloads
+ll
+wget https://gechici:haydar.32@secure.zip.members.easynews.com/cgi-bin/zipit/1-db5c6.zip
+man wget
+wget --http-user gechici --http-password haydar.32 https://secure.zip.members.easynews.com/cgi-bin/zipit/1-db5c6.zip
+ll
+rm -rf *.zip.1
+rm -rf *.zip
+ll
+curl https://secure.zip.members.easynews.com/cgi-bin/zipit/1-db5c6.zip -v
+curl -u gechici:haydar.32 https://secure.zip.members.easynews.com/cgi-bin/zipit/1-db5c6.zip -v
+ll
+df -h
+brew install hightlight
+brew install highlight
+highlight --syntax=rb
+highlight --syntax=java "   @Override public void destroy() {\
+      LOG.info("Closing MongoDB connection.");\
+      this.db.getMongo().close();\
+   }\
+   @Override public void destroy() {\
+      LOG.info("Closing MongoDB connection.");\
+      this.db.getMongo().close();\
+   }\
+"
+ll
+rm -rf highlight.css
+ll
+man highlight
+highlight --syntax=java "   @Override public void destroy() {\
+      LOG.info("Closing MongoDB connection.");\
+      this.db.getMongo().close();\
+   }\
+   @Override public void destroy() {\
+      LOG.info("Closing MongoDB connection.");\
+      this.db.getMongo().close();\
+   }\
+" -O xterm256
+ll
+echo "   @Override public void destroy() {\
+      LOG.info("Closing MongoDB connection.");\
+      this.db.getMongo().close();\
+   }\
+"
+echo "   @Override public void destroy() {\
+      LOG.info("Closing MongoDB connection.");\
+      this.db.getMongo().close();\
+   }\
+" | highlight --syntax=java
+ll
+rm -rf highlight.css
+echo "   @Override public void destroy() {\
+      LOG.info("Closing MongoDB connection.");\
+      this.db.getMongo().close();\
+   }\
+" | highlight --syntax=java -O rtf | pbcopy
+echo "   @Override public void destroy() {\
+      LOG.info("Closing MongoDB connection.");\
+      this.db.getMongo().close();\
+   }\
+" | highlight --syntax=java -O rtf h.java | pbcopy
+scat "@Override public void destroy() {                                                           9:02PM\
+      LOG.info("Closing MongoDB connection.");\
+      this.db.getMongo().close();\
+   }"
+scat '@Override public void destroy() {                                                           9:02PM\
+      LOG.info("Closing MongoDB connection.");\
+      this.db.getMongo().close();\
+   }'
+e `which scat`
+ll
+ll
+cd forlunchtomorrow
+ll
+ccat Cross\ Functionals.pages db
+ccat "Cross\ Functionals.pages" db
+pygmentize
+ll
+cd ..
+ll
+which env
+pp
+gradle test
+cd modules/atom
+gradle build
+cd ../core
+gradle build
+ll target
+ll target/artifacts
+ll
+cd target/artifacts
+ll
+cp merchpay-app-dev.war /usr/local/Cellar/tomcat/7.0.29/libexec/webapps
+cd /usr/local/Cellar/tomcat/7.0.29/libexec/webapps
+ll
+mv merchpay-app-dev.war ROOT.war
+ll
+../bin/catalina.sh start
+lsof
+lsof -n 8080
+man lsof
+lsof -i :8080
+ps -ef | grep 9442
+pp
+e .
+git pull
+git pull
+git ci -m 'ITMERCHPAY-0 Added some todos and done some simple refactoring'
+git push
+git ci -m 'ITMERCHPAY-0 Pong message was wrong on the integration test, somehow missed out while refactoring'
+git push
+gradle test
+cd modules/core
+gradle test
+gradle integration
+gradle integrationTest
+gradle init
+git pull
+git pull
+git log --name-only
+git log --name-only 
+curl http://plugins.intellij.net
+curl http://plugins.intellij.net
+cd ..
+ll
+cd atom
+ll
+gradle build
+gradle build
+killall node
+gradle build
+ps -ef | grep pow
+kill 14736
+ps -ef | grep pow
+ps -ef | grep pow
+kill -9 14736
+ps -ef | grep pow
+git pull
+git st
+git co -- ../../.idea/encodings.xml
+git st
+git pull
+mvim
+e ../..
+cd target/libs
+ll
+pp
+git st
+git pull
+ll
+ll logs
+ll
+e .
+export scms.mp.build.number=1.0.0.1
+export SCMS_MP_BUILD_NUMBER=1.0.0.1
+gradle generateReleaseNotesTC
+curl get.pow.cx/uninstall.sh | sh
+enable_proxy
+curl get.pow.cx/uninstall.sh | sh
+gradle generateReleaseNotesTC
+gradle clean test
+git ll
+git log --name-only
+gitk --all
+gradle init
+ll
+rm -rf .gradle
+gradle init
+rm -rf ~/.gradle
+rm -rf .gradle
+gradle init
+curl http://ci.gap.dev/artifactory/libs-release//gap-gradle-plugin/1.0.0.45/ivy-1.0.0.45.xml
+curl google.com
+ps -ef | grep pow
+curl get.pow.cx/uninstall.sh | sh
+curl --no-proxy http://ci.gap.dev
+curl --noproxy http://ci.gap.dev
+curl --no-proxy ci.gap.dev http://ci.gap.dev
+jps -l
+jps -lvVa 
+jps -lvV
+/usr/local/Cellar/tomcat/7.0.29/bin/catalina stop
+/usr/local/Cellar/tomcat/7.0.29/bin/catalina jdwp start
+/usr/local/Cellar/tomcat/7.0.29/bin/catalina jpda start
+which-command /
+pp
+cd devops
+ll
+cd deploy
+ll
+cd mongo
+ll
+./createReplSet
+./startReplSet
+pp
+cd modules/core
+gradle build
+gradle test
+gradle test
+gradle test
+gradle test
+gradle clean test
+enable_proxy
+curl http://plugins.intellij.net
+git pull
+git pull
+cd ../atom
+gradle build
+gradle build
+cd ~/.pow
+ll
+cd..
+cd ..
+ps -ef | grep pow
+/Users/isa/Library/Application\ Support/Pow/Versions/0.4.0/bin/pow --help
+ll
+cd Downloads
+wget http://www.myexpospace.com/JavaOne2012/smupload/scloader.cfm?SCID=f42b583c-9740-43c1-b9bc-8fb6fba7a5aa
+wget "http://www.myexpospace.com/JavaOne2012/smupload/scloader.cfm?SCID=f42b583c-9740-43c1-b9bc-8fb6fba7a5aa"
+ll
+rm -rf scloader.cfm\?SCID=f42b583c-9740-43c1-b9bc-8fb6fba7a5aa
+pp
+cd devops/stubs/stubby4j
+ll
+./runStubby4j.sh localhost:8882
+ssh teamcity@merchpayci.gap.com
+curl http://merchpayci.gap.com:8080/api/dpo/100054
+http://merchpayci.gap.com:8080/api/dpo/1000054
+curl http://merchpayci.gap.com:8080/api/dpo/1000054
+ssh admin@merchpayci.gap.com
+pp
+ll
+git st
+gradle build
+cd modules/ngf
+ll
+ll
+cd target
+ll
+cd libs
+ll
+java -jar ngf-1.1.0.0.jar -Dconfig=/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/config.properties
+ll ../../src/main
+pp
+cd devops/stubs/stubby4j
+ll
+./runStubby4j.sh localhost:8882
+vm --help | grep ext
+vm extpack install ~/Downloads/Oracle_VM_VirtualBox_Extension_Pack-4.2.0-80737.vbox-extpack
+cd Desktop
+ll
+cd Whatever
+ll
+ll
+cd out/production
+ll
+cd Whatever
+ll
+ll
+java -cp ~/Desktop Run
+java -cp .:~/Desktop Run
+echo "hello world" > ~/Desktop/dummy.file
+java -cp .:~/Desktop Run
+ll
+ll ~/Desktop
+ll
+java -cp .:~/Desktop Run
+cd ..
+ cd ..
+cd ..
+cd ..
+ll
+rm -rf Whatever
+ll
+curl google.com
+enable_proxy
+curl google.com
+ll
+rm -rf .pow
+ll
+cd "/Users/isa/Library/Application Support/Pow/Hosts"
+ll
+cd ..
+ll
+cd ..
+ll
+rm -rf Pow
+ll
+rm -rf Sublime\ Text\ 2.backup
+ll
+cd ..
+cd ~/Projects/scms/mp
+svn up
+nslookup svn.gap.dev
+ping svn.gap.dev
+nslookup
+elinks ci.gap.dev
+elinks http://ci.gap.dev
+ll
+ping svn.gap.dev
+curl "http://merchpayci.gap.com:8080/api/fc/recent?limit=100&_=1349813818907"
+svn up
+pp
+ll
+cd modules/atom/target
+ll
+vim atom-dev.pom
+pp
+gradle clean module:core:build
+gradle clean module:core:build module:core:test
+gradle init
+git st
+git add devops modules/atom modules/core/build.gradle
+git st
+git commit -m 'ITMERCHPAY-0 Fixed dependency link for atom and configured build number for release notes'
+git push
+git pull
+git push
+ll
+git log modules/core/src/main/compile-app-properties.rb
+git log modules/core/src/main/compile-app-properties.rb -v
+git log modules/core/src/main/compile-app-properties.rb
+git help log
+git log modules/core/src/main/compile-app-properties.rb --full-diff
+git log --full-diff modules/core/src/main/compile-app-properties.rb
+git help log
+git pull
+e .
+cd ..
+e .
+pp
+e .
+e .
+git pull
+ll
+git pull
+ll
+git ll
+gitk --all
+git pull
+git st
+git st
+git pull
+git stash
+git pull
+git stash pop
+git help stash
+git stash branch validator-tests
+git st
+git dt
+git dt
+git commit
+git add .gitignore
+git commit
+git commit
+git st
+git reset --soft modules/core
+git reset --soft
+git st
+git reset --soft HEAD
+git st
+git reset --soft HEAD^
+git reset --soft ^HEAD
+git reset --soft HEAD^
+git st
+cat ~/.gitconfig
+git uncommit
+git st
+git pull --rebase
+git unstage
+git st
+git pull
+git st
+git co -- modules/core/build.gradle
+git co -- modules/ngf
+git st
+git pull
+git st
+git co -- .gitignore
+git st
+git pull
+ll
+git co - b validator-tests
+git co -b validator-tests
+git st
+git ci -m 'ITMERCHPAY-0 Trying to increase the coverage on validators'
+git st
+git co master
+git st
+git ll
+git pull
+git pull
+git st
+cd modules/core/src/integration
+ll
+cd ../../libs
+ll
+cd test
+ll
+rm -rf stubby4j-1.0.2.jar
+gradle init
+cd ..
+cd ..
+gradle init
+ll libs/test
+cd ..
+ll
+cd core
+ll
+cd src/integration
+ll
+cd ..
+ll
+cd ..
+cd target
+ll
+ll templates
+ll templates/integrationTest
+ll test
+ll test/Integration
+ll
+ll test/Integration
+ll classes
+ll classes/test
+cd ..
+gradle integrationTests
+gradle integrationTest
+ll
+find . -name soap.envelope
+find . -name soap.envelope
+find . -name soap.envelope\*
+git st
+git ci -m 'ITMERCHPAY-0 Removing redundant resource files and fixing the necessary tests accordingly'
+git st
+git ll
+git pull
+cd ..
+cd ..
+ll
+e .
+e .
+git st
+git pull
+git status
+git ll
+irb
+irb
+gradle test
+git pull
+git push
+ll
+mkdir conf
+cd conf
+ll
+touch data-bag.json
+git st
+cd ..
+git st
+git reset --hard HEAD
+git st
+rm -rf conf
+git st
+git pull
+git ll
+ll
+ping ci.gap.dev
+enable_proxy
+ping ci.gap.dev
+cd /etc/
+grep -r 'dev' *
+grep -r '.dev' *
+grep -r '\.dev' *
+cd /usr/local/etc
+grep -r '\.dev' *
+grep -r 'dev' *
+cd
+ll
+ll .pow
+rm -rf logs
+killall java
+sudo killall java
+/usr/local/Cellar/tomcat/7.0.29/bin/catalina stop
+ps -ef | grep java
+ll
+ll Library/LaunchAgents/
+resolveLinks --help
+man resolveLinks
+resolveLinks 
+cat /etc/resolv.conf
+cat /etc/resolver/dev
+ll /etc/resolver
+rm -rf /etc/resolver/dev
+sudo rm -rf /etc/resolver/dev
+ping ci.gap.dev
+pp
+git pull
+gradle modules:atom:generatePom
+e .
+gradle modules:core:build
+cd ~/Projects/scms
+ll
+svn info mp
+svn ls http://svn.gap.dev/svn/co
+svn ls http://svn.gap.dev/svn/ci
+cd po
+svn up
+cd ../mp
+svn up
+svn up
+cd ../po
+svn up
+pp
+ll
+cd devops/
+ll
+cd deploy
+ll
+cd mongo
+ll
+./startReplSet
+killall mongod
+ll
+git st
+jps -l
+ll
+./startReplSet
+ssh teamcity@merchpayci.gap.com
+enable_proxy
+echo $http_proxy
+cd ~/Projects/scms/mp
+svn up
+svn propget svn:ignore
+svn info
+e .
+cd /tmp
+svn co http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
+cd trunk
+ll
+svn propget svn:ignore
+cd ..
+rm -rf turnk
+rm -rf trunk
+svn co http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
+git st
+cd /tmp
+ll
+cd trunk
+ll
+svn propget svn:ignore
+cd Projects/merchandise-payables/devops/stubs/stubby4j
+cd ../../
+cd ../
+git st
+git pull
+git pull
+git pull
+git pull
+git pull
+gitk
+git pull
+git st
+ll
+rm -rf *.unknown
+ll
+git st
+rm -rf conf jmeter.log jmetererrorout
+ll
+git st
+git pull
+git pull
+bundle install
+bundle exec
+cd ./qa
+bundle install
+bundle exec
+cd ./acceptance
+bundle install
+profiles
+history
+profiles
+git pull
+git pull
+git pull
+gitk
+git pull
+cd ../..
+git pull
+git st
+gitk
+git pull
+git st
+git add qa/acceptance/features/api/fc.feature
+git commit -m "ITMERCHPAY-204 \
+Making build green by fixing api tests\
+"
+git push
+git pull
+git pull
+gitk
+git pull
+git diff  modules/core/src/unit/java/com/gap/scms/mp/controllers/StatusControllerTest.java 
+git diff modules/core/src/unit/java/com/gap/scms/mp/controllers/StatusControllerTest.java 
+git diff modules/core/src/unit/java/com/gap/scms/mp/controllers/StatusControllerTest.java
+git st
+git st
+git add qa/acceptance/features/api/fc.feature
+git add qa/acceptance/features/api/fc_validations.feature
+git add qa/acceptance/features/ui/fc_landing_page.feature
+git add qa/acceptance/features/ui/fc_manual_entry.feature
+git add qa/acceptance/step_definitions/api/fc_api.rb
+git pull
+git gitt add qa
+git add qa
+git commit 
+git st
+git push
+git pull
+e .
+git add qa
+git commit
+git push
+git pull
+cd Projects/merchandise-payables/devops/stubs/stubby4j
+pwd
+./runStubby4j.sh http://localhost:8080
+./runStubby4j.sh http://localhost:8882
+./runStubby4j.sh http://localhost:8882
+./runStubby4j.sh http://localhost:8882
+cd Projects/merchandise-payables/modules/core
+guard
+git pull
+pp
+scp -r teamcity@merchpayci.gap.com:~/Desktop/merchpay/conf .
+ll
+cd conf
+ll
+git st
+cd ..
+git st
+jmeter
+brew install jmeter
+brew install jmeter
+jmeter
+cd Projects/merchandise-payables/modules/core
+guard
+cd /Volumes/Data/.XXX
+open .
+df -h
+ssh 0.0.0.0:2222
+ssh localhost 2222
+ssh localhost 2222
+ssh localhost:2222
+ssh localhost:2222
+ssh localhost:2222
+ssh localhost:2222
+ssh 127.0.0.1:2222
+ssh 127.0.0.1 -p 2222
+vm 
+vm  | grep headless
+vm startvm CentOS --type headless
+ssh 127.0.0.1 -p 2222
+cd Projects/merchandise-payables/modules/core
+gaurd
+guard
+cd Projects/merchandise-payables/devops/stubs/stubby4j/
+./runStubby4j.sh
+./runStubby4j.sh http://localhost:8882
+ssh localhost -p 2222
+lsof -i :8080
+jps -l
+git pull
+pp
+git st
+gradle clean init build
+e .
+git st
+rm -rf modules/ngf/log.path_IS_UNDEFINED/
+git st
+git add modules/core/src
+git status
+git commit -m 'ITMERCHPAY-0 Fixed status controller to actually pick the build number from the property file'
+git st
+git co -- modules/core/src
+git st
+git pull
+git st
+git st
+git add modules/core/build.gradle
+git st
+git commit -m 'ITMERCHPAY-0 Added build number assignment early in the process'
+git push
+gradle -PbuildNumber=1.2.3.4
+gradle -PbuildNumber=1.2.3.4 setBuildNumber
+cat modules/core/src/main/resources/app.properties
+head modules/core/src/main/resources/app.properties
+head modules/core/src/main/resources/app.properties
+gradle -PbuildNumber=1.2.3.4 processResources
+head modules/core/src/main/resources/app.properties
+gradle -PbuildNumber=v1.2.3.4 processResources
+head modules/core/src/main/resources/app.properties
+ruby -e "IO.read('modules/core/src/main/resources/app.properties')"
+ruby -e "p IO.read('modules/core/src/main/resources/app.properties')"
+ruby -e "p IO.read('modules/core/src/main/resources/app.properties').gsub(/build.number=(.*)/,'build.number=\"#{ENV['buildNumber']}\")"
+ruby -e "p IO.read('modules/core/src/main/resources/app.properties').gsub(/build.number=(.*)/,\"build.number=#{ENV['buildNumber']}\")"
+ruby -e "p IO.read('modules/core/src/main/resources/app.properties').gsub(/build.number=(.*)/,\"build.number=#{ARGV[0]}\")"
+ruby -e "p IO.read('modules/core/src/main/resources/app.properties').gsub(/build.number=(.*)/,\"build.number=#{ARGV[0]}\")" 23
+git pull
+git rev-parse --show-toplevel
+gradle -PbuildNumber=v1.2.3.4 processResources
+gradle -PbuildNumber=v1.2.3.4 processResources
+gradle -PbuildNumber=v1.2.3.4 processResources
+gradle -PbuildNumber=v1.2.3.4 processResources
+head modules/core/src/main/resources/app.properties
+git st
+git add devops/
+git add -u devops/
+git st
+git add modules/core/
+git st
+git commit -m 'ITMERCHPAY-0 Fixed build number problem during build'
+git push
+git pull
+git st
+git add qa/acceptance/features/api/fc.feature
+git add qa/acceptance/features/ui/fc_landing_page.feature
+git add qa/acceptance/step_definitions/api/endpoints_api.rb
+git add qa/acceptance/step_definitions/api/fc_api.rb
+git add qa/acceptance/support/lib/utils/endpoints.rb
+git commit -m "ITMERCHPAY0\
+Added testcases for defects -Kenny"
+git push
+git pull
+git pull
+git pull
+df -h
+pp
+git pull
+git ll
+git st
+gitk
+cd Projects/merchandise-payables/devops/stubs/stubby4j
+./runStubby4j.sh http://localhost:8080
+./runStubby4j.sh http://localhost:8882
+jmeter
+jps -l
+catalina stop
+jps -l
 open /Volumes/Data/.XXX
 open /Volumes/Data/.XXX
 open /Volumes/Data/.XXX

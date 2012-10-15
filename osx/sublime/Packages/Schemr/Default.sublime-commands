@@ -210,6 +210,13 @@
         "command": "switch_scheme"
     }, 
     {
+        "caption": "Schemr: Made of Code", 
+        "args": {
+            "s": "Packages/Color Schemes/Made of Code.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
         "caption": "Schemr: Monokai Soda", 
         "args": {
             "s": "Packages/Color Schemes/Monokai Soda.tmTheme"

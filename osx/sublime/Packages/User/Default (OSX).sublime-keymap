@@ -6,5 +6,6 @@
          { "key": "setting.command_mode", "operand": false },
          { "key": "setting.is_widget", "operand": false }
       ]
-   }
+   },
+   {"keys": ["super+shift+c"], "command": "shell_prompt"}
 ]
