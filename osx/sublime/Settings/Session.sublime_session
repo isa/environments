@@ -2,19 +2,29 @@
 	"folder_history":
 	[
 		"/Users/isa/Projects/merchandise-payables",
+		"/Users/isa/Desktop/instance",
+		"/Users/isa/.environments",
 		"/Users/isa/Projects/scms/mp",
 		"/Users/isa/Projects"
 	],
-	"last_window_id": 65,
+	"last_window_id": 75,
 	"settings":
 	{
-		"new_window_height": 689.0,
+		"new_window_height": 793.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"sour",
+						"sourceSets"
+					],
+					[
+						"runtime",
+						"runtime"
+					],
 					[
 						"part",
 						"partnerNumber"
@@ -149,21 +159,32 @@
 			},
 			"file_history":
 			[
+				"/Users/isa/.zshrc",
+				"/Users/isa/Desktop/instance/conf/context.xml",
+				"/Users/isa/Desktop/instance/conf/server.xml",
+				"/Users/isa/Desktop/instance/start.sh",
+				"/Users/isa/Projects/merchandise-payables/build.gradle",
+				"/Users/isa/Projects/merchandise-payables/devops/deploy/setBuildNumber.rb",
+				"/Users/isa/Projects/merchandise-payables/modules/core/build.gradle",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/coffeescript/config.coffee",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/WEB-INF/web.xml",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/DPOController.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java",
+				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/resources/app.properties",
+				"/Users/isa/Projects/merchandise-payables/,",
 				"/Users/isa/.gitconfig",
 				"/Users/isa/Projects/merchandise-payables/conf/config-generator.rb",
 				"/Users/isa/Projects/merchandise-payables/devops/deploy/setBuildNumber.sh",
-				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
 				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
 				"/Users/isa/Projects/merchandise-payables/qa/acceptance/features/api/fc.feature",
 				"/Users/isa/Desktop/merchpay.todo",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/resources/app.properties",
 				"/Users/isa/Projects/merchandise-payables/conf/data-bag.json",
-				"/Users/isa/Projects/merchandise-payables/modules/core/build.gradle",
 				"/Users/isa/Projects/scms/mp/modules/atom/src/main/java/com/gap/scms/atom/models/builders/FeedBuilder.java",
 				"/Users/isa/.environments/osx/sublime/Packages/Default/Default ().sublime-keymap",
 				"/Users/isa/.environments/osx/sublime/Packages/User/Preferences.sublime-settings",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/resources/logback.xml",
-				"/Users/isa/Projects/merchandise-payables/build.gradle",
 				"/Users/isa/Projects/merchandise-payables/modules/atom/build.gradle",
 				"/Users/isa/Projects/merchandise-payables/modules/atom/target/atom-dev.pom",
 				"/Users/isa/Projects/merchandise-payables/qa/acceptance/build.gradle",
@@ -175,7 +196,6 @@
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/BaseController.java",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/COAController.java",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/services/LookupService.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/DPOController.java",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/LogController.java",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/PartnerController.java",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/helpers/HypermediaUtils.java",
@@ -196,7 +216,6 @@
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/repositories/Repository.java",
 				"/Users/isa/Desktop/study.todo",
 				"/Users/isa/Downloads/Made of Code.tmTheme",
-				"/Users/isa/.zshrc",
 				"/Users/isa/.environments/osx/sublime/Packages/User/Fetch.sublime-settings",
 				"/Applications/IntelliJ IDEA 11.app/bin/inspect.sh",
 				"/Applications/IntelliJ IDEA 11.app/Contents/Info.plist",
@@ -207,7 +226,6 @@
 				"/Users/isa/Desktop/link.txt",
 				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/src/shell.rb",
 				"/Users/isa/Projects/merchandise-payables/docs/development/qa-handbook.md",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java",
 				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/generate.rb",
 				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/src/jira_api_interrogator.rb",
 				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
@@ -237,6 +255,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"InternalError",
 					"split",
 					"app.properties",
 					".stub",
@@ -315,24 +334,64 @@
 				"selected_items":
 				[
 					[
-						"config",
-						"conf/config-generator.rb"
+						"server",
+						"conf/server.xml"
 					],
 					[
-						"setbuild",
-						"devops/deploy/setBuildNumber.sh"
-					],
-					[
-						"build",
+						"build.",
 						"modules/core/build.gradle"
 					],
 					[
-						"fc.fea",
-						"qa/acceptance/features/api/fc.feature"
+						"setbuild",
+						"devops/deploy/setBuildNumber.rb"
+					],
+					[
+						"web.xml",
+						"modules/core/src/main/webapp/WEB-INF/web.xml"
+					],
+					[
+						"config.co",
+						"modules/core/src/main/coffeescript/config.coffee"
+					],
+					[
+						"build",
+						"build.gradle"
+					],
+					[
+						"fccontrol",
+						"modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java"
+					],
+					[
+						"pogate",
+						"modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java"
+					],
+					[
+						"dpocon",
+						"modules/core/src/main/java/com/gap/scms/mp/controllers/DPOController.java"
+					],
+					[
+						"setbu",
+						"devops/deploy/setBuildNumber.rb"
+					],
+					[
+						"compile",
+						"modules/core/src/unit/compile-templates.rb"
 					],
 					[
 						"app.pro",
 						"modules/core/src/main/resources/app.properties"
+					],
+					[
+						"con",
+						"conf/config-generator.rb"
+					],
+					[
+						"config",
+						"conf/config-generator.rb"
+					],
+					[
+						"fc.fea",
+						"qa/acceptance/features/api/fc.feature"
 					],
 					[
 						"feedbu",
@@ -353,10 +412,6 @@
 					[
 						"pom",
 						"modules/atom/target/atom-dev.pom"
-					],
-					[
-						"build.",
-						"modules/core/build.gradle"
 					],
 					[
 						"gener",
@@ -492,11 +547,11 @@
 			"show_minimap": false,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 241.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 938.0
+		"new_window_width": 1440.0
 	},
 	"windows":
 	[

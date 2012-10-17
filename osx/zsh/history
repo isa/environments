@@ -1,447 +1,3 @@
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-git ci . -m 'fixed duplicate origin problem during i10n'
-git st
-git ll
-git ll -v
-git ll --file-only
-git ll --filename
-git ll --filename-only
-git ll --name-only
-ll
-git ll
-ll ~
-ll
-less phlow.gemspec
-vim phlow.gemspec
-vim phlow.gemspec
-ll
-vim Gemfile
-ll
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-gem build phlow.gemspec
-gem install phlow-0.5.0.gem
-git st
-git ci . -m 'added confirmation to the sign off logic'
-git ll
-git st
-git ci . -m 'Updated the version number'
-git ll
-ll
-rm -rf phlow-0.5.0.gem
-gem uninstall phlow
-ll
-git st
-git ci . -m 'Updated read me file with how to use phlow'
-git ps master
-git br -av
-gem help
-gem build phlow.gemspec
-rake -T
-rake build
-rake release
-rake release
-rake release --trace
-rake build
-rake release
-cat Rakefile
-git st
-git ll
-rake -T
-rake install
-rake release
-git tag
-git tag -d v0.7.0
-rake release
-rake release
-rake release
-gem push
-rake release
-rake release
-cd ~/Projects/merchandize-payables
-e modules/core/build.gradle
-tree modules/core/src/main/java
-git st
-git ci .
-git push
-git pod
-git push
-git lm
-e modules/core/build.gradle
-cd modules/core
-gradle start
-gradle start
-ll lib
-ll libs
-ll
-git log libs
-git log lib
-ll
-cd libs
-ll
-cd client
-ll
-cd ..
-cd ..
-ll
-cd lib
-ll
-cd server
-l;
-ll
-cd test
-ll
-cd ..
-cd ..
-cd ..
-git rm --cached lib
-git rm -r --cached lib
-ll
-rm -rf lib
-ll
-git st
-ll
-cd target/libs
-ll
-java -jar core-1.0-SNAPSHOT.jar server ../../../../devops/environments/dev.yml
-e ../../../../devops/environments/dev.yml
-java -jar core-1.0-SNAPSHOT.jar server ../../../../devops/environments/dev.yml
-e ../../../../devops/environments/dev.yml
-java -jar core-1.0-SNAPSHOT.jar server ../../../../devops/environments/dev.yml
-java -jar core-1.0-SNAPSHOT.jar server ../../../../devops/environments/dev.yml
-gradle start
-cd ../..
-gradle start
-gradle clean start
-java -jar target/libs/core-1.0-SNAPSHOT.jar server ../../devops/environments/dev.yml
-gradle clean start
-java -jar target/libs/core-1.0-SNAPSHOT.jar server ../../devops/environments/dev.yml
-java -jar target/libs/core-1.0-SNAPSHOT.jar server ../../devops/environments/dev.yml
-gradle clean start
-git st
-git ci .
-git push
-git st
-cd ../..
-ll
-rm -rf Gemfile.lock
-bundle install
-use_proxy
-. ~/.zshrc
-useproxy
-cat ~/.zshrc
-enable_proxy
-bundle install
-which mongoose
-which ruby
-cd /Users/isa/.rvm/rubies/ruby-1.8.7-p358/
-ll
-cd bin
-ll
-cd ..
-ll
-cd lib/ruby/gems
-ll
-cd 1.8
-ll
-cd gems
-ll
-cd mongoose-0.2.5
-ll
-cd bin
-ll
-cd ..
-less README
-gem uninstall mongoose
-brew install mongoose
-cd
-brew install mongoose
-ps -ef | grep java
-cd ~/Projects/merchandize-payables
-ll
-ll
-cat devops/environments/dev.yml
-curl -X GET -d 'jsessionid=10B45FAAF705F9404B69A00B73770AA1' https://qa-scms.gap.com/scms/resources/po/1000053
-curl -LX GET -d 'jsessionid=10B45FAAF705F9404B69A00B73770AA1' https://qa-scms.gap.com/scms/resources/po/1000053
-curl -L -X GET -d 'jsessionid=10B45FAAF705F9404B69A00B73770AA1' https://qa-scms.gap.com/scms/resources/po/1000053
-enable_proxy
-curl -L -X GET -d 'jsessionid=10B45FAAF705F9404B69A00B73770AA1' https://qa-scms.gap.com/scms/resources/po/1000053
-echo $http_proxy
-echo $no_proxy
-curl -L -d 'jsessionid=10B45FAAF705F9404B69A00B73770AA1' https://qa-scms.gap.com/scms/resources/po/1000053
-curl -L https://qa-scms.gap.com/scms/resources/po/1000053?jsessionid=10B45FAAF705F9404B69A00B73770AA1
-curl -L "https://qa-scms.gap.com/scms/resources/po/1000053?jsessionid=10B45FAAF705F9404B69A00B73770AA1"
-ping qa-scms.gap.com
-curl "https://qa-scms.gap.com/scms/resources/po/1000053?jsessionid=10B45FAAF705F9404B69A00B73770AA1"
-links
-elinks
-elinks
-cd ~/Projects/merchandize-payables
-ll
-git ll
-git pod
-git ll
-git diff 049d14f 2df1
-git diff 2df1 049d1
-git push
-cd /tmp/demo
-git clone root repo2
-cd repo2
-phlow init ../root
-git br -av
-phlow new f2
-touch db.xml
-git ci . -m 'f2: added db exml'
-git ll
-phlow sync
-gitx .
-phlow sync
-phlow signoff f2
-                \! q
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-ssh teamcity@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-say -v victoria hi
-say -v victoria awesome
-say -v victoria awesome you are great
-say -v princess awesome you are great
-say -v ralph awesome you are great
-say -v junior awesome you are great
-say -v bad news awesome you are great
-say -v bahh awesome you are great
-say -v boing awesome you are great
-say -v zarvox awesome you are great
-say -v whisper awesome you are great
-say -v pipe awesome you are great
-say -v vicki awesome you are great
-say -v vicki awesome you are great
-say -v princess awesome you are great
-say -v princess awesome you are great
-brew search espeak
-brew update
-brew upgrade
-phlow help
-phlow helpadsf
-curl https://qa-scms.gap.com
-curl --insecure https://qa-scms.gap.com
-curl --insecure "https://qa-scms.gap.com/resources/po/1000053?jsessionid=jsessionid=10B45FAAF705F9404B69A00B73770AA1"
-curl --insecure "https://qa-scms.gap.com/scms/resources/po/1000053?jsessionid=jsessionid=10B45FAAF705F9404B69A00B73770AA1"
-curl --insecure "https://qa-scms.gap.com/scms/resources/po/1000053?jsessionid=10B45FAAF705F9404B69A00B73770AA1"
-cd ~/Projects/merchandize-payables
-cat devops/environments/dev.yml
-git pod
-gradle clean start
-gem list --remote | grep handle
-enable_proxy
-gem list --remote | grep handle
-ll
-cat Gemfile
-npm search handlebars
-gradle clean start
-gradle clean start
-gradle clean start
-gradle clean start
-java -jar modules/core/target/libs/core-1.0-SNAPSHOT.jar server devops/environments/dev.yml
-gradle jar
-gradle clean compileJava jar
-java -jar modules/core/target/libs/core-1.0-SNAPSHOT.jar server devops/environments/dev.yml
-gradle clean compileJava jar
-java -jar modules/core/target/libs/core-1.0-SNAPSHOT.jar server devops/environments/dev.yml
-java -jar modules/core/target/libs/core-1.0-SNAPSHOT.jar server devops/environments/dev.yml
-java -jar modules/core/target/libs/core-1.0-SNAPSHOT.jar server devops/environments/dev.yml
-java -jar modules/core/target/libs/core-1.0-SNAPSHOT.jar server devops/environments/dev.yml
-java -jar modules/core/target/libs/core-1.0-SNAPSHOT.jar server devops/environments/dev.yml
-ps -ef | grep java
-curl http://localhost:8080
-curl http://localhost:8080/invoice/1
-curl http://localhost:8080/invoice
-curl -x POST -d "{}" http://localhost:8080/invoice
-curl -X POST -d "{}" http://localhost:8080/invoice
-mongod --help
-mongod --dbpath /tmp/data
-mkdir /tmp/data
-mongod --dbpath /tmp/data
-cd ~/Projects/merchandize-payables
-vim Gemfile
-git ci .
-git push
-cd web
-ll
-cd modules/core
-cd web
-mongoose
-cd ..
-git pod
-gradle start
-java -jar target/libs/core-1.0-SNAPSHOT.jar server ../../devops/environments/dev.yml
-vim ../../devops/environments/dev.yml
-git pod
-gradle start
-java -jar target/libs/core-1.0-SNAPSHOT.jar server ../../devops/environments/dev.yml
-git pod
-git ll
-curl -L http://isa:one@merchpayci.gap.com:8111/app/rest/buildTypes/id:bt3/builds
-jmeter
-curl http://localhost:8080/po/1000053
-which ruby
-gem install handlebars
-enable_proxy
-gem install handlebars
-handlebars 
-gem uninstall handlebars
-gem uninstall libv8-3.3.10.4-x86-darwin-11 commonjs therubyracer
-gem uninstall libv8-3.3.10.4-x86-darwin-11 commonjs
-npm install -g handlebars
-handlebars --version
-curl http://localhost:8080/po/1000053
-curl http://localhost:8080/po/1000053
-curl http://localhost:8080/po/1000053
-curl http://localhost:8080/po/1000053
-curl http://localhost:8080/po/1000053
-curl http://localhost:8080/po/1000053
-curl http://localhost:8080/po/1000053
-curl http://localhost:8080/po/1000053
-curl http://localhost:8080/po/1000053
-curl http://localhost:8080/po/1000053
-while true; do curl http://localhost:8080/po/1000053; done;
-curlish -i http://localhost:8080/po/1000053
-curlish -i http://localhost:8080/po/1000053
-curlish --help
-pip install httpie
-which httpie
-ll /usr/local/lib/python2.7/site-packages
-ll /usr/local/lib/python2.7/site-packages/httpie
-ll /usr/local/lib/python2.7/bin
-curlish -i http://localhost:8080/po/1000053
-curlish -i http://localhost:8080/po/1000053
-curlish -i http://localhost:8080/po/1000053
-curlish -i http://localhost:8080/po/1000053
-curlish -i http://localhost:8080/po/1000053
-curlish -i http://localhost:8081/ping
-curlish -i http://localhost:8080/po/1000053
-/Users/isa/Library/Speech/Speakable\ Items/Application\ Speakable\ Items/Finder/say\ hello; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Application\ Speakable\ Items/Finder/Say\ hello; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Say\ hello; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Say\ hello; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Say\ hello; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Say\ hello; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-cd ~/Library/Speech/Speakable\ Items
-ll
-cd Application\ Speakable\ Items
-ll
-cd Finder
-ll
-cat Add\ this\ to\ my\ favorites
-cd ..
-ll
-mkdir iTerm2
-cd iTerm2
-ll
-cd ../Finder
-ll
-vim say\ hello
-ll
-chmod +x say\ hello
-./say\ hello
-ll
-open say\ hello
-chmod -x say\ hello
-mv say\ hello Say\ Hello
-ll
-chmod +x Say\ Hello
-ll
-cat Show\ all\ windows
-cat Show\ view\ options
-cp Say\ hello ../../
-say mp
-say show me the commands
-cd ..
-rm -rf Finder/Say\ hello
-cd ..
-ll
-mv Say\ hello Deploy
-ll
-say deploy
-mv Deploy Deploy for the showcase
-mv Deploy Deploy\ for\ the\ showcase
-say Deploy\ for\ the\ showcase
-say open a document
-ll
-vim Deploy\ for\ the\ showcase
-say -v Bruce hello
-say -v Fred hello
-say -v Albert hello
-say -v Deranged hello
-say -v Kathy hello
-say -v Alex hello
-e Deploy\ for\ the\ showcase
-say -v Alex "Alrighty, I'll take care of it for you\
-\
-\
-"
-say -v Alex "No problem, I'll take care of it for you\
-"
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-e ~/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-/Users/isa/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase; exit;
-mongoose --version
-mongoose -r ~/Projects/merchandize-payables/modules/core/web
-ps -ef | grep java
-curl http://localhost:8080
-ps -ef | grep mongoose
-killall mongoose java
-ps -ef | grep java
-ps -ef | grep mongoose
-curl localhost:80
-e ~/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase
-e ~/Library/Speech/Speakable\ Items/Deploy\ for\ the\ showcase
-ps -ef | grep java
-killall java
 killall mongoose
 ps -ef | grep java
 ps -ef | grep mongoose
@@ -10050,3 +9606,415 @@ open /Volumes/Data/.XXX
 java -version
 java -version
 javac -version
+ssh teamcity@merchpayci.gap.com
+cd .environments
+git st
+git ci -m 'updated my stupid subversion unicode character'
+git push
+enable_proxy
+git push
+pp
+cd modules/core/target
+ll
+rm -rf *
+ll
+pp
+gradle modules:core:integrationTest
+cd modules/core/target
+ll
+cd classes
+ll
+cd integrationTest
+ll
+cd com/gap/scms/mp/helpers
+ll
+cd ..
+cd ..
+ll
+cd mp
+ll
+cd gateways
+ll
+cd ..
+cd ..
+ll
+cd ..
+cd ..
+cd ..
+pp
+gradle modules:core:integrationTest --debug | less -R
+ll
+gradle modules:core:integrationTest --debug > /tmp/log.txt
+less /tmp/log.txt
+gradle modules:core:integrationTest
+git st
+git pull
+git ci -m 'ITMERCHPAY-0 Fixed buildDir problem where gradle cannot read the global project setting for output dir and causes integration tests to not even run'
+git push
+e ,
+e .
+irb
+cd modules/core
+ll
+./compile-app-properties.sh
+./compile-app-properties.sh ../..
+./compile-app-properties.sh /Users/isa/Projects/merchandise-payables
+git st
+git ci -m 'ITMERCHPAY-0 Apparently our prod environments cannot haz json gem'
+git push
+git pull
+cd ~/Projects/scms/mp
+svn up
+svn up
+head conf/config-generator.rb
+head -20 conf/config-generator.rb
+e ~/.zshrc
+e ~/.environments
+. ~/.zshrc
+ll
+svn up
+cd Projects/scms
+cd po
+svn up
+cd ../mp
+svn up
+git st
+svn up
+cd /usr/local/Cellar/tomcat/7.0.29/libexec/webapps
+ll
+rm -rf *
+ll
+cd ../../../6.0.26/libexec/webapps
+ll
+rm -rf *
+ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
+ll
+ll
+ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
+cd .environments
+git st
+git ci -m 'Updated some sublime settings'
+unix2dos osx/sublime/Packages/Nettuts+ Fetch/Fetch.py
+unix2dos "osx/sublime/Packages/Nettuts+ Fetch/Fetch.py"
+git ci -m 'Updated some sublime settings'
+unix2dos "osx/sublime/Packages/Nettuts+ Fetch/Fetch.py."
+unix2dos "osx/sublime/Packages/Nettuts+ Fetch/Fetch.py"
+git ci -m 'Updated some sublime settings'
+git config --global core.autocrlf false
+cat ~/.gitconfig
+e ~/.gitconfig
+e ~/.gitconfig
+git ci -m 'Updated some sublime settings'
+git push
+git st
+c d..
+cd ..
+git st
+ll
+pp
+git pull
+gradle integrationTest
+gradle modules:core:integrationTest
+e .
+git pull
+gradle modules:core:test
+gradle modules:core:contractTest
+gradle --version
+gradle modules:core:integrationTest
+gradle clean modules:core:integrationTest
+java -version
+java -version
+java -version
+gradle modules:core:test
+gradle modules:core:integrationTest
+gradle modules:core:integrationTest
+gradle modules:core:integrationTest
+gradle modules:core:integrationTest
+gradle modules:core:integrationTestCompile
+gradle modules:core:integrationTestC
+gradle tasks --all
+gradle tasks --all | less -R
+gradle modules:core:testAll
+enable_proxy
+brew install phantomjs
+gradle modules:core:testAll
+jps -l
+jps -l
+jps -l
+jps -l
+tail -f /tmp/log.txt
+git st
+git ci -m 'ITMERCHPAY-0 Obviously git is not installed in the nodes we are deploying'
+git push
+git pull
+git push
+git pull
+cd modules
+ll
+cd core
+ll
+cd src/main/resources
+ll
+pp
+cd modules/core
+gradle war
+gradle war
+ll
+ll target
+ll
+ll target/artifacts
+open target/artifacts
+gradle war
+gradle war
+open target/artifacts
+cd ..
+cd ..
+gradle war
+gradle war
+gradle war
+gradle war
+gradle war
+find / -name \*iconv\* 2>&1
+git pull
+git pull
+git pull
+git st
+gradle war
+gradle war
+gradle war
+gradle war
+gradle war
+gradle war
+vm startvm CentOS --type headless
+ssh localhost -p 2222
+vm controlvm
+ssh localhost -p 2222
+git pull
+git st
+git ci -m 'ITMERCHPAY-0 Started ignoring app configuration from the war generation'
+git push
+ssh localhost -p 2222
+ssh eminence.gap.com -p 2222
+git pull
+vm | grep power
+vm | grep power -b5
+vm controlvm CentOS acpipowerbutton
+git st
+pwd
+cd modules/core
+ll
+cd src/re
+cd src/main/resources
+ll
+cd ..
+ll
+cd webapp
+ll
+cd WEB-INF
+ll
+cd ..
+cd ..
+cd ..
+pp
+find . -name \*store\*
+git pull
+ssh eminence.gap.com -p 2222
+cd modules/core/target
+ll
+cd artifacts
+ll
+pp
+gradle war
+cd modules/core/target/artifacts
+pp
+cd m/c/t/a
+cd modules/core/target/artifacts
+ll
+cp *.war ~/Desktop/instance/webapps
+cd ~/Desktop/instance/webapps
+ll
+mv com.gap.scms.merchpay-app-1.1.0.0.war ROOT.war
+ll
+cd ../
+ll
+pp
+ll
+e .
+coffee --version
+find . -name coffee 
+git pull
+cd ~/Library/Application\ Support/IntelliJIdea11
+ll
+cd ~/Library/Preferences/IntelliJIdea11
+ll
+find . -name localhost
+cd ~/Library/Caches/IntelliJIdea11
+ll
+cd tomcat
+ll
+cd Unnamed_merch-payables
+ll
+cd conf
+ll
+e server.xml
+vm startvm CentOS --type headless
+ssh localhost -p 2222
+ll
+ssh dgphxscmap011.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
+ll
+cat context.xml
+ll ..
+ll ../logs
+ll ../work
+ll ../work/Catalina/localhost/
+cd _
+ll ../work/Catalina/localhost/_
+ll
+pwd
+ll
+cat catalina.properties
+ll
+cat catalina.policy
+ll
+scat context.xml
+ll
+cat server.xml
+scat server.xml
+ll
+scat web.xml
+ll
+ll
+cat logging.properties
+cat logging.properties
+e ~/.zshrc
+pwd
+cd /Users/isa/Library/Caches/IntelliJIdea11/tomcat/Unnamed_merch-payables/conf
+ll
+ll
+cd ..
+ll
+ll ..
+ll ../..
+ll
+du -sh
+ssh teamcity@merchpayci.gap.com
+ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
+/dev/urand
+/dev/urandom
+sudo /dev/urandom
+cat /dev/urandom
+hostname
+ping L-SFOR20UDV7N-M.gap.com
+ping L-SFOR20UDV7N-M
+p
+cd
+p scms/mp/modules/core/libs
+p scms/mp
+svn up
+cd ../po && svn up
+p merchandise-payables
+cd conf
+ll
+./config-generator.rb
+./config-generator.rb /tmp core data-bag.default.json
+ll /tmp
+ll /tmp/
+open .
+hostname
+ll ~/Downloads
+ll ~/
+ifconfg
+ifconfig
+ssh isagoksu@ihateeclipse.com
+enable_proxy
+ssh isagoksu@ihateeclipse.com
+ping ihateeclipse.com
+telnet ihateeclipse.com 80
+curl ihateeclipse.com
+ll /Volumes
+cd Documents
+ll
+cd ../VirtualBox\ VMs
+ll
+mongo
+cd /usr/local/Cellar/tomcat/6.0.26/libexec
+ll
+cd webapps
+ll
+cp ~/Downloads/merchpay-app-1.1.0.16827.war ROOT.war
+cd ../bin/
+ll
+./catalina.sh jpda start
+tail -f ../logs/catalina.out
+ps -ef | grep mongo
+less ../logs/catalina.out
+ll
+cd ../webapps/ROOT
+ll
+cd WEB-INF
+ll
+cd classes
+ll
+cp ~/Projects/merchandise-payables/modules/core/src/main/resources/app.properties .
+cp ~/Projects/merchandise-payables/modules/core/src/main/resources/logback.xml .
+ll
+../../../../bin/catalina.sh restart
+../../../../bin/catalina.sh stop
+../../../../bin/catalina.sh start
+ll
+ll
+date
+date -t
+date -r
+date -j
+date -n
+date -u
+time
+man date
+date -f "%T"
+date -f "%y"
+date -f "y"
+date -f "yyy"
+mktemp
+mktemp .
+mktemp /tmp
+mktemp isa
+ll
+ll
+rm -rf isa
+rm -rf .youtrack
+ll
+ll .xyz
+cd ..
+ll
+rm -rf .xyz
+cd isa
+rm -rf .xyz
+du -sh
+df -h
+cat ~/Downloads/1000054
+rm -rf ~/Downloads/1000054
+sudo ls /tmp > /tmp/something2
+cat /tmp/something2
+cd /tmp
+sudo ls > /tmp/something
+ll /tmp/something
+cat /tmp/something
+bash
+p scms/mp
+svn log -l1
+curl -s http://whatthecommit.com
+curl http://whatthecommit.com
+enable_proxy
+curl http://whatthecommit.com
+curl http://whatthecommit.com | grep '<p>'
+curl http://whatthecommit.com | grep '<p>' | cut -d> -f2
+curl http://whatthecommit.com | grep '<p>' | cut -d\> -f2
+curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
+curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
+curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
+curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
+curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
+curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2

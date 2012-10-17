@@ -10,6 +10,7 @@
    st = status
    ss = status -s
    ci = !git add -A && git commit
+   aci = "!source ~/.githelpers && what_the_commit"
    amend = commit --amend
    cp = cherry-pick -x
    unstage = reset HEAD

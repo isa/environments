@@ -42,3 +42,7 @@ pretty_git_merges() {
         # Page only if we need to
         less -FXRS
 }
+
+what_the_commit() {
+   git ci -m "`curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2`"
+}
