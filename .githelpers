@@ -45,4 +45,5 @@ pretty_git_merges() {
 
 what_the_commit() {
    git ci -m "`curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2`"
+   git push
 }

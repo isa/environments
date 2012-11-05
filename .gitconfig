@@ -57,3 +57,5 @@
    auto = 1
 [merge]
    summary = true
+[push]
+	default = matching

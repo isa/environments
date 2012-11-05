@@ -19,7 +19,7 @@ precmd () {
 }
 
 function prompt_char {
-   WARN="%{$fg[green]%}"
+   WARN="%{$fg[yellow]%}"
    if test "$UID" = 0; then
       WARN="%{$fg[red]%}"
    fi

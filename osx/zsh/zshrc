@@ -108,7 +108,7 @@ function p() { cd ~/Projects/$1;  }
 function _p() { _files -W ~/Projects -/; }
 compdef _p p
 
-export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/share/python:$JAVA_HOME/bin:/usr/local/Cellar/tomcat/6.0.26/bin:$PATH
+export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/share/npm/bin:/usr/local/share/python:$JAVA_HOME/bin:/usr/local/Cellar/tomcat/6.0.26/bin:$PATH
 . "$HOME/.rvm/scripts/rvm"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
