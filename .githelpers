@@ -9,7 +9,7 @@
 # used to split on them. A } in the commit subject or any other field will
 # break this.
 
-HASH="%C(black)%h%Creset"
+HASH="%C(yellow)%h%Creset"
 RELATIVE_TIME="%C(green)%ar%Creset"
 AUTHOR="%C(blue)%an%Creset"
 REFS="%C(red)%d%Creset"
