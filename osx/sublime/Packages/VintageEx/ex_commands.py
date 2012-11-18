@@ -25,6 +25,13 @@ CURRENT_LINE_RANGE = {'left_ref': '.', 'left_offset': 0, 'left_search_offsets': 
                       'right_ref': None, 'right_offset': 0, 'right_search_offsets': []}
 
 
+class VintageExState(object):
+    # When repeating searches, determines which search term to use: the current
+    # word or the latest search term.
+    # Values: find_under, search_pattern
+    search_buffer_type = 'find_under'
+
+
 def is_any_buffer_dirty(window):
     for v in window.views():
         if v.is_dirty():
@@ -73,10 +80,9 @@ def gather_buffer_info(v):
     return [leaf, path]
 
 
-def get_region_by_range(view, line_range=None, split_visual=False):
+def get_region_by_range(view, line_range=None, as_lines=False):
     # If GLOBAL_RANGES exists, the ExGlobal command has been run right before
     # the current command, and we know we must process these lines.
-    # XXX move this further down into the range parsing?
     global GLOBAL_RANGES
     if GLOBAL_RANGES:
         rv = GLOBAL_RANGES[:]
@@ -84,25 +90,11 @@ def get_region_by_range(view, line_range=None, split_visual=False):
         return rv
 
     if line_range:
-        regions = ex_range.new_calculate_range(view, line_range)
-    lines = []
-    for region in regions:
-        a, b = region
-        r = sublime.Region(view.text_point(a - 1, 0),
-                           view.full_line(view.text_point(b - 1, 0)).end())
-        lines.extend(view.split_by_newlines(r))
-
-    return lines
-
-
-def ensure_line_block(view, r):
-    """returns a string containing lines terminated by a newline character.
-    """
-    if view.substr(r).endswith('\n'):
-        r = sublime.Region(r.begin(), r.end() - 1)
-    line_block = view.substr(view.line(r)) + '\n'
-
-    return line_block
+        vim_range = ex_range.VimRange(view, line_range)
+        if as_lines:
+            return vim_range.lines()
+        else:
+            return vim_range.blocks()
 
 
 class ExGoto(sublime_plugin.TextCommand):
@@ -110,7 +102,8 @@ class ExGoto(sublime_plugin.TextCommand):
         if not line_range['text_range']:
             # No-op: user issued ":".
             return
-        a, b = ex_range.new_calculate_range(self.view, line_range)[0]
+        ranges, _ = ex_range.new_calculate_range(self.view, line_range)
+        a, b = ranges[0]
         self.view.run_command('vi_goto_line', {'repeat': b})
         self.view.show(self.view.sel()[0])
 
@@ -218,19 +211,11 @@ class ExReadShellOut(sublime_plugin.TextCommand):
                 ex_error.handle_not_implemented()
         # Read a file into the current view.
         else:
-            # Read the current buffer's contents and insert below current line.
-            if not name:
-                new_contents = self.view.substr(
-                                        sublime.Region(0, self.view.size()))
-                if self.view.substr(target_line.b) != '\n':
-                    new_contents = '\n' + new_contents
-                self.view.insert(edit, target_point, new_contents)
-                return
-            # XXX read file "name"
-            # we need proper filesystem autocompletion here
-            else:
-                ex_error.handle_not_implemented()
-                return
+            # According to Vim's help, :r should read the current file's content
+            # if no file name is given, but Vim doesn't do that.
+            # TODO: implement reading a file into the buffer.
+            ex_error.handle_not_implemented()
+            return
 
 
 class ExPromptSelectOpenFile(sublime_plugin.TextCommand):
@@ -397,32 +382,28 @@ class ExMove(sublime_plugin.TextCommand):
             ex_error.display_error(ex_error.ERR_INVALID_ADDRESS)
             return
 
-        line_block = []
-        for r in get_region_by_range(self.view, line_range=line_range):
-            ss = ensure_line_block(self.view, r)
-            line_block.append(ss)
+        line_block = get_region_by_range(self.view, line_range=line_range)
+        line_block = [self.view.substr(r) for r in line_block]
 
-        offset = 0
-        for r in reversed(get_region_by_range(self.view, line_range, split_visual=True)):
-            if self.view.rowcol(r.begin())[0] + 1 < address:
-                offset +=  1
-            self.view.erase(edit, self.view.full_line(r))
-
-        text = ''.join(line_block)
+        text = '\n'.join(line_block) + '\n'
         if address != 0:
-            dest = self.view.line(self.view.text_point(
-                                                address - offset, 0)).end() + 1
+            dest = self.view.line(self.view.text_point(address, 0)).end() + 1
         else:
             dest = 0
+
+        # Don't move lines onto themselves.
+        for sel in self.view.sel():
+            if sel.contains(dest):
+                ex_error.display_error(ex_error.ERR_CANT_MOVE_LINES_ONTO_THEMSELVES)
+                return
 
         if dest > self.view.size():
             dest = self.view.size()
             text = '\n' + text[:-1]
         self.view.insert(edit, dest, text)
 
-        self.view.sel().clear()
-        cursor_dest = self.view.line(dest + len(text) - 1).begin()
-        self.view.sel().add(sublime.Region(cursor_dest, cursor_dest))
+        for r in reversed(get_region_by_range(self.view, line_range)):
+            self.view.erase(edit, self.view.full_line(r))
 
 
 class ExCopy(sublime_plugin.TextCommand):
@@ -435,12 +416,10 @@ class ExCopy(sublime_plugin.TextCommand):
             ex_error.display_error(ex_error.ERR_INVALID_ADDRESS)
             return
 
-        line_block = []
-        for r in get_region_by_range(self.view, line_range=line_range):
-            ss = ensure_line_block(self.view, r)
-            line_block.append(ss)
+        line_block = get_region_by_range(self.view, line_range=line_range)
+        line_block = [self.view.substr(r) for r in line_block]
 
-        text = ''.join(line_block)
+        text = '\n'.join(line_block) + '\n'
         if address != 0:
             dest = self.view.line(self.view.text_point(address, 0)).end() + 1
         else:
@@ -531,15 +510,10 @@ class ExSubstitute(sublime_plugin.TextCommand):
             print "VintageEx [regex error]: %s ... in pattern '%s'" % (e.message, pattern)
             return
 
-        target_region = get_region_by_range(self.view, line_range=line_range)
         replace_count = 0 if (flags and 'g' in flags) else 1
+
+        target_region = get_region_by_range(self.view, line_range=line_range, as_lines=True)
         for r in reversed(target_region):
-            # be explicit about replacing the line, because we might be looking
-            # at a Ctrl+D sequence of regions (not spanning a whole line)
-            # TODO: Improve this: make sure view.line() doesn't extend past
-            # the desired line. For example, in VISUAL LINE MODE.
-            if self.view.substr(r.end() - 1) == '\n':
-                r = sublime.Region(r.begin(), r.end() - 1)
             line_text = self.view.substr(self.view.line(r))
             rv = re.sub(pattern, replacement, line_text, count=replace_count)
             self.view.replace(edit, self.view.line(r), rv)
@@ -611,11 +585,12 @@ class ExGlobal(sublime_plugin.TextCommand):
             ExGlobal.most_recent_pat = global_pattern
         else:
             global_pattern = ExGlobal.most_recent_pat
+
         # Make sure we always have a subcommand to exectute. This is what
         # Vim does too.
         subcmd = subcmd or 'print'
 
-        rs = get_region_by_range(self.view, line_range=line_range)
+        rs = get_region_by_range(self.view, line_range=line_range, as_lines=True)
 
         for r in rs:
             try:
@@ -756,11 +731,21 @@ class ExCquit(sublime_plugin.TextCommand):
 
 
 class ExExit(sublime_plugin.TextCommand):
-    def run(self, edit):
+    """Ex command(s): :x[it], :exi[t]
+
+    Like :wq, but write only when changes have been made.
+
+    TODO: Support ranges, like :w.
+    """
+    def run(self, edit, line_range=None):
         w = self.view.window()
-        w.run_command('save')
+
+        if w.active_view().is_dirty():
+            w.run_command('save')
+
         w.run_command('close')
-        if len(self.window.views()) == 0:
+
+        if len(w.views()) == 0:
             w.run_command('close')
 
 
@@ -779,3 +764,88 @@ class ExListRegisters(sublime_plugin.TextCommand):
         if idx == -1:
             return
         g_registers['"'] = g_registers.values()[idx]
+
+
+class ExNew(sublime_plugin.TextCommand):
+    """Ex command(s): :new
+
+    Create a new buffer.
+
+    TODO: Create new buffer by splitting the screen.
+    """
+    def run(self, edit, line_range=None):
+        self.view.window().run_command('new_file')
+
+
+class ExYank(sublime_plugin.TextCommand):
+    """Ex command(s): :y[ank]
+    """
+
+    def run(self, edit, line_range, register=None, count=None):
+        if not register:
+            register = '"'
+        regs = get_region_by_range(self.view, line_range)
+        text = '\n'.join([self.view.substr(line) for line in regs])
+        g_registers[register] = text
+        if register == '"':
+            g_registers['0'] = text
+
+
+class TabControlCommand(sublime_plugin.WindowCommand):
+    def run(self, command, file_name=None, forced=False):
+        window = self.window
+        selfview = window.active_view()
+        max_index = len(window.views())
+        (group, index) = window.get_view_index(selfview)
+        if (command == "open"):
+            if file_name is None:  # TODO: file completion
+                window.run_command("show_overlay", {"overlay": "goto", "show_files": True, })
+            else:
+                cur_dir = os.path.dirname(selfview.file_name())
+                window.open_file(os.path.join(cur_dir, file_name))
+        elif command == "next":
+            window.run_command("select_by_index", {"index": (index + 1) % max_index}, )
+        elif command == "prev":
+            window.run_command("select_by_index", {"index": (index + max_index - 1) % max_index, })
+        elif command == "last":
+            window.run_command("select_by_index", {"index": max_index - 1, })
+        elif command == "first":
+            window.run_command("select_by_index", {"index": 0, })
+        elif command == "only":
+            for view in window.views_in_group(group):
+                if view.id() != selfview.id():
+                    window.focus_view(view)
+                    window.run_command("ex_quit", {"forced": forced})
+            window.focus_view(selfview)
+        else:
+            sublime.status_message("Unknown TabControl Command")
+
+
+class ExTabOpenCommand(sublime_plugin.WindowCommand):
+    def run(self, file_name=None):
+        self.window.run_command("tab_control", {"command": "open", "file_name": file_name}, )
+
+
+class ExTabNextCommand(sublime_plugin.WindowCommand):
+    def run(self):
+        self.window.run_command("tab_control", {"command": "next"}, )
+
+
+class ExTabPrevCommand(sublime_plugin.WindowCommand):
+    def run(self):
+        self.window.run_command("tab_control", {"command": "prev"}, )
+
+
+class ExTabLastCommand(sublime_plugin.WindowCommand):
+    def run(self):
+        self.window.run_command("tab_control", {"command": "last"}, )
+
+
+class ExTabFirstCommand(sublime_plugin.WindowCommand):
+    def run(self):
+        self.window.run_command("tab_control", {"command": "first"}, )
+
+
+class ExTabOnlyCommand(sublime_plugin.WindowCommand):
+    def run(self, forced=False):
+        self.window.run_command("tab_control", {"command": "only", "forced": forced, }, )

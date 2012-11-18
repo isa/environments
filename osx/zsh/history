@@ -1,2352 +1,3 @@
-e demo.json
-curl 'http://localhost:8882/dpo/1000060' -o ~/Desktop/new-site/demo.json
-curlish 'http://search.twitter.com/search.json?q=demo' | less -R
-enable_proxy
-curlish 'http://search.twitter.com/search.json?q=demo' | less -R
-curlish -i 'http://search.twitter.com/search.json?q=demo' | less -R
-ll
-cd sass
-ll
-mkdir modals
-cd modals
-ll
-touch _common.sass
-touch _fc.sass
-cd ..
-cd ..
-ll
-validate index.html
-ll
-ll sass
-ll sass/modals
-ssh merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-cd ~/Desktop/new-site
-ll
-cat config.rb
-cd ~/Projects/merchpay-new
-git pull
-which ruby
-cd ~/Projects/scms-po
-svn up
-ll
-du -sh
-svn up
-ll
-svn cleanup
-ll
-svn info scms
-cd ..
-mv scms-po supplychain
-svn co http://svn.gap.dev/svn/supplychain/scms scms-po
-svn co http://svn.gap.dev/svn/supplychain/scms scms-po
-ll
-ll supplychain
-svn info supplychain/rms-purchase-order-service
-svn co http://svn.gap.dev/svn/supplychain/rms-purchase-order-service rms-po
-ll supplychain
-svn info supplychain/regional_inventory
-svn co http://svn.gap.dev/svn/supplychain/regional_inventory scms-ri
-ll
-rm -rf supplychain
-cd merchpay-new/modules/ngf
-ll
-cd src
-ll
-rm -rf acceptance
-ll
-git ci . -m 'ITMERCHPAY-0 we are centralizing acceptance tests'
-git push
-cd ..
-ll
-git st
-git ll
-ll
-pwd
-git pull
-cat .gitignore
-git pull
-git st
-ll
-ll libs
-ll
-vim build.gradle
-gradle jar
-vim build.gradle
-cat ../../Gemfile
-brew list
-brew info chromedriver
-cd ../core
-guard
-vim ~/.zshrc
-killall svn
-killall -9 svn
-cd ~/Desktop/isa
-ll
-cd features
-ll
-cd ..
-ll
-find . -name .DS_Store
-find . -name .DS_Store -exec rm -rf {} \;
-find . -type f -exec chmod 644 {} \;
-find . -type d -exec chmod 755 {} \;
-ll
-ll spec
-cp -r features ~/Projects/merchpay-new/qa/acceptance
-cp features ~/Projects/merchpay-new/qa/acceptance
-ll
-ll features
-cd ~/Projects/test-base-xruby
-ll
-cd test
-ll
-cp features ../../merchpay-new/qa/acceptance
-cucumber features
-cucumber .
-killall java
-jps -l
-jps -l
-ps -ef | grep java
-ps -ef | grep java
-ps -ef | grep java
-ps -ef | grep java
-jps -l
-telnet localhost 8882
-which java
-jps -l
-telnet localhost 8882
-ps -ef | grep sleep
-sleep 10
-ll
-ll
-cd Desktop
-ll
-cd new-site
-ll
-cd ..
-rm -rf new-site
-cd ~/Projects/merchpay-new
-git pull
-ll
-git log atlassian-ide-plugin.xml
-git ll
-ll
-cat atlassian-ide-plugin.xml
-ll
-mkdir qa
-ll
-mv contracts qa/
-ll
-rm -rf atlassian-ide-plugin.xml
-ll
-ll
-cd qa
-ll
-mkdir acceptance
-ll
-cd ../modules/core
-ll
-cd src
-ll
-rm -rf acceptance
-ll
-cd ..
-ll
-cd ..
-cd core
-rm -rf Gemfile
-ll
-git rename mvc-basic.iml mp.iml
-git mv mvc-basic.iml merchpay.iml
-ll
-cd ..
-ll
-cd ..
-ll
-cd .idea
-ack mvc-basic
-ack mvc
-grep -r 'mvc-basic'
-grep -r 'mvc-basic' *
-ll
-vim modules.xml
-ll
-cd ../../
-ll
-cd merchpay-new/modules/core
-ll
-rm -rf merchpay.iml
-ll
-rm -rf target
-ll
-cd src
-ll
-cd main
-ll
-rm -rf coffeescript-old
-ll
-cd sass
-ll
-cd ..
-ll
-find . -name .sass*
-find . -name .sass\*
-find . -name \*cache\*
-cd ..
-cd ..
-find . -name \*cache\*
-ll
-cd ..
-ll
-cd ..
-ll
-mv ~/Desktop/isa/.rvmrc .
-mv ~/Desktop/isa/Gemfile .
-ll
-cat .rvmrc
-vim .rvmrc
-ll
-vim Gemfile
-ll
-open ~/Desktop/isa
-ll
-cd qa
-ll
-mkdir load
-ll
-cd load
-ll
-brew update
-cd ..
-ll
-mkdir acceptance/lib
-cp /Volumes/CENTON\ USB/Ashwin/matcher* .
-ll
-mv *.rb acceptance/lib
-ll
-cp acceptance/lib
-cd acceptance/lib
-cp /Volumes/CENTON\ USB/Ashwin/JrubyTesting/test-base-xruby/test/features/helpers/mongo_db_helper* .
-ll
-ll
-cd ..
-ll
-cd ../..
-gem list
-bundle install
-bundle install
-bundle install
-ll
-cd qa
-ll
-cd acceptance
-ll
-ll
-cd features
-ll
-ll mp_step_definations
-ll step_definitions
-vim step_definitions/wait_steps.rb
-cd ..
-ll
-cd features
-ll
-cat SCMSMPport.feature
-e SCMSMPport.feature
-ll
-ll support
-rm -rf support/Support.iml
-ll
-ll
-ll
-man rm
-rm -rfi .
-ll
-rm -rfi *
-rm -rfi *
-rm -ri *.*
-ll
-rm -ri *
-ll
-ll support
-ll
-ll ..
-mv ../lib support/lib
-ll
-ll support
-ll
-cat support/env.rb
-e support/env.rb
-ll
-cd ..
-ll
-jruby -S bundle exec cucumber features
-jruby -S bundle exec cucumber .
-jruby -S bundle exec cucumber
-cucumber
-cucumber --help
-cucumber -v
-bundle exec cucumber
-bundle exec cucumber features
-cd ..
-bundle exec cucumber acceptance
-ll
-cd acceptance
-ll
-ll features
-cucumber 
-cucumber features
-jruby -S cucumber features
-cucumber .
-jirb
-export JRUBY_OPTS='--1.9'
-jruby -S irb
-git st
-git ci . -m 'ITMERCHPAY-0 QA setup initial with jRuby'
-git st
-git push
-git pull
-git push
-ll
-ll
-ll
-mkdir libs
-cd libs
-ll
-cp ../../../modules/ngf/libs/test/stubby4j-1.0.1.jar .
-ll
-ll
-cd ..
-cd features/support/lib
-ll
-mv stubby4j-1.0.1.jar stubby4j.jar
-ll
-jirb
-jirb
-ll
-cd ..
-java -jar lib/stubby4j.jar --config data/ap_atom_success.yml
-ps -ef | grep java
-kill 17339
-ps -ef | grep java
-vim ../../../../../merchpay-new/Gemfile
-e ../../../../../merchpay-new/Gemfile
-enable_proxy
-bundle install
-jirb
-git pull
-git stash
-git pull
-git stash apply
-e ../../../../modules/ngf/.idea/workspace.xml
-e ../../../../modules/ngf/.idea/workspace.xml
-git commit -m 'Merged changes'
-git add ../../../../modules/ngf/.idea/workspace.xml
-git commit -m 'Merged changes'
-git pull
-git st
-git ll
-git pull
-git pull
-git pull
-ll
-cd lib
-ll
-irb
-killall Dock
-cd ~/Projects/merchpay-new/
-e Gemfile
-e Gemfile
-jirb
-cd qa/acceptance/features/support/lib
-jirb
-jirb
-bundle install
-enable_proxy
-bundle install
-git pull
-jirb
-jirb -cp .;stubby4j.jar
-jirb --help
-jruby --help
-jirb --help
-jruby -J-cp .:stubby4j.jar
-jruby -J-cp .:stubby4j.jar irb
-jruby -J-cp .:stubby4j.jar -S irb
-jruby -e "Kernel.exec('ls')"
-jruby -e "Kernel.exec('java -jar stubby4j.jar --config ../data/ap_atom_success.yml')"
-git pull
-cd ..
-ll
-cd ..
-cd ..
-cd ..
-cd ..
-ll
-vim .rvmrc
-git st
-vim Gemfile
-ll
-cd ..
-disable_proxy
-rvm list
-cd merchpay-new
-bundle install
-ps -ef | grep sleep
-ps -ef | grep sleep
-ps -ef | grep sleep
-echo $LINES
-echo $COLUMNS
-ll
-cd Projects
-cd merchpay-new/
-cd qa/acceptance/features/support/lib
-irb
-man kill
-telnet localhost 8882
-kill -3 32683
-telnet localhost 8882
-kill -2 32683
-telnet localhost 8882
-cd ~/Projects/merchpay-new
-gem list
-bundle exec cucumber
-cd qa/acceptance
-cucumber features
-ps -ef | grep java
-jps -l
-kill -9 33342
-jps -l
-cucumber features
-jps -l
-jps -l
-java -jar features/support/lib/stubby4j.jar
-java -jar features/support/lib/stubby4j.jar --help
-git pull
-git st
-git ci . -m 'tech-0 QA setup for atom client and switching to ruby from jruby'
-git push
-cd "/Users/isa/Dropbox/Apps/Sublime Text 2/Packages/User" && clear
-cd "/Users/isa/Dropbox/Apps/Sublime Text 2/Packages/Terminal" && clear
-exit
-ll
-cat .tm_properties
-vim .tm_properties
-which git
-which hg
-ll /usr/local/bin/git
-mate ~/.tm_properties
-mate ~/.tm_properties
-cat .tm_properties
-cd Projects
-ll
-cd phlow
-ll
-git st
-git difftool
-git dt
-mate ~/.gitconfig
-git dt
-mate ~/.gitconfig
-git dt
-cd ..
-cp phlow phlow.backup
-cd phlow.backup
-ll
-git fetch origin
-git st
-git br -av
-git co -- .
-git st
-cd ..
-rm -rf phlow.backup
-pip install discoball
-pip ugrade
-pipll
-ll
-cat ~/.zshrc
-cat ~/.zshrc | discoball proxy
-cat ~/.zshrc | discoball proxy HOME
-cat ~/.zshrc | discoball proxy HOME osx
-cd ~/Library
-ll
-cd Application\ Support
-ll
-rm -rf Sublime\ Text\ 2
-ln -s ~/Dropbox/Apps/Sublime\ Text\ 2 Sublime\ Text\ 2
-ll
-cd Sublime\ Text\ 2
-ll
-ack Soda
-defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
-which iTerm
-which iTerm2
-which iTerm2.app
-ll /Applications/iTerm.app
-ll /Applications/iTerm.app/Contents
-ll /Applications/iTerm.app/Contents/MacOS
-cd "/Users/isa/Projects/merchpay-new/modules/core" && clear
-ctags --version
-which ctags
-ctags --version
-man ctags
-ctags
-ctags --help
-ll
-ll
-less .tags
-less .tags
-ll
-ll
-ll
-ll
-ps -ef | grep ctags
-kill -9 60669
-rm -rf .tags
-ll
-ll
-ll
-ll
-rm -rf .tags
-man cat
-cd ~/Projects/merchpay-new
-git st
-git diff
-git difftool
-ack ObjectMapper
-vim Gemfile
-bundle install
-enable_proxy
-bundle install
-git pull
-e Gemfile
-bundle install
-irb
-git pull
-git pull
-mate Gemfile
-which ruby
-ping 10.100.2.125
-ping 10.102.100.125
-git remote add git@10.102.100.125:merchpay-new.git
-git remote add sankalp git@10.102.100.125:merchpay-new.git
-git pull sankalp master
-git remote rm sankalp
-git remote add sankalp git@Thoughtworks@10.102.100.125:merchpay-new.git
-git pull sankalp master
-git remote rm sankalp
-git remote add sankalp git@Thoughtworks@10.102.100.125:sankalp/mp-ko/merchpay-new
-git pull sankalp master
-git remote rm sankalp
-git remote add sankalp Thoughtworks@10.102.100.125:sankalp/mp-ko/merchpay-new
-git pull sankalp master
-git push sankalp
-git st
-git ci . -m 'tech-0 weekend work for QA setup'
-git push sankalp
-git push sankalp master
-git push sankalp isa
-git push sankalp isa
-git push sankalp origin/isa
-git push sankalp origin/master
-git push -u sankalp isa
-git push -u sankalp HEAD:master
-git push -u sankalp master
-git co origin/maste
-git co origin/master
-git br -av
-git co master
-ll
-bundle install
-disable_proxy
-bundle install
-git st
-git ci . -m 'tech-0 weekend work for QA setup for IDE'
-git push -u sankalp master
-gem search site_prism
-bundle install
-hostname
-whic ruby
-which ruby
-which gem
-which gem()
-gem list
-git push -u sankalp master
-git pull sankalp master
-git st
-git stash
-git pull sankalp master
-mate qa/acceptance/.idea/workspace.xml
-git add qa/acceptance/.idea/workspace.xml
-git commit
-git pull sankalp master
-git push sankalp master
-git st
-git ci . -m 'tech-0 weekend work for QA landing page validations for fc'
-git push sankalp master
-git push sankalp master
-ll
-cp ~/.environments/.gitignore .
-ll
-mate .gitignore 
-git st
-mate .gitignore 
-git st
-git st
-git st
-git ci . -m 'tech-0 added gitignore'
-git push sankalp master
-ifconfig
-git co origin/master
-git st
-git rm --cached modules/core/src/main/webapp/javascripts
-git rm -r --cached modules/core/src/main/webapp/javascripts
-git reset --hard HEAD
-git rm -r --cached modules/core/src/main/webapp/javascripts/*
-git reset --hard HEAD
-e .gitignore
-ll
-find . -name .gitignore
-cat modules/ngf/.gitignore
-ll
-git co master
-git st
-vim .gitignore
-rm -rf modules/ngf/.gitignore
-mate .gitignore
-ll
-cd modules/core/src/main/webapp
-ll
-cd javascripts
-ll
-rm -rf fcEditPage landingPage mp.js stateMachine util bind.js
-ll
-cd ../stylesheets
-ll
-rm -rf main.css
-cd ..
-ll
-cd ..
-cd ../unit/javascripts
-ll
-cd specs
-ll
-ll sut
-rm -rf sut/index.html
-rm -rf *.js
-ll
-ll helpers
-rm -rf helpers util
-ll
-ll
-ll ../../
-ll ../../coffeescript
-ll ../../coffeescript/helpers
-ll
-cd .
-cd ..
-ll
-cd ../coffeescript/helpers
-ll
-git ll
-git log --fileonly
-git log --filename
-git log --nameonly
-git help log
-git log --name-only
-git show 4c3d510ee1a895a1bd1e562fac1d511a28f045fb
-mate 
-git st
-git ci . -m 'tech-0 removed unnecessary files, added spy.coffee back'
-git st
-cd ..
-ll
-cd ..
-cd ..
-git co origin/master
-git co master
-git st
-git push sankalp master
-git push sankalp master
-irb
-ll /Applications/Sublime Text 2.app/Contents/SharedSupport/bin
-ll /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin
-e ~/.zshrc
-. ~/.zshrc
-e ~/.zshrc
-. ~/.zshrc
-. ~/.zshrc
-subl -w ~/.gitignore
-cd ../..
-guard
-cd core
-guard
-guard
-mongod run --config /usr/local/etc/mongod.conf
-cd ~/Projects/merchpay-new
-cd devops/stubs/stubby4j
-./runStubby4j.sh
-./runStubby4j.sh
-git st
-git ci . -m 'tech-0 seems updating the coffeescript compilation now'
-git push
-git pull
-git pull origin
-git pull origin master
-git push origin master
-git pull -u origin master
-git pull
-git pull -u origin master
-git pull
-git pull origin master
-git st
-git br -av
-git config branch.master.remote origin
-git config branch.master.merge refs/heads/master
-git pull
-./runStubby4j.sh
-git pull
-./runStubby4j.sh
-cd ~/Projects/merchpay-new
-git pull
-git pull
-guard
-cd modules/core
-guard
-guard
-ll
-cd ../../qa/acceptance
-ll
-cucumber features
-gem list
-cucumber features
-cucumber features
-cucumber features
-cucumber --help
-cucumber features --tags @fc
-cucumber features --tags @fc
-cucumber features --tags @fc
-cucumber features --tags @fc
-git st
-git ci . -m 'tech-0 weekend work, qa migration for landing page load'
-cucumber features
-cucumber features
-ll
-rm -rf out
-git st
-cucumber features
-cucumber features
-cucumber features
-ctags
-man ctags
-brew list
-brew search ctags
-brew search *ctags
-brew search \*ctags
-brew install ctags
-which ctags
-e .
-. ~/.zshrc
-e .
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-irb
-cucumber features
-cucumber features
-irb
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-irb
-irb
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-cucumber features
-git st
-git dt
-git rm .idea/workspace.xml --cached
-git st
-git commit -m 'tech-0 deleted workspace file'
-git st
-cat ../../.gitignore
-e ../../.gitignore
-git st
-git add ../../.gitignore
-git st
-e ../../.gitignore
-git st
-git st
-git ci . -m 'tech-0 QA first working landing page scenario'
-git st
-git st
-git push
-cucumber features
-cucumber features
-irb
-klin
-curl klin.gap.com:8080
-enable_proxy
-curl klin.gap.com:8080
-git pull
-git st
-git stash
-git st
-git pull
-git stash pop
-git st
-git st
-git stash
-git stash pop
-git add .
-git st
-git stash
-cd ../../modules/core
-ll
-cd "/Users/isa/Projects/merchpay-new/qa/acceptance/features/support/lib/models" && clear
-ll
-cp *.rb ~/Projects/tester/test/features/support/
-irb
-cd ~/Projects/scms-po
-cd ~
-ifconfig
-cd ~/Projects/merchpay-new
-git push
-git push
-ssh admin@merchpayci.gap.com
-git push origin master
-git pull origin master
-e .gitignore
-git add .gitignore
-git st
-git commit
-git pull
-git pull origin master
-git push origin master
-git remote rm sankalp
-git remote -av
-git remote -v
-git branch -av
-cd modules/core
-ll
-cd src
-ll
-cd main/webapp
-ll
-cd javascripts
-ll
-cd external
-ll
-cd ..
-ll
-git log
-git ll --name-only
-git st
-ll
-cd external
-ll
-git add accounting.min.js
-git add accounting.min.js -f
-git st
-git ci -m 'tech-0 missing accounting library'
-git st
-ll
-cd ..
-ll
-cd ..
-ll
-cd ..
-ll
-cd resources
-ll
-cd ..
-ll
-cd webapp/javascripts/external
-ll
-cd ..
-cd .
-cd ..
-cd ..
-ll
-cd ..
-ll
-cd ..
-ll
-rm -rf target
-git st
-ll
-ll target
-ll target/web
-ll target/web/javascripts
-ll target/web/javascripts/external
-ll target/web/javascripts/external
-ll target/web/javascripts
-cd 
-cd ~/Projects/merchpay-new/modules/core/src/main/webapp
-ll
-cd javascripts
-ll
-ll external
-cd ..
-ll
-cd javascripts
-ll
-cd ../../../
-ll
-cd ..
-ll
-rm -rf target
-ll target/web
-ll target/web
-ll target/web
-rm rf target
-ll
-rm -rf target
-ll
-ll
-ll/tar
-ll target
-ll target/web
-ll target/web/javascripts
-ll target/web/javascripts
-ll target/web/javascripts
-ll target/web/javascripts
-ll target/web/javascripts
-ll target/web/javascripts
-ll
-cd target
-ll
-ll web
-ll web/javascripts
-ll web/javascripts/external
-ll web/javascripts/external
-ll web/javascripts
-ll web/javascripts
-ll
-e ../../../.gitignore
-git st
-man compass
-compass --help
-cd ..
-compass compile .
-git st
-compass compile --time --css-dir=/tmp --output-style compressed --force
-ll /tmp
-ll /tmp/
-ll src/main/webapp/stylesheets
-rake 
-rake 
-rake 
-git st
-ll src/main/webapp/stylesheets
-rake
-coffee --compile --output src/main/webapp/javascripts src/main/coffeescript
-git st
-ll src/main/webapp/javascripts
-rm -rf src/main/webapp/javascripts/mp.js
-coffee --compile --output src/main/webapp/javascripts src/main/coffeescript
-ll src/main/webapp/javascripts
-git st
-git add Rakefile
-git add .
-git st
-git add -a .
-git add -A .
-git st
-git add -U .
-git add -u .
-git st
-git add -A ../..
-git st
-ll
-e .
-ll target/web/javascripts
-ack localhost
-curl 0.0.0.0:8882/ping
-curl http://0.0.0.0:8882/ping
-curl http://127.0.0.1:8882/ping
-curl http://0.0.0.0:8882/ping
-curl http://0.0.0.0:8882/ping
-curl http://0.0.0.0:8889/ping
-ssh admin@merchpayci.gap.com
-curl http://merchpayci.gap.com:888
-curl http://merchpayci.gap.com:8889
-curl http://merchpayci.gap.com:8889/ping
-ack localhost:8882
-grep -r 'localhost:8882' *
-e src/main/coffeescript/landingPage/LandingViewModel.coffee
-git st
-git ci -m 'tech-0 updated stub server url for signoff'
-git push
-grep -r 'localhost:' *
-grep -r --exclude=*.properties 'localhost:' *
-grep -r --exclude=properties 'localhost:' *
-grep -r --exclude=properties 'localhost:' *
-cd src/main
-ll
-cd coffeescript
-ll
-grep -r 'localhost:' *
-e fcEditPage/FCViewModel.coffee
-git st
-git ci . -m 'tech-0 qa signoff ip changes'
-git push
-ping 10.48.131.6
-hostname 10.48.131.6
-dig 10.48.131.6
-nslookup 10.48.131.6
-ping kenny.gap.com
-git stash pop
-irb
-git st
-git stash
-git st
-cd ..
-e .
-git pull
-git stash
-git stash list
-git pull
-git stash pop
-git add .
-git st
-git commit
-git commit -m 'tech-0 merged with close button functionality, also this creates a background'
-git st
-git st
-git ci . -m 'ITMERCHPAY-180 overlay close button works as expected, and view models are being re-set every time overlay closes'
-git st
-git push
-git st
-git pull
-git pull
-git pull
-cd ../unit
-ll
-./run-phantom-jasmine-ko-headless.sh
-git pull
-cd ../../../qa
-ll
-cd ../../qa
-cd ../../../../qa/acceptance
-ll
-git ll --name-only
-git stash list
-git stash pop
-git reset --hard HEAD
-git stash list
-git stash pop
-git st
-cd ~/Projects/test-base-xruby
-ll
-ll test
-ll
-cd ..
-ll
-cp test-base-xruby tester
-cd tester
-ll
-rm -rf Gemfile.lock
-rm -rf .rvmrc_jruby
-e .rvmrc
-ll
-rm -rf .git
-ll
-e .
-irb
-cd test/features/support
-ll
-irb
-irb
-cd ~/Projects/merchpay-new
-cd qa/acceptance
-ll
-cucumber
-cucumber --help
-cucumber --help | less -R
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber --help | less -R
-cucumber features/fc_landing_page.feature --pretty
-cucumber --pretty features/fc_landing_page.feature
-cucumber --format=pretty features/fc_landing_page.feature
-git st
-git ci . -m 'tech-0 QA environment is ready with necessary dynamic resolution for page, section and elements'
-git pull
-git push
-git pull
-cd ..
-cd ..
-tree -L 1
-tree -L 2
-cd qa/acceptance
-ll
-irb
-pwd
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber --help
-e ~/.zshrc
-e $HOME/.environments/osx/zsh/zsh-syntax-highlighting
-e $HOME/.environments/osx/zsh/
-sudo zsh
-cd ~/Projects/merchpay-new
-ll
-tree -L 2
-cd qa/acceptance
-tree -L 1
-tree -L 2
-cucumber features
-cd ..
-ll
-cd ..
-cd modules/core
-ll
-tree -L 2
-tree -L 3
-ll
-cd src
-ll
-cd main
-ll
-cd webapp
-ll
-cd ..
-cd uni
-cd ../unit
-ll
-e run-phantom-jasmine-ko-headless.sh
-phantomjs
-./run-phantom-jasmine-ko-headless.sh
-ll
-mongoose
-ll
-ll
-ll
-ll
-ll
-which ruby
-/usr/bin/ruby
-/usr/bin/ruby -v
-cd ~/Projects/merchpay-new
-ll
-e qa/acceptance/features/support/lib
-e qa/acceptance/features/support/lib
-e qa/acceptance/features/support/lib
-e qa/acceptance/features/support/lib/app.rb
-e qa/acceptance/features/support/lib
-e .
-e qa/acceptance/features/support/lib
-e qa/acceptance/features/support/lib
-e qa/acceptance/features/support/lib
-subl .
-e qa/acceptance/features/support/lib
-e .zsrhc
-e .zsrhc
-cat .zshrc
-cd Library/Application\ Support
-ll
-rm -rf Sublime\ Text\ 2
-cd ~/Projects/merchpay-new
-e .
-e ~/.zsrhc
-ll
-cd -
-ll
-rm -rf Sublime\ Text\ 2
-ln -s ~/Dropbox/Apps/Sublime\ Text\ 2 Sublime\ Text\ 2
-ll
-cd Projects/merchpay-new
-e .
-e .
-subl .
-alias
-cat .gitconfig
-cat ~/.gitconfig
-cat ~/.zshrc
-brew update
-brew upgrade
-ll
-subl .viminfo
-subl ~/Projects/merchpay-new
-subl ~/Projects/merchpay-new
-gem insall kronk
-brew install kronk
-gem install kronk
-kronk http://search.twitter.com/search.json?q=isa
-kronk "http://search.twitter.com/search.json?q=isa"
-kronk "http://search.twitter.com/search.json?q=isa"
-kronk "http://search.twitter.com/search.json?q=isagoksu"
-kronk "http://search.twitter.com/search.json?q=isagoksu"
-ssh admin@merchpayci.gap.com
-cd ~/Projects/merchpay-new
-ll
-git pull
-git ll
-ll
-gradle war
-ll modules/core/target
-ll modules/core/target/artifacts
-man zip
-open .
-scp modules/core/target/artifacts/merchpay-app-0.0.1.war admin@merchpayci.gap.com:~/
-mv modules/core/target/artifacts/merchpay-app-0.0.1.war modules/core/target/artifacts/mp.war
-open modules/core/target/artifacts/mp.war
-ll modules/core/target/artifacts/mp.war
-open modules/core/target/artifacts/mp.war
-open modules/core/target/artifacts/mp.war
-cd modules/core/target
-ll
-cd web
-ll
-cd javascripts
-ll
-ack api
-git br -av
-cd ..
-cd ..
-cd ..
-ll
-e .
-gradle clean war
-open target/artifacts/merchpay-app-0.0.1.war
-cp target/artifacts/merchpay-app-0.0.1.war target/artifacts/mp.war
-guard
-ll
-gradle war
-ll
-cd target/artifacts
-ll
-rm -rf mp.war
-mv merchpay-app-0.0.1.war mp.war
-open mp.war
-open mp.war
-open mp.war
-open mp.war
-e ../../
-cd ..
-cd ..
-gradle clean war
-cd target/artifacts
-mv merchpay-app-0.0.1.war mp.war
-open mp.war
-scp mp.war admin@merchpayci.gap.com:~/
-e ../../
-cd ../.. & gradle war
-cd ../.. && gradle war
-ll
-cd target/artifacts
-mv merchpay-app-0.0.1.war mp.war
-open mp.war
-scp mp.war admin@merchpayci.gap.com:~/
-kronk --help
-kronk "http://search.twitter.com/search.json?q=isagoksu"
-enable_proxy
-kronk "http://search.twitter.com/search.json?q=isagoksu"
-kronk -x http://qaproxy.gid.gap.com:8080 "http://search.twitter.com/search.json?q=isagoksu"
-kronk -x "http://qaproxy.gid.gap.com:8080" "http://search.twitter.com/search.json?q=isagoksu"
-ssh admin@merchpayci.gap.com
-cd /usr/local/Cellar/tomcat/6.0.26
-ack ssi
-ack ssi | less -R
-cd /tmp
-ll
-git clone isa@merchpayci.gap.com:merchpay
-git clone git@merchpayci.gap.com:merchpay
-ll
-cd merchpay
-ll
-cd ~/Projects/merchandise-payables/modules/core/src/unit
-ll
-cd coffeescript
-ll
-mv FCViewModel.spec.coffee fc-view-model.spec.coffee
-mv LandingViewModel.spec.coffee landing-view-model.spec.coffee
-mv util utils
-ll
-ll utils
-ll helpers
-git add .
-git st
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-cat /etc/hosts
-stat
-stat -2
-stat 2
-stat -t 2
-ll
-cd /tmp
-git init demo
-cd dmeo
-cd demo
-vim README
-git ci . -m 'README'
-vim README
-git diff
-git add .
-git diff
-git diff --staged
-git commit -m 'none'
-git ll
-cd ~/Projects/merchpay-new
-git pull
-git pull
-e .
-e ~/Desktop/finch.html
-cd modules/core/src/main/webapp
-ll
-cd ../coffeescript
-ll
-mkdir controllers repositories
-git st
-git add .
-git st
-git rm -rf fcEditPage
-git st
-git rm -rf landingPage/ stateMachine/StateMachineEvents.coffee util
-git st
-git commit
-git st
-git pull
-git push
-ll
-cd ..
-cd ~/Projects
-ll
-git clone git@merchpayci.gap.com:merchpay merchandise-payables
-cd merchandise-payables
-cd ../merchpay-new/
-git pull
-cd ..
-ll
-svn info scms-po
-svn ls http://svn.gap.dev/svn/supplychain
-svn ls http://svn.gap.dev/svn/supplychain-merchpay
-svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay
-svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
-svn co http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk scms-mp
-ll
-cd merchandise-payables
-ll
-mv ../merchpay-new/.git ../merchpay-new/.git2
-cp ../merchpay-new .
-ll
-cd merchpay-new/* .
-cp merchpay-new/* .
-mv merchpay-new/* .
-ll
-ll merchpay-new
-rm -rf devops/ docs modules qa
-ll
-rm -rf atlassian-ide-plugin.xml
-ll
-rm -rf *.lock
-ll
-mv merchpay-new/devops .
-ll
-mv merchpay-new/docs .
-mv merchpay-new/modules .
-mv merchpay-new/qa .
-ll merchpay-new
-mv merchpay-new/.idea .
-mv merchpay-new/.rvmrc .
-mv merchpay-new/.gitignore .
-ll
-rm -rf merchpay-new
-ll
-cd modules/ngf
-git st
-ll
-rm -rf target
-cd ../..
-ll
-find . -name target 
-find . -name target -exec rm -rf {}\;
-find . -name target -exec rm -rf {} \;
-ll
-find . -name target 
-find . -name .sass-cache 
-find . -name .sass-cache -exec rm -rf {} \;
-find . -name .DS_Store -exec rm -rf {} \;
-vim .gitignore
-git st
-ll modules
-ll
-cd ..
-cd merchandise-payables
-vim .gitignore
-git st
-git add .
-ll modules/core/src/main/webapp/META-INF/MANIFEST.MF
-ll modules/core/src/main/webapp/META-INF/MANIFEST.MF*
-vim modules/core/src/main/webapp/META-INF/MANIFEST.MF
-git st
-git add .
-vim modules/core/src/unit/javascripts/external/date/date.js
-grep -r '' *
-rm -rf qa/acceptance/atlassian-ide-plugin.xml
-grep -r '' *
-rm -rf modules/ngf/atlassian-ide-plugin.xml
-git add .
-git st
-cp ../scms-mp/settings.gradle .
-cp ../scms-mp/build.gradle .
-cp ../scms-mp/modules/core/build.gradle modules/core/
-git st
-git st
-git diff modules/core/build.gradle
-ll
-cat modules/core/build.gradle
-cat build.gradle
-vim build.gradle
-git st
-git add .
-git st
-cd modules/core/
-ll
-ll libs
-ll
-cd src
-ll
-tree -L 3
-tree -L 4
-cd co
-cd main/coffeescript
-tree -L 4
-cd ../webapp/javascripts
-ll
-ll
-rm -rf bind.js mp.js stateMachine util landingPage fcEditPage 
-ll
-cd external
-ll
-git add . --force
-vim modules/core/src/main/webapp/javascripts/external/date.js
-ll
-rm -rf moment-1.6.2.js
-rm -rf moment-1.6.2.min.js
-ll
-rm -rf jquery-1.7.2.js
-ll
-mv accounting.min.js accounting.min-0.3.2.js
-ll
-mv finch.min.js finch.min-0.4.0.js
-ll
-git add . --force
-brew search dos2unix
-brew install dos2uni
-brew install dos2unix
-enable_proxy
-brew install dos2unix
-dos2unix date.js
-vim date.js
-mv ~/Downloads/date.js .
-dos2unix date.js
-vim date.js
-git st
-git add .
-git add . -f
-dos2unix modernizr-2.5.3.min.js
-git add . -f
-git st
-cd ../../../../unit
-ll
-cd java/ll
-cd javascripts
-ll
-cd external
-ll
-ll accounting
-find . -name \*.js
-find . -name \*.js mv {} . \;
-ll
-find . -name \*.js | xargs -n1 -I{} mv {} .
-ll
-find . -type d rm -rf {} \;
-ll
-find . -type d -exec rm -rf {} \;
-ll
-git add -A
-git add -A .
-git add -u .
-ll
-git st
-ll
-cd ..
-l
-ll
-cd ..
-ll
-cd ..
-ll
-ll
-cd ..
-cd ..
-cd ..
-git st
-git add -u .
-git st
-rm -rf devops/db
-git add -u .
-git log
-git ci -m 'ITMERCHPAY-171 Tech stack migration'
-git st
-git push -u origin master
-e modules/core/build.gradle
-git st
-git ci . -m 'ITMERCHPAY-0 Edited dependencies'
-git push
-gradle test
-gradle test
-git st
-gradle test
-e /Users/isa/Projects/merchandise-payables/modules/core/src/unit/java/com/gap/scms/mp/helpers/HypermediaUtilsTest.java
-gradle test
-git st
-git ci . -m 'ITMERCHPAY-0 Fixed the compilation errors after the migration'
-git push
-svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
-svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
-find . -name *.gradle
-find . -name \*.gradle
-e ./devops/ci/commit-git-to-svn.gradle
-grep -r 'is1z1j6' *
-git pull
-git st
-git pull --force
-git st
-git reset --hard HEAD
-git pull
-svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
-git br -av
-git fetch 
-git merge origin/master
-rm -rf odules/core/src/main/webapp/stylesheets/external/jqueryui/ui-darkness
-git merge origin/master
-ll modules/core/src/main/webapp/stylesheets/external
-rm -rf  modules/core/src/main/webapp/stylesheets/external
-git st
-git merge origin/master
-rm -rf modules/core/src/unit/javascripts/specs/sut
-git merge origin/master
-ll
-cd modules/core/src/unit
-ll
-cd javascripts
-ll
-cd phantomjs-jasmine
-ll
-cd ..
-cd specs
-ll
-ll util
-ll helpers
-ll sut
-rm -rf *.spec.js
-ll
-cd ..
-git st
-git pull
-cd ..
-ll
-find . -name \*.js
-git st
-ll
-git help stash
-ssh isagoksu@ihateeclipse.com
-cd Library
-ll
-cd Application\ Support
-ll
-cd IntelliJIdea11
-ll
-cd ../../Preferences/IntelliJIdea11
-ll
-ack omcat
-cd /Users/isa/Projects/merchandise-payables/modules/core/target/web
-ll
-ll templates
-cat index.html
-cd ~/Library
-find . -name localhost
-cd Caches/IntelliJIdea11/tomcat
-ll
-rm -rf *
-ll
-ll
-cd Unnamed_merch-payables
-ll
-cd conf
-ll
-cat web.xml
-less web.xml
-cd ..
-cd ..
-rm -rf *
-ll
-cd ..
-ll
-cd tomcat
-ll
-ll
-cd Unnamed_merch-payables_2
-ll
-less conf/web.xml
-cd ../..
-ll
-ll
-rm -rf tomcat
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-less tomcat/Unnamed_merch-payables/conf/web.xml
-vim tomcat/Unnamed_merch-payables/conf/web.xml
-vim tomcat/Unnamed_merch-payables/conf/context.xml
-cd ..
-cd IntelliJIdea11
-rm -rf tomcat
-cd /usr/local/Cellar/tomcat/6.0.26/libexec
-ll
-cd logs
-ll
-ll -atr
-less catalina.out
-ll
-catalina stop
-ll
-ll -altr
-less catalina.out
-ll
-rm -rf *
-ll
-cd ..
-ll
-ll log
-ll logs
-cd ~/Projects
-ll
-cd scms-mp
-ll
-vim gradle.properties
-cp settings.gradle ~/Projects/merchandise-payables
-cd ~/Documents
-xmllint --schema GTN_INVOICE_V6.xsd
-xmllint --noout --schema GTN_INVOICE_V6.xsd
-xmllint --noout --schema GTN_INVOICE_V6.xsd
-mv GTN_INVOICE_V6.xsd GTN_INVOICE_V7.xsd
-e Invoice_Sample\ v3.xml
-e GTN_INVOICE_V7.xsd
-cd ~/Documents
-ll
-xmllint GTN_INVOICE_V6.xsd
-nslookup
-echo $htt
-enable_proxy
-echo $http_proxy
-nslookup
-curl google.com
-curl gmail.com
-curl https://gmail.com
-curl yahoo.com
-cd ~/Projects/merchandise-payables
-gradle test
-curl ci.gap.dev
-curl ci.gap.dev/artifactory
-cd modules/core
-gradle test
-gradle test --debug
-gradle test --debug | less -R
-ll
-git st
-gradle test
-set
-env
-env
-gradle test
-gradle test
-ll
-cd ..
-cd ..
-gradle test
-ll
-cp ../scms-mp/gradle.properties .
-ll
-gradle test
-ll
-cat gradle.properties
-enable_proxy
-gradle test
-pwd
-ls -lrt
-cat gradle.properties
-gradle build
-gradle --debug
-gradle test --debug | less -R
-cd ../scms-mp
-gradle test
-svn up
-gradle test
-curl http://ci.gap.dev/artifactory
-curl http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar -o /tmp/plugin.jar
-curl http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar
-curl -I http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar
-env
-man curl
-curl --ntlm -I http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar
-curl --ntlm -I -x http://qaproxy.gid.gap.com:8080 http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar
-man curl
-curl --noproxy -I http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar
-curl --noproxy http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar
-curl --noproxy http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar -o /tmp/x.jar
-curl --noproxy "http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar" -o /tmp/x.jar
-man curl
-curl --noproxy \*.gap.dev "http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar" -o /tmp/x.jar
-ll /tmp/
-elinkes
-elinks
-env
-no_proxy=*.gap.dev
-curl "http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar" -o /tmp/x.jar
-no_proxy=.gap.dev
-echo $no_proxy
-curl "http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar" -o /tmp/x.jar
-e ~/.zshrc
-. ~/.zshrc
-disable_proxy
-enable_proxy
-gradle test
-echo $no_proxy
-export no_proxy=.gap.dev,.gap.com,localhost
-gradle test
-ll
-cd ~/Projects/merchandise-payables
-ll
-gradle test
-env
-e gradle.properties
-disable_proxy
-gradle test
-cd ../scms-mp
-gradle test
-ll
-cd ../merchandise-payables
-ll
-gradle clean test
-curl "http://ci.gap.dev/artifactory/libs-release-local/gap-gradle-plugin/1.0.0.26/gap-gradle-plugin-1.0.0.26.jar" -o /tmp/x.jar
-gradle test
-echo $http_proxy
-cd "/Users/isa/Projects/merchandise-payables/qa/acceptance/features/step_definitions" && clear
-open .xx
-gem search middleman
-gem search middleman --remote
-gem list
-cd Projects
-cd merchandise-payables
-brew search canary
-xmllint --schema ~/Desktop/GTN_INVOICE_V4.xsd
-git pull
-mongod run --config /usr/local/etc/mongod.conf
-cd /usr/local/Cellar/tomcat/6.0.26
-cd conf
-ll
-cd libexec/conf
-ll
-e context.xml
-e web.xml
-cd ~/Projects/merchandise-payables/devops/stubs/stubby4j
-./runStubby4j.sh
-cd ~/Projects/merchandise-payables/modules/core
-ll
-guard
-e /usr/local/Cellar/tomcat/6.0.26/libexec/conf/context.xml
-e /usr/local/Cellar/tomcat/6.0.26/libexec/conf/web.xml
-catalina start
-catalina stop
-catalina.sh start
-catalina.sh stop
-catalina.sh stop
-guard
-gradle war
-ll target
-guard
-irb
-cd /tmp
-e new.rb
-subl new.rb
-e new.rb
-ruby new.rb
-ruby new.rb
-ruby new.rb
-cd ~/Projects/merchandise-payables/qa/acceptance
-subl .
-irb
-cd features/support/lib/models
-ll
-rm -rf section.rb
-ll
-cd ../..
-cd ../../
-ll
-git st
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-irb
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-irb
-irb
-cucumber features/fc_landing_page.feature
-ll
-cd features
-ll
-cd ..
-cp features/step_definitions/fc_landing_page_create_invoice_validation.rb features/step_definitions/fc_landing_page_create_invoice_button_usage.rb
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-cucumber features/fc_landing_page.feature
-git push
-git add .
-git add ../..
-git stash
-git pull
-git stash pop
-git pull
-cd ~/Projects/merchandise-payables
-cd modules/core/
-gradle war
-cp target/artifacts/merchpay-app-0.0.1.war /usr/local/Cellar/tomcat/6.0.26/libexec/webapps/ROOT.war
-mv /usr/local/Cellar/tomcat/6.0.26/libexec/webapps/ROOT /usr/local/Cellar/tomcat/6.0.26/libexec/webapps/ROOT.backup
-ssh admin@merchpayci.gap.com
-ll
-ssh admin@merchpayci.gap.com
-open .xx
-ll
-csh /bin/zsh
-ll
-rvm install 1.8.7
-brew search gcc
-gcc
-which gcc
-ll `which gcc`
-brew install homebrew/dupes/apple-gcc42
-brew install apple-gcc42
-rvm install 1.8.7 --with-gcc=clang
-less /Users/isa/.rvm/log/ruby-1.8.7-p370/make.log
-rvm install 1.8.7 --with-gcc=clang
-ruby -v
-brew search compass
-ln -s .environments/.gitconfig ~/.gitconfig
-ln -s .environments/.githelpers ~/.githelpers
-ll
-git ll
-cd .environments
-git ll
-cd ..
-ll
-ll
-e ~/.zshrc
-rm -rf ~/Dropbox/Apps/Due\ App
-rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2
-ln -s ~/Dropbox/Apps/Sublime\ Text\ 2 ~/Library/Application\ Support/Sublime\ Text\ 2
-e ~/.zshrc
-e ~/.zshrc
-defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
-e ~/.zshrc
-e ~/.zshrc
-. ~/.zshrc
-pp
-e .rvmrc
-cd ..
-pp
-bundle install
-brew search webkit
-brew search chrome
-brew install qt chromedriver
-brew install chromedriver
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-ping google.com
-virtualhost.sh mongo.gap.dev
-e /etc/apache2/httpd.conf
-sudo apachectl -k restart
-cd Sites
-ll
-cd mongo.gap.dev
-ll
-rm -rf index.html
-e info.php
-e /etc/apache2/httpd.conf
-sudo apachectl -k restart
-ll
-ll ~/Downloads/genghis-1.4.2
-mv ~/Downloads/genghis-1.4.2/.htaccess .
-ll
-mv index.php genghis.php
-sudo php /usr/lib/php/install-pear-nozlib.phar
-sudo cp /etc/php.ini.default /etc/php.ini
-ll /private/etc/php.ini
-pear config-set php_ini /private/etc/php.ini
-pecl config-set php_ini /private/etc/php.ini
-sudo apachectl -k restart
-sudo pear upgrade-all
-enable_proxy
-sudo pear upgrade-all
-disable_proxy
-sudo pear upgrade-all
-sudo apachectl -k restart
-sudo php /usr/lib/php/install-pear-nozlib.phar
-sudo pear upgrade-all
-e /etc/php.ini
-e /etc/php.ini
-pear install mongo
-sudo pear install mongo
-sudo pecl install mongo
-brew install autoconf
-sudo pecl install mongo
-sudo apachectl -k restart
-ll
-cd ..
-ll
-cd mongo.gap.dev
-ll
-cd ..
-scp -r admin@merchpayci.gap.com:~/ mongo.gap.dev
-ll
-ssh admin@merchpayci.gap.com
-ll
-cd mongo.gap.dev
-ll
-rm -rf admin
-ll
-cd ..
-scp -r mongo.gap.dev admin@merchpayci.gap.com:~/
-ssh admin@merchpayci.gap.com
-echo $http_proxy
-brew search ntfs
-brew update
-brew install ntfs-3g
-brew info fuse4x-kext
-  sudo cp -rfX /usr/local/Cellar/fuse4x-kext/0.9.1/Library/Extensions/fuse4x.kext /Library/Extensions
-  sudo chmod +s /Library/Extensions/fuse4x.kext/Support/load_fuse4x
-mount -t fuse4x
-sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.orig
-    sudo ln -s /usr/local/Cellar/ntfs-3g/2012.1.15/sbin/mount_ntfs /sbin/mount_ntfs
-pp
-cd modules/core
-guard
-cd /usr/local/Cellar/tomcat
-ll
-cd 6.0.26
-ll
-cd libexec/webapps
-l
-ll
-mv ROOT ROOT.bak
-ll
-brew install mongo
-enable_proxy
-brew install mongo
-mongod --help
-mongod --config /usr/local/etc/mongod.conf
-pp
-cd devops/stubs/stubby4j
-ll
-./runNgfStubby4j.sh
-./runStubby4j.sh
-npm
-brew update
-pp
-cd modules/core
-gradle war
-npm
-brew install node
-brew caveats node
-brew info node
-curl http://npmjs.org/install.sh | sh
-enable_proxy
-curl http://npmjs.org/install.sh | sh
-npm install -g coffee-script
-npm config set https-proxy http://qaproxy.gid.gap.com:8080
-npm install -g coffee-script
-npm config get proxy
-npm config get https-proxy
-npm config registry http://registry.npmjs.org
-npm config set registry http://registry.npmjs.org
-npm install -g coffee-script
-coffee --help
-npm install -g jasmine-node
-gradle war
-ll
-cp target/artifacts/merchpay-app-0.0.1.war /usr/local/Cellar/tomcat/6.0.26/libexec/webapps/root.war
-mv /usr/local/Cellar/tomcat/6.0.26/libexec/webapps/root.war /usr/local/Cellar/tomcat/6.0.26/libexec/webapps/ROOT.war
-gradle war
-cp target/artifacts/merchpay-app-0.0.1.war /usr/local/Cellar/tomcat/6.0.26/libexec/webapps/ROOT.war
-catalina.sh start
-catalina.sh stop
-e /usr/local/Cellar/tomcat/6.0.26/libexec/conf/web.xml
-e /usr/local/Cellar/tomcat/6.0.26/libexec/conf/context.xml
-catalina.sh start
-catalina.sh stop
-e /usr/local/Cellar/tomcat/6.0.26/libexec/conf/
-catalina.sh start
-irb
-irb
-ll
-pp
-bundle install
-less /Users/isa/.rvm/gems/ruby-1.9.3-p194@merchandise-payables/gems/linecache-0.46/ext/gem_make.out
-e Gemfile
-bundle install
-git st
-git co -- modules/ngf
-git st
-git co -- modules/core
-git st
-git co -- devops
-git st
-git co -- docs
-git st
-git st
-git pull
-ssh-keygen -t -C "isa.goksu@gmail.com"
-ssh-keygen -t rsa -C "isa.goksu@gmail.com"
-cat ~/.ssh/id_rsa.pub
-git pull
-cd modules/core
-gradle init
-git st
-cd ..
-cd ..
-cd qa/acceptance
-ll
-cd ..
-cd ..
-find . -type d -exec chmod 755 {} \;
-find . -type f -exec chmod 644 {} \;
-git st
-git co -- modules/core
-git st
-find . -type f -name *.sh -exec chmod 755 {} \;
-find . -type f -name \*.sh -exec chmod 755 {} \;
-git st
-ll
-brew versions tomcat
-git checkout 9e18876 /usr/local/Library/Formula/tomcat.rb
-cd /usr/local
-git checkout 9e18876 /usr/local/Library/Formula/tomcat.rb
-brew install tomcat
-enable_proxy
-brew install tomcat
-git st
-pp
-ll
-cd qa/acceptance
-e .
-ll
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh features/ui/fc_landing_page.feature
-git st
-git ci . -m 'ITMERCHPAY-0 QA regression suite setup'
-git push
-cd ../../modules/core
-ll
-cd src/main/webapp
-ll
-e index.html
-cd templates
-e .
-pp
-e .rvmrc
-cd qa/acceptance
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh features/ui/fc_landing_page.feature
-e ../../Gemfile
-git ci . -m 'ITMERCHPAY-0 QA regression suite setup [missing files]'
-git push
-git pull
-tree -L2
-tree -L 2
-cat cuke.sh
-irb
-ll
-cd support/lib/utils
-ll
-irb
-irb
-ll
-irb
-pwd
-irb
-brew install virtualhost.sh
-ll
-git pull
-ll
-cd ..
-ll
-cd ..
-ll
-cd ..
-ll
-./cuke.sh
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh --require support/lib features/ui/fc_landing_page.feature
-ll
-cd support/data
-ll
-cd fc
-ll
-vim fc.json
-e fc.json
-irb
-ll
-cd ..
-cd ..
-cd ..
-ll
-man cucumber
-cucumber --help
-./cuke.sh features/ui/fc_landing_page.feature
-ll
-mv support features
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh features/ui/fc_landing_page.feature
-ll
-cucumber features/ui/fc_landing_page.feature --require step_definitions/ui
-ll
-mv features/support ./support
-ll
-ll support
-ll
-ll
-./cuke.sh features/ui
-./cuke.sh features/ui
-ll
-git pull
-git pull
-git stash
-git pull
-git pop
-git stash pop
-e qa/acceptance/support/data/fc/fc.json
-e qa/acceptance/support/data/fc/fc.json
-e support/data/fc/fc.json
-git commit
-git add support/data/fc/fc.json
-git commit
-git commit
-git pull
-git stash pop
-git st
-git ll
-git stash list
-git stash apply
-git 
-git st
-git stash list
-git help stsh
-git help stash
-git ll
-git diff dc28810 HEAD
-ll
-./cuke.sh features/ui/fc_landing_page.feature
-cd Downloads
-du -sh Pictures
-ll /Volumes/MEDIA
-ll /Volumes/MEDIA
-ifconfig
-curl -i http://google.com/ncr
-ps -e
-pp
-ll
-pgrep java
-pgrep launch
-pgrep -ef launch
-pgrep -u launch
-pgrep -a launch
-pgrep - launch
-pgrep -ax launch
-man pgrep
-pgrep -l launch
-pgrep -L launch
-pgrep -la launch
-pgrep -l launch
-pgrep -ul launch
-pgrep -alf launch
-pgrep -lf launch
-cd qa/acceptance
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh features/ui/fc_landing_page.feature
-git st
-./cuke.sh features/ui/fc_landing_page.feature
-./cuke.sh features/ui/fc_landing_page.feature
-git st
-catalina.sh
-catalina.sh start
-mongod --config /usr/local/etc/mongod.conf
-mongod --config /usr/local/etc/mongod.conf &
-pp
-cd devops
-ll
-cd stubs/stubby4j
-./runStubby4j.sh
-killall mongod
-brew search bashmarks
-brew update
-brew search bash
-top
-nslookup
-cd Downloads
-ll
-mv Pictures ../.Pictures
-ll ..
-ll
-find . -type d -exec chmod 755 {} \;
-ll
-find . -type f -exec chmod 644 {} \;
-ll
-open ftp.ismettopaloglu.com
-ftp
-ll /Volumes
-ll /Volumes/rgoksu
-ll /Volumes/rgoksu
-ll /Volumes/rgoksu
-sudo chmod +r /Volumes/rgoksu
-ll /Volumes/rgoksu
-cd ..
-cd /Volumes/MEDIA
-ll
-ls -alh
-mvim
-pp
-ll
-vim Gemfile
-/usr/bin/vim Gemfile
-/usr/bin/vim Gemfile
-/usr/bin/vim
-/usr/bin/vim
-brew install macvim
-brew linkappps
-brew linkapps
-ln -s /usr/local/Cellar/macvim/7.3-64/MacVim.app /Applications
-ll /Applications
-mvim
-mkdir ~/Desktop/demo
-cd Dropbox
-ll
-cd Projects
-ll
-cd iPhone
-ll
-cd Strobox.git
-ll
-ll
-cd ~/Desktop
-git clone ~/Dropbox/Projects/iPhone/Strobox.git 
-cd Strobox
-ll
-mvim main.m
-ssh merttasmobilya.com
-ftp merttas:kalemon2.@merttasmobilya.com
-ftp merttas@merttasmobilya.com
-git clone https://github.com/isa/vim-vironment ~/.vim-vironment
-ll
-ll .vim-vironment
-ln -s ~/.vim-vironment/vimrc ~/.vimrc
-ln -s ~/.vim-vironment/vim ~/.vim
-cd .vim
-ll
-cd bundle
 ll
 cd ..
 git submodule init
@@ -10044,3 +7695,2372 @@ git ll
 git pull
 git st
 open modules/core/target/artifacts/user-manual.pdf
+brew update
+brew search mono
+brew search mono
+brew update
+brew upgrade
+brew info monetdb
+brew info beanstalk
+cd ~/Desktop
+git clone https://github.com/baskerville/iTerm-2-Color-Themes.git
+cd ~/.environments
+git st
+git ci -m 'Changed the color scheme on git logs'
+ssh is1z1j6@dgphxscmap012.phx.gapinc.dev
+ssh is1z1j6@pgphxscmap004.phx.gapinc.com
+curl https://merchpay.gap.com
+curl -I -u scmsmp https://merchpay.gap.com
+curl -I -u scmsmp https://qa-scms.gap.com
+curl -I https://qa-scms.gap.com
+curl -I https://qa-scms.gap.com/scms/resources
+curl -I https://qa-scms.gap.com/scms/resources
+curl -I https://merchpay.gap.com
+ssh admin@merchpayci.gap.com
+ssh admin@mpci.gap.com
+ssh is1z1j6@dgphxscmdb004.phx.gapinc.com
+ssh is1z1j6@pgphxscmdb004.phx.gapinc.com
+ssh is1z1j6@pgphxscmdb004.phx.gapinc.com
+cd Desktop
+ll
+ldapsearch
+ldapsearch --help
+ldapsearch -h americas -D is1z1j6@americas.gap.com -b "dc=americas,dc=gap,dc=com" -W samaccountname=sscmsmp | less -R
+ldapsearch -h americas -D is1z1j6@americas.gap.com -b "dc=americas,dc=gap,dc=com" -W samaccountname=scmsmp | less -R
+cd Desktop
+e HttpsClient.java
+javac HttpsClient.java
+java HttpsClient
+enable_proxy
+java HttpsClient
+ll
+ll
+e HttpsClient.java
+java HttpsClient
+javac HttpsClient.java
+java HttpsClient
+java -Djavax.net.debug=all HttpsClient
+java -Djavax.net.debug=all HttpsClient
+java -Djavax.net.debug=truststore HttpsClient
+java -Djavax.net.debug=truststore HttpsClient
+java -Djavax.net.debug=keystore HttpsClient
+p scms/mp
+svn up
+svn up ../po
+svn up ../ri
+svn up ../ri/core
+svn up ../ri/sam
+ll
+svn up
+svn up
+ll
+svn up
+ll modules/ngf/src/main/java/com/gap/scms/ngf/abdera/PaymentFeedConsumer.java
+cat modules/ngf/src/main/java/com/gap/scms/ngf/abdera/PaymentFeedConsumer.java
+e modules/ngf/src/main/java/com/gap/scms/ngf/abdera/PaymentFeedConsumer.java
+svn up
+ll
+svn log -l1
+svn up
+svn rm modules/ngf/log.path_IS_UNDEFINED/log.file.basename_IS_UNDEFINED.log
+svn st
+svn add modules/ngf/src/integration/resources/stubby4j-1.0.37-SNAPSHOT.jar
+svn ci -m 'ITMERCHPAY-0 [Isa Goksu] Adding missing library'
+svn up
+svn rm modules/ngf/log.path_IS_UNDEFINED
+svn ci -m 'ITMERCHPAY-0 [Isa Goksu] Removing redundant folders'
+svn up
+svn up
+ll
+svn info
+cd ..
+ll
+cd ..
+svn help co
+svn co --depth immediates http://svn.gap.dev/svn/supplychain/scms-merchpay
+cd scms-merchpay
+ll
+svn cp http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/slice-0
+svn ls branches
+svn up
+svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay/branches
+svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/slice-0/
+svn cp http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/slice-0 http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/current
+svn cp http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/slice-0 http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/1.0.0.17907
+git st
+svn st
+svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay/branches
+svn rm http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/new-tech-stack
+ll
+cd ..
+rm -rf scms-merchpay
+ssh is1z1j6@pgphxscmdb005.phx.gapinc.com
+ssh is1z1j6@pgphxscmdb004.phx.gapinc.com
+ssh is1z1j6@pgphxscmdb005.phx.gapinc.com
+p chef-cookbooks
+git pull
+ll
+e .
+ll
+git pull
+git st
+git pull
+git ci -m 'Updated production data bags'
+git push
+git pull
+git pull
+git pull
+git pull
+git pull
+git dt 175124c..ebdbac5
+git pull
+git pull
+git pull
+mongo
+mongod --config /usr/local/etc/mongod.conf &
+ongo
+mongo
+ssh is1z1j6@pgphxscmap004.phx.gapinc.com
+ssh is1z1j6@pgphxscmdb005.phx.gapinc.com
+ssh is1z1j6@pgphxscmdb004.phx.gapinc.com
+hostname -f
+ssh is1z1j6@pgphxscmdb004.phx.gapinc.com
+ssh is1z1j6@pgphxscmap004.phx.gapinc.com
+ll
+ssh is1z1j6@dgphxscmap013.phx.gapinc.dev
+p chef-cookbooks
+git pull
+e .
+e .
+git st
+git ci -m '[IG] Updated live check for the tomcat nagios check'
+git pull
+git push
+git pull
+git pull
+git ci -m '[IG] Updated nagios setup for mongo'
+git push
+git st
+git pull
+git ll
+cd cookbooks/merchPay
+ll
+git log metadata.rb
+git dt 827e3bb..9cc435
+git pull
+git pull
+git stash
+git pull
+git stash pop
+git diff
+git st
+git st
+git diff
+git ci -m '[IG] Updated nagios error levels'
+git push
+cat ~/.ssh/id_rsa.pub
+ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap012.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap012.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap014.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap013.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap013.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap013.phx.gapinc.dev
+ssh is1z1j6@pgphxscmap004.phx.gapinc.com
+p chef-cookbooks
+git pull
+git pull
+git ci -m '[IG] Updated sudoers files for dev nodes'
+git push
+git pull
+git shortlog -sne
+git ll
+find . -type f 
+find . -type f | wc -l
+find . -type f | xargs -n1 cat
+find . -type f -name \*.rb | xargs -n1 cat
+find . -type f -name \*.rb | xargs -n1 cat | wc -l
+l
+ll
+ll
+l s-alh
+ls -alh
+ll
+ll
+cd .Pictures
+ll
+du -sh
+cd ..
+ll
+ll /usr/bin
+ll
+ll
+cd Desktop
+ll
+e ~/.zshrc
+ll
+e ~/.environments/osx/zsh/isa.theme
+. ~/.zshrc
+ll
+p merchandise-payables
+p scms/mp
+cd ~/.environments
+git st
+git ci -m 'Added new color scheme for the terminal and some shortcut functions for my zsh'
+git push
+ll
+cd ..
+p merchandise-payables
+git pull
+ll
+ci
+ll ci
+ll
+git log ci
+ll
+cd devops
+ll
+cd ci
+ll
+git ll
+e ~/.githelpers
+git ll
+git ll
+git ll
+git ll
+cd ..
+cd ..
+ll
+e .
+git pull
+git dt 94510df..96ef5ec
+git st
+git co -- modules/core/src/integration/
+git st
+git pull
+git pull
+git dt 96ef5ec..cb878ff
+git ll
+git pull
+git pull
+git dt cb878ff..62ad2b8
+git dt cb878ff..62ad2b8
+ll
+cp modules/ngf/src/integration/resources/stubby4j-1.0.37-SNAPSHOT.jar ../scms/mp/modules/ngf/src/integration/resources
+gradle createConfigArtifact
+cd target/distributions
+ll
+rm -rf merchpay-config-1.0.0.17832.zip
+ll
+curl -v -X PUT --data-binary @/Users/isa/Projects/merchandise-payables/target/distributions/merchpay-1.0.0.0-config.zip -u admin:password "http://ci.gap.dev/artifactory/simple/libs-release-local/com/gap/scms/merchpay/conf/1.0.0.17906/merchpay-config-1.0.0.17906.zip"
+curl -v -X PUT --data-binary @/Users/isa/Projects/merchandise-payables/target/distributions/merchpay-1.0.0.0-config.zip -u admin:password "http://ci.gap.dev/artifactory/simple/libs-release-local/com/gap/scms/merchpay/conf/1.0.0.17907/merchpay-config-1.0.0.17907.zip"
+p merchandise-payables
+ll
+cd devops
+ll
+find . -name *.json
+find . -name \*.json
+cd ../conf
+ll
+cd data
+ll
+scp -r *.json is1z1j6@pgphxscmdb004.phx.gap.com
+scp -r *.json is1z1j6@pgphxscmdb004.phx.gap.com:~/
+scp -r *.json is1z1j6@pgphxscmdb004.phx.gapinc.com:~/
+cd ../../devops/
+ll
+cd deploy/mongo
+ll
+scp -r import.sh is1z1j6@pgphxscmdb004.phx.gapinc.com:~/
+p merchandise-payables
+git pull
+git co -b slice-0 master
+git remote -av
+git remote -v
+git br -av
+git push
+git push origin slice-0
+git st
+git br -av
+ll
+git tag 1.0.0.17907
+git tags
+git tag
+git push
+git pull
+git push origin slice-0
+git push --tags origin slice-0
+ll
+git generateDocumentation generateTeamMember generateReleaseNotes
+gradle generateDocumentation generateTeamMember generateReleaseNotes
+ll
+cd target
+ll
+cd ../modules/core/target/artifacts
+ll
+mv release-notes.1.0.0..pdf release-notes.1.0.0.17907.pdf
+ll
+open release-notes.1.0.0.17907.pdf
+cd ..
+cd ..
+gradle generateReleaseNotes -PbuildNumber=1.1.0.17907
+cd ../..
+gradle generateReleaseNotes -PbuildNumber=1.1.0.17907
+ll modules/core/target/artifacts
+open modules/core/target/artifacts/release-notes.1.0.0..html
+vim gradle.properties
+ll
+export SCMS_MP_BUILD_NUMBER=17907
+gradle generateReleaseNotes
+ll
+cd modules/core/target/artifacts/
+ll
+curl -v -X PUT --data-binary @/Users/isa/Projects/merchandise-payables/modules/core/target/artifacts/user-manual.pdf -u admin:password "http://ci.gap.dev/artifactory/simple/libs-release-local/com/gap/scms/merchpay/core/1.0.0.17907/user-manual-1.0.0.17907.pdf"
+curl -v -X PUT --data-binary @/Users/isa/Projects/merchandise-payables/modules/core/target/artifacts/release-notes-1.0.0.17907.pdf -u admin:password "http://ci.gap.dev/artifactory/simple/libs-release-local/com/gap/scms/merchpay/core/1.0.0.17907/release-notes-1.0.0.17907.pdf"
+curl -v -X PUT --data-binary @/Users/isa/Projects/merchandise-payables/modules/core/target/artifacts/release-notes.1.0.0.17907.pdf -u admin:password "http://ci.gap.dev/artifactory/simple/libs-release-local/com/gap/scms/merchpay/core/1.0.0.17907/release-notes-1.0.0.17907.pdf"
+curl -v -X PUT --data-binary @/Users/isa/Projects/merchandise-payables/modules/core/target/artifacts/team-member-manual.pdf -u admin:password "http://ci.gap.dev/artifactory/simple/libs-release-local/com/gap/scms/merchpay/core/1.0.0.17907/team-member-manual-1.0.0.17907.pdf"
+open handbook.pdf
+open team-member-manual.pdf
+curl -v -X PUT --data-binary @/Users/isa/Projects/merchandise-payables/modules/core/target/artifacts/handbook.pdf -u admin:password "http://ci.gap.dev/artifactory/simple/libs-release-local/com/gap/scms/merchpay/core/1.0.0.17907/team-member-manual-1.0.0.17907.pdf"
+git co master
+ll
+git pull
+cd
+p merchandise-payables
+ll
+mv ci/app-segment.properties devops/ci
+rm -rf ci
+ll
+git st
+git ci -m 'ITMERCHPAY-0 Moved app-segment into its respective folder'
+git st
+git push
+git st
+git ll
+ifconfg
+ifconfig
+ifconfig
+nslookup
+p chef-cookbooks
+e .
+git pull
+p merchandise-payables
+git pull
+git st
+git pull
+git dt 5de31cd..88727fc
+git br -av
+git br -D validator-tests
+git br -D release-notes
+git br -av
+git br -av
+ll
+find . -name target -type d
+find . -name target -type d -exec rm -rf {} \;
+ll
+git co slice-0
+ll
+git co master
+git ll
+git pull
+git ll
+git show 88727fc
+git show 88727fc --name-only
+git log 88727fc --name-only
+git co slice-0
+ll
+git ll
+git co master
+git pull
+git co slice-0
+git pull
+git pull origin slice-0
+git dt 62ad2b8..422b7d6
+ll
+git co master
+ll
+vim README
+git ci -m 'ITMERCHPAY-0 Making Ed the official tech lead'
+git push
+cat hooks/post-receive
+cat .git/hooks/post-receive
+cat .git/hooks/post-update.sample
+ll
+cd .git
+ll
+cd hooks
+ll
+cd ..
+ll
+cd ..
+ll
+git co slice-0
+git ll
+git pull
+git pull origin slice-0
+git ll
+git shortlog 
+git shortlog -sne
+git shortlog -sne --after=2012-10-23 --until=today
+p scms/mp
+svn up
+ll
+cd ../po
+svn up
+svn up ../ri/core
+svn up ../ri/sam
+svn log --xml 
+svn log --xml > ~/Downloads/statsvn-0.7.0/po.xml
+cd ../ri/core
+svn log --xml > ~/Downloads/statsvn-0.7.0/ri-core.xml
+cd ../sam
+svn log --xml > ~/Downloads/statsvn-0.7.0/ri-sam.xml
+svn log --xml -v > ~/Downloads/statsvn-0.7.0/ri-sam.xml
+cd ../core
+svn log --xml -v > ~/Downloads/statsvn-0.7.0/ri-core.xml
+cd ../../po
+svn log --xml -v > ~/Downloads/statsvn-0.7.0/po.xml
+cd /tmp
+git init fucker
+cd fucker
+touch hello
+git aci
+git ll
+vim ~/.githelpers
+git aci
+enable_proxy
+git aci
+vim hello
+git aci
+vim hello
+git aci
+git l
+git ll
+git rebase -i HEAD~3
+git rebase -i HEAD~2
+git rebase -i HEAD~2
+git rebase --continue
+git rebase --abort
+git rebase -i HEAD~2
+git ll
+git rebase -i HEAD~2
+git rebase -i HEAD~1
+git ll
+git HEAD^^
+git rebase -i HEAD^^
+git rebase -i HEAD^
+git rebase -i ^HEAD
+git rebase -i ^^HEAD
+export EDITOR=vim
+git rebase -i
+git rebase -i master
+git ll
+git rebase 48..b24
+git rebase 48..b24 -i
+git rebase b24 -i
+ssh ma9d4k9@dgphxscmap013.phx.gapinc.dev
+ssh teamcity@mpci.gap.com
+ssh is1z1j6@pgphxscmap013.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap013.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
+ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
+ssh is1z1j6@bgrccscmdb002.rcc.gapinc.com
+ssh bgrccscmdb001.rcc.gapinc.com
+ssh is1z1j6@bgrccscmdb001.rcc.gapinc.com
+ssh is1z1j6@pgphxscmdb005.phx.gapinc.com
+ssh is1z1j6@pgphxscmdb004.phx.gapinc.com
+cat ~/.ssh/id_rsa.pub
+ssh is1z1j6@pgphxscmap005.phx.gapinc.com
+ssh ci1
+ssh admin@ci1
+ssh teamcity@ci1
+brew search statsvn
+brew update
+enable_proxy
+brew update
+brew search statsvn
+cd Downloads
+ll
+cd statsvn-0.7.0
+ll
+java -jar statsvn.jar
+java -jar statsvn.jar -output-dir po po.xml ~/Projects/scms/po
+java -jar statsvn.jar -output-dir po po.xml ~/Projects/scms/po
+vim ~/.subversion/config
+java -jar statsvn.jar -output-dir po po.xml ~/Projects/scms/po
+ll
+open po/index.html
+java -jar statsvn.jar -output-dir mp mp.xml ~/Projects/scms/mp
+open mp/index.html
+mv mp mp2
+java -jar statsvn.jar
+java -jar statsvn.jar -output-dir mp --exclude "devops/**" mp.xml ~/Projects/scms/mp
+java -jar statsvn.jar -output-dir mp -exclude "devops/**" mp.xml ~/Projects/scms/mp
+java -Xmx1g -jar statsvn.jar -output-dir mp -exclude "devops/**" mp.xml ~/Projects/scms/mp
+open mp/index.html
+hostname -f
+java -Xmx1g -jar statsvn.jar
+ll
+open po/index.html
+pwd
+cd mp
+ll
+ll
+cd ..
+ll
+rm -rf mp2
+ll
+du -sh
+p merchandise-payables
+git shortlog -sne
+git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort -n
+find . -name \*.java
+find . -name \*.java | xargs -n1 cat
+find . -name \*.java | xargs -n1 cat | wc -l
+find . -name \*.coffee | xargs -n1 cat | wc -l
+find . -name \*.html | xargs -n1 cat | wc -l
+find . -name \*.rb | xargs -n1 cat | wc -l
+find ../scms/po -name \*.java | xargs -n1 cat | wc -l
+find ../scms/po -name \*.rb | xargs -n1 cat | wc -l
+find ../scms/po -name \*.js | xargs -n1 cat | wc -l
+find . -name \*.js | xargs -n1 cat | wc -l
+ssh app1
+ssh teamcity@mpci.gap.com
+ssh admin@mpci.gap.com
+ssh admin@mpci.gap.com
+ssh admin@mpci.gap.com
+ssh is1z1j6@pgphxscmap004.phx.gapinc.com
+curl -u scmsmp http://dgphxscmap014.phx.gapinc.dev:8080/api/dpo/1060203 | scat
+curl -s -u scmsmp http://dgphxscmap014.phx.gapinc.dev:8080/api/dpo/1060203 | scat
+ssh dr1
+ssh db1
+cd Downloads/statsvn-0.7.0
+p scms/mp
+cd ..
+cd mp
+svn log --xml -v > ~/Downloads/statsvn-0.7.0/mp.xml
+svn log
+ssh is1z1j6@dgphxscmap014.phx.gapinc.dev
+cat ~/.ssh/id_rsa.pub
+e ~/.ssh/config
+e ~/.ssh/config
+ssh dr1
+ssh dr2
+ssh app1
+ssh app2
+ssh db1
+ssh isa@db1
+ssh db2
+e ~/.ssh/config
+ssh agent1
+ssh agent2
+ssh e2e
+ssh showcase
+svn up
+ll
+cd ..
+ll
+cd ..
+ll
+svn info scms/mp
+svn log http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/current
+svn log http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/current -l2
+svn log http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/slice-0 -l2
+svn log http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/slice-0 -l10
+svn log http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/slice-0 -l8
+svn log http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/slice-0 -l3
+svn log http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/slice-0 -l4
+svn log http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/slice-0 -l4 | less -R
+svn log http://svn.gap.dev/svn/supplychain/scms-merchpay/branches/slice-0 -l4 | less -R
+git help dcommit
+git help svn
+ssh e2e
+cd /tmp/
+git clone admin@merchpayci.gap.com:merchpay
+ll
+rm -rf merchpay
+ssh ci1
+ssh admin@ci1
+e ~/.ssh/config
+cd /tmp
+git clone admin@merchpayci.gap.com:merchpay.git
+git clone git@merchpayci.gap.com:merchpay.git
+git clone admin@merchpayci.gap.com:merchpay
+ll
+rm -rf *
+ll
+p chef-cookbooks
+ps -ef
+git log --all -M -C --name-only --format='format:' "$@" | \
+sort | grep -v '^$' | uniq -c | sort | tail -n 5 
+git log --all -M -C --name-only --format='format:' "$@" | \
+sort | grep -v '^$' | uniq -c | sort -n | tail -n 5 
+git log --all -M -C --name-only --format='format:' "$@" | \
+sort -n | grep -v '^$' | uniq -c | sort -n | tail -n 5 
+git log --all -M -C --name-only --format='format:' "$@" | \
+sort | grep -v '^$' | uniq -c | sort -n | tail -n 5 
+git log --all -M -C --name-only --format='format:' "$@" | \
+sort | grep -v '^$' | uniq -c | sort -rn | tail -n 5 
+git log --all -M -C --name-only --format='format:' "$@" | \
+sort | grep -v '^$' | uniq -c | sort -n | tail -n 5 
+git log --all -M -C --name-only --format='format:' "$@" | \
+sort | grep -v '^$' | uniq -c | sort -n
+git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort -n
+e ~/.githelpers
+e ~/.gitconfig
+(echo "rev,lines changed"\
+git rev-list HEAD --since="1 year ago"|\
+while read rev;\
+do\
+  git show $rev --shortstat --format="%h" | tr "\\n" " " | awk '{t=$5+$7} {print $1 "," t } '\
+done\
+\
+\
+done
+echo "rev,lines changed"\
+git rev-list HEAD --since="1 year ago"|\
+while read rev;\
+do\
+  git show $rev --shortstat --format="%h" | tr "\\n" " " | awk '{t=$5+$7} {print $1 "," t } '\
+done
+git pull
+git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort -n
+git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort -n
+git shortlog -sne
+git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort -n
+git tag
+git br -av
+git pull
+git pull
+git pull
+git pull
+git pull
+cat nodes/bgrccsamap001.rcc.gapinc.com.json
+scat nodes/bgrccsamap001.rcc.gapinc.com.json
+scat nodes/bgrccscmdb001.rcc.gapinc.com.json
+scat nodes/bgrccscmdb002.rcc.gapinc.com.json
+scat nodes/pgphxscmap004.phx.gapinc.com.json
+e .
+e .
+git st
+git ci -m 'Added sudo role to our dev nodes'
+git push
+git pull
+git push
+git pull
+git aci
+enable_proxy
+git aci
+git st
+git aci
+git st
+git diff
+git aci
+git pull
+git aci
+git diff
+git st
+git pull
+git aci
+git mft
+git shortlog -sne
+git ll
+git st
+vim ~/.githelpers
+git aci
+git pull
+git alias
+git ll
+git push
+git st
+git aci
+git ll
+git pull
+cd cookbooks/merchPay
+git log
+ll
+git log .
+git log . --name-only
+git log --name-only .
+git commit --amend 2374379cda7ecfb1fc9b7c5a9ab5d2893714bdd6
+git amend 2374379cda7ecfb1fc9b7c5a9ab5d2893714bdd6
+git help commit
+git log .
+git pull
+git pull
+git ll
+cd ..
+cd ..
+ll
+git remote -v
+git pull
+git pull
+git pull
+git pull
+ssh ci1
+ssh admin@ci1
+git pull
+git log --numstat
+git pull
+p merchandise-payables
+git pull
+git help pull
+git pull origin slice-0 --track
+git pull -u origin slice-0
+git pull
+ll
+git pull origin slice-0
+cd ..
+p merchandise-payables
+git co master
+git pull
+git ll
+git shortlog
+git shortlog | grep "ITMERCHPAY"
+git shortlog | grep -v "ITMERCHPAY"
+git shortlog | grep -v "ITMERCHPAY|Merge"
+git shortlog | grep -ev "(ITMERCHPAY|Merge)"
+git shortlog | grep -e "(ITMERCHPAY|Merge)"
+git shortlog | egrep -e "(ITMERCHPAY|Merge)"
+git shortlog | egrep -ev "(ITMERCHPAY|Merge)"
+git shortlog | egrep -e -v "(ITMERCHPAY|Merge)"
+git shortlog | egrep -e "^(ITMERCHPAY|Merge)"
+git shortlog | egrep -e "(^ITMERCHPAY|Merge)"
+git shortlog | egrep -e "(^ITMERCHPAY|^Merge)"
+git shortlog
+git ll
+git help shortlog
+git shortlog
+git pull
+git ll
+git pull
+git log devops/stubs/stubby4j/stubby4j-1.0.41.jar
+git log modules/ngf/src/integration/java/com/gap/scms/ngf/abdera/PaymentFeedConsumerTest.java
+git mft
+git pull
+git pull
+find . -type d
+find . -type d | wc -l
+git mft
+git ll
+git co slice-0
+git ll
+git show 422b7d6
+git dt 422b7d6..62ad2b8
+git pull origin slice-0
+git dt HEAD..62ad2b8
+git ll
+git co master
+git pull
+git pull
+ll
+ll
+ll
+cd devops
+ll
+ll ci
+cd ..
+gradle createConfigArtifact
+ll target/distributions
+curl -v -X PUT --data-binary @/Users/isa/Projects/merchandise-payables/target/distributions/merchpay-1.0.0.0-config.zip -u admin:password "http://ci.gap.dev/artifactory/simple/libs-release-local/com/gap/scms/merchpay/conf/1.0.0.18101/merchpay-config-1.0.0.18101.zip"
+git pull
+git pull
+git pull
+git pull
+ssh ci1
+p merchandise-payables
+git ll
+echo "th-ktr" > .prefixes
+cd Downloads/old
+ll
+mv 1-18dff /Volumes/Data/.XXX/Uncategorized
+cd /Volumes/Data/.XXX/Uncategorized
+ll
+cd 1-18dff
+ll
+cd ..
+ll
+cd 1-18dff
+ll
+cd 1-18dff
+ll
+mv * ../
+ll
+cd ..
+rm -rf 1-18dff
+ll
+cd ..
+cd ..
+du -sh
+pv
+brew update
+brew install pv
+cd /opt/X11/lib
+ll
+cd /usr/lib/ll
+cd /usr/lib/
+ll
+cat sqlite3
+cat zsh/4.3.11/zsh/attr.so
+pv zsh/4.3.11/zsh/attr.so | cat
+ll
+du -sh
+cd ..
+cd /tmp
+cd /Volumes/Data/.XXX
+cd Uncategorized/1-18dff
+ll
+mkdir ../1-19ffe
+mv * ../1-19ffe
+ll
+cd ..
+ll
+rm -rf 1-18dff
+ssh db1
+ll
+p err
+ll
+cd scripts
+ll
+cd ../tests
+ll
+cd ../errbot
+ll
+cd templates
+ll
+cd ../bundled
+ll
+cd ../builtins
+ll
+cd templates
+ll
+cd ..
+ll
+cat vcheck.plug
+cat vcheck.py
+python
+ll
+which err.py
+workon merchpay-robot
+which err.py
+cd /Users/isa/.virtualenvs/merchpay-robot/bin/
+ll
+cd ..
+ll
+cd lib
+ll
+cd python2.7/site-packages
+ll
+cd errbot
+ll
+cd backends
+ll
+vim base.py
+vim base.py
+nc -v localhost -z 80-100
+nc -vz localhost 80-100
+nc -vz localhost 6666-6669
+nc -z localhost 6666-6669
+nc -lvp 4444
+nc -Lvp 4444
+nc -lvp localhost 4444
+nc -lv localhost 4444
+nc -lv localhost 4444 -e /bin/bash
+man nc
+nc -lv localhost 80
+nc -v localhost 80
+nc -vk localhost 80
+nc -v localhost 80
+nc -v localhost 80
+nc -v localhost 80
+brew search netcat
+brew info netcat
+nc -h
+nc --version
+nc
+man nc
+brew install nc
+brew install netcat
+nc
+which nc
+/usr/local/bin/nc
+/usr/local/bin/nc -h
+e ~/.zshrc
+which nc
+. ~/.zshrc
+which nc
+nc -lv localhost -p 4444 -e /bin/bash
+nc -lkv localhost -p 4444 -e /bin/bash
+nc -lv localhost -p 4444 -e /bin/bash
+nc -lv localhost -p 4444
+nc -lv localhost -p 4444
+nc -lv localhost -p 4444 > /tmp/zshrc
+cat /tmp/zshrc
+nc -v localhost 4444
+nc -v localhost 4444
+. ~/.zshrc
+nc -v localhost 4444
+nc -v localhost 4444 -e /bin/bash
+ll
+nc -v localhost 4444 < .zshrc
+nc -v localhost 4444 < .zshrc
+curl -u gechici:haydar.32 "https://secure.zip.members.easynews.com:81/cgi-bin/zipit/1-68390.zip"
+curl -u gechici:haydar.32 "https://secure.zip.members.easynews.com:81/cgi-bin/zipit/1-68390.zip" -v
+curl -u gechici:haydar.32 "https://secure.zip.members.easynews.com/cgi-bin/zipit/1-68390.zip" -v
+irssi
+irssi
+irssi
+ssh e2e
+p merchandise-payables/devops
+ll
+cd deploy/mongo
+ll
+scp import.sh e2e:~/
+scp -r ../../../conf/data e2e:~/
+scp -r ../../../conf/data showcase:~/
+scp import.sh showcase:~/
+ssh e2e
+ssh showcase
+p err
+ll
+ack connect
+e .
+ssh showcase
+curl -u gechici:haydar.32 "https://secure.zip.members.easynews.com/cgi-bin/zipit/1-68390.zip" -v
+traceroute 140.99.99.103
+nslookup e2-1.r1.ph.hwng.net
+f -h
+df -h
+python
+ssh ci2
+p merchpay-robot
+ll
+cd ../err
+ll
+e errbot
+cd /tmp
+ll
+git init demo
+cd demo
+touch abc
+git aci
+git ll
+git log
+ll
+git st
+git ci -m "`curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2`"
+enable_proxy
+git ci -m "`curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2`"
+git ll
+touch de
+git ci -m "`curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2`"
+git ll
+cd ..
+p hubot-scripts
+ll
+cd /usr/local/
+ll
+cd Cellar/node/0.8.14
+ll
+cd ..
+ll
+cd ..
+ll
+which npm
+cd /usr/local/
+ll
+which hubot
+cd /usr/local/share/npm/
+ll
+cd lib/node_modules
+ll
+cd hubot/
+ll
+git pull
+enable_proxy
+git pull
+git pull origin master
+ll
+e src
+p 
+ll
+git clone https://github.com/gbin/err.git
+sudo pip install virtualenvwrapper
+enable_proxy
+sudo pip install virtualenvwrapper
+sudo pip install virtualenvwrapper
+sudo pip install virtualenvwrapper
+sudo easy_install virtualenvwrapper
+sudo pip install virtualenvwrapper
+sudo pip install virtualenvwrapper
+sudo pip install virtualenvwrapper
+nslookup
+e ~/.zshrc
+which gcc-4.2
+which gcc4.2
+which gcc
+ll /usr/bin/gcc*
+ll /usr/bin
+ll /usr/bin/g
+ll /usr/bin/g*
+sudo pip install virtualenvwrapper
+. ~/.zshrc
+nslookup pypi.python.org
+nslookup
+disable_proxy
+nslookup pypi.python.org
+nslookup pypi.python.org
+sudo pip install virtualenvwrapper
+ll
+mkdir ~/.virtualenvs
+e ~/.zshrc
+. ~/.zshrc
+. ~/.zshrc
+which mkvirtualenv
+e ~/.zshrc
+. ~/.zshrc
+which mkvirtualenv
+mkdir .virtualenvs
+ll
+source virtualenvwrapper.sh 
+e ~/.zshrc
+ll
+rm -rf .virtualenvs
+ll
+which virtualenvwrapper.sh
+. ~/.zshrc
+ll ~/
+mkvirtualenv
+which python
+python
+mkvirtualenv merchpay-robot
+ll
+workon
+workon merchpay-robot
+ll
+mkdir merchpay-robot
+ll
+cd merchpay-robot
+git init
+touch README
+git add README
+git commit -m 'first commit'
+git remote add origin git@merchpayci.gap.com:merchpay-robot.git
+git push -u origin master
+git push -u origin master
+ll
+cat README
+cd ..
+ll
+cd err
+pip install -r requirements.txt
+pip install -r requirements.txt
+ll
+cd ..
+ll
+cd merchpay-robot
+ll
+ps -ef | grep irc
+cat ../err/requirements.txt
+cp ../err/* .
+ll
+git ll
+ll
+cd errbot
+ll
+cd ..
+ll
+ll
+cp errbot/config-template.py config.py
+ll
+e .
+ll
+./scripts/err.py
+./scripts/err.py
+mkdir logs
+mkdir data
+./scripts/err.py
+ll
+man rm
+mv config.py ../
+rm -rf *
+ll
+mv ../config.py .
+ll
+mkdir src
+ll
+pip install err
+ll
+which err
+err.py --help
+err.py --irc -c config.py
+mkdir data logs
+err.py --irc -c config.py
+rm -rf config.py
+cp /Users/isa/.virtualenvs/merchpay-robot/lib/python2.7/site-packages/errbot/config-template.py config.py
+ll
+err.py --irc -c config.py
+pwd
+err.py --irc -c config.py
+err.py --irc
+err.py -c config.py
+err.py
+err.py --help
+err.py --config config.py
+ll
+err.py --config ~/Projects/merchpay-robot/config.py --irc
+err.py --config /Users/isa/Projects/merchpay-robot/config.py --irc
+import config
+python
+python
+ll
+touch __init__.py
+err.py --config config.py --irc
+err.py --config /Users/isa/Projects/merchpay-robot/config.py --irc
+ll
+rm -rf config.pyx
+rm -rf config.pyc
+ll
+err.py --config /Users/isa/Projects/merchpay-robot/config.py --irc
+ll
+err.py --config config.py --irc
+ll
+err.py --config . --irc
+pip install "Twisted Words"
+pip install "Twisted Words"
+pip install Twisted\ Words
+pip install TwistedWords
+pip install twisted
+pip install twisted
+enable_proxy
+pip install twisted
+ll
+err.py --config . --irc
+err.py --config . --irc
+err.py --config . --irc
+err.py --config . --irc
+err.py --config . --irc
+touch src/__init__.py
+mv src plugins
+ll
+python
+err.py --config . --irc
+err.py --config . --irc
+err.py --config . --irc
+err.py --config . -t
+err.py --config . -T
+err.py --config . -T
+err.py --help
+err.py --config . -G
+ll
+mkdir plugins/status
+mv plugins/status.py plugins/status
+ll
+touch plugins/status/__init__.py
+ll
+ll
+cd plugins
+ll
+rm status.py
+ll
+rm -rf __init__.py
+ll
+rm -rf status/__init__.py
+ll
+rm -rf __
+ll
+cd ..
+ll
+rm -rf __init__.py
+ll
+git st
+git ll
+touch README.md
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+ll
+cd plugins
+ll
+cp status deploy
+ll
+ll deploy
+rm -rf deploy
+cp status deploy
+err.py --irc --config .
+cd ..
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+err.py --irc --config .
+git st
+git ci . -m 'Initial plugins for status and deployments'
+ll
+git ll
+cd data
+ll
+ll plugins
+cd ..
+ll
+ll
+ll data
+git ll
+git commit --amend 0b1eb33
+git commit --amend HEAD^
+git commit --amend ^HEAD
+git commit --amend HEAD~1
+git commit --amend HEAD~2
+git commit --amend HEAD
+ll
+git ll
+cd data
+ll
+err.py --help
+err.py --xmpp --config .
+err.py --xmpp --config ..
+cd ..
+err.py --xmpp --config .
+err.py --xmpp --config .
+brew search yahoo
+brew update
+. ~/.zshrc
+disable_proxy
+git st
+ll
+brew update
+brew search yahoo
+brew search gateway
+brew search im
+err.py --xmpp --config .
+err.py --xmpp --config .
+err.py --xmpp --config .
+err.py --xmpp --config .
+err.py --xmpp --config .
+err.py --xmpp --config .
+ll
+pip install dnspython
+workon merchpay-robot
+pip install dnspython
+err.py --xmpp --config .
+err.py --xmpp --config .
+err.py --xmpp --config .
+err.py --xmpp --config .
+err.py --xmpp --config .
+err.py --xmpp --config .
+err.py --xmpp --config .
+err.py --xmpp --config .
+ll
+cd ..
+cd merchandise-payables
+p merchpay-robot
+ll
+err.py --xmpp --config .
+[A
+err.py --xmpp --config .
+enable_proxy
+err.py --xmpp --config .
+../err/scripts/err.py --xmpp --config .
+python ../err/scripts/err.py --xmpp --config .
+nslookup gmail.com
+nslookup google.com
+curl http://google.com
+nslookup
+ll
+pip list
+pip
+pip help
+pip freeze
+python ../err/scripts/err.py --xmpp --config .
+python ../err/scripts/err.py --xmpp --config .
+disable_proxy
+python ../err/scripts/err.py --xmpp --config .
+python ../err/scripts/err.py --xmpp --config .
+python ../err/scripts/err.py --xmpp --config .
+which err.py
+basename `which err.py`
+dirname `which err.py`
+`dirname `which err.py``
+dirname `which err.py` | cd
+ll
+dirname `which err.py` | xargs -n1 cd
+ll
+cd .virtualenvs/merchpay-robot/
+ll
+cd lib/python2.7/site-packages/errbot
+ll
+e .
+p merchpay-robot
+ll
+err.py --xmpp --config .
+err.py --xmpp --config .
+err.py --xmpp --config .
+python
+ll
+e x.py
+python x.py
+err.py --config . --xmpp
+err.py --config . --xmpp
+python
+err.py --config . --xmpp
+err.py --config . --xmpp
+rm -rf x.py
+ll
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+ll
+cp plugins/deploy plugins/report
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+ll
+err.py --config . --xmpp
+mongoose
+brew install mongoose
+e /usr/local/Library/Formula/mongoose.rb
+brew install mongoose
+enable_proxy
+brew install mongoose
+ll
+mongoose
+mongoose -p 8989
+ll
+touch demo.json && mongoose -p 8989 
+rm -rf demo.json
+ll
+git ll
+git st
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+git st
+err.py --config . --xmpp
+err.py --config . --xmpp
+nslookup merchpayci.gap.com
+ssh ci
+ssh ci1
+python
+p merchpay-robot
+python
+ll
+touch plugins/__init__.py
+python
+python
+workon merchpay-robot
+python
+python
+curlish https://merchpay.gap.com/feeds/payments
+http https://merchpay.gap.com/feeds/payments
+ssh dgphxaciap002.phx.gapinc.com
+ssh dgphxaciap002.phx.gapinc.dev
+ssh dgphxaciap002.phx.gapinc.dev
+svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay/branches
+killall Finder
+p merchandise-payables
+enable_proxy
+p merchandise-payables
+cd ..
+p merchandise-payables
+git pull
+ll
+cd devops
+ll
+cd ci
+ll
+rm -rf app-segment.properties
+ll
+git ci -m 'Tech ITMERCHPAY-0 Deleted redundant files'
+git push
+gi tpull
+git pull
+ll
+cd ..
+cd ..
+ll
+git pull
+git pull
+git pull
+git pull
+git pull
+git ll
+cd devops
+ll
+cd boxes
+ll
+vagrant 
+vagrant basebox
+vagrant basebox build 'CentOS-6.2-x86_64'
+e ../..
+cd ../../modules/core/target
+ll
+p merchandise-payables
+gradle generateDocumentation
+cd ../../modules/core/target
+cd ./modules/core/target
+ll
+cd artifacts
+ll
+open user-manual.pdf
+git ll
+git pull
+git pull
+git pull
+git ll
+cd ..
+cd ..
+cd ..
+cd ..
+ll
+cd devops/boxes
+ll
+vagrant basebox build 'CentOS-6.2-x86_64'
+curl localhost:8880/status
+ll
+vagrant basebox export
+git shortlog -sne
+git mtf
+git mft
+cat ~/.githelpers
+git ll
+cat ~/.githelpers
+git pull
+ll
+vagrant basebox export 'CentOS-6.2-x86_64'
+ll
+cat Vagrantfile
+ll
+vagrant box 
+ll
+vagrant box add'CentOS-6.2-x86_64' 'CentOS-6.2-x86_64.box'
+vagrant box add 'CentOS-6.2-x86_64' 'CentOS-6.2-x86_64.box'
+vagrant up
+ll
+vagrant destroy
+cd ../..
+git pull
+gradle generateDocumentation generateReleaseNotes
+python
+e .
+python
+git pull
+p chef-cookbooks
+git pull
+git ll
+git pull
+git pull
+git pull
+git ll
+git pull
+git pull
+git pull
+git pull
+find . -name gapSudo
+vim ./cookbooks/gapSudo/README.md
+git log ./cookbooks/gapSudo/README.md
+git pull
+p merchandise-payables/devops/boxes/definitions/CentOS-6.2-x86_64
+cat cleanup.sh
+rvm install jruby-1.6.7.2
+enable_proxy
+rvm install jruby-1.6.7.2
+ssh e2e
+ll /Users/isa/.rvm/gems/jruby-1.6.7.2@global/bin/
+workon merchpay-robot
+p merchpay-robot
+ll
+e .
+git st
+python
+p chef-cookbooks
+git pull
+git pull
+git dt 92b8b69..2554477
+git pull
+e .
+git st
+git ci -m '[IG] Bumped the role versions'
+git push
+p merchandise-payables
+p merchandise-payables
+ll
+cd ..
+p merchandise-payables
+ll
+cd devops
+ll
+cd boxes
+du -sh
+ll
+cd ..
+ll
+cp boxes ../../merchpay-robot
+ll
+ll
+cp boxes ../../merchpay-robot
+cp boxes ../../merchpay-robot
+p merchpay-robot
+ll
+cd boxes
+ll
+cd ..
+ll
+rm -rf boxes
+ll
+git st
+git ci -m 'Added rvm support'
+git push
+p merchandise-payables
+enable_proxy
+cd ..
+cd merchandise-payables
+disable_proxy
+cd ..
+cd merchandise-payables
+cd merchandise-payables
+cd ../
+cd merchandise-payables
+bundle install
+ll
+cat Gemfile
+grep - "'.*'"
+grep - "'.*'" *
+grep "'.*'" *
+grep "'.*'" Gemfile
+grep "gem '.*'" Gemfile
+grep "^gem '.*'" Gemfile
+grep "^gem '.*'" Gemfile | cut -d' -f2
+grep "^gem '.*'" Gemfile | cut -d\' -f2
+for line in $(grep "^gem '.*'" Gemfile | cut -d\' -f2); do echo $line; done;
+for line in $(grep "^gem '.*'" Gemfile | cut -d\' -f2); do gem install $line; done;
+for line in $(grep "^gem '.*'" Gemfile | cut -d\' -f2); do gem install $line --no-ri --no-rdoc; done;
+for line in $(grep "^gem '.*'" Gemfile | cut -d\' -f2); do gem install $line --no-ri --no-rdoc; done;
+git pull
+git pull
+git log cbe4814..12a3ed4
+git dt cbe4814..12a3ed4
+ll
+git pull
+ll
+disable_proxy
+cd ..
+ssh ci2
+ssh -r teamcity@ci2:~/Vagrant ~/Projects/merchpay-robot
+scp -r teamcity@ci2:~/Vagrant ~/Projects/merchpay-robot
+ssh ci2
+p merchandise-payables
+rvm use jruby
+gradle generateReleaseNotes generateDocumentation
+gem list
+rvm use jruby@merchandise-payables
+gem list
+gradle generateReleaseNotes generateDocumentation
+ssh ci2
+enable_proxy
+brew install rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+rbenv list
+rbenv versions
+rbenv version
+rbenv install jruby-1.7.0
+p merchandise-payables
+git pull
+p merchpay-robot
+workon merchpay-robot
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+pip install lxml
+enable_proxy
+pip install lxml
+pip
+pip help
+pip --proxy qaproxy.gid.gap.com:8080 install lxml
+pip --proxy http://qaproxy.gid.gap.com:8080 install lxml
+disable_proxy
+pip --proxy http://qaproxy.gid.gap.com:8080 install lxml
+pip --proxy http://qaproxy.gid.gap.com:8080 install lxml
+python
+python
+ll
+cd plugins/deploy
+python
+git st
+pythonn
+python
+err.py --config . --xmpp
+cd ../..
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+git st
+git ci -m 'Hacked something together to make something work'
+git st
+git push
+git remote -v
+git ll
+touch dependencies.txt
+cat ../err/requirements.txt
+pip install -r dependencies.txt
+git ci -m 'Updated read me and added dependencies list'
+git push
+git ll
+cp ../merchandise-payables/.rvmrc .
+cp ../merchandise-payables/Gemfile .
+cd ..
+p merchpay-robot
+bundle
+enable_proxy
+bundle
+disable_proxy
+cd ..
+cd merchpay-robot
+ll
+cat Gemfile
+which gem
+gem install vagrant
+gem install vagrant --no-ri --no-rdoc
+gem install vagrant chef veewee --no-ri --no-rdoc
+gem install chef veewee --no-ri --no-rdoc
+gem install chef veewee --no-ri --no-rdoc
+disable_proxy
+cd ..
+cd merchpay-robot
+. ~/.zshrc
+cd ..
+cd merchpay-robot
+rvm reload
+cd ..
+cd merchpay-robot
+rvm list
+rvm remove 1.8.7 1.9.3
+rvm clean all
+rvm cleanup all
+ll
+rvm install ruby-1.8.7-p371
+rvm install ruby-1.8.7-p371 --with-gcc
+CC=gcc-4.2 rvm install ruby-1.8.7-p371 --with-gcc
+which gcc
+ll /usr/bin/gc*
+ll /usr/bin/gc*
+CC=gcc-4.2 rvm install ruby-1.8.7-p371 --with-gcc
+which ruby
+cd ..
+cd merchpay-robot
+ll
+for line in $(grep "^gem '.*'" Gemfile | cut -d\' -f2); do gem install $line --no-ri --no-rdoc; done;
+gem list | wc -l
+gem list
+ll
+vagrant basebox
+git st
+echo "*.lock" >> .gitignore
+cat .gitignore
+vim .gitignore
+git st
+git ci -m 'Updated gitignore file'
+git ll
+git pull
+ll
+ll
+mv Vagrant vms
+ll
+cd vms
+ll
+cd ..
+gem install knife
+git st
+ll
+git st
+git ci -m 'Added vms'
+git st
+git ll
+vagrant import
+vagrant import -h
+vagrant -h import
+vagrant help import
+vagrant -h box
+vagrant box -h
+vagrant box add 'qa1' vms/CentOS-6.2-x86_64.box
+vagrant box add 'qa2' vms/CentOS-6.2-x86_64.box
+vagrant box add 'instant' vms/CentOS-6.2-x86_64.box
+ll
+cd vms
+vagrant up qa1
+vagrant up 'qa1'
+vagrant -h up
+vagrant up qa1
+cat /Users/isa/.rvm/gems/ruby-1.8.7-p371@merchpay-robot/gems/vagrant-1.0.5/lib/vagrant/config/vm.rb
+less /Users/isa/.rvm/gems/ruby-1.8.7-p371@merchpay-robot/gems/vagrant-1.0.5/lib/vagrant/config/vm.rb
+ll
+vagrant up qa1
+less /srv/chef/file_store/chef-stacktrace.out
+vagrant ssh
+vagrant ssh qa1
+df -h
+vagrant ssh qa1
+vagrant list
+vagrant box list
+ll
+vagrant box remove CentOS-6.2-x86_64
+vagrant box remove qa1 qa2 instant
+vagrant box remove qa2
+vagrant box remove instant
+vagrant box list
+vagrant box add CentOS-6.2-x86_64 CentOS-6.2-x86_64.box
+ll
+vagrant up qa1
+vagrant ssh qa1
+vagrant destroy CentOS-6.2-x86_64
+vagrant destroy qa1
+vagrant destroy qa2
+vagrant destroy qa3
+vagrant destroy instant
+vagrant up qa1
+curl locahost:7001/status
+curl localhost:7001/status
+vagrant destroy qa1 -f
+git st
+git ci -m 'Fixed the vagrantfile for vm targets'
+git push
+git ll
+ll
+cd ..
+ll
+vagrant 
+vagrant up -h
+vagrant -f
+python
+workon merchpay-robot
+python
+which vagrant
+rvm gemset list
+cat .rvmrc
+python
+which vagrant
+cd ../
+cd merchpay-robot
+which vagrant
+python
+echo "#bash" > start-vm.sh
+ll
+touch start-vm.sh
+chmod +x start-vm.sh
+./start-vm.sh
+cat ~/.zshrc
+./start-vm.sh
+rvm list
+rvm gemset list
+python
+ll
+rm -rf Gemfile *
+rm -rf Gemfile*
+ll
+git st
+rm -rf .rvmrc
+ll
+git st
+cd ..
+which ruby
+rvm remove 1.9.3
+rvm list
+rvm remove 1.8.7-p370
+rvm list
+rvm remove 1.9.3
+vm list
+rvm list
+rvm reload
+rvm list
+rvm cleanup all
+rvm list
+rvm use 1.8.7
+rvm remove 1.9.3
+rvm list
+rvm use 1.8.7 --default
+rvm list
+rvm remove 1.9.3
+rvm list
+rvm cleanup all
+rvm list
+ll
+which gem
+which ruby
+rvm use system
+which ruby
+which gem
+gem install vagrant veewee chef --no-ri --no-rdoc
+enable_proxy
+gem install vagrant veewee chef --no-ri --no-rdoc
+sudo gem install vagrant veewee chef --no-ri --no-rdoc
+sudo http_proxy=http://qaproxy.gid.gap.com gem install vagrant veewee chef --no-ri --no-rdoc
+sudo http_proxy=http://qaproxy.gid.gap.com:8080 https_proxy=http://qaproxy.gid.gap.com:8080 gem install vagrant veewee chef --no-ri --no-rdoc
+gem list
+which vagrant
+cd merchpay-robot
+ll
+which vagrant
+rm -rf start-vm.sh
+pip install -r dependencies.txt
+python
+workon merchpay-robot
+pip install -r dependencies.txt
+cd ~/.rvm/rubies/jruby-1.6.7.2
+ll
+cd bin
+ll
+cd ../
+ll
+cd lib
+ll
+cd ruby
+ll
+cd ..
+ll
+cd ..
+find . -name ant
+cd lib/ruby/site_ruby
+ll
+cd shared
+ll
+cd ant
+ll
+cd ..
+cd ..
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+ant clean cext
+find . -name build.xml
+vim ./samples/jnlp/build.xml
+ack cext
+cd ..
+ll
+cd jruby-1.6.7.2
+ll
+less README
+ll
+cd ..
+ll
+disable_proxy
+p merchandise-payables
+ll
+cat .rvmrc
+rvm remove jruby
+rvm cleanup
+rvm cleanup all
+rvm install jruby
+ll
+rvm install jruby-1.7
+rvm help
+rvm update
+rvm get
+rvm latest
+rvm get latest
+ll
+cat ~/.zshrc
+rvm list 
+rvm install jruby
+tail -n +2 Gemfile
+tail -n +3 Gemfile
+tail -n +3 Gemfile > Gemfile
+tail -n +3 Gemfile | tee
+tail -n +3 Gemfile | tee Gemfile
+ll
+cat Gemfile
+bundle install
+which gem
+cd ..
+cd merchandise-payables
+which ruby
+which gem
+gem list
+bundle install
+jruby --properties
+jruby --properties | grep cext
+echo cext.enabled=true > ~/.jrubyrc
+ll ~/.jrubyrc
+cat ~/.jrubyrc
+bundle install
+gem install libxml-ruby --no-ri --no-rdoc
+gem list
+grep "^gem '.*'"
+grep "^gem '.*'" Gemfile
+for line in $(grep "^gem '.*'" Gemfile | cut -d\' -f2); do echo $line; done;
+for line in $(grep "^gem '.*'" Gemfile | cut -d\' -f2); do gem install $line --no-ri --no-rdoc; done;
+git s
+git st
+git co -- Gemfile
+gem list
+gem list | wc -l
+ruby -v
+enable_proxy
+git pull
+cat devops/boxes/Vagrantfile
+brew install htop
+brew install libtool
+brew install libgcrypt
+brew install htop
+brew update
+cat Gemfile
+git pull
+cd conf
+ll
+cat data-bag.vm.json
+e .
+e ..
+cat data-bag.vm2.json
+cat data-bag.default.json
+ll
+cd ..
+which ruby
+guard
+guard --help
+guard list
+cd modules/core
+ll
+guard
+ll
+cd ../..
+ll
+brew remove rbenv
+p merchandise-payables
+ll
+rvm use jruby
+jruby --client -J-d32
+jirb --client -J-d32
+jruby -S irb --client -J-d32
+jruby -S gem --client -J-d32
+jruby -S gem -J-d32
+JRUBY_OPTS='--client -J-d32'
+jruby -S gem
+jruby -S gem
+jruby -S gem
+time jruby -S gem
+time gem
+time | gem
+gem | time
+p merchpay-robot
+workon merchpay-robot
+enable_proxy
+pip install -r dependencies.txt
+sudo pip install sh
+pip install -r dependencies.txt
+python
+sudo pip uninstall sh
+git st
+pip install -r dependencies.txt
+sudo pip uninstall sh
+easy_install 
+easy_install  remove
+cd /Library/Python/2.7/site-packages/
+ll
+vim sh.py
+python
+p merchpay-robot
+ll
+pip install sh
+which pip
+pip 
+pip help
+pip freeze
+pip install -r dependencies.txt --exists-action s
+cd ..
+deactivate
+rmvirtualenv merchpay-robot
+mkvirtualenv --no-site-packages merchpay-robot
+ll ~/.virtualenvs
+rm -rf ~/.virtualenvs/merchpay-robot
+mkvirtualenv --no-site-packages merchpay-robot
+ll ~/.virtualenvs
+rm -rf ~/.virtualenvs/merchpay-robot
+ssh ci2
+mkvirtualenv --no-site-packages merchpay-robot
+cat ~/.zshrc
+lsvirtualenv
+. ~/.zshrc
+mkvirtualenv --no-site-packages merchpay-robot
+source /usr/local/bin/virtualenvwrapper.sh
+mkvirtualenv --no-site-packages merchpay-robot
+ssh ci2
+mkvirtualenv --help
+mkvirtualenv --clear
+mkvirtualenv --clear merchpay-robot
+which python
+ll `which python`
+brew search python
+brew info python
+brew install python --quicktest --with-brewed-openssl --with-poll --with-dtrace --universal
+enable_proxy
+brew install python --quicktest --with-brewed-openssl --with-poll --with-dtrace --universal
+sqlite3 --version
+brew install sqlite
+brew install python --quicktest --with-brewed-openssl --with-poll --with-dtrace --universal
+brew update sqlite
+brew versions sqlite
+brew upgrade sqlite
+brew install python --quicktest --with-brewed-openssl --with-poll --with-dtrace --universal
+brew install python --quicktest --with-brewed-openssl --with-dtrace --universal
+brew install python
+ll
+which python
+mkvirtualenv merchpay-robot
+sudo easy_install virtualenv
+sudo easy_install pip
+sudo pip install virtualenvwrapper
+mkvirtualenv --no-site-packages --distribute merchpay-robot
+mkvirtualenv --no-site-packages merchpay-robot
+mkvirtualenv --no-site-packages --distribute --python=/usr/local/bin/python2.7 merchpay-robot
+mkvirtualenv --no-site-packages --distribute --python=/usr/local/bin/python merchpay-robot
+which python
+mkvirtualenv --no-site-packages --distribute --python=/usr/bin/python merchpay-robot
+which pip
+brew info pip
+brew remove pip
+cat ~/.zshrc
+sudo mkvirtualenv --no-site-packages --distribute --python=/usr/bin/python merchpay-robot
+mkvirtualenv --no-site-packages --distribute merchpay-robot
+rm -rf ~/.virtualenvs/merchpay-robot
+mkvirtualenv --no-site-packages --distribute merchpay-robot
+sudo pip upgrade
+sudo pip update
+sudo pip help
+sudo easy_install pip
+sudo easy_install pip --force
+pip install pip
+sudo pip --upgrade
+sudo pip install pip --upgrade
+enable_proxy
+sudo pip install pip --upgrade
+sudo pip install pip==1.2.1
+sudo pip install pip==1.2
+mkvirtualenv --no-site-packages --distribute merchpay-robot
+brew search setup
+sudo easy_install setup_tools
+sudo easy_install setuptools
+ssh ci2
+ssh ci2
+vagrant status
+p merchpay-robot
+workon merchpay-robot
+vagrant status
+vagrant status qa1
+vagrant
+vagrant ssh qa1
+netcat localhost 7001
+curl localhost:7001/status
+vagrant status qa1
+curl localhost:7001/status
+curl localhost:7001/status
+vagrant status
+vagrant status
+vagrant status
+vagrant status
+vagrant destroy -f qa1
+vagrant status
+vagrant status
+ps -ef | grep vagrant
+htop
+brew install htop
+htop
+ps -ef | grep vagrant
+vagrant status qa1
+vagrant status qa1
+vagrant destroy -f qa1
+vagrant destroy -f qa1
+vagrant status qa1
+vagrant status qa1
+vagrant status qa1
+curl localhost:7001/status
+ll
+cd logs
+ll
+tail -f qa1.log
+vagrant status
+which python
+python
+sudo easy_install pip
+sudo pip install virtualenvwrapper
+sudo pip install virtualenvwrapper --upgrade
+sudo pip install setuptools
+mkvirtualenv --no-site-packages --distribute merchpay-robot
+workon merchpay-robot
+p merchpay-robot
+pip install -r dependencies.txt
+pip install --proxy=http://qaproxy.gid.gap.com:8080 -r dependencies.txt
+git st
+git ci -m 'Removed RVM files since we have to use system ruby'
+git st
+python
+python
+which vagrant
+python
+which ruby
+rvm use system --default
+which ruby
+which vagrant
+python
+ll
+mv vms/* .
+ll
+rm -rf vms
+git st
+git ci -m 'Moved vagrant files to the root folder'
+git st
+ll
+python
+which err.py
+e /Users/isa/.virtualenvs/merchpay-robot/lib/python2.7/site-packages/errbot/
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+git st
+cat .vagrant
+vim .gitignore
+git st
+git ci -m 'Updated deployment to actually log'
+git push
+vagrant status
+vagrant destroy -f qa1
+git pull
+python
+which err.py
+e /Users/isa/.virtualenvs/merchpay-robot/lib/python2.7/site-packages/errbot/
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+python
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+git st
+git ci -m 'Added some more trackable way to boot up the boxes'
+git push
+vagrant destroy -f qa1
+git ci -m 'Changed the instant box name'
+git push
+git ll
+ssh e2e
+ssh e2e
+ssh ci2
+cd /Volumes/Data/Movies\ \[720p\]
+ll | grep X-
+ll | grep X\-
+ll | grep X
+ll
+ssh ci1
+ssh ci2
+p merchandise-payables
+git pull
+ssh ci1
+ssh ci2
+ssh support@ci2
+p merchpay-robot
+tail -5 logs/qa1.log
+tail -n5 logs/qa1.log
+p merchandise-payables
+cd devops/chef/cookbooks
+e .
+p merchpay-robot
+vagrant status
+vagrant status instant
+vagrant status instant
+vagrant status instant
+vagrant status instant
+vagrant status instant
+vagrant status instant
+vagrant status instant
+vagrant status instant
+vagrant status instant
+vagrant status instant
+vagrant status instant
+vagrant status instant
+vagrant status
+vagrant status
+vagrant status
+vagrant destroy -f instant
+df -h
+cat ~/.zshrc
+git remote -v
+git st
+git ci -m 'updated the read me file with more clear installation instructions'
+git push
+ll
+rm -rf log_watcher.pyc
+ll
+irb
+irb
+ll
+cp instant.json qa1.json
+cp instant.json qa2.json
+git st
+vagrant status
+vagrant status
+vagrant status
+vagrant status
+vagrant up instant
+vagrant up instant
+vagrant destroy -f instant
+vagrant up instant
+nc mpci.gap.com 8111
+vagrant up instant
+vagrant destroy -f instant
+vagrant up instant
+pwd
+ll
+http GET http://localhost:7003/status
+vagrant status
+vagrant destroy -f instant
+python
+python
+ll
+git sti
+git st
+ll
+cat qa1.json
+vagrant up qa1
+pwd
+ll
+cat qa1.json
+vagrant up qa1
+irb
+vagrant up instant
+cat instant.json
+cp qa1.json instant.json
+vagrant up instant
+http localhost:7003/status
+cat instant.json
+vagrant ssh
+vagrant ssh instant
+vagrant destroy -f instant
+vagrant up instant
+vagrant destroy -f instant
+ll
+cat instant.json
+cp qa1.json instant.json
+vagrant up instant
+http localhost:7001/status
+http localhost:7003/status
+git st
+vagrant ssh
+vagrant ssh instant
+vagrant destroy -f instant
+vagrant up instant
+git st
+http localhost:7003/status
+err.py --config . --xmpp
+workon merchpay-robot
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+ll
+cp qa1.json instant.json
+err.py --config . --xmpp
+err.py --config . --xmpp
+irb
+python
+err.py --config . --xmpp
+python
+err.py --config . --xmpp
+err.py --config . --xmpp
+git st
+cat instant.json
+git ci -m 'updated version algorithm to actually apply the correct version'
+git st
+git push
+git st
+git diff
+err.py --config . --xmpp
+err.py --config . --xmpp
+vagrant destroy -f qa1
+vagrant destroy -f instant
+vagrant destroy -f qa2
+git st
+git dff
+git diff
+git ci -m 'Added more meaning text replies'
+git push
+workon merchpay-robot
+p merchpay-robot
+ll
+enable_proxy
+err.py --config . --xmpp
+vagrant destroy -f qa1
+e .
+python
+git st
+git ci -m 'Added case insensitivity and proper status report during deployment'
+git push
+err.py --config . --xmpp
+err.py --config . --xmpp
+python
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+git pull
+git st
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+python
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+err.py --config . --xmpp
+git st
+git ci -m 'Removed redundant logging, we can get info from the log file'
+git push
+which err.py
+e /Users/isa/.virtualenvs/merchpay-robot/lib/python2.7/site-packages/errbot/backends/jabber.py
+ll
+git st
+cat logs/instant.log

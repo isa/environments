@@ -1,5 +1,7 @@
 TODO:
  ☐ make links clickable and highlighted @feature
+ ☐ include in the task the date and time of creation (using a shortcut key) @feature
+    Maybe after mark the task as @done calculate (the end time - start time) would be so great!
  ☐ taskpaper compatibility @improvement
  ☐ in archive list, prefix task with project name, add specific scope for project prefixes @feature
  ☐ in archive list, add date in front of done tasks (e.g. 2012-09-06 14:41 Ξ some task) @feature
@@ -16,6 +18,7 @@ TODO:
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ margin before task bullet should be customizable @improvement @done (12-11-16 21:05)
  ✔ add link to repo @documentation @done (12-09-23 11:36)
  ✔ tags with () @bug @done (12-09-23 11:28)
  ✔ can not make a new task on empty line @bug @important @done (12-09-23 11:26)

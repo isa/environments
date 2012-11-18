@@ -1,10 +1,12 @@
 {
-	"auto_upgrade_last_run": 1351720347,
+	"auto_upgrade_last_run": 1353006578,
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"ApacheConf.tmLanguage",
 		"CoffeeScript",
 		"Cucumber",
+		"Emmet",
 		"Format SQL",
 		"GenerateUUID",
 		"GotoOpenFile",
@@ -16,13 +18,12 @@
 		"Schemr",
 		"Shell Turtlestein",
 		"SideBarEnhancements",
-		"Solarized Color Scheme (TextMate)",
+		"Solarized Color Scheme",
 		"SyncedSideBar",
 		"Theme - Soda",
 		"ToggleQuotes",
 		"Tomorrow Color Schemes",
 		"Vintage Numbers",
-		"VintageEx",
-		"ZenCoding"
+		"VintageEx"
 	]
 }

@@ -156,14 +156,14 @@
     {
         "caption": "Schemr: Solarized (dark)", 
         "args": {
-            "s": "Packages/Solarized Color Scheme (TextMate)/Solarized (dark).tmTheme"
+            "s": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme"
         }, 
         "command": "switch_scheme"
     }, 
     {
         "caption": "Schemr: Solarized (light)", 
         "args": {
-            "s": "Packages/Solarized Color Scheme (TextMate)/Solarized (light).tmTheme"
+            "s": "Packages/Solarized Color Scheme/Solarized (light).tmTheme"
         }, 
         "command": "switch_scheme"
     }, 

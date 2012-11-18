@@ -22,6 +22,7 @@
    dump = cat-file -p
    incoming = !git fetch && git log master ^origin/master
    outgoing = !git fetch && git log origin/master ^master
+   mft = "!source ~/.githelpers && list_most_frequently_touched_files"
 [color]
    branch = auto
    diff = auto

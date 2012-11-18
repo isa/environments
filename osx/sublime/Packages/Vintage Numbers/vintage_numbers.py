@@ -7,11 +7,13 @@ import sublime
 import sublime_plugin
 
 
+NUMBER_RE = re.compile(r'(-?0[0-7]+)|(-?0[xX][\da-fA-F]+)|(-?\d+)')
+
+
 class ViNumberMixin(object):
     """Mixin for Sublime Text 2 TextCommands that enables incrementing
     and decrementing number at the caret position in Vintage command mode.
     It works with caret at any position of a number.
-    It doesn't support negative numbers yet.
 
     Default key bindings are setup like in Vi:
         ctrl+a -- incrementing
@@ -32,28 +34,36 @@ class ViNumberMixin(object):
             if not s.empty() or len(line) == 0:
                 continue
 
-            if line[col].isdigit():
-                # Getting begining and end columns of
-                # the whole number position.
-                beg, end = (col, col + 1)
-                while beg >= 0 and line[beg:end].isdigit():
-                    beg -= 1
-                beg += 1
-                while end <= len(line) and line[beg:end].isdigit():
-                    end += 1
-                end -= 1
-            else:
-                # Finding the next number in the current line.
-                match = re.search(r'\d+', line[col:])
-                if not match:
-                    continue
-                # Getting begining and end columns of number position.
-                beg, end = map(lambda x: x + col, match.span())
+            number = None
 
-            # Incrementing/decrementing the number and
-            # converting to string.
-            number = line[beg:end]
-            new_number = str(int_method(int(number), 1))
+            # Searching for the first oct, hex or dec number in the line.
+            matches = NUMBER_RE.finditer(line)
+            for match in matches:
+                beg, end = match.span()
+                if col < end:
+                    # This number is after the current carret position, getting
+                    # it from the line.
+                    number = line[beg:end]
+                    # Checking number type to define converter and base.
+                    # Base is deduced from the contents of the string the same
+                    # way Python's function PyLong_FromString does it.
+                    unsigned = number[1:] if number[0] == '-' else number
+                    if unsigned == '0' or unsigned[0] != '0':
+                        converter = int
+                        base = 10
+                    elif unsigned[1] in ('x', 'X'):
+                        converter = hex
+                        base = 16
+                    else:
+                        converter = oct
+                        base = 8
+                    break
+
+            if not number:
+                continue
+
+            # Applying increment/decrement command to the number.
+            new_number = str(converter(int_method(int(number, base), 1)))
 
             # Counting region that will be replaced.
             start = s.b - (col - beg)
@@ -80,7 +90,6 @@ class ViIncrementNumberCommand(sublime_plugin.TextCommand, ViNumberMixin):
     """Sublime Text 2 TextCommand to increment number at the caret position
     in Vintage command mode.
     It works with caret at any position of a number.
-    It doesn't support negative numbers yet.
 
     Default key binding is setup to "ctrl+a" like in Vi.
 
@@ -95,7 +104,6 @@ class ViDecrementNumberCommand(sublime_plugin.TextCommand, ViNumberMixin):
     """Sublime Text 2 TextCommand to decrement number at the caret position
     in Vintage command mode.
     It works with caret at any position of a number.
-    It doesn't support negative numbers yet.
 
     Default key binding is setup to "ctrl+x" like in Vi.
 

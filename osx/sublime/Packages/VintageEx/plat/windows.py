@@ -19,7 +19,7 @@ def get_startup_info():
     return startupinfo
 
 
-def run_and_wait(cmd):
+def run_and_wait(view, cmd):
     subprocess.Popen(['cmd.exe', '/c', cmd + '&& pause']).wait()
 
 
@@ -33,7 +33,7 @@ def filter_region(view, txt, command):
         script.write('@echo off\ntype %s | %s' % (contents.name, command))
         script.close()
 
-        p = subprocess.Popen(['cmd.exe', '/C', script.name],
+        p = subprocess.Popen([script.name],
                              stdout=subprocess.PIPE,
                              startupinfo=get_startup_info())
 

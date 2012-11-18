@@ -2,6 +2,40 @@
 """
 
 from collections import namedtuple
+import sublime
+
+
+class VimRange(object):
+    """Encapsulates calculation of view regions based on supplied raw range info.
+    """
+    def __init__(self, view, range_info, default=None):
+        self.view = view
+        self.default = default
+        self.range_info = range_info
+
+    def blocks(self):
+        """Returns a list of blocks potentially encompassing multiple lines.
+        Returned blocks don't end in a newline char.
+        """
+        regions, visual_regions = new_calculate_range(self.view, self.range_info)
+        blocks = []
+        for a, b in regions:
+            r = sublime.Region(self.view.text_point(a - 1, 0),
+                               self.view.line(self.view.text_point(b - 1, 0)).end())
+            if self.view.substr(r)[-1] == "\n":
+                if r.begin() != r.end():
+                    r = sublime.Region(r.begin(), r.end() - 1)
+            blocks.append(r)
+        return blocks
+
+    def lines(self):
+        """Return a list of lines.
+        Returned lines don't end in a newline char.
+        """
+        lines = []
+        for block in self.blocks():
+            lines.extend(self.view.split_by_newlines(block))
+        return lines
 
 
 EX_RANGE = namedtuple('ex_range', 'left left_offset separator right right_offset')
@@ -39,7 +73,7 @@ def calculate_address(view, a):
                       # todo: 'text_range' key missing
                     )
 
-    a =  new_calculate_range(view, fake_range)[0][0] or -1
+    a, _ =  new_calculate_range(view, fake_range)[0][0] or -1
     # FIXME: 0 should be a valid address?
     if not (0 < a <= view.rowcol(view.size())[0] + 1):
         return None
@@ -47,6 +81,11 @@ def calculate_address(view, a):
 
 
 def new_calculate_range(view, r):
+    """Calculates line-based ranges (begin_row, end_row) and returns
+    a tuple: a list of ranges and a boolean indicating whether the ranges
+    where calculated based on a visual selection.
+    """
+
     # FIXME: make sure this works with whitespace between markers, and doublecheck
     # with Vim to see whether '<;>' is allowed.
     # '<,>' returns all selected line blocks
@@ -55,8 +94,10 @@ def new_calculate_range(view, r):
         for sel in view.sel():
             start = view.rowcol(sel.begin())[0] + 1
             end = view.rowcol(sel.end())[0] + 1
+            if view.substr(sel.end() - 1) == '\n':
+                end -= 1
             all_line_blocks.append((start, end))
-        return all_line_blocks
+        return all_line_blocks, True
         
     # todo: '< and other marks
     if r['left_ref'] and (r['left_ref'].startswith("'") or (r['right_ref'] and r['right_ref'].startswith("'"))):
@@ -104,7 +145,7 @@ def new_calculate_range(view, r):
         left = right = calculate_relative_ref(view, '.')
 
     # todo: reverse range automatically if needed
-    return [(left, right)]
+    return [(left, right)], False
 
 # Avoid circular import.
 from vex import ex_location

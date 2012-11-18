@@ -1,10 +1,16 @@
 {
 	"folder_history":
 	[
+		"/Users/isa/.virtualenvs/merchpay-robot/lib/python2.7/site-packages/errbot",
 		"/Users/isa/Projects/merchandise-payables",
-		"/private/tmp/hubot-scripts",
-		"/usr/local/share/npm/lib/node_modules/hubot",
+		"/Users/isa/Projects/merchandise-payables/conf",
 		"/Users/isa/Projects/chef-cookbooks",
+		"/Users/isa/Projects/merchpay-robot",
+		"/Users/isa/Projects/err/errbot",
+		"/Users/isa/Projects/err",
+		"/usr/local/share/npm/lib/node_modules/hubot/src",
+		"/usr/local/share/npm/lib/node_modules/hubot",
+		"/private/tmp/hubot-scripts",
 		"/usr/local/Cellar/inspircd/2.0.9/conf",
 		"/usr/local/Cellar/inspircd/2.0.9/conf/examples",
 		"/Users/isa/Downloads/modelint-Train-Route-Example-39a3d83",
@@ -13,14 +19,13 @@
 		"/Users/isa/Desktop/merchPay",
 		"/Users/isa/Downloads/merchpay-app-dev",
 		"/Users/isa/Desktop/keys",
-		"/Users/isa/Projects/merchandise-payables/conf",
 		"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp",
 		"/Users/isa/Desktop/instance",
 		"/Users/isa/.environments",
 		"/Users/isa/Projects/scms/mp",
 		"/Users/isa/Projects"
 	],
-	"last_window_id": 122,
+	"last_window_id": 169,
 	"settings":
 	{
 		"new_window_height": 793.0,
@@ -30,6 +35,18 @@
 			{
 				"selected_items":
 				[
+					[
+						"url",
+						"urlopen"
+					],
+					[
+						"dep",
+						"deploy_latest"
+					],
+					[
+						"get",
+						"getType"
+					],
 					[
 						"app",
 						"appStatus"
@@ -87,9 +104,33 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 357.0,
+				"height": 269.0,
 				"selected_items":
 				[
+					[
+						"new",
+						"Tasks: New document"
+					],
+					[
+						"new ",
+						"Tasks: New document"
+					],
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"list ",
+						"Package Control: List Packages"
+					],
+					[
+						"do",
+						"Tasks: New document"
+					],
 					[
 						"inde",
 						"Indentation: Reindent Lines"
@@ -127,15 +168,7 @@
 						"Set Syntax: Ruby"
 					],
 					[
-						"instal",
-						"Package Control: Install Package"
-					],
-					[
 						"task",
-						"Tasks: New document"
-					],
-					[
-						"do",
 						"Tasks: New document"
 					],
 					[
@@ -191,10 +224,6 @@
 						"Set Syntax: Java Properties"
 					],
 					[
-						"bash",
-						"Set Syntax: Shell Script (Bash)"
-					],
-					[
 						":w",
 						":w - Save"
 					],
@@ -228,15 +257,75 @@
 			},
 			"file_history":
 			[
+				"/Users/isa/Projects/merchpay-robot/config.py",
+				"/Users/isa/Projects/merchpay-robot/plugins/report/report.plug",
+				"/Users/isa/Projects/merchpay-robot/plugins/helper.py",
+				"/Users/isa/Projects/merchpay-robot/plugins/mp.py",
+				"/Users/isa/Desktop/1on1.todo",
+				"/Users/isa/Projects/merchpay-robot/plugins/status/status.plug",
+				"/Users/isa/Projects/merchpay-robot/plugins/deploy/deploy.plug",
+				"/Users/isa/Projects/merchpay-robot/plugins/deploy/status.plug",
+				"/Users/isa/Projects/merchpay-robot/plugins/deploy/status.py",
+				"/Users/isa/Projects/merchpay-robot/README.md",
+				"/Users/isa/Projects/merchpay-robot/.gitignore",
+				"/Users/isa/Projects/merchpay-robot/plugins/status.py",
+				"/Users/isa/.zshrc",
+				"/Users/isa/Desktop/transitions.todo",
+				"/Users/isa/.ssh/config",
+				"/Users/isa/Projects/chef-cookbooks/nodes/dgphxscmap012.phx.gapinc.dev.json",
+				"/Users/isa/Projects/chef-cookbooks/nodes/dgphxscmap013.phx.gapinc.dev.json",
+				"/Users/isa/Projects/chef-cookbooks/nodes/dgphxscmap014.phx.gapinc.dev.json",
+				"/Users/isa/Projects/chef-cookbooks/nodes/dgphxscmap011.phx.gapinc.dev.json",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/recipes/sudo.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/recipes/deployapp.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/files/default/data-bag.showcase.json",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/gapNagios/recipes/monitor-rcc.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/metadata.rb",
+				"/Users/isa/Projects/chef-cookbooks/nodes/bgrccscmdb001.rcc.gapinc.com.json",
+				"/Users/isa/Projects/chef-cookbooks/.git/MERGE_MSG",
+				"/tmp/fucker/.git/rebase-merge/git-rebase-todo",
+				"/private/tmp/fucker/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/README.md",
+				"/Users/isa/.gitconfig",
+				"/Users/isa/.githelpers",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/attributes/default.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/mongodb/recipes/nagios.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/mongodb/attributes/default.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/mongodb/metadata.rb",
+				"/Users/isa/Desktop/production.todo",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/files/default/data-bag.e2e.json",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/files/default/data-bag.prod.json",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/recipes/ngf-client.rb",
+				"/Users/isa/Projects/chef-cookbooks/roles/mongorepsetMP.json",
+				"/Users/isa/Projects/chef-cookbooks/nodes/pgphxscmap004.phx.gapinc.com.json",
+				"/Users/isa/Desktop/study.todo",
+				"/Users/isa/.environments/osx/zsh/isa.theme",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/02.configuration.md",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/infrastructure-overview.dot",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/replicaset-overview.dot",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/state-machine-flow.dot",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/request-flow.dot",
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/01.architecture.md",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/03.installation.md",
+				"/Users/isa/Projects/merchandise-payables/build.gradle",
+				"/Users/isa/Projects/merchandise-payables/conf/data/chartofaccounts.json",
+				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/TechnicalFlow.dot",
+				"/Users/isa/Projects/merchandise-payables/docs/development/developers-handbook.md",
+				"/Users/isa/Projects/merchandise-payables/docs/development/qa-handbook.md",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/WEB-INF/web.xml",
+				"/Users/isa/Projects/merchandise-payables/conf/templates/ngf/ngf.erb",
+				"/Users/isa/.environments/osx/sublime/Packages/User/Preferences.sublime-settings",
+				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/production-deployment.dot",
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/sample-diagram.dot",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/diagram.dot",
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/05.sample.md",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/sample-diagram.png",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/diagram.dot",
 				"/usr/local/share/npm/lib/node_modules/hubot/package.json",
 				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/hello.coffee",
 				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/google-images.coffee",
 				"/Users/isa/Projects/merchandise-payables/conf/data-bag.integration.json",
-				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/files/default/data-bag.e2e.json",
 				"/Users/isa/Desktop/nfc2.xml",
 				"/Users/isa/Projects/merchandise-payables/devops/boxes/definitions/CentOS-6.3-x86_64/ks.cfg",
 				"/Users/isa/Projects/merchandise-payables/devops/boxes/definitions/CentOS-6.3-x86_64/definition.rb",
@@ -249,7 +338,6 @@
 				"/Users/isa/Projects/merchandise-payables/modules/core/build.gradle",
 				"/Users/isa/Desktop/keys/ed.id_rsa.pub",
 				"/Users/isa/Desktop/keys/avinash.id_rsa.pub",
-				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
 				"/Users/isa/Desktop/x.json",
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties",
 				"/Users/isa/Projects/merchandise-payables/devops/deploy/mongo/import.sh",
@@ -259,14 +347,12 @@
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/build.gradle",
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/java/META-INF/spring.handlers",
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/java/META-INF/spring.schemas",
-				"/Users/isa/Projects/merchandise-payables/build.gradle",
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/java/com/gap/scms/ngf/AtomFeedPoller.java",
 				"/private/var/folders/_3/k07cs5ws7s943vtrnvtsql9c0000gn/T/.entp.d76ixc/0/logback.xml.erb",
 				"/Users/isa/Projects/merchandise-payables/docs/production/03.installation.md",
 				"/Users/isa/Projects/merchandise-payables/docs/production/01.architecture.md",
 				"/Users/isa/Projects/merchandise-payables/docs/production/02.configuration.md",
 				"/Users/isa/Projects/merchandise-payables/docs/production/04.troubleshooting.md",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/WEB-INF/web.xml",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/resources/app.valid.users.properties",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/index.html",
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/java/com/gap/scms/ngf/model/Config.java",
@@ -283,7 +369,6 @@
 				"/Users/isa/Desktop/merchpay.todo",
 				"/Users/isa/Projects/merchandise-payables/modules/core/Cmnd_Alias      SU_MERCHPAYGRP = :bin:su -s :bin:b",
 				"/Users/isa/Desktop/instance/conf/Catalina/localhost/ROOT.xml",
-				"/Users/isa/.zshrc",
 				"/Users/isa/Desktop/instance/conf/context.xml",
 				"/Users/isa/Desktop/instance/conf/server.xml",
 				"/Users/isa/Desktop/instance/start.sh",
@@ -293,66 +378,13 @@
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/resources/app.properties",
 				"/Users/isa/Projects/merchandise-payables/,",
-				"/Users/isa/.gitconfig",
 				"/Users/isa/Projects/merchandise-payables/devops/deploy/setBuildNumber.sh",
-				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
 				"/Users/isa/Projects/merchandise-payables/qa/acceptance/features/api/fc.feature",
 				"/Users/isa/Projects/merchandise-payables/conf/data-bag.json",
 				"/Users/isa/Projects/scms/mp/modules/atom/src/main/java/com/gap/scms/atom/models/builders/FeedBuilder.java",
 				"/Users/isa/.environments/osx/sublime/Packages/Default/Default ().sublime-keymap",
-				"/Users/isa/.environments/osx/sublime/Packages/User/Preferences.sublime-settings",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/resources/logback.xml",
-				"/Users/isa/Projects/merchandise-payables/modules/atom/build.gradle",
-				"/Users/isa/Projects/merchandise-payables/modules/atom/target/atom-dev.pom",
-				"/Users/isa/Projects/merchandise-payables/qa/acceptance/build.gradle",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/StatusController.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/configs/wired/PO.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/configs/wired/LDAPCONFIG.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/configs/beans/BEANS.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/configs/application/APP.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/BaseController.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/COAController.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/services/LookupService.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/LogController.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/PartnerController.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/helpers/HypermediaUtils.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/models/view/ViewFC.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/FCTransitions.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/FCStateMachine.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/FCContext.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/steps/InvoiceTransmitValidationStep.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/steps/FCStep.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/steps/FCInsertInvoiceStep.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/steps/FCDuplicateInvoiceCheckStep.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/unit/java/com/gap/scms/mp/controllers/StatusControllerTest.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/integration/java/com/gap/scms/mp/controllers/StatusControllerTest.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/mappers/CustomDateConverter.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/models/FCDetail.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/PartnerNotFoundException.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/configs/wired/DATABASES.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/repositories/Repository.java",
-				"/Users/isa/Desktop/study.todo",
-				"/Users/isa/Downloads/Made of Code.tmTheme",
-				"/Users/isa/.environments/osx/sublime/Packages/User/Fetch.sublime-settings",
-				"/Applications/IntelliJ IDEA 11.app/bin/inspect.sh",
-				"/Applications/IntelliJ IDEA 11.app/Contents/Info.plist",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/integration/resources/ldapsoapenvolop.txt",
-				"/Users/isa/Projects/scms/mp/ignore.txt",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/gateways/DPOGateway.java",
-				"/Users/isa/.environments/osx/sublime/Packages/Shell Turtlestein/Default (OSX).sublime-keymap",
-				"/Users/isa/Desktop/link.txt",
-				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/src/shell.rb",
-				"/Users/isa/Projects/merchandise-payables/docs/development/qa-handbook.md",
-				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/generate.rb",
-				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/src/jira_api_interrogator.rb",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
-				"/Users/isa/Desktop/nfc.xml",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings"
+				"/Users/isa/Projects/merchandise-payables/modules/atom/build.gradle"
 			],
 			"find":
 			{
@@ -363,6 +395,7 @@
 				"height": 0.0,
 				"where_history":
 				[
+					"/Users/isa/Projects/chef-cookbooks/cookbooks/gapNagios",
 					""
 				]
 			},
@@ -371,6 +404,15 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"merchpay",
+					"mer",
+					"critical",
+					"1.1.0",
+					"1.1",
+					":27017",
+					"plain",
+					"    ```",
+					"config-gene",
 					"labeldistance",
 					"cheerio",
 					"cp",
@@ -421,9 +463,11 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": true,
+				"regex": false,
 				"replace_history":
 				[
+					"",
+					"```",
 					"\\1\\n font-family: Monaco, Menlo, monospace !important;",
 					"",
 					"@logger.i"
@@ -480,6 +524,110 @@
 				"selected_items":
 				[
 					[
+						"mongo",
+						"roles/mongorepsetMP.json"
+					],
+					[
+						"bg",
+						"nodes/bgrccscmdb001.rcc.gapinc.com.json"
+					],
+					[
+						"sudo",
+						"cookbooks/merchPay/recipes/sudo.rb"
+					],
+					[
+						"sudo.",
+						"cookbooks/merchPay/recipes/sudo.rb"
+					],
+					[
+						"gapnagios/recipes/",
+						"cookbooks/gapNagios/recipes/monitor-rcc.rb"
+					],
+					[
+						"dgphxscm014",
+						"nodes/dgphxscmap014.phx.gapinc.dev.json"
+					],
+					[
+						"merchpay",
+						"cookbooks/merchPay/README.md"
+					],
+					[
+						"sudo.rb",
+						"cookbooks/merchPay/recipes/sudo.rb"
+					],
+					[
+						"scmap0",
+						"nodes/dgphxscmap011.phx.gapinc.dev.json"
+					],
+					[
+						"nagios.rb",
+						"cookbooks/mongodb/recipes/nagios.rb"
+					],
+					[
+						"rcc.",
+						"nodes/bgrccscmdb001.rcc.gapinc.com.json"
+					],
+					[
+						"ngf-",
+						"cookbooks/merchPay/recipes/ngf-client.rb"
+					],
+					[
+						".prod.",
+						"cookbooks/merchPay/files/default/data-bag.prod.json"
+					],
+					[
+						"e2e",
+						"cookbooks/merchPay/files/default/data-bag.e2e.json"
+					],
+					[
+						"scmap",
+						"nodes/pgphxscmap004.phx.gapinc.com.json"
+					],
+					[
+						"data-bag",
+						"cookbooks/merchPay/files/default/data-bag.e2e.json"
+					],
+					[
+						"build.gra",
+						"build.gradle"
+					],
+					[
+						"ngf.r",
+						"conf/templates/ngf/ngf.erb"
+					],
+					[
+						"web.xml",
+						"modules/core/src/main/webapp/WEB-INF/web.xml"
+					],
+					[
+						"qa",
+						"docs/development/qa-handbook.md"
+					],
+					[
+						"devel",
+						"docs/development/developers-handbook.md"
+					],
+					[
+						"buil",
+						"build.gradle"
+					],
+					[
+						"arch",
+						"docs/production/user-manual/01.architecture.md"
+					],
+					[
+						"diagram",
+						"docs/production/user-manual/images/sample-diagram.dot"
+					],
+					[
+						"rcc.gapinc",
+						"nodes/bgrccscmdb001.rcc.gapinc.com.json"
+					],
+					[
+						"pgphxscmap",
+						"nodes/pgphxscmap004.phx.gapinc.com.json"
+					],
+					[
 						"samp",
 						"docs/production/user-manual/images/sample-diagram.dot"
 					],
@@ -494,14 +642,6 @@
 					[
 						"statu",
 						"src/scripts/status.coffee"
-					],
-					[
-						"mongo",
-						"cookbooks/mongodb/files/default/mongodb.init"
-					],
-					[
-						"data-bag",
-						"cookbooks/merchPay/files/default/data-bag.prod-main.json"
 					],
 					[
 						"configuration",
@@ -530,10 +670,6 @@
 					[
 						"start",
 						"devops/deploy/mongo/startReplSet"
-					],
-					[
-						"e2e",
-						"cookbooks/merchPay/files/default/data-bag.e2e.json"
 					],
 					[
 						"build",
@@ -566,10 +702,6 @@
 					[
 						"repl",
 						"devops/deploy/mongo/createReplSet"
-					],
-					[
-						"build.gra",
-						"modules/core/build.gradle"
 					],
 					[
 						"app.",
@@ -682,10 +814,6 @@
 					[
 						"server",
 						"conf/server.xml"
-					],
-					[
-						"web.xml",
-						"modules/core/src/main/webapp/WEB-INF/web.xml"
 					],
 					[
 						"config.co",
@@ -866,7 +994,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 389.0,
+			"side_bar_width": 333.0,
 			"status_bar_visible": true
 		},
 		"new_window_width": 1440.0
@@ -878,6 +1006,18 @@
 			{
 				"selected_items":
 				[
+					[
+						"url",
+						"urlopen"
+					],
+					[
+						"dep",
+						"deploy_latest"
+					],
+					[
+						"get",
+						"getType"
+					],
 					[
 						"app",
 						"appStatus"
@@ -935,9 +1075,33 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 357.0,
+				"height": 269.0,
 				"selected_items":
 				[
+					[
+						"new",
+						"Tasks: New document"
+					],
+					[
+						"new ",
+						"Tasks: New document"
+					],
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"list ",
+						"Package Control: List Packages"
+					],
+					[
+						"do",
+						"Tasks: New document"
+					],
 					[
 						"inde",
 						"Indentation: Reindent Lines"
@@ -975,15 +1139,7 @@
 						"Set Syntax: Ruby"
 					],
 					[
-						"instal",
-						"Package Control: Install Package"
-					],
-					[
 						"task",
-						"Tasks: New document"
-					],
-					[
-						"do",
 						"Tasks: New document"
 					],
 					[
@@ -1039,10 +1195,6 @@
 						"Set Syntax: Java Properties"
 					],
 					[
-						"bash",
-						"Set Syntax: Shell Script (Bash)"
-					],
-					[
 						":w",
 						":w - Save"
 					],
@@ -1076,15 +1228,75 @@
 			},
 			"file_history":
 			[
+				"/Users/isa/Projects/merchpay-robot/config.py",
+				"/Users/isa/Projects/merchpay-robot/plugins/report/report.plug",
+				"/Users/isa/Projects/merchpay-robot/plugins/helper.py",
+				"/Users/isa/Projects/merchpay-robot/plugins/mp.py",
+				"/Users/isa/Desktop/1on1.todo",
+				"/Users/isa/Projects/merchpay-robot/plugins/status/status.plug",
+				"/Users/isa/Projects/merchpay-robot/plugins/deploy/deploy.plug",
+				"/Users/isa/Projects/merchpay-robot/plugins/deploy/status.plug",
+				"/Users/isa/Projects/merchpay-robot/plugins/deploy/status.py",
+				"/Users/isa/Projects/merchpay-robot/README.md",
+				"/Users/isa/Projects/merchpay-robot/.gitignore",
+				"/Users/isa/Projects/merchpay-robot/plugins/status.py",
+				"/Users/isa/.zshrc",
+				"/Users/isa/Desktop/transitions.todo",
+				"/Users/isa/.ssh/config",
+				"/Users/isa/Projects/chef-cookbooks/nodes/dgphxscmap012.phx.gapinc.dev.json",
+				"/Users/isa/Projects/chef-cookbooks/nodes/dgphxscmap013.phx.gapinc.dev.json",
+				"/Users/isa/Projects/chef-cookbooks/nodes/dgphxscmap014.phx.gapinc.dev.json",
+				"/Users/isa/Projects/chef-cookbooks/nodes/dgphxscmap011.phx.gapinc.dev.json",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/recipes/sudo.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/recipes/deployapp.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/files/default/data-bag.showcase.json",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/gapNagios/recipes/monitor-rcc.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/metadata.rb",
+				"/Users/isa/Projects/chef-cookbooks/nodes/bgrccscmdb001.rcc.gapinc.com.json",
+				"/Users/isa/Projects/chef-cookbooks/.git/MERGE_MSG",
+				"/tmp/fucker/.git/rebase-merge/git-rebase-todo",
+				"/private/tmp/fucker/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/README.md",
+				"/Users/isa/.gitconfig",
+				"/Users/isa/.githelpers",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/attributes/default.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/mongodb/recipes/nagios.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/mongodb/attributes/default.rb",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/mongodb/metadata.rb",
+				"/Users/isa/Desktop/production.todo",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/files/default/data-bag.e2e.json",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/files/default/data-bag.prod.json",
+				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/recipes/ngf-client.rb",
+				"/Users/isa/Projects/chef-cookbooks/roles/mongorepsetMP.json",
+				"/Users/isa/Projects/chef-cookbooks/nodes/pgphxscmap004.phx.gapinc.com.json",
+				"/Users/isa/Desktop/study.todo",
+				"/Users/isa/.environments/osx/zsh/isa.theme",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/02.configuration.md",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/infrastructure-overview.dot",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/replicaset-overview.dot",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/state-machine-flow.dot",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/request-flow.dot",
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/01.architecture.md",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/03.installation.md",
+				"/Users/isa/Projects/merchandise-payables/build.gradle",
+				"/Users/isa/Projects/merchandise-payables/conf/data/chartofaccounts.json",
+				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/TechnicalFlow.dot",
+				"/Users/isa/Projects/merchandise-payables/docs/development/developers-handbook.md",
+				"/Users/isa/Projects/merchandise-payables/docs/development/qa-handbook.md",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/WEB-INF/web.xml",
+				"/Users/isa/Projects/merchandise-payables/conf/templates/ngf/ngf.erb",
+				"/Users/isa/.environments/osx/sublime/Packages/User/Preferences.sublime-settings",
+				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/production-deployment.dot",
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/sample-diagram.dot",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/diagram.dot",
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/05.sample.md",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/sample-diagram.png",
+				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/diagram.dot",
 				"/usr/local/share/npm/lib/node_modules/hubot/package.json",
 				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/hello.coffee",
 				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/google-images.coffee",
 				"/Users/isa/Projects/merchandise-payables/conf/data-bag.integration.json",
-				"/Users/isa/Projects/chef-cookbooks/cookbooks/merchPay/files/default/data-bag.e2e.json",
 				"/Users/isa/Desktop/nfc2.xml",
 				"/Users/isa/Projects/merchandise-payables/devops/boxes/definitions/CentOS-6.3-x86_64/ks.cfg",
 				"/Users/isa/Projects/merchandise-payables/devops/boxes/definitions/CentOS-6.3-x86_64/definition.rb",
@@ -1097,7 +1309,6 @@
 				"/Users/isa/Projects/merchandise-payables/modules/core/build.gradle",
 				"/Users/isa/Desktop/keys/ed.id_rsa.pub",
 				"/Users/isa/Desktop/keys/avinash.id_rsa.pub",
-				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
 				"/Users/isa/Desktop/x.json",
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties",
 				"/Users/isa/Projects/merchandise-payables/devops/deploy/mongo/import.sh",
@@ -1107,14 +1318,12 @@
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/build.gradle",
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/java/META-INF/spring.handlers",
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/java/META-INF/spring.schemas",
-				"/Users/isa/Projects/merchandise-payables/build.gradle",
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/java/com/gap/scms/ngf/AtomFeedPoller.java",
 				"/private/var/folders/_3/k07cs5ws7s943vtrnvtsql9c0000gn/T/.entp.d76ixc/0/logback.xml.erb",
 				"/Users/isa/Projects/merchandise-payables/docs/production/03.installation.md",
 				"/Users/isa/Projects/merchandise-payables/docs/production/01.architecture.md",
 				"/Users/isa/Projects/merchandise-payables/docs/production/02.configuration.md",
 				"/Users/isa/Projects/merchandise-payables/docs/production/04.troubleshooting.md",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/WEB-INF/web.xml",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/resources/app.valid.users.properties",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/index.html",
 				"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/java/com/gap/scms/ngf/model/Config.java",
@@ -1131,7 +1340,6 @@
 				"/Users/isa/Desktop/merchpay.todo",
 				"/Users/isa/Projects/merchandise-payables/modules/core/Cmnd_Alias      SU_MERCHPAYGRP = :bin:su -s :bin:b",
 				"/Users/isa/Desktop/instance/conf/Catalina/localhost/ROOT.xml",
-				"/Users/isa/.zshrc",
 				"/Users/isa/Desktop/instance/conf/context.xml",
 				"/Users/isa/Desktop/instance/conf/server.xml",
 				"/Users/isa/Desktop/instance/start.sh",
@@ -1141,66 +1349,13 @@
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/resources/app.properties",
 				"/Users/isa/Projects/merchandise-payables/,",
-				"/Users/isa/.gitconfig",
 				"/Users/isa/Projects/merchandise-payables/devops/deploy/setBuildNumber.sh",
-				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
 				"/Users/isa/Projects/merchandise-payables/qa/acceptance/features/api/fc.feature",
 				"/Users/isa/Projects/merchandise-payables/conf/data-bag.json",
 				"/Users/isa/Projects/scms/mp/modules/atom/src/main/java/com/gap/scms/atom/models/builders/FeedBuilder.java",
 				"/Users/isa/.environments/osx/sublime/Packages/Default/Default ().sublime-keymap",
-				"/Users/isa/.environments/osx/sublime/Packages/User/Preferences.sublime-settings",
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/resources/logback.xml",
-				"/Users/isa/Projects/merchandise-payables/modules/atom/build.gradle",
-				"/Users/isa/Projects/merchandise-payables/modules/atom/target/atom-dev.pom",
-				"/Users/isa/Projects/merchandise-payables/qa/acceptance/build.gradle",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/StatusController.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/configs/wired/PO.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/configs/wired/LDAPCONFIG.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/configs/beans/BEANS.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/configs/application/APP.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/BaseController.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/COAController.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/services/LookupService.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/LogController.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/PartnerController.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/helpers/HypermediaUtils.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/models/view/ViewFC.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/FCTransitions.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/FCStateMachine.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/FCContext.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/steps/InvoiceTransmitValidationStep.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/steps/FCStep.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/steps/FCInsertInvoiceStep.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/fc/steps/FCDuplicateInvoiceCheckStep.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/unit/java/com/gap/scms/mp/controllers/StatusControllerTest.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/integration/java/com/gap/scms/mp/controllers/StatusControllerTest.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/mappers/CustomDateConverter.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/models/FCDetail.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/PartnerNotFoundException.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/configs/wired/DATABASES.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/repositories/Repository.java",
-				"/Users/isa/Desktop/study.todo",
-				"/Users/isa/Downloads/Made of Code.tmTheme",
-				"/Users/isa/.environments/osx/sublime/Packages/User/Fetch.sublime-settings",
-				"/Applications/IntelliJ IDEA 11.app/bin/inspect.sh",
-				"/Applications/IntelliJ IDEA 11.app/Contents/Info.plist",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/integration/resources/ldapsoapenvolop.txt",
-				"/Users/isa/Projects/scms/mp/ignore.txt",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/gateways/DPOGateway.java",
-				"/Users/isa/.environments/osx/sublime/Packages/Shell Turtlestein/Default (OSX).sublime-keymap",
-				"/Users/isa/Desktop/link.txt",
-				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/src/shell.rb",
-				"/Users/isa/Projects/merchandise-payables/docs/development/qa-handbook.md",
-				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/generate.rb",
-				"/Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/src/jira_api_interrogator.rb",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
-				"/Users/isa/Desktop/nfc.xml",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-				"/Users/isa/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings"
+				"/Users/isa/Projects/merchandise-payables/modules/atom/build.gradle"
 			],
 			"find":
 			{
@@ -1211,6 +1366,7 @@
 				"height": 0.0,
 				"where_history":
 				[
+					"/Users/isa/Projects/chef-cookbooks/cookbooks/gapNagios",
 					""
 				]
 			},
@@ -1219,6 +1375,15 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"merchpay",
+					"mer",
+					"critical",
+					"1.1.0",
+					"1.1",
+					":27017",
+					"plain",
+					"    ```",
+					"config-gene",
 					"labeldistance",
 					"cheerio",
 					"cp",
@@ -1269,9 +1434,11 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": true,
+				"regex": false,
 				"replace_history":
 				[
+					"",
+					"```",
 					"\\1\\n font-family: Monaco, Menlo, monospace !important;",
 					"",
 					"@logger.i"
@@ -1329,6 +1496,110 @@
 				"selected_items":
 				[
 					[
+						"mongo",
+						"roles/mongorepsetMP.json"
+					],
+					[
+						"bg",
+						"nodes/bgrccscmdb001.rcc.gapinc.com.json"
+					],
+					[
+						"sudo",
+						"cookbooks/merchPay/recipes/sudo.rb"
+					],
+					[
+						"sudo.",
+						"cookbooks/merchPay/recipes/sudo.rb"
+					],
+					[
+						"gapnagios/recipes/",
+						"cookbooks/gapNagios/recipes/monitor-rcc.rb"
+					],
+					[
+						"dgphxscm014",
+						"nodes/dgphxscmap014.phx.gapinc.dev.json"
+					],
+					[
+						"merchpay",
+						"cookbooks/merchPay/README.md"
+					],
+					[
+						"sudo.rb",
+						"cookbooks/merchPay/recipes/sudo.rb"
+					],
+					[
+						"scmap0",
+						"nodes/dgphxscmap011.phx.gapinc.dev.json"
+					],
+					[
+						"nagios.rb",
+						"cookbooks/mongodb/recipes/nagios.rb"
+					],
+					[
+						"rcc.",
+						"nodes/bgrccscmdb001.rcc.gapinc.com.json"
+					],
+					[
+						"ngf-",
+						"cookbooks/merchPay/recipes/ngf-client.rb"
+					],
+					[
+						".prod.",
+						"cookbooks/merchPay/files/default/data-bag.prod.json"
+					],
+					[
+						"e2e",
+						"cookbooks/merchPay/files/default/data-bag.e2e.json"
+					],
+					[
+						"scmap",
+						"nodes/pgphxscmap004.phx.gapinc.com.json"
+					],
+					[
+						"data-bag",
+						"cookbooks/merchPay/files/default/data-bag.e2e.json"
+					],
+					[
+						"build.gra",
+						"build.gradle"
+					],
+					[
+						"ngf.r",
+						"conf/templates/ngf/ngf.erb"
+					],
+					[
+						"web.xml",
+						"modules/core/src/main/webapp/WEB-INF/web.xml"
+					],
+					[
+						"qa",
+						"docs/development/qa-handbook.md"
+					],
+					[
+						"devel",
+						"docs/development/developers-handbook.md"
+					],
+					[
+						"buil",
+						"build.gradle"
+					],
+					[
+						"arch",
+						"docs/production/user-manual/01.architecture.md"
+					],
+					[
+						"diagram",
+						"docs/production/user-manual/images/sample-diagram.dot"
+					],
+					[
+						"rcc.gapinc",
+						"nodes/bgrccscmdb001.rcc.gapinc.com.json"
+					],
+					[
+						"pgphxscmap",
+						"nodes/pgphxscmap004.phx.gapinc.com.json"
+					],
+					[
 						"samp",
 						"docs/production/user-manual/images/sample-diagram.dot"
 					],
@@ -1343,14 +1614,6 @@
 					[
 						"statu",
 						"src/scripts/status.coffee"
-					],
-					[
-						"mongo",
-						"cookbooks/mongodb/files/default/mongodb.init"
-					],
-					[
-						"data-bag",
-						"cookbooks/merchPay/files/default/data-bag.prod-main.json"
 					],
 					[
 						"configuration",
@@ -1379,10 +1642,6 @@
 					[
 						"start",
 						"devops/deploy/mongo/startReplSet"
-					],
-					[
-						"e2e",
-						"cookbooks/merchPay/files/default/data-bag.e2e.json"
 					],
 					[
 						"build",
@@ -1415,10 +1674,6 @@
 					[
 						"repl",
 						"devops/deploy/mongo/createReplSet"
-					],
-					[
-						"build.gra",
-						"modules/core/build.gradle"
 					],
 					[
 						"app.",
@@ -1531,10 +1786,6 @@
 					[
 						"server",
 						"conf/server.xml"
-					],
-					[
-						"web.xml",
-						"modules/core/src/main/webapp/WEB-INF/web.xml"
 					],
 					[
 						"config.co",
@@ -1715,9 +1966,9 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 389.0,
+			"side_bar_width": 333.0,
 			"status_bar_visible": true,
-			"window_id": 122
+			"window_id": 165
 		}
 	],
 	"workspaces":
