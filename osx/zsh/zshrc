@@ -72,8 +72,8 @@ alias df='df -h'
 alias du='du -sh'
 alias import=python_import
 alias cls='clear'
-alias gradle='gradle --daemon'
 alias less='less -FXR'
+alias gradle='gradle --daemon'
 
 # read-line wraps
 alias clj='rlwrap clj'
@@ -109,15 +109,17 @@ function p() { cd ~/Projects/$1;  }
 function _p() { _files -W ~/Projects -/; }
 compdef _p p
 
-# -- Ruby Virtual Env --
-source "$HOME/.rvm/scripts/rvm"
-export PATH=$HOME/.rvm/bin:$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/share/npm/bin:/usr/local/share/python:$JAVA_HOME/bin:/usr/local/Cellar/tomcat/6.0.26/bin:$PATH
+export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/share/npm/bin:/usr/local/share/python:$JAVA_HOME/bin:/usr/local/Cellar/tomcat/6.0.26/bin:$PATH
 
 # -- Python Virtual Env --
 export PYTHON_VIRTUAL_ENV_HOME=$HOME/.virtualenvs
 export PIP_VIRTUALENV_BASE=$PYTHON_VIRTUAL_ENV_HOME
 export PIP_RESPECT_VIRTUALENV=true
 source /usr/local/bin/virtualenvwrapper.sh
+
+# -- Ruby Virtual Env --
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+export PATH=$HOME/.rbenv/shims:$PATH
 
 source $HOME/.environments/osx/zsh/isa.theme
 source $HOME/.environments/osx/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

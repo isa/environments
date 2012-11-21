@@ -1,1126 +1,3 @@
-ll
-cd ..
-git submodule init
-cd ..
-cd .vim-vironment
-git submodule init
-git submodule update
-ll
-git ll
-git log --file-only 402cbc5
-git log --name-only 402cbc5
-ll
-mvim vimrc
-ssh isagoksu@ihateeclipse.com
-ll
-ll
-ll
-vim
-cd /tmp
-ll
-git clone https://github.com/facebook/php-sdk.git
-cd php-sdk
-ll
-cd .
-git br
-cd ..
-ll
-rm -rf php-sdk
-git clone https://github.com/facebook/facebook-php-sdk.git
-ll
-cd facebook-php-sdk
-ll
-cd examples
-ll
-vim example.php
-cd /Volumes/merttasmobilya.com
-ll
-cd www
-ll
-ll
-vim example_xml.html
-ack
-brew install ack
-ll
-ack 'c3284d' *
-ll
-open .
-cd ~/Desktop/demo
-ack 'c3284d' *
-ack 'c3284d' *
-cd ../tr
-ack 'c3284d' *
-ll
-cd ..
-tr
-ll
-rm -rf tr
-ll
-cd demo
-ll
-grep -r 'c3284d' *
-grep -H -r 'c3284d' *
-grep -l -r 'c3284d' *
-grep -l -r 'c3284d' * | xargs -n1 -I{} cat {}
-grep -l -r 'c3284d' *
-ssh-keygen -t RSA -C 'info@isagoksu.com'
-ssh-keygen -t rsa
-cat ~/.ssh/id_rsa.pub
-ssh merttas@merttasmobilya.com
-ssh 192.168.1.5
-ssh 192.168.1.5
-ssh isagoksu@isa.io
-ll
-cd ..
-ll
-ssh rgoksu@rgtasarim.com
-ssh root@192.168.1.6
-ssh root@192.168.1.6
-ssh root@192.168.1.6
-ssh root@192.168.1.6
-ssh root@192.168.1.6
-cat ~/.ssh/config
-man ssh
-ssh -o ServerAliveInterval=240 root@192.168.1.6
-man ssh
-ssh -o ConnectTimeout=240 root@192.168.1.6
-ssh 192.168.1.6
-ifconfig
-sqlite3 --version
-sqlite3 ~/Downloads/sms.db
-cd /usr/local
-git co -- Library/Formula/tomcat.rb
-git reset Library/Formula/tomcat.rb
-git reset --hard HEAD Library/Formula/tomcat.rb
-git reset --hard HEAD
-ifconfig
-cd Downloads
-ll
-grep -r 'isa' 02.12.2011.PDF
-brew update
-brew update
-brew upgrade
-hostname -a
-hostname
-nslookup epasaport.gov.tr
-ping www.epasaport.gov.tr
-curl www.epasaport.gov.tr
-df -h
-du -sh
-ll
-cd ../
-ll
-du -sh .Pictures
-cat /etc/hostconfig
-cat /etc/hosts
-cat /etc/hosts.equiv
-df
-df -h
-df -h
-irb
-cd /tmp
-ll
-git clone https://github.com/joeyates/guess-the-animal.git
-cd guess-the-animal
-ll
-rails s
-rails
-which ruby
-which gem
-cd ~/.vim-vironment
-ll
-e vimrc
-cat vimrc
-head vimrc
-grep 'c3284d' *
-grep -r 'c3284d' *
-grep -H -r 'c3284d' *
-grep -l -r 'c3284d' *
-grep -l -r 'c3284d' * | xargs -n1 -I{} git co -- {}
-grep -l -r 'c3284d' *
-grep -l -r 'c3284d' *
-nslookup atamayanogretmenler.com
-nslookup google.com
-vim /etc/ssh_config
-man ssh_config
-e ~/.ssh/config
-nslookup atamayanogretmenler.com
-git st
-git dt
-e ~/.subversion/config
-git dt
-brew update
-curl --version
-git --version
-python --version
-which python
-ll
-which ruby
-brew update
-cd Downloads
-ll
-rm -rf Fethullah_Gulen-Sorular_ve_Cikis_Yollari_*.zip 
-cd Fethullah\ Gulen/
-ll
-cd ../Ahlak
-ll
-rm -rf *.zip
-cd ..
-cd ../Gonul\ Dunyamizdan
-ll
-rm -rf *.zip
-cd ../
-ll
-cd ../Mimberden\ Yukselen\ Ses
-ll
-rm -rf *.zip
-df
-cd ..
-ll
-cd ..
-ll
-df
-cd Downloads
-rm -rf Tevhid\ Serisi/*.zip
-ll
-cd Downloads
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-mkdir gon
-mv gonul.dunyamizdan_serdengecti.org.rar gon/
-mkdir mel
-mv melekut.alemi.serdengecti.org.rar mel/
-cd gon
-unrar e gonul.dunyamizdan_serdengecti.org.rar
-cd ../mel
-unrar e melekut.alemi.serdengecti.org.rar
-ll
-ll
-brew search wma
-brew search mplayer
-brew install mplayer
-brew install lame
-cd Downloads
-ll
-for i in *.wma; do mv "$i" `echo $i | tr ' ' '_'`; done
-ll
-for i in *.wma ; do mplayer -vo null -vc dummy -af resample=44100 -ao pcm:waveheader $i && lame -m s audiodump.wav -o $i; done
-for i in *.wma; do mv "$i" "`basename "$i" .wma`.mp3"; done
-for i in *.mp3; do mv "$i" "`echo "$i" | tr '_' ' '`"; done
-rm audiodump.wav
-ll
-ll
-ll
-for i in *.wma; do mv "$i" `echo $i | tr ' ' '_'`; done
-ll
-for i in *.wma ; do mplayer -vo null -vc dummy -af resample=44100 -ao pcm:waveheader $i && lame -m s audiodump.wav -o $i; done
-for i in *.wma; do mv "$i" "`basename "$i" .wma`.mp3"; done
-for i in *.mp3; do mv "$i" "`echo "$i" | tr '_' ' '`"; done
-rm audiodump.wav
-brew install unrar
-ll
-ll
-unrar e insani\ yucelten\ vasiflar\ 5.rar
-ll
-unrar e Cocuk.Terbiyesi_serdengecti.org.rar -d cocuk
-unrar e Cocuk.Terbiyesi_serdengecti.org.rar
-ll
-mkdir tmp
-mv *.rar tmp/
-cd tmp
-ll
-unrar e anadolu.vaazlari_serdengecti.org.rar
-ll
-rm -rf *.rul
-rm -rf *.rar
-ll
-cd ..
-ll
-mv tmp Anadolu\ Vaazlari
-df -h
-history
-history -100
-for i in *.wma ; do mplayer -vo null -vc dummy -af resample=44100 -ao pcm:waveheader $i && lame -m s audiodump.wav -o $i; done
-for i in *.wma; do mv "$i" "`basename "$i" .wma`.mp3"; done
-rm audiodump.wav
-ll
-mv olum\ otesi\ Hayat\ 1\ Kursu\ Album\ SG.rar Olum\ ve\ Otesi\ Hayat
-cd Olum\ ve\ Otesi\ Hayat
-unrar e olum\ otesi\ Hayat\ 1\ Kursu\ Album\ SG.rar
-history -200
-ll
-cd ..
-ll
-brew install rename
-ll
-cd Munferid
-ll
-cd ../Fethullah\ Gulen/Fizik\ Otesi/Fizik\ Otesi\ Hayat
-ll
-../../../wma2mp3.sh
-ll
-cd ..
-cd ..
-find . -name *.name
-find . -name \*.name
-find . -name \*.wma
-cd Isiga\ Dogru
-../../wma2mp3.sh
-ll
-man rename
-rename 's/%20/ /' *.mp3
-ll
-rename 's/%fe%fd%f0/sig/' *.mp3
-ll
-rename 's/%f0/g/' *.mp3
-ll
-rename 's/%20/ /' *.mp3
-ll
-man rename
-rename 's/(%20)*/ /' *.mp3
-man rename
-ll
-rename 's/%20/ /' *.mp3
-rename 's/%20/ /' *.mp3
-rename 's/%20/ /' *.mp3
-rename 's/%20/ /' *.mp3
-rename 's/%20/ /' *.mp3
-rename 's/%20/ /' *.mp3
-rename 's/%20/ /' *.mp3
-rename 's/%20/ /' *.mp3
-rename 's/%20/ /' *.mp3
-ll
-rename 's/%fd/i/' *.mp3
-rename 's/%fd/i/' *.mp3
-rename 's/%fd/i/' *.mp3
-rename 's/%fd/i/' *.mp3
-rename 's/%fd/i/' *.mp3
-ll
-rename 's/MP3/mp3/' *
-ll
-rename 's/MP3/mp3/' *.MP3
-df -h
-brew search mono
-brew search Mono
-python
-df -h
-cd /Volumes/My\ Passport/Mapinfo\ 10.5
-cd ..
-ll
-cd yakup
-ll
-cd ..
-ll
-cd MusicBackUp
-ll
-cd ..
-ll
-cd 2011SGA\ PARTY
-ll
-cd ..
-cd 2011SGA\ PARTY
-ll
-du -sh
-cd ..
-ll
-cd azizbackup
-ll
-cat oÌƒ¨nemlinotlar.txt
-cd ..
-ll azizbackup
-cd azizbackup/Yeni\ klasoÌƒ¨r
-ll
-cd ..
-cd ..
-ll
-cat hesapnoESRA.txt
-cd PicBackUp
-ll
-cd ../IsmailResimler
-ll
-cd 100NCD80
-ll
-du -sh
-cd ..
-ll
-cd ..
-cp -R IsmailResimler ~/.xyz
-cd /Volumes/My\ Passport
-ll
-cd MasaUstuBackup
-ll
-cp *.JPG ~/.xyz
-cd ..
-ll MasaUstuBackup/IRAT
-cd ..
-cd My\ Passport
-ll
-ll KADIR-AWA
-ll KADIR-AWA/New\ folder
-ll
-df -h
-cd Movies
-ll
-cd Belgesel
-ll
-cd Doga\ Belgeseli
-ll
-cd ../Belgesel
-ll
-cd tarihi
-ll
-curl http://www.google.com
-du -sh .xyz
-cd .xyz
-nsloolup
-nslookup
-nslookup
-cd Projects
-ll
-mv merchandise-payables old.merchandise-payables
-ll
-git clone git@merchpayci.gap.com:merchpay.git merchandise-payables
-ll
-cd merchandise-payables
-cd ..
-cd merchandise-payables
-which ruby
-gem list
-cd ..
-ll
-cd merchandise-payables
-less /Users/isa/.rvm/log/ruby-1.8.7-p370/patch.apply.stdout-rouge-fix.log
-cd Projects/merchandise-payables
-rvm install ruby-1.8.7
-rvm install ruby-1.8.7 --with-gcc=clang
-ruby -version
-ruby --version
-cd ..
-ruby --version
-cd merchandise-payables
-rvm list
-rvm install ruby-1.8.7 --with-gcc=clang
-ll
-rvm list
-rvm get head
-enable_proxy
-rvm get head
-rvm install ruby-1.8.7 --with-gcc=clang
-less /Users/isa/.rvm/log/ruby-1.8.7-p370/make.log
-ll /opt/X11/
-export CFLAGS='-I/opt/X11/include'
-echo $CFLAGS
-rvm install ruby-1.8.7 --with-gcc=clang
-ll
-ruby --version
-cd ..
-lll
-ll
-cd merchandise-payables
-e Gemfile
-e Gemfile
-ll
-gradle test
-ll
-git pull
-df -h
-cd ~/.Pictures
-ll
-open .
-cd /Volumes/Data
-ll
-mv XXX .XXX
-ll
-open .
-cd Backup/Desktop
-ll
-cd backup
-ll
-cd ..
-rm -rf backup
-ll
-df -h
-ll
-cd Downloads
-ll
-cd gon
-ll
-cd ~/Projects
-ll
-cd merchandise-payables
-git pull
-find . -type f -name \*.java
-find . -type f -name \*.java | wc
-gradle -T
-gradle --task
-gradle --tasks
-gradle -q
-gradle tasks
-gradle init
-git pul
-git pull
-git pull
-git pull
-git stash
-git pull
-git stash pop
-git st
-git ci -m 'ITMERCHPAY-0 Code Review notes'
-git push
-cd ~/Downloads
-ll
-rm -rf mel
-ll
-ll
-cd mel
-cd ..
-ll
-cd Downloads
-ll
-cd mel
-df -h
-cd Fethullah\ Gulen/Gonul\ Dunyamizdan
-ll
-mv ../../gon/Vaaz.mp3 .
-mv ../../gon/Hutbe.mp3 .
-ll
-cd ..
-ll
-cd ..
-ll
-ll gon
-rm -rf gon
-ll
-df -h
-rm -rf Mesnevi-i\ Nuriye
-ll
-df -h
-df -h
-df -h
-ll
-du -sh
-cd ..
-ll
-du -sh .Pictures
-ll
-du -sh
-du -sh Projects
-du -sh Sites
-du -sh Documents
-du -sh Downloads
-du -sh Dropbox
-du -sh Library
-du -sh Movies
-cd Movies
-ll
-cd Tutorials
-ll
-df -h
-df
-brew search mysql
-brew search cluster
-cd
-brew search mysql
-brew search mysql
-brew info mysql
-cd Desktop
-git clone https://github.com/jkaving/intellij-colors-solarized.git
-enable_proxy
-git clone https://github.com/jkaving/intellij-colors-solarized.git
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-cd ~/Projects
-ll
-cd old.merchandise-payables
-ll
-cd qa
-git st
-cd acceptance/support
-ll
-cd lib
-ll
-cd models
-ll
-vim page.rb
-cd ~/Projects/merchandise-payables
-git up
-git pull
-git st
-cucumber --help
-ll
-cd qa
-ll
-cd acceptance
-ll
-cat run_cucumber_tests.sh
-cat cuke.sh
-cd ..
-cd ..
-grep -r 'cucumber' *
-cd ../old.merchandise-payables
-ll
-brew update
-enable_proxy
-brew update
-brew update
-brew info clojure-contrib
-cd ~/Projects/merchandise-payables
-git pull
-git pull
-git pull
-e ~/.zshrc
-df -h
-cd Projects/merchandise-payables
-ll
-cd modules/core
-ll
-cd src/main
-ll
-cd java
-ll
-cd com/gap
-ll
-cd scms/mp
-ll
-e .
-pip
-easy_install pip
-sudo easy_install pip
-pip install httpie
-sudo pip install httpie
-http HEAD google.com
-cd .Pictures
-ll
-find . -name \*.dmg
-find . -name \*.img
-cd ..
-find . -name \*.dmg
-cd Downloads
-ll
-cd Lynda.com\ -\ Shooting\ with\ the\ Nikon\ D7000\ \(Oct.\ 2011\)
-ll
-unrar e Lynda.com\ -\ Shooting\ with\ the\ Nikon\ D7000\ \(Oct.\ 2011\).rar
-unrar e Lynda.rar
-ll
-unrar e Lynda.com.-.Shooting\ with\ the\ Nikon\ D7000\ \(Oct.\ 2011\).rar
-cat readme.txt
-unrar e d700.rar
-unrar e d700.rar
-unrar e d700.rar
-unrar e d700.rar
-unrar l d700.rar
-open ~/.Pictures
-ll
-cd ..
-ll
-cd ..
-ll
-cd .xyz
-ll
-open .
-open .
-ll
-cd ..
-ll
-cd ~/Projects
-git pull
-cd merchandise-payables
-git pull
-git st
-git diff
-git pull
-git reset --hard HEAD
-git pull
-ll
-unrar
-java -version
-cd Projects/merchandise-payables
-git pull --rebase
-git st
-git ll
-cd modules/core/src/main/java
-ll
-cd com/gap/scms/mp/
-e .
-gradle init
-cd ~/Projects/merchandise-payables
-gradle init
-ll
-git pull
-ll
-ll
-cd modules/core
-ll
-find . -name \*.dmg
-enable_proxy
-brew update
-brew info gradle
-gradle --version
-brew upgrade
-brew update
-brew upgrade
-brew link
-brew link npm
-brew list
-brew search mysql
-brew install mysql-cluster mysql
-cd Downloads
-ll
-unrar l Photography\ Tips\ \ And\ Tutorial\ -\ Foundations\ of\ Photography\ Exposure\ 2011\ DVD\ ISO.rar
-head Photography\ Tips\ \ And\ Tutorial\ -\ Foundations\ of\ Photography\ Exposure\ 2011\ DVD\ ISO.rar
-unrar e Photography\ Tips\ \ And\ Tutorial\ -\ Foundations\ of\ Photography\ Exposure\ 2011\ DVD\ ISO.rar
-vim .bbes
-ll
-curl http://www.reddit.com/r/python+vim+ruby+vimplugins+java+javascript+programming+ruby+html+webdesign+ios+startups+design+graphic_design+programminghumor+macapps+technology/.rss
-curl http://www.reddit.com/r/python+vim+ruby+vimplugins+java+javascript+programming+ruby+html+webdesign+ios+startups+design+graphic_design+programminghumor+macapps+technology/.rss
-curl http://www.reddit.com/r/python+vim+ruby+vimplugins+java+javascript+programming+ruby+html+webdesign+ios+startups+design+graphic_design+programminghumor+macapps+technology/.atom
-cd Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms
-cd mp
-ll
-e .
-ssh admin@merchpayci.gap.com
-open /System/Library/Frameworks/ScreenSaver.Framework/Versions/A/Resources/Default Collections/
-open /System/Library/Frameworks/ScreenSaver.Framework/Versions/A/Resources/Default Collections/
-open "/System/Library/Frameworks/ScreenSaver.Framework/Versions/A/Resources/Default Collections/"
-http GET http://www.reddit.com/java.rss
-http GET http://www.reddit.com/.rss
-enable_proxy
-http GET http://www.reddit.com/.rss
-http GET http://www.reddit.com/.rss | xmllint --format -
-http GET http://www.reddit.com/.rss | xmllint --format - | less -R
-http GET http://www.reddit.com/java.rss | xmllint --format - | less -R
-http GET http://www.reddit.com/java.rss | xmllint --format -
-http GET http://www.reddit.com/r/python+vim+ruby+vimplugins+java+javascript+programming+ruby+html+webdesign+ios+startups+design+graphic_design/.rss | xmllint --format -
-http GET http://www.reddit.com/r/python+vim+ruby+vimplugins+java+javascript+programming+ruby+html+webdesign+ios+startups+design+graphic_design/.rss | xmllint --format - | less -R
-curl http://www.reddit.com/r/python+vim+ruby+vimplugins+java+javascript+programming+ruby+html+webdesign+ios+startups+design+graphic_design+programminghumor+macapps+technology/.rss
-cd ~/Projects
-svn co http://druschaci32.gap.dev/svn/supplychain/codesparrow
-ll
-cd codesparrow
-ll
-vim .bbes
-curl http://delehaye.olympe-network.com/D7000/DSC_0402.JPG
-wget
-cd Desktop
-wget http://delehaye.olympe-network.com/D7000/DSC_0402.JPG
-vim ~/.bbes
-brew update
-brew info io
-brew info armadillo
-unzip
-unzip -l ../Downloads/3-cfa83.zip
-unzip -l ../Downloads/3-cfa83.zip
-cd Downloads
-ll
-unzip 5-f6f3d.zip
-vim ~/.bbes
-cd Downloads
-java -jar youtrack-4.0.2.jar
-java -jar youtrack-4.0.2.jar 9999
-ll /Users/isa/Projects/merchandise-payables/devops/ci/pmd-rulesets.xml
-brew update
-enable_proxy
-brew update
-brew search oracle
-brew search jdbc
-enable_proxy
-brew install groovy
-brew update
-groovysh
-cd .gradle/ll
-cd .gradle/
-ll
-cd caches/1.1
-ll
-cd ../artifacts-14
-ll
-find . -name \*.jars
-find . -name \*.jar
-cd ../artifacts-13
-find . -name \*.jar
-cd ..
-find . -name pmd\*.jar
-unzip l ./artifacts-14/filestore/net.sourceforge.pmd/pmd/5.0.0/jar/c48e917e899c875fe521b7b285bf306f70c37700/pmd-5.0.0.jar
-jar l ./artifacts-14/filestore/net.sourceforge.pmd/pmd/5.0.0/jar/c48e917e899c875fe521b7b285bf306f70c37700/pmd-5.0.0.jar
-jar -vf ./artifacts-14/filestore/net.sourceforge.pmd/pmd/5.0.0/jar/c48e917e899c875fe521b7b285bf306f70c37700/pmd-5.0.0.jar
-jar -t ./artifacts-14/filestore/net.sourceforge.pmd/pmd/5.0.0/jar/c48e917e899c875fe521b7b285bf306f70c37700/pmd-5.0.0.jar
-jar t ./artifacts-14/filestore/net.sourceforge.pmd/pmd/5.0.0/jar/c48e917e899c875fe521b7b285bf306f70c37700/pmd-5.0.0.jar
-jar tf ./artifacts-14/filestore/net.sourceforge.pmd/pmd/5.0.0/jar/c48e917e899c875fe521b7b285bf306f70c37700/pmd-5.0.0.jar
-cp ./artifacts-14/filestore/net.sourceforge.pmd/pmd/5.0.0/jar/c48e917e899c875fe521b7b285bf306f70c37700/pmd-5.0.0.jar /tmp/
-cd /tmp
-jar xvf pmd-5.0.0.jar
-ll
-cd rulesets
-ll
-cd java
-ll
-vim android.xml
-ll
-e .
-cp *.xml ~/Projects/merchandise-payables/config/pmd/
-cd ..
-cd ..
-ll
-rm -rf rulesets
-find ~/.gradle -name pmd\*.jar
-jar xvf /Users/isa/.gradle/caches/artifacts-14/filestore/pmd/pmd/4.3/jar/2673726a8f31c2645b1548fd175716860aa0cef8/pmd-4.3.jar pmd
-jar xvf /Users/isa/.gradle/caches/artifacts-14/filestore/pmd/pmd/4.3/jar/2673726a8f31c2645b1548fd175716860aa0cef8/pmd-4.3.jar
-cd rulesets
-ll
-ack EmptyCatchBlock
-ack EmptyFinallyBlock
-vim internal/dogfood.xml
-ack EmptyIfStmt
-ack EmptyStatementBlock
-ack UnnecessaryConversionTemporary
-ack UnnecessaryReturn
-ack UnnecessaryFinalModifier
-ack UselessOverridingMethod
-ack UselessOperationOnImmutable
-ack UnusedNullCheckInEquals
-ack UselessParentheses
-enable_proxy
-echo $http_proxy
-cd ~/Projects/scms/mp
-svn up
-cd Desktop
-pwd
-cd ~/Projects
-ll
-cd merchandise-payables
-git br
-cd ~/Dropbox/Projects/iPhone/Zaman\ RSS
-ll
-cd ..
-ps -ef
-ps -ef | grep java
-cd ~/Downloads
-ll
-wget https://secure.zip.members.easynews.com:81/cgi-bin/zipit/1-00445.zip
-man wget
-wget --user=gechici --password=haydar.32 https://secure.zip.members.easynews.com:81/cgi-bin/zipit/1-00445.zip
-ll
-rm -rf 1-00445.zip
-cat 2-efb86.zip
-cd ~/Projects/merchandise-payables
-git pull
-ll
-cd devops
-ll
-cd tools
-ll
-cd ../
-ll
-cd deploy
-ll
-cd ../ci
-ll
-rm -rf handlebars.sh
-ll documentation
-e pmd-rulesets.xml
-git pull
-git pull
-git pull
-e ../../modules/core/src/main/java/com/gap/scms/mp
-git pull
-git pull
-ll
-git pull
-git st
-git pull
-http HEAD http://merchpayci.gap.com:9111
-http HEAD http://merchpayci.gap.com:9001
-ll
-cd .
-ll
-cd ..
-ll
-cd ..
-ll
-ll
-e modules/core/build.gradle
-cd modules/core
-gradle -T
-gradle -t
-gradle -q
-gradle tasks
-gradle --help
-gradle tasks
-git st
-gradle tasks --all
-pwd
-git st
-gradle pmdMain
-gradle pmdMain
-gradle pmdMain
-cd ..
-ll
-cd ..
-ll
-gradle pmdMain
-git st
-git add devops/
-git st
-git check
-gradle check
-gradle check
-gradle check
-brew search groovy
-gradle check
-gradle check
-ll /usr/local/Cellar/gradle/1.1/libexec/lib/gradle-launcher-1.1.jar
-gradle check --stacktrace
-gradle pmdMain
-git st
-e devops/ci/pmd-rulesets.xml
-gradle pmdMain
-ll
-cd devops/ci
-ll
-cp pmd-rulesets.xml pmd-rulesets.xml.backup
-ll
-gradle pmdMain
-cd ../../
-gradle pmdMain
-gradle pmdMain
-gradle pmdMain --stacktrace
-ll
-gradle pmdMain --stacktrace
-cd modules/core
-ll
-gradle pmdMain --stacktrace
-gradle pmdMain --stacktrace
-ll
-cd ..
-cd ..
-ll
-mkdir config/pmd
-ll
-cp devops/ci/pmd-rulesets.xml config/pmd/
-gradle pmdMain --stacktrace
-cd modules/core/
-gradle pmdMain --stacktrace
-gradle --version
-gradle pmdMain --stacktrace
-gradle pmdMain --stacktrace
-gradle pmdMain --stacktrace
-gradle pmdMain --stacktrace
-gradle pmdMain --stacktrace
-gradle pmdMain --stacktrace
-gradle pmdMain --stacktrace
-gradle pmdMain --stacktrace
-open ///Users/isa/Projects/merchandise-payables/modules/core/target/reports/pmd/main.html
-gradle pmdMain
-gradle pmdMain
-gradle check
-git pull
-gradle check
-gradle check
-gradle check
-gradle check
-gradle check
-gradle check
-gradle check
-gradle check
-gradle check
-gradle check
-gradle check
-gradle pmdMain
-git st
-rm -rf ../../devops/ci/pmd-rulesets.xml.backup ../../config
-ll
-git st
-cd ~
-cd ~/Projects/merchandise-payables
-ll
-git st
-git ci . -m 'ITMERCHPAY-0 Introduced PMD checks on the code base..'
-git push
-git st
-git pull
-git ll
-cd ..
-ll
-svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
-ll
-mkdir scms
-cd scms
-ll
-svn co http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk mp
-cd ../merchandise-payables
-gradle check
-cd modules/core
-ll
-gradle check
-gradle check
-gradle pmd
-gradle pmd
-gradle pmd
-gradle pmd
-gradle pmd
-git pull
-gradle check
-gradle check
-gradle check
-ll
-gradle clean init check
-git st
-cd ..
-cd ..
-git pull
-git st
-git ci . -m 'ITMERCHPAY-0 Updated PMD to be only applicable to the main projects!'
-git push
-git pull
-git st
-rm -rf .idea/qaplug_profiles.xml
-ll
-find . -name \*.jar
-mv ~/Downloads/ojdbc6-11.2.0.2.jar /usr/local/share/
-git st
-e modules/core/build.gradle
-e modules/core/build.gradle
-e devops/ci/pmd-rulesets.xml
-gradle check
-git st
-e .gitignore
-git st
-git ci . -m 'ITMERCHPAY-0 Excluded models and configs packages from the PMD checks!'
-git push
-git pull
-git ll
-git push
-git pull
-e build.gradle
-e build.gradle
-e modules/core/build.gradle
-gradle check
-gradle check
-gradle test
-coffee
-node
-coffee
-gradle test
-gradle test
-open modules/core/target
-find modules/core/src/main/java -name \*.java
-find modules/core/src/main/java -name \*.java | wc -l
-e modules/core/build.gradle
-git st
-git ci . -m 'ITMERCHPAY-0 Adding coverage reports to the project'
-git pull
-e modules/core/build.gradle
-gradle test
-gradle clean test
-gradle clean test
-gradle clean test
-gradle clean
-gradle clean test
-git pull
-git st
-git ci . -m 'ITMERCHPAY-0 Trying to exclude models package from EMMA.'
-git push
-ll
-tree
-tree -L 3
-cd docs/build/documentation
-ll
-open .
-cd ..
-ll
-cd ..
-ll
-rm -rf build
-ll
-cd ..
-ll
-open devops
-cd ci/do
-cd devops/ci/documentation
-ll
-cd release.notes
-ll
-chmod +x release.notes.generator.rb
-ll
-./release.notes.generator.rb
-cd ..
-ll
-cd md.to.pdf
-ll
-chmod +x md.to.pdf.generator.rb
-ll
-cd ..
-ll
-mv md.to.pdf user-guide
-mv release.notes release-notes
-ll
-git st
-ll
-mv user-guide users-guide
-ll
-mv users-guide user-manual
-ll
-cd release-notes
-ll
-cd ..
-e .
-cat ../../../Gemfile
-ll
-cd release-notes
-ll
-mv release.notes.generator.rb generator.rb
-ll
-mv generator.rb generate.rb
-ll
-./generate.rb -sd ~/Projects/scms/mp -td ~/Desktop/reports/ -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-git st
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-node
-brew search node
-enable_proxy
-brew update 
-brew install node
-brew link
-brew link node
-rm -rf /usr/local/lib/node_modules/npm/scripts/relocate.sh
-brew link node
-brew link -f node
-node
-cd /tmp/
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-ll
-cd ~/Projects/merchandise-payables/modules/core/target/classes/main
-ll
-cd com/gap/scms/mp/models
-ll
-ll
-cd ~/Projects/scms/mp
 svn log
 svn log | mroe
 svn log | less- R
@@ -10064,3 +8941,1132 @@ e /Users/isa/.virtualenvs/merchpay-robot/lib/python2.7/site-packages/errbot/back
 ll
 git st
 cat logs/instant.log
+p chef-cookbooks
+git pull
+e .
+p merchandise-payables
+git pull
+git ll
+git pull
+git mfe
+git mft
+git mft | ack CreateFC
+git mft | ack FCDetail
+git log --name-only | grep FCDetail.java
+git log --name-only | grep -b10 -a10 FCDetail.java
+git log --name-only | grep -b10 -a10 FCDetail.java | grep CreateFC.java
+git log --name-only | grep FCDetail.java
+git log --name-only
+git log --name-only --since
+git log --name-only --since "Nov, 15"
+git log --name-only
+git log --name-only --since 10-08-2012
+git log --name-only --since 10-08-2012 | grep FCDetail.java
+git log --name-only --since 10-08-2012 | grep "/FCDetail.java "
+git log --name-only --since 10-08-2012 | grep "/FCDetail.java"
+git log --name-only --since 10-08-2012 | grep "/FCDetail.java" | wc -l
+git pull
+p merchpay-robot
+workon merchpay-robot
+vagrant status instant
+cat logs/instant.log
+cat logs/instant.log
+cat logs/instant.log
+cat logs/instant.log
+tail -f logs/instant.log
+tail -f logs/instant.log
+ll logs/instant.log
+ll logs/instant.log
+ll logs/instant.log
+cat logs/instant.log
+git diff
+cat logs/instant.log
+cat logs/instant.log
+cat logs/instant.log
+cat logs/instant.log
+cat logs/instant.log
+cat logs/instant.log
+tail -f logs/instant.log
+cat logs/instant.log
+ping 10.48.128.167
+telnet 10.48.128.167 4000
+cat logs/instant.log
+cat logs/instant.log
+cat logs/instant.log
+cat logs/instant.log
+git st
+cat logs/instant.log
+tail -f logs/instant.log
+tail -f logs/instant.log
+tail -f logs/instant.log
+tail -f logs/instant.log
+tail -f logs/instant.log
+tail -f logs/instant.log
+tail -f logs/instant.log
+tail -f logs/instant.log
+python --help
+python -m py_compile plugins/deploy/deploy.py
+python -m py_compile plugins/deploy/deploy.py
+git st
+tail -f logs/instant.log
+git st
+gem list
+gem uninstall rvm
+e ~/.zshrc
+cd .environments
+git st
+git ci -m 'Added some more sublime packages'
+git st
+git ll
+git push
+cd ..
+ll
+rm -rf .rbenv
+brew search go
+brew info go
+rvm help
+rvm implode
+gem list
+ll
+gem list
+brew install rbenv
+e ~/.zshrc
+brew search rbenv
+brew install ruby-build
+. ~/.zshrc
+rbenv install jruby
+rbenv install 
+rbenv install --list
+rbenv install jruby-1.7.0
+jruby --help
+which jruby
+which ruby
+rbenv install ruby-1.8.7-p370
+rbenv install 1.8.7-p370
+which gem
+rbenv exec gem
+rbenv exec gem --version
+rbenv exec ruby --version
+rbenv help
+rbenv global
+rbenv rehash
+which ruby
+rbenv versions
+rbenv version
+rbenv versions
+rbenv which
+rbenv which ruby
+rbenv global 1.8.7
+rbenv global 1.8.7-p370
+rbenv which ruby
+ruby --version
+gem --version
+which gem
+rbenv which gem
+gem list
+rbenv global
+jruby --help
+jruby --versino
+jruby --version
+rbenv list
+rbenv shims
+jruby
+rbenv help
+rbenv help local
+p merchandise-payables
+rbenv local jruby-1.7.0
+rbenv which jruby
+rbenv which ruby
+git st
+cat .rbenv-version
+brew search rbenv
+brew info rbenv-bundler
+brew install rbenv-bundler
+brew install rbenv-gemset
+brew install rbenv-vars
+brew info rbenv-gemset
+echo "merchandise-payables" > .rbenv-gemsets
+ll
+git st
+brew info rbenv-vars
+gem list
+rbenv rehash
+rbenv shims
+rbenv global
+rbenv remove 1.8.7
+rbenv commands
+rbenv uninstall 1.8.7
+rbenv uninstall 1.8.7-p370
+rbenv commands
+rbenv global
+rbenv global jruby-1.7.0
+rbenv global
+rbenv rehash
+rbenv install
+rbenv install --list
+rbenv install 1.9.3-p327
+which ruby
+rbenv which ruby
+rbenv global 1.9.3-p327
+rbenv which ruby
+rbenv rehash
+rbenv which gem
+rbenv which bundler
+rbenv which bundle
+RBENV_VERSION=1.9.3-p327 rbenv rehash
+cd ..
+RBENV_VERSION=1.9.3-p327 rbenv rehash
+gem list
+rbenv versions
+cd ~/.rbenv
+git pull
+git st
+ll
+http HEAD http://mpci.gap.com:8111/guestAuth/repository/download/bt7/1.0.0.18532/merchpay-app-1.1.0.0.war
+http HEAD http://mpci.gap.com:8111/guestAuth/repository/download/bt7/1.0.0.18532/dsafsdf
+http HEAD http://mpci.gap.com:8111/guestAuth/repository/download/bt7/1.0.0.18532/merchpay-app-asdfasdf.war
+http HEAD http://mpci.gap.com:8111/guestAuth/repository/download/bt7/1.0.0.18532/merchpay-app-1.0.0.18532.war
+p merchandise-payables
+git pull
+git st
+git dt
+git dt
+git ci -m 'Tech ITMERCHPAY-0 Updated default values to be the node values unless they are not defined'
+git push
+p chef-cookbooks
+gi tpull
+git pull
+p merchandise-payables
+ll
+knife --help
+knife configure -i
+cat ~/.chef/knife.rb
+sudo mkdir -p /etc/chef
+scp -r admin@ci1:/etc/chef/*.pem /etc/chef
+scp -r admin@ci1:/etc/chef/\*.pem /etc/chef
+ssh admin@ci1
+sudo scp -r admin@ci1:/etc/chef/\*.pem /etc/chef
+sudo -E scp -r admin@ci1:/etc/chef/\*.pem /etc/chef
+sudo scp -r admin@merchpayci.gap.com:/etc/chef/\*.pem /etc/chef
+cat ~/.chef/knife.rb
+e ~/.chef/knife.rb
+scp -r chef@merchpayci.gap.com:~/.chef/admin.pem ~/.chef/
+knife client list
+knife cookbook list
+knife cookbook upload merchpay
+nslookup ks64.phx.gapinc.dev
+knife cookbook upload gapRepo
+knife cookbook upload merchpay
+git st
+git ci -m 'Tech ITMERCHPAY-0 Updated IP addressed and added file version instead of version usage to make sure we are downloading the correct artifact'
+git push
+git pull
+cd ..
+p merchandise-payables
+cat .rvmrc
+rvm list
+rvm get all
+which irb
+rvm .rvmrc
+which ruby
+which bundle
+gem list
+which gem
+rvm --help
+cd ..
+cd merchandise-payables
+rvm list
+rvm use jruby
+cd ..
+which jruby
+rvm rvmrc trust merchandise-payables
+cd merchandise-payables
+ll
+rvm reload
+gem list
+jruby -S gem list
+cat .rvmrc
+rvm use jruby@merchandise-payables
+gem list
+jruby -S bundle install
+jruby -S gem install ruby-debug-base ruby-debug-ide --no-ri --no-rdoc
+enable_proxy
+jruby -S gem install ruby-debug-base ruby-debug-ide --no-ri --no-rdoc
+jruby -S bundle install
+jruby -S bundle install
+disable_proxy
+jruby -S bundle install
+tail -n +3 Gemfile
+tail -n +3 Gemfile | tee Gemfile
+git diff
+jruby -S bundle install
+rvm list
+rvm gemlist
+rvm gem
+rvm list gemsets
+rvm get all
+rvm get latest
+rvm reload
+git st
+ps -ef | grep irc
+brew remove inspircd
+brew update
+brew list
+brew upgrade
+git st
+git st
+cat .rbenv-gemsets
+cat .rbenv-version
+cat Gemfile
+cat .gitignore
+gem list
+rbenv rehash
+rbenv versions
+gem
+irb
+irb --version
+gem --version
+vim /Users/isa/.rbenv/versions/1.9.3-p327/lib/ruby/1.9.1/rubygems/config_file.rb
+cat ~/.gemrc
+mv ~/.gemrc ~/.gemrc.bak
+ll ~/.gemrc.bak
+gem
+vim ~/.gemrc.bak
+mv ~/.gemrc.bak ~/.gemrc
+ll ~/.gemrc
+cat ~/.gemrc
+gem
+gem list
+rbenv which ruby
+cat `rbenv which ruby`
+cat `which ruby`
+e ~/.environments/osx
+. ~/.zshrc
+ll
+. ~/.zshrc
+ll
+ls -alh
+cat .rnd
+ll
+ll .prefixes
+cat .prefixes
+. ~/.zshrc
+. ~/.zshrc
+p merchandise-payables
+e .
+ssh ci1
+nslookup merchpayci.gap.com
+telnet merchpayci.gap.com
+telnet merchpayci.gap.com 22
+ssh ci2
+ssh ci2
+e ~/.ssh/config
+ll
+cat ~/.ssh/id_rsa.pub
+ssh ci1
+ssh ci2
+ssh ci1
+which gradle
+cat `which gradle`
+e `which gradle`
+gradle
+drip
+gradle
+which drip
+gradle
+gradle
+time gradle
+time gradle
+time gradle
+dirp
+drip
+drip ps
+drip ps
+drip ps
+exec drip
+p merchpay-robot
+e .
+workon merchpay-robot
+err.py --config . --xmpp
+vagrant
+rbenv which vagrant
+gem list
+enable_proxy
+rbenv global
+gem install vagrant vewee chef
+vagrant --help
+git st
+err.py --config . --xmpp
+git ci -m 'Added shutdown command'
+git push
+echo "rvm use system" > .rvmrc
+ll
+git st
+git ci -m 'Added rvmrc back to actually use the system ruby'
+git push
+git st
+git ci -m 'Changed the default ssh ports, seems like there is a conflict with Teamcity'
+git push
+git st
+git pull
+e .
+git pull
+git pull
+telnet ci1 22
+telnet merchpayci.gap.com 22
+nc merchpayci.gap.com 22
+which vagrant
+vagrant status
+git pull
+git st
+git ci -m 'Added port forwarding for stub server'
+git push
+exec drip
+cd Desktop
+git clone https://github.com/chriskempson/base16.git
+open base16
+python
+pip search simplejson
+pip search tidy
+pip search format
+pip search formatter
+p
+mkvirtualenv formatter
+deactivate
+rmvirtualenv formatter
+mkvirtualenv --no-site-packages --distribute formatter
+mkdir formatter
+rm -rf formatter
+git clone https://github.com/isa/formatter
+cd formatter
+ll
+git ll
+ll
+mkdir tests 
+ll
+mkdir formatter
+touch formatter/__init__.py
+ll
+git st
+touch tests/__init__.py
+ll
+pip install nose mockito
+touch dependencies.txt
+e .
+touch setup.py
+ll
+touch formatter/json.py
+ll
+touch printer.py
+python formatter/json.py
+python formatter/json.py
+mkdir src
+mv formatter printer.py src/
+ll
+ll
+cd src
+ll
+ll
+ll formatter
+ll
+mv printer.py formatter
+ll
+cd ..
+mv src/formatter .
+ll
+rm -rf src
+ll
+cd formatter
+ll
+mkdir printers && mv json printers/
+ll
+mv json.py printers/
+ll
+ll
+cd printers
+ll
+touch __init__.py
+ll
+cd ..
+ll
+cd ..
+ll
+python
+python
+ll
+cd formatter
+ll
+mv printers ext
+ll
+cd ..
+python
+ll
+cd formatter
+python
+ll
+cd ..
+ll
+mkdir docs
+ll
+echo $PYTHONPATH
+export PYTHONPATH=/Users/isa/Projects/formatter/formatter
+python
+ll
+git st
+nose
+nosetests
+ll
+python
+git st
+python formatter/printer.py
+git ll
+python formatter/printer.py
+python formatter/printer.py
+python formatter/ext/json.py
+PYTHONPATH=. python formatter/ext/json.py
+PYTHONPATH=formatter python formatter/ext/json.py
+PYTHON_PATH=formatter python formatter/ext/json.py
+python
+cd formatter
+python
+python formatter/ext/json.py
+python ext/json.py
+PYTHONPATH=formatter python ext/json.py
+cd ..
+python formatter/base.py
+ll
+tree
+python
+git ll
+git ci -m 'Dumped my thoughts into the code a bit, let''s see how it goes'
+git commit --amend "Dumped my thoughts into the code, let's see how it goes"
+git commit --ammend "Dumped my thoughts into the code, let's see how it goes"
+git commit --amend "Dumped my thoughts into the code, let's see how it goes"
+git ll
+ll
+git ll
+cd formatter
+ll
+rm -rf printer.pyc
+ll
+git ll
+ll
+cd ext
+ll
+cd ..
+cd ..
+ll
+pip install -r dependencies.txt
+enable_proxy
+pip install -r dependencies.txt
+python
+git st
+git diff
+python
+cd formatter
+python
+ll
+python
+git st
+git ci -m 'Added json printer with basic options'
+git st
+git push
+git ll
+cd ..
+ll
+cd ..
+ll
+rm -rf formatter
+rm -rf hubot-scripts
+ll
+cd codesparrow
+svn up
+cd ../scms/mp
+svn up
+ll
+svn up ../po
+ll
+svn up ../ri/core
+svn up ../ri/sam
+ll
+cd ../..
+ll
+git clone https://github.com/isa/pyformatter.git
+cd pyformatter
+ll
+mv formatter pyformatter
+pip search pyformatter
+enable_proxy
+pip search pyformatter
+git st
+e .
+ll
+git st
+python
+python
+git st
+git ci -m 'Renamed formatter to pyformatter, seems like python already has something builtin'
+git st
+git push
+git st
+ll
+exec drip
+rbenv versions
+which ruby
+which jruby
+jruby --version
+p merchandise-payables
+jruby --version
+rbenv rehahs
+rbenv rehash
+p ..
+p
+rbenv rehash
+which gem
+gem install bundler --no-ri --no-rdoc
+rbenv rehash
+p merchandise-payables
+rbenv versions
+rbenv which gem
+gem install bundler
+gem install bundler --no-ri --no-rdoc
+rbenv rehash
+which gem
+rbenv which gem
+bundle install
+e ~/.environments/
+ll ~/.environments/
+ln -s ~/.environments/.gemrc ~/.gemrc
+ll
+rbenv which ruby
+rbenv which bundle
+bundle install
+for line in $(grep "^gem '.*'" Gemfile | cut -d\' -f2); do gem install $line; done;
+gem lsit
+gem list
+gem
+jruby -S gem list
+jruby -S gem list
+bundle install
+rbenv which maruku
+gem list
+vagrant --version
+git st
+git ci -m 'Tech ITMERCHPAY-0 Removed blocking gem sources and added rbenv support'
+git ll
+brew search drip
+brew install drip
+drip --help
+drip --help
+drip --help
+drip -version
+which drip
+ps -ef | grep drip
+ps -ef | grep java
+drip jruby
+which jruby
+cat `which jruby`
+which clj
+clj
+clj
+drip clj
+ll
+git st
+git st
+git ll
+git ll
+git pull
+git ll
+git dt fad0c90..3b05
+git diff fad0c90..3b05
+git pull
+ll
+cd qa
+ll
+cd acceptance
+ll
+cd ..
+cd ..
+ll
+ll
+cat .rvmrc
+git ll
+git st
+git ll
+ll
+rm -rf .rvmrc
+git st
+git co -- .rvmrc
+git rm .rvmrc
+git rm .rvmrc --cached
+ll
+git st
+git st
+git co -- .
+git st
+git reset --hard HEAD
+git st
+ll
+git push
+git pull
+git pull
+git ll
+git show 32070ec
+find . -name \*.java
+find . -name \*.java -exec cat {} \;
+find . -name \*.java -exec cat {} \; | wc -l
+find . -name \*.java | wc -l
+ll
+git pull
+rbenv help
+rbenv globals
+rbenv global
+ll
+cat .rbenv-gemsets
+cat .rbenv-version
+which ruby
+rbenv which ruby
+cd ..
+p merchandise-payables
+cat `which ruby`
+rbenv shims
+cat /Users/isa/.rbenv/shims/pry
+brew search rbenv
+ll
+cd ..
+rbenv which ruby
+p merchandise-payables/modules
+rbenv which ruby
+cd
+rbenv which ruby
+rbenv global system
+which ruby
+rbenv which ruby
+rbenv global 1.9.3-p327
+ll
+p merchandise-payables
+git pull
+git ll
+git branch -av
+ffind
+gradle init
+cat `which gradle`
+which gradle
+e ~/.zshrc
+. ~/.zshrc
+which gradle
+gradle
+gradle
+gradle
+gradle
+gradle
+gradle
+gradle
+gradle --daemon
+gradle
+. ~/.zshrc
+gradle --help
+time gradle --help
+time gradle --help
+gradle --help
+gradle --help
+time gradle --help
+time gradle --help
+time gradle --help
+gradle]
+gradle
+gradle
+gradle
+which gradle
+java
+java
+drip
+gradle
+gradle
+gradle
+gradle
+gradle --daemon
+gradle --daemon
+gradle --daemon
+gradle --daemon
+gradle --daemon
+gradle --daemon --help
+e ~/.zshrc
+. ~/.zshrc
+gradle --help
+gradle --help
+gradle --help
+gradle
+p merchandise-payables
+gradle --tasks
+gradle tasks
+gradle tasks
+which clj
+cat /usr/local/Cellar/clojure/1.4.0/bin/clj
+e /usr/local/Cellar/clojure/1.4.0/bin/clj
+clj
+clj
+clj
+clj
+workon merchpay-robot
+p merchpay-robot
+e .
+nslookup mpci.gap.com
+nslookup qaproxy.gid.gap.com
+git st
+git ci -m 'Changed the hostnames with IP addresses to skip stupid proxy'
+git push
+ssh ci2
+p merchandise-payables
+ll
+cd modules/ngf
+ll
+cd src/main/resources
+ll
+cat config/database.xml
+ssh db1
+cd ~/.rbenv/versions/jruby-1.7.0/bin
+ll
+./gem list
+ll
+jgem list
+cat jgem
+cat jruby
+ll
+cat gem
+jruby
+rbenv exec gem list
+rbenv 
+rbenv shell jruby-1.7.0
+gem list
+rbenv shell jruby-1.7.0@merchandise-payables
+rbenv shell jruby-1.7.0
+rbenv commands
+rbenv gemset
+rbenv gemset list
+rbenv gemset active
+rbenv gemset active merchandise-payables
+rbenv gemset merchandise-payables
+rbenv gemset list
+rbenv gemset version
+rbenv gemset file
+ll
+ll
+rbenv gemset
+rbenv gemset merchandise-payables
+rbenv gemset merchandise-payables active
+rbenv gemset create merchandise-payables
+rbenv gemset create jruby-1.7.0 merchandise-payables
+gem list
+rbenv gemset
+rbenv gemset active
+rbenv
+rbenv shell
+gem list
+gem list
+rbenv which jruby
+cat /Users/isa/.rbenv/versions/jruby-1.7.0/bin/jruby
+ll
+rm -rf test.h2.db
+ll
+p merchandise-payables
+cd modules/ngf/libs
+ll
+cd runtime
+ll
+open h2-1.3.168.jar
+java -jar h2-1.3.168.jar
+java -jar h2-1.3.168.jar
+scp h2-1.3.168.jar vagrant@mpci.gap.com:~/ -P 7201
+scp -P 7201 h2-1.3.168.jar vagrant@mpci.gap.com:~/
+ssh vagrant@mpci.gap.com -p 7201
+ssh ci2
+ssh ci2 -p 7201
+ssh vagrant@ci2 -p 7201
+p merchandise-payables
+gem list
+rm -rf .rbenv-gemsets
+ll
+git st
+git add -u .rbenv-gemsets
+git st
+git commit -m 'Tech ITMERCHPAY-0 Removed gemset since IDEA does not support it yet'
+git push
+git pull
+git push
+gem list
+for line in $(grep "^gem '.*'" Gemfile | cut -d\' -f2); do gem install $line; done;
+enable_proxy
+for line in $(grep "^gem '.*'" Gemfile | cut -d\' -f2); do gem install $line; done;
+gem list
+gem list
+whereis reindent.py
+which python
+cd /System/Library/Frameworks/Python.framework
+ll
+cd Versions
+ll
+cd 2.7
+ll
+cd Extras
+ll
+cd lib/python
+ll
+cd ..
+cd ..
+cd ..
+find . -name example
+find . -name \*example\*
+find . -name scripts
+find . -name reindent.py
+p pyformatter
+ll
+git st
+nosetests
+workon formatter
+nosetests
+nosetests
+nosetests
+python
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+python
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+git st
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+git st
+git ci -m 'Added some more tests around json formatting'
+git ll
+git push
+ll
+cd pyformatter
+ll
+chmod +x base.py
+ll
+./base.py
+./base.py
+./base.py
+cd ..
+./pyformatter/base.py
+cd pyformatter
+ll
+python
+git st
+git diff
+ll
+tree
+cd ..
+tree
+python
+ll
+chmod -x pyformatter/base.py
+ll pyformatter/base.py
+ll
+touch format.py
+chmod +x format.py
+./format.py
+./format.py
+./format.py
+./format.py
+./format.py
+echo '{\
+"employees": [\
+{ "firstName":"John" , "lastName":"Doe" }, \
+{ "firstName":"Anna" , "lastName":"Smith" }, \
+{ "firstName":"Peter" , "lastName":"Jones" }\
+]\
+}' > x.json
+ll
+cat x.json
+./format.py
+./format.py x.json
+./format.py x.json
+./format.py x.json
+./format.py x.json
+mkdir samples
+mv x.json samples/sample.json
+ll
+ll
+git st
+./format.py samples/sample.json
+pygments
+pip search pygments
+pip install -r dependencies.txt
+./format.py
+./format.py samples/sample.json | pygmentize
+which scat
+cat `which scat`
+./format.py samples/sample.json | pygmentize -f terminal
+./format.py samples/sample.json | pygmentize -f terminal -g
+./format.py samples/sample.json | pygmentize -f terminal -l json
+./format.py samples/sample.json | pygmentize -l json
+./format.py samples/sample.json | pygmentize -l json
+which pygmentize
+cat `which pygmentize`
+ll
+git st
+git st
+cat samples/sample.json | pygmentize -l json
+python
+./format.py samples/sample.json
+./format.py samples/sample.json
+git st
+git ci -m 'Added a terminal entry point for the pyformatter'
+git push
+ll
+./format.py samples/sample.json
+pylint
+brew search pylint
+disable_proxy
+brew search pylint
+brew update
+brew upgrade
+mysql
+mysql -uroot
+mysql.server start
+mysql -uroot
+mysql.server stop
+ll
+http GET https://merchpay.gap.com/feeds/payments
+http GET https://merchpay.gap.com/feeds/payments | less
+http GET https://merchpay.gap.com/feeds/payments > ~/Desktop/mp.feed.xml
+e ~/Desktop/mp.feed.xml
+curl https://merchpay.gap.com/feeds/payments?start-index=1&amp;max-records=200
+curl "https://merchpay.gap.com/feeds/payments?start-index=1&amp;max-records=200"
+curl "https://merchpay.gap.com/feeds/payments?start-index=1&amp;max-records=200" | grep "<entry" | wc -l
+curl "https://merchpay.gap.com/feeds/payments?start-index=1&amp;max-records=33" | grep "<entry" | wc -l
+curl --insecure "https://merchpay.gap.com/feeds/payments?start-index=1&amp;max-records=33" | grep "<entry" | wc -l
+curl --insecure "https://merchpay.gap.com/feeds/payments?start-index=1&amp;max-records=200" | head -20
+curl --insecure "https://merchpay.gap.com/feeds/payments?start-index=1&amp;max-records=200" | head -20
+curl --insecure "https://merchpay.gap.com/feeds/payments?start-index=1&amp;max-records=200" | head -4
+curl --insecure "https://merchpay.gap.com/feeds/payments?start-index=1&amp;max-records=200" | head -10
+http GET "https://merchpay.gap.com/feeds/payments?start-index=10&max-records=3" > ~/Desktop/mp.feed2.xml
+e ~/Desktop/mp.feed2.xml
+svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay
+svn ls http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk/modules/atom
+p merchandise-payables
+cd modules/atom
+tree -L2
+tree -L 2
+p merchpay-robot
+ssh ci2
+curl https://merchpay.gap.com/status
+echo $JAVA_HOME
+cd $JAVA_HOME
+ll
+cd lib
+ll
+cd security/
+ll
+ll /System/Library/Java/Support/CoreDeploy.bundle/Contents/Home/lib/security/cacerts
+curl --version
+workon merchpay-robot
+p merchpay-robot
+e .
+git st
+git st
+git ci -m 'Added H2 db port forwarding'
+git push
+ssh ci2
+p merchpay-robot
+cat Vagrantfile
+ssh ci1
+ssh ci2 -p 7201
+ssh vagrant@ci2 -p 7201
+ssh teamcity@ci2
+p mp-buildr
+ll
+cd modules/core
+ll
+buildr compile
+e .
+buildr compile
+buildr compile
+buildr compile
+buildr clean
+buildr compile
+buildr compile
+buildr clean
+buildr clean | grep '\.jar'
+buildr clean
+buildr clean
+buildr clean
+apt --help
+man apt
+which apt
+ssh app1
+cd Desktop
+ll
+at
+cat
+cat merchpay-certs.jks
+ll
+ssh app1
+p merchpay-robot
+ll
+p merchandise-payables
+ll
+cd modules/ngf
+ll
+cd src
+ll
+ll integration/resources
+ll integration/resources/config/sql/vendor/h2
+ll main/resources/config/sql/vendor/h2
+cp integration/resources/config/sql/vendor/h2 main/resources/config/sql/vendor/h2
+ll main/resources/config/sql/vendor/h2
+cd main/resources/config/sql/vendor/h2
+ll
+mv h2/* .
+ll
+rm -rf h2
+ll
+git st
+git ci -m 'Tech ITMERCHPAY-0 Adding h2 schemas for the vms'
+git pull
+git push
+p merchandise-payables
+git st
+git pull
+p scms/mp
+svn up
+touch delete.me
+svn add delete.me
+svn ci
+svn info
+rm -rf 
+ll
+rm -rf /Users/isa/Projects/scms/mp/svn-commit.tmp
+ll
+svn up
+svn info
+nslookup svn.gap.dev
+p merchandise-payables
+git pull
+ack "step " *
+vim ~/movies.txt

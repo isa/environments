@@ -5,7 +5,6 @@
 		"AdvancedNewFile",
 		"ApacheConf.tmLanguage",
 		"CoffeeScript",
-		"Cucumber",
 		"Emmet",
 		"Format SQL",
 		"GenerateUUID",
@@ -19,11 +18,13 @@
 		"Shell Turtlestein",
 		"SideBarEnhancements",
 		"Solarized Color Scheme",
+		"Surround",
 		"SyncedSideBar",
 		"Theme - Soda",
 		"ToggleQuotes",
 		"Tomorrow Color Schemes",
 		"Vintage Numbers",
+		"Vintage Surround",
 		"VintageEx"
 	]
 }
