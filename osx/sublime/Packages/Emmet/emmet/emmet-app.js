@@ -3227,7 +3227,125 @@ emmet.define('xmlParser', function(require, _) {
 		}		
 	};
 });
+/*!
+ * string_score.js: String Scoring Algorithm 0.1.10 
+ *
+ * http://joshaven.com/string_score
+ * https://github.com/joshaven/string_score
+ *
+ * Copyright (C) 2009-2011 Joshaven Potter <yourtech@gmail.com>
+ * Special thanks to all of the contributors listed here https://github.com/joshaven/string_score
+ * MIT license: http://www.opensource.org/licenses/mit-license.php
+ *
+ * Date: Tue Mar 1 2011
+*/
+
 /**
+ * Scores a string against another string.
+ *  'Hello World'.score('he');     //=> 0.5931818181818181
+ *  'Hello World'.score('Hello');  //=> 0.7318181818181818
+ */
+emmet.define('string-score', function(require, _) {
+	return {
+		score: function(string, abbreviation, fuzziness) {
+			// If the string is equal to the abbreviation, perfect match.
+			  if (string == abbreviation) {return 1;}
+			  //if it's not a perfect match and is empty return 0
+			  if(abbreviation == "") {return 0;}
+
+			  var total_character_score = 0,
+			      abbreviation_length = abbreviation.length,
+			      string_length = string.length,
+			      start_of_string_bonus,
+			      abbreviation_score,
+			      fuzzies=1,
+			      final_score;
+			  
+			  // Walk through abbreviation and add up scores.
+			  for (var i = 0,
+			         character_score/* = 0*/,
+			         index_in_string/* = 0*/,
+			         c/* = ''*/,
+			         index_c_lowercase/* = 0*/,
+			         index_c_uppercase/* = 0*/,
+			         min_index/* = 0*/;
+			     i < abbreviation_length;
+			     ++i) {
+			    
+			    // Find the first case-insensitive match of a character.
+			    c = abbreviation.charAt(i);
+			    
+			    index_c_lowercase = string.indexOf(c.toLowerCase());
+			    index_c_uppercase = string.indexOf(c.toUpperCase());
+			    min_index = Math.min(index_c_lowercase, index_c_uppercase);
+			    index_in_string = (min_index > -1) ? min_index : Math.max(index_c_lowercase, index_c_uppercase);
+			    
+			    if (index_in_string === -1) { 
+			      if (fuzziness) {
+			        fuzzies += 1-fuzziness;
+			        continue;
+			      } else {
+			        return 0;
+			      }
+			    } else {
+			      character_score = 0.1;
+			    }
+			    
+			    // Set base score for matching 'c'.
+			    
+			    // Same case bonus.
+			    if (string[index_in_string] === c) { 
+			      character_score += 0.1; 
+			    }
+			    
+			    // Consecutive letter & start-of-string Bonus
+			    if (index_in_string === 0) {
+			      // Increase the score when matching first character of the remainder of the string
+			      character_score += 0.6;
+			      if (i === 0) {
+			        // If match is the first character of the string
+			        // & the first character of abbreviation, add a
+			        // start-of-string match bonus.
+			        start_of_string_bonus = 1; //true;
+			      }
+			    }
+			    else {
+			  // Acronym Bonus
+			  // Weighing Logic: Typing the first character of an acronym is as if you
+			  // preceded it with two perfect character matches.
+			  if (string.charAt(index_in_string - 1) === ' ') {
+			    character_score += 0.8; // * Math.min(index_in_string, 5); // Cap bonus at 0.4 * 5
+			  }
+			    }
+			    
+			    // Left trim the already matched part of the string
+			    // (forces sequential matching).
+			    string = string.substring(index_in_string + 1, string_length);
+			    
+			    total_character_score += character_score;
+			  } // end of for loop
+			  
+			  // Uncomment to weigh smaller words higher.
+			  // return total_character_score / string_length;
+			  
+			  abbreviation_score = total_character_score / abbreviation_length;
+			  //percentage_of_matched_string = abbreviation_length / string_length;
+			  //word_score = abbreviation_score * percentage_of_matched_string;
+			  
+			  // Reduce penalty for longer strings.
+			  //final_score = (word_score + abbreviation_score) / 2;
+			  final_score = ((abbreviation_score * (abbreviation_length / string_length)) + abbreviation_score) / 2;
+			  
+			  final_score = final_score / fuzzies;
+			  
+			  if (start_of_string_bonus && (final_score + 0.15 < 1)) {
+			    final_score += 0.15;
+			  }
+			  
+			  return final_score;
+		}
+	};
+});/**
  * Utility module for Emmet
  * @param {Function} require
  * @param {Underscore} _
@@ -4410,6 +4528,15 @@ emmet.define('resources', function(require, _) {
 		}
 	}
 	
+	/**
+	 * Normalizes snippet key name for better fuzzy search
+	 * @param {String} str
+	 * @returns {String}
+	 */
+	function normalizeName(str) {
+		return str.replace(/:$/, '').replace(/:/g, '-');
+	}
+	
 	return {
 		/**
 		 * Sets new unparsed data for specified settings vocabulary
@@ -4544,7 +4671,7 @@ emmet.define('resources', function(require, _) {
 		 * Definition is searched inside `snippets` and `abbreviations` 
 		 * subsections  
 		 * @param {String} syntax Top-level section name (syntax)
-		 * @param {Snippet name} name
+		 * @param {String} name Snippet name
 		 * @returns {Object}
 		 */
 		findSnippet: function(syntax, name, memo) {
@@ -4577,6 +4704,76 @@ emmet.define('resources', function(require, _) {
 			}
 			
 			return matchedItem;
+		},
+		
+		/**
+		 * Performs fuzzy search of snippet definition
+		 * @param {String} syntax Top-level section name (syntax)
+		 * @param {String} name Snippet name
+		 * @returns
+		 */
+		fuzzyFindSnippet: function(syntax, name, minScore) {
+			minScore = minScore || 0.3;
+			
+			var payload = this.getAllSnippets(syntax);
+			var sc = require('string-score');
+			
+			name = normalizeName(name);
+			var scores = _.map(payload, function(value, key) {
+				return {
+					key: key,
+					score: sc.score(value.nk, name, 0.1)
+				};
+			});
+			
+			var result = _.last(_.sortBy(scores, 'score'));
+			if (result && result.score >= minScore) {
+				var k = result.key;
+				return payload[k].parsedValue;
+//				return parseItem(k, payload[k].value, payload[k].type);
+			}
+		},
+		
+		/**
+		 * Returns plain dictionary of all available abbreviations and snippets
+		 * for specified syntax with respect of inheritance
+		 * @param {String} syntax
+		 * @returns {Object}
+		 */
+		getAllSnippets: function(syntax) {
+			var cacheKey = 'all-' + syntax;
+			if (!cache[cacheKey]) {
+				var stack = [], sectionKey = syntax;
+				var memo = [];
+				
+				do {
+					var section = this.getSection(sectionKey);
+					if (!section)
+						break;
+					
+					_.each(['snippets', 'abbreviations'], function(sectionName) {
+						var stackItem = {};
+						_.each(section[sectionName] || null, function(v, k) {
+							stackItem[k] = {
+								nk: normalizeName(k),
+								value: v,
+								parsedValue: parseItem(k, v, sectionName),
+								type: sectionName
+							};
+						});
+						
+						stack.push(stackItem);
+					});
+					
+					memo.push(sectionKey);
+					sectionKey = section['extends'];
+				} while (sectionKey && !_.include(memo, sectionKey));
+				
+				
+				cache[cacheKey] = _.extend.apply(_, stack.reverse());
+			}
+			
+			return cache[cacheKey];
 		}
 	};
 });/**
@@ -5315,13 +5512,22 @@ emmet.define('actionUtils', function(require, _) {
 				 	var profile = require('resources').getVariable('profile');
 				 	if (!profile) { // no forced profile, guess from content
 					 	// html or xhtml?
-				 		profile = editor.getContent().search(/<!DOCTYPE[^>]+XHTML/i) != -1 ? 'xhtml': 'html';
+				 		profile = this.isXHTML(editor) ? 'xhtml': 'html';
 				 	}
 
 				 	return profile;
 			}
 
 			return 'xhtml';
+		},
+		
+		/**
+		 * Tries to detect if current document is XHTML one.
+		 * @param {IEmmetEditor} editor
+		 * @returns {Boolean}
+		 */
+		isXHTML: function(editor) {
+			return editor.getContent().search(/<!DOCTYPE[^>]+XHTML/i) != -1;
 		}
 	};
 });/**
@@ -9728,10 +9934,21 @@ emmet.define('cssResolver', function(require, _) {
 		},
 		
 		/**
-		 * @type {Array} List of unprefixed CSS properties that supported by 
-		 * current prefix. This list is used to generate all-prefixed property 
+		 * List of unprefixed CSS properties that supported by 
+		 * current prefix. This list is used to generate all-prefixed property
+		 * @returns {Array} 
 		 */
-		supports: null
+		properties: function() {
+			return getProperties('css.' + this.prefix + 'Properties') || [];
+		},
+		
+		/**
+		 * Check if given property is supported by current prefix
+		 * @param name
+		 */
+		supports: function(name) {
+			return _.include(this.properties(), name);
+		}
 	};
 	
 	
@@ -9777,7 +9994,7 @@ emmet.define('cssResolver', function(require, _) {
 		+ 'abbreviations. Empty list means that all possible CSS values may ' 
 		+ 'have <code><%= vendor %></code> prefix.');
 	
-	var descAddonTemplate = _.template('A comma-separated list of <em>additions</em> CSS properties ' 
+	var descAddonTemplate = _.template('A comma-separated list of <em>additional</em> CSS properties ' 
 			+ 'for <code>css.<%= vendor %>Preperties</code> preference. ' 
 			+ 'You should use this list if you want to add or remove a few CSS ' 
 			+ 'properties to original set. To add a new property, simply write its name, '
@@ -9807,13 +10024,36 @@ emmet.define('cssResolver', function(require, _) {
 	prefs.define('css.keywords', 'auto, inherit', 
 			'A comma-separated list of valid keywords that can be used in CSS abbreviations.');
 	
-	prefs.define('css.keywordAliases', 'a:auto, i:inherit', 
+	prefs.define('css.keywordAliases', 'a:auto, i:inherit, s:solid, da:dashed, do:dotted', 
 			'A comma-separated list of keyword aliases, used in CSS abbreviation. '
 			+ 'Each alias should be defined as <code>alias:keyword_name</code>.');
 	
 	prefs.define('css.unitAliases', 'e:em, p:%, x:ex, r:rem', 
 			'A comma-separated list of unit aliases, used in CSS abbreviation. '
 			+ 'Each alias should be defined as <code>alias:unit_value</code>.');
+	
+	prefs.define('css.color.short', true, 
+			'Should color values like <code>#ffffff</code> be shortened to '
+			+ '<code>#fff</code> after abbreviation with color was expanded.');
+	
+	prefs.define('css.color.case', 'keep', 
+			'Letter case of color values generated by abbreviations with color '
+			+ '(like <code>c#0</code>). Possible values are <code>upper</code>, '
+			+ '<code>lower</code> and <code>keep</code>.');
+	
+	prefs.define('css.fuzzySearch', true, 
+			'Enable fuzzy search among CSS snippet names. When enabled, every ' 
+			+ '<em>unknown</em> snippet will be scored against available snippet '
+			+ 'names (not values or CSS properties!). The match with best score '
+			+ 'will be used to resolve snippet value. For example, with this ' 
+			+ 'preference enabled, the following abbreviations are equal: '
+			+ '<code>ov:h</code> == <code>ov-h</code> == <code>o-h</code> == '
+			+ '<code>oh</code>');
+	
+	prefs.define('css.fuzzySearchMinScore', 0.3, 
+			'The minium score (from 0 to 1) that fuzzy-matched abbreviation should ' 
+			+ 'achive. Lower values may produce many false-positive matches, '
+			+ 'higher values may reduce possible matches.');
 	
 	
 	function isNumeric(ch) {
@@ -9848,6 +10088,68 @@ emmet.define('cssResolver', function(require, _) {
 		});
 		
 		return snippet.split(':').length == 2;
+	}
+	
+	/**
+	 * Normalizes abbreviated value to final CSS one
+	 * @param {String} value
+	 * @returns {String}
+	 */
+	function normalizeValue(value) {
+		if (value.charAt(0) == '-' && !/^\-[\.\d]/) {
+			value = value.replace(/^\-+/, '');
+		}
+		
+		if (value.charAt(0) == '#') {
+			return normalizeHexColor(value);
+		}
+		
+		return getKeyword(value);
+	}
+	
+	function normalizeHexColor(value) {
+		var hex = value.replace(/^#+/, '');
+		var repeat = require('utils').repeatString;
+		var color = null;
+		switch (hex.length) {
+			case 1:
+				color = repeat(hex, 6);
+				break;
+			case 2:
+				color = repeat(hex, 3);
+				break;
+			case 3:
+				color = hex.charAt(0) + hex.charAt(0) + hex.charAt(1) + hex.charAt(1) + hex.charAt(2) + hex.charAt(2);
+				break;
+			case 4:
+				color = hex + hex.substr(0, 2);
+				break;
+			case 5:
+				color = hex + hex.charAt(0);
+				break;
+			default:
+				color = hex.substr(0, 6);
+		}
+		
+		// color must be shortened?
+		if (prefs.get('css.color.short')) {
+			var p = color.split('');
+			if (p[0] == p[1] && p[2] == p[3] && p[4] == p[5]) {
+				color = p[0] + p[2] + p[4];
+			}
+		}
+		
+		// should transform case?
+		switch (prefs.get('css.color.case')) {
+			case 'upper':
+				color = color.toUpperCase();
+				break;
+			case 'lower':
+				color = color.toLowerCase();
+				break;
+		}
+		
+		return '#' + color;
 	}
 	
 	function getKeyword(name) {
@@ -9901,7 +10203,7 @@ emmet.define('cssResolver', function(require, _) {
 				return data.prefix == prefix;
 			});
 		
-		return info && info.supports && _.include(info.supports, property);
+		return info && info.supports(property);
 	}
 	
 	/**
@@ -9984,14 +10286,6 @@ emmet.define('cssResolver', function(require, _) {
 		}
 		
 		return formatProperty(snippet, syntax);
-		
-		// format value separator
-		var ix = snippet.indexOf(':');
-		snippet = snippet.substring(0, ix).replace(/\s+$/, '') 
-			+ prefs.get('css.valueSeparator')
-			+ require('utils').trim(snippet.substring(ix + 1));
-		
-		return snippet;
 	}
 	
 	/**
@@ -10020,21 +10314,19 @@ emmet.define('cssResolver', function(require, _) {
 		return list;
 	}
 	
+	
+	// TODO refactor, this looks awkward now
 	addPrefix('w', {
-		prefix: 'webkit',
-		supports: getProperties('css.webkitProperties')
+		prefix: 'webkit'
 	});
 	addPrefix('m', {
-		prefix: 'moz',
-		supports: getProperties('css.mozProperties')
+		prefix: 'moz'
 	});
 	addPrefix('s', {
-		prefix: 'ms',
-		supports: getProperties('css.msProperties')
+		prefix: 'ms'
 	});
 	addPrefix('o', {
-		prefix: 'o',
-		supports: getProperties('css.oProperties')
+		prefix: 'o'
 	});
 	
 	// I think nobody uses it
@@ -10214,7 +10506,7 @@ emmet.define('cssResolver', function(require, _) {
 			var i = 0, il = abbr.length, value = '', ch;
 			while (i < il) {
 				ch = abbr.charAt(i);
-				if (isNumeric(ch) || (ch == '-' && isNumeric(abbr.charAt(i + 1)))) {
+				if (isNumeric(ch) || ch == '#' || (ch == '-' && isNumeric(abbr.charAt(i + 1)))) {
 					value = abbr.substring(i);
 					break;
 				}
@@ -10241,45 +10533,34 @@ emmet.define('cssResolver', function(require, _) {
 			return keywords.join('-') + value;
 		},
 		
-		/**
-		 * Parses values defined in abbreviations
-		 * @param {String} abbrValues Values part of abbreviations (can be 
-		 * extracted with <code>findValuesInAbbreviation</code>)
-		 * @returns {Array}
-		 */
-		parseValues: function(abbrValues) {
-			var valueStack = '';
+		parseValues: function(str) {
+			/** @type StringStream */
+			var stream = require('stringStream').create(str);
 			var values = [];
-			var i = 0, il = abbrValues.length, ch, nextCh;
+			var ch = null;
 			
-			while (i < il) {
-				ch = abbrValues.charAt(i);
-				if (ch == '-' && valueStack) {
-					// next value found
-					values.push(valueStack);
-					valueStack = '';
-					i++;
-					continue;
-				}
-				
-				valueStack += ch;
-				i++;
-				
-				nextCh = abbrValues.charAt(i);
-				if (ch != '-' && !isNumeric(ch) && (isNumeric(nextCh) || nextCh == '-')) {
-					if (isValidKeyword(valueStack)) {
-						i++;
+			while (ch = stream.next()) {
+				if (ch == '#') {
+					stream.match(/^[0-9a-f]+/, true);
+					values.push(stream.current());
+				} else if (ch == '-') {
+					if (isValidKeyword(_.last(values)) || 
+							( stream.start && isNumeric(str.charAt(stream.start - 1)) )
+						) {
+						stream.start = stream.pos;
 					}
-					values.push(valueStack);
-					valueStack = '';
+					
+					stream.match(/^\-?[0-9]*(\.[0-9]+)?[a-z\.]*/, true);
+					values.push(stream.current());
+				} else {
+					stream.match(/^[0-9]*(\.[0-9]+)?[a-z]*/, true);
+					values.push(stream.current());
 				}
+				
+				stream.start = stream.pos;
 			}
 			
-			if (valueStack) {
-				values.push(valueStack);
-			}
-			
-			return _.map(values, getKeyword);
+			return _.map(_.compact(values), normalizeValue);
 		},
 		
 		/**
@@ -10357,11 +10638,16 @@ emmet.define('cssResolver', function(require, _) {
 			snippet = resources.findSnippet(syntax, abbrData.property);
 			
 			// fallback to some old snippets like m:a
-			if (!snippet && ~abbrData.property.indexOf(':')) {
-				var parts = abbrData.property.split(':');
-				var propertyName = parts.shift();
-				snippet = resources.findSnippet(syntax, propertyName) || propertyName;
-				abbrData.values = this.parseValues(parts.join(':'));
+//			if (!snippet && ~abbrData.property.indexOf(':')) {
+//				var parts = abbrData.property.split(':');
+//				var propertyName = parts.shift();
+//				snippet = resources.findSnippet(syntax, propertyName) || propertyName;
+//				abbrData.values = this.parseValues(parts.join(':'));
+//			}
+			
+			if (!snippet && prefs.get('css.fuzzySearch')) {
+				// let’s try fuzzy search
+				snippet = resources.fuzzyFindSnippet(syntax, abbrData.property, parseFloat(prefs.get('css.fuzzySearchMinScore')));
 			}
 			
 			if (!snippet) {
@@ -10405,7 +10691,7 @@ emmet.define('cssResolver', function(require, _) {
 		},
 		
 		/**
-		 * Same as <code>expand</code> method but transforms output into a 
+		 * Same as <code>expand</code> method but transforms output into 
 		 * Emmet snippet
 		 * @param {String} abbr
 		 * @param {String} syntax
@@ -10423,7 +10709,8 @@ emmet.define('cssResolver', function(require, _) {
 			return String(snippet);
 		},
 		
-		getSyntaxPreference: getSyntaxPreference
+		getSyntaxPreference: getSyntaxPreference,
+		transformSnippet: transformSnippet
 	};
 });
 /**

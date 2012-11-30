@@ -1,6 +1,6 @@
 # Emmet for Sublime Text 2 plugin
 
-Official Emmet (previously called _Zen Coding_) for Sublime Text 2 plugin.
+Official Emmet plugin (previously called _Zen Coding_) for Sublime Text 2.
 
 *Warning:* this plugin may not work at all in some OSes since it written in JavaScript and uses [PyV8](http://code.google.com/p/pyv8/) and [Google V8](https://developers.google.com/v8/) binaries to run. If you experience problems or editor crashes please [fill an issue](https://github.com/sergeche/emmet-sublime/issues).
 
@@ -33,7 +33,7 @@ Or with [Package Control](http://wbond.net/sublime_packages/package_control):
 * [Expand Abbreviation](http://docs.emmet.io/actions/expand-abbreviation/) – <kbd>Tab</kbd> or <kbd>Ctrl+E</kbd>
 * Interactive “Expand Abbreviation” — <kbd>Ctrl+Alt+Enter</kbd>
 * [Match Tag Pair Outward](http://docs.emmet.io/actions/match-pair/) – <kbd>⌃D</kbd> (Mac) / <kbd>Ctrl+,</kbd> (PC)
-* [Match Tag Pair Inward](http://docs.emmet.io/actions/match-pair/) – <kbd>⌃J</kbd> / <kbd>Ctrl+Alt+,</kbd>
+* [Match Tag Pair Inward](http://docs.emmet.io/actions/match-pair/) – <kbd>⌃J</kbd> / <kbd>Shift+Ctrl+0</kbd>
 * [Go to Matching Pair](http://docs.emmet.io/actions/go-to-pair/) – <kbd>⇧⌃T</kbd> / <kbd>Ctrl+Alt+J</kbd>
 * [Wrap With Abbreviation](http://docs.emmet.io/actions/wrap-with-abbreviation/) — <kbd>⌃W</kbd> / <kbd>Shift+Ctrl+G</kbd>
 * [Go to Edit Point](http://docs.emmet.io/actions/go-to-edit-point/) — <kbd>Ctrl+Alt+→</kbd> or <kbd>Ctrl+Alt+←</kbd>
@@ -45,6 +45,7 @@ Or with [Package Control](http://wbond.net/sublime_packages/package_control):
 * [Evaluate Math Expression](http://docs.emmet.io/actions/evaluate-math/) — <kbd>⇧⌘Y</kbd> / <kbd>Shift+Ctrl+Y</kbd>
 * [Reflect CSS Value](http://docs.emmet.io/actions/reflect-css-value/) – <kbd>⇧⌘R</kbd> / <kbd>Shift+Ctrl+R</kbd>
 * [Encode/Decode Image to data:URL](http://docs.emmet.io/actions/base64/) – <kbd>⇧⌃D</kbd> / <kbd>Ctrl+'</kbd>
+* Rename Tag – <kbd>⇧⌘K</kbd> / <kbd>Shift+Ctrl+'</kbd>
 
 [Increment/Decrement Number](http://docs.emmet.io/actions/inc-dec-number/) actions:
 
@@ -58,6 +59,10 @@ Or with [Package Control](http://wbond.net/sublime_packages/package_control):
 ## Extensions support ##
 
 You can easily [extend](http://docs.emmet.io/customization/) Emmet with new actions and filters or customize existing ones. In `Emmet.sublime-settings`, define `extensions_path` setting and Emmet will load all `.js` and `.json` files in specified folder at startup.
+
+The default value of `extensions_path` is `~/emmet`, which points to _emmet_ folder inside your OS user’s home folder.
+
+Also, you can create sections named as extension files (e.g. `snippets`, `preferences` and `syntaxProfiles`) inside user’s `Emmet.sublime-settings` file and write your customizations there. See [original settings file](https://github.com/sergeche/emmet-sublime/blob/master/Emmet.sublime-settings#L61) for examples.
 
 ## Overriding keyboard shortcuts ##
 

@@ -21,6 +21,8 @@ Bring up the command palette (it's `⌘ + shift + p`  in OS X and `ctrl + shift 
 
 ☐ **`⌘ + d`**: toggle task as completed. You can also use your mouse to mark a task a completed. just hold down `⌘` (or `ctrl` if you're on Windows or Linux) and click the task. Clicking again will toggle the task back to the pending state.
 
+☐ **`⌘ + m`**: toggle task as cancelled.
+
 ☐ **`⌘ + shift + a`** will archive the done tasks, by removing them from your list and appending them to the bottom of the file under Archive project
 
 ☐ Anything with colon at the end of the line is a project title, you can also nest projects by indenting them. 
@@ -61,9 +63,12 @@ Here is a list of PlainTasks' specific settings:
   Default: (%y-%m-%d %H:%M)
 
 * **done_tag**  
-  Default: true
+  Default: true  
   Determines whether done tasks should gain a @done tag or not    
 
+* **before_tasks_bullet_margin**  
+  Default: 1  
+  Determines the number of spaces (default indent) before the task bullet
 
 ## [BONUS] Custom todo icon
 PlainTasks comes with a custom todo icon that you can find in the `icons` folder. You can assign it to your todo files to give them a better look and distinguish them from other plain text files. Google and find out how to assign a custom icon to a file type in your operating system.

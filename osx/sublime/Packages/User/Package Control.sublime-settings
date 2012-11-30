@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1353006578,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -19,7 +19,6 @@
 		"SideBarEnhancements",
 		"Solarized Color Scheme",
 		"Surround",
-		"SyncedSideBar",
 		"Theme - Soda",
 		"ToggleQuotes",
 		"Tomorrow Color Schemes",

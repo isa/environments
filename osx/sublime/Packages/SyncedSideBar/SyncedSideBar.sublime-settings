@@ -1,4 +1,0 @@
-{
-	// Plugin active state. Allows projects to override this setting if it's annoying without disabling the plugin entirely.
-	"reveal-on-activate": true
-}

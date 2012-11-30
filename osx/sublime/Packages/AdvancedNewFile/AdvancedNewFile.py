@@ -11,11 +11,14 @@ SETTINGS = [
     "show_path",
     "default_root",
     "default_path",
-    "os_specific_alias"
+    "os_specific_alias",
+    "ignore_case"
 ]
 DEBUG = False
 PLATFORM = sublime.platform()
 VIEW_NAME = "AdvancedNewFileCreation"
+WIN_ROOT_REGEX = r"[a-zA-Z]:(/|\\)"
+NIX_ROOT_REGEX = r"^/"
 
 
 class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
@@ -39,6 +42,7 @@ class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
         # Set some default values for the auto complete
         PathAutocomplete.set_show_files(settings.get("show_files"))
         PathAutocomplete.set_aliases(self.aliases)
+        PathAutocomplete.set_ignore_case(settings.get("ignore_case"))
 
         # Search for initial string
         path = settings.get("default_initial", "")
@@ -76,15 +80,25 @@ class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
 
     def split_path(self, path=""):
         HOME_REGEX = r"^~[/\\]"
+        root = None
         try:
-            if self.top_level_split_char in path:
+            # Parse windows root
+            if PLATFORM == "windows":
+                if re.match(WIN_ROOT_REGEX, path):
+                    root = path[0:3]
+                    path = path[3:]
+
+            # Parse if alias
+            if self.top_level_split_char in path and root == None:
                 parts = path.split(self.top_level_split_char, 1)
                 root = self.translate_alias(parts[0])
                 path = parts[1]
-            elif re.match(HOME_REGEX, path):
+            # Parse if tilde used
+            elif re.match(HOME_REGEX, path) and root == None:
                 root = os.path.expanduser("~")
                 path = path[2:]
-            else:
+            # Default
+            elif root == None:
                 root = self.root or self.window.folders()[0]
         except IndexError:
             root = os.path.expanduser("~")
@@ -92,22 +106,24 @@ class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
         if DEBUG:
             print "AdvancedNewFile[Debug]: root is " + root
             print "AdvancedNewFile[Debug]: path is " + path
-
         return root, path
 
     def translate_alias(self, target):
         RELATIVE_REGEX = r"^\.{1,2}[/\\]"
         root = None
+        # Special alias - current file
         if target == "" and self.view is not None:
             filename = self.view.file_name()
             if filename is not None:
                 root = os.path.dirname(filename)
         else:
+            # Folder aliases
             for folder in self.window.folders():
                 basename = os.path.basename(folder)
                 if basename == target:
                     root = folder
                     break
+            # Aliases from settings.
             for alias in self.aliases.keys():
                 if alias == target:
                     alias_path = self.aliases.get(alias)
@@ -120,9 +136,10 @@ class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
                     else:
                         root = os.path.expanduser(alias_path)
                     break
+        # If no alias resolved, return target.
+        # Help identify invalid aliases
         if root is None:
-            root = self.root
-            print "AdvancedNewFile[Warning]: No alias found for '" + target + "'"
+            return target
 
         return os.path.abspath(root)
 
@@ -157,26 +174,67 @@ class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
             PathAutocomplete.set_root(base, True)
 
         if self.show_path:
-            self.view.set_status("AdvancedNewFile", "Creating file at %s " % \
-                os.path.abspath(os.path.join(base, path)))
+            if self.view != None:
+                self.view.set_status("AdvancedNewFile", "Creating file at %s " % \
+                    self.generate_creation_path(base, path))
+            else:
+                sublime.status_message("Unable to fill status bar without view")
 
         PathAutocomplete.set_path(path)
 
+    def generate_creation_path(self, base, path):
+        if PLATFORM == "windows":
+            if not re.match(WIN_ROOT_REGEX, base):
+                return base + ":" + path
+        else:
+            if not re.match(NIX_ROOT_REGEX, base):
+                return base + ":" + path
+
+        return os.path.abspath(os.path.join(base, path))
+
     def entered_filename(self, filename):
+        # Check if valid root specified for windows.
+        if PLATFORM == "windows":
+            if re.match(WIN_ROOT_REGEX, filename):
+                root = filename[0:3]
+                if not os.path.isdir(root):
+                    sublime.error_message(root + " is not a valid root.")
+                    self.clear()
+                    return
+
         base, path = self.split_path(filename)
         file_path = os.path.join(base, path)
+        # Check for invalid alias specified.
+        if self.top_level_split_char in filename and \
+            not (PLATFORM == "windows" and re.match(WIN_ROOT_REGEX, base)) and \
+            not (PLATFORM != "windows" and re.match(NIX_ROOT_REGEX, base)):
+            if base == "":
+                error_message = "Current file cannot be resolved."
+            else:
+                error_message = "'" + base + "' is an invalid alias."
+            sublime.error_message(error_message)
+        else:
+            attempt_open = True
+            if DEBUG:
+                print "AdvancedNewFile[Debug]: Creating file at " + file_path
+            if not os.path.exists(file_path):
+                try:
+                    self.create(file_path)
+                except Exception as e:
+                    attempt_open = False
+                    sublime.error_message("Cannot create '" + file_path + "'. See console for details")
+                    print "Exception: %s" % e.strerror
 
-        if DEBUG:
-            print "AdvancedNewFile[Debug]: Creating file at " + file_path
-        if not os.path.exists(file_path):
-            self.create(file_path)
-        if not os.path.isdir(file_path):
-            self.window.open_file(file_path)
-
+            if attempt_open:
+                if os.path.isdir(file_path):
+                    sublime.error_message("Cannot open view for '" + file_path + "'. It is a directory. ")
+                else:
+                    self.window.open_file(file_path)
         self.clear()
 
     def clear(self):
-        self.view.erase_status("AdvancedNewFile")
+        if self.view != None:
+            self.view.erase_status("AdvancedNewFile")
         PathAutocomplete.clear()
 
     def create(self, filename):
@@ -219,6 +277,7 @@ class PathAutocomplete(sublime_plugin.EventListener):
     prev_root = ""
     default_root = True
     show_files = False
+    ignore_case = False
 
     def continue_previous_autocomplete(self):
         pac = PathAutocomplete
@@ -255,7 +314,6 @@ class PathAutocomplete(sublime_plugin.EventListener):
             if DEBUG:
                 print "AdvancedNewFile[Debug]: (Prev) Suggestions"
                 print pac.prev_suggestions
-
             return pac.prev_suggestions
 
         suggestions = []
@@ -315,7 +373,13 @@ class PathAutocomplete(sublime_plugin.EventListener):
         sugg = []
         sugg_w_spaces = []
         for entry in iterable_var:
-            if entry.find(base) == 0:
+            compare_entry = entry
+            compare_base = base
+            if PathAutocomplete.ignore_case:
+                compare_entry = compare_entry.lower()
+                compare_base = compare_base.lower()
+
+            if compare_entry.find(compare_base) == 0:
                 if " " in base:
                     sugg_w_spaces.append(entry + ":")
                 else:
@@ -328,9 +392,15 @@ class PathAutocomplete(sublime_plugin.EventListener):
         sugg_w_spaces = []
         for filename in os.listdir(path):
             if PathAutocomplete.show_files or os.path.isdir(os.path.join(path, filename)):
-                if filename.find(base) == 0:
+                compare_base = base
+                compare_filename = filename
+                if PathAutocomplete.ignore_case:
+                    compare_base = compare_base.lower()
+                    compare_filename = filename.lower()
+
+                if compare_filename.find(compare_base) == 0:
                     # Need to find a better way to do the auto complete.
-                    if " " in base:
+                    if " " in compare_base:
                         if os.path.isdir(os.path.join(path, filename)):
                             sugg_w_spaces.append(filename + sep)
                         else:
@@ -372,6 +442,10 @@ class PathAutocomplete(sublime_plugin.EventListener):
     @staticmethod
     def set_show_files(show_files):
         PathAutocomplete.show_files = show_files
+
+    @staticmethod
+    def set_ignore_case(ignore_case):
+        PathAutocomplete.ignore_case = ignore_case
 
 
 def get_settings(view):

@@ -1,8 +1,8 @@
-var editorProxy = emmet.exec(function(require, _) {
-	function activeView() {
-		return sublime.active_window().active_view();
-	}
+function activeView() {
+	return sublime.active_window().active_view();
+}
 
+var editorProxy = emmet.exec(function(require, _) {
 	return {
 		getSelectionRange: function() {
 			var view = activeView();
@@ -65,33 +65,18 @@ var editorProxy = emmet.exec(function(require, _) {
 		},
 
 		getSyntax: function() {
-			var view = activeView();
-			var scope = view.syntax_name(view.sel()[0].begin());
-
-			if (~scope.indexOf('xsl')) {
-				return 'xsl';
-			}
-
-			// detect CSS-like syntaxes independently, 
-			// since it may cause collisions with some highlighters
-			if (/\b(less|scss|sass|css|stylus)\b/.test(scope)) {
-				return RegExp.$1;
-			}
-
-			if (/\b(html|xml|haml)\b/.test(scope)) {
-				return RegExp.$1;
-			}
-
-			return 'html';
+			return pyGetSyntax();
 		},
 
 		getProfileName: function() {
 			var view = activeView();
 			var pos = this.getCaretPos();
 
-			if (view.match_selector(pos, 'text.xml') || view.match_selector(pos, 'xsl')) {
-				return 'xml';
-			}				
+			if (view.match_selector(pos, 'text.html') 
+				&& sublimeGetOption('autodetect_xhtml', false)
+				&& require('actionUtils').isXHTML(this)) {
+				return 'xhtml';
+			}
 
 			if (view.match_selector(pos, 'string.quoted.double.block.python')
 				|| view.match_selector(pos, 'source.coffee string')
@@ -124,6 +109,8 @@ var editorProxy = emmet.exec(function(require, _) {
 		}
 	};
 });
+
+var _completions = {};
 
 function require(name) {
 	return emmet.require(name);
@@ -174,7 +161,9 @@ function pyPreprocessText(value) {
 
 	value = ts.processText(value, tabstopOptions);
 
-	if (lastZero) {
+	if (sublimeGetOption('insert_final_tabstop', false) && !/\$\{0\}$/.test(value)) {
+		value += '${0}';
+	} else if (lastZero) {
 		value = require('utils').replaceSubstring(value, '${0}', lastZero);
 	}
 	
@@ -264,4 +253,56 @@ function pyExtractAbbreviation() {
 
 function pyHasSnippet(name) {
 	return !!emmet.require('resources').findSnippet(editorProxy.getSyntax(), name);
+}
+
+/**
+ * Get all available CSS completions. This method is optimized for CSS
+ * only since it should contain snippets only so it's not required
+ * to do extra parsing
+ */
+function pyGetCSSCompletions(dialect) {
+	dialect = dialect || pyGetSyntax();
+
+	if (!_completions[dialect]) {
+		var all = require('resources').getAllSnippets(dialect);
+		var css = require('cssResolver');
+		_completions[dialect] = _.map(all, function(v, k) {
+			var snippetValue = typeof v.parsedValue == 'object' 
+				? v.parsedValue.data
+				: v.value;
+			var snippet = css.transformSnippet(snippetValue, false, dialect);
+			return {
+				k: v.nk,
+				label: snippet.replace(/\:\s*\$\{0\}\s*;?$/, ''),
+				v: snippet
+			};
+		});
+	}
+
+	return _completions[dialect];
+}
+
+/**
+ * Returns current syntax name
+ * @return {String}
+ */
+function pyGetSyntax() {
+	var view = activeView();
+	var scope = view.syntax_name(view.sel()[0].begin());
+
+	if (~scope.indexOf('xsl')) {
+		return 'xsl';
+	}
+
+	// detect CSS-like syntaxes independently, 
+	// since it may cause collisions with some highlighters
+	if (/\b(less|scss|sass|css|stylus)\b/.test(scope)) {
+		return RegExp.$1;
+	}
+
+	if (/\b(html|xml|haml)\b/.test(scope)) {
+		return RegExp.$1;
+	}
+
+	return 'html';
 }

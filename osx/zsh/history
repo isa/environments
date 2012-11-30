@@ -1,737 +1,3 @@
-svn log
-svn log | mroe
-svn log | less- R
-svn log | less -R
-cd ~/Projects/merchandise-payables/qa/acceptance
-ll
-cd support
-ll
-scat env.rb
-ll
-cd ~/Projects/merchandise-payables/modules/core
-e build.gradle
-gradle tasks --all
-alias
-gradle tasks --all
-man grep
-cd ~/Projects/merchandise-payables
-git ll
-cd ~/Downloads
-grep -r 'alem' *
-ll
-du -sh
-find . -name \*alem\*
-cd ..
-find . -name \*alem\*
-df -h
-df -h
-open /Volumes/Data/.XXX
-open /Volumes/Data/.XXX
-cd ~/Projects/codesparrow
-svn up
-open /Volumes/Data/.XXX/Pornstars/Asa\ Akira
-cd Desktop
-cd new
-ll
-less DownloadPage\?Param=1\&ID=31852
-brew install elinks
-elinks http://www.kure.tv/DownloadPage?Param=1&ID=49717
-ps -ef | grep elinks
-elinks "http://www.kure.tv/DownloadPage?Param=1&ID=49717"
-curl http://www.kure.tv/DownloadPage?Param=1&ID=49717
-curl "http://www.kure.tv/DownloadPage?Param=1&ID=49717"
-curl -i "http://www.kure.tv/DownloadPage?Param=1&ID=49717"
-man curl
-curl -i -e http://www.kure.tv "http://www.kure.tv/DownloadPage?Param=1&ID=49717"
-ll
-ll
-ll
-cd ~/Projects/scms/mp
-svn info
-svn help info
-svn info -r NUMBER
-svn info -r HEAD
-svnlook
-svnlook .
-svnlook help
-svnlook info
-svnlook info .
-svnlook changed
-svnlook log
-svn up
-cd ~/Projects/merchandise-payables
-git st
-git pull
-brew search oracle
-git st
-ll
-git st
-cd docs
-ll
-cd ../devops/ci/documentation
-ll
-cd release-notes
-ll
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-ruby -e "[].methods"
-ruby -e "p [].methods"
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-irb
-irb
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-irb
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-irb
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-irb
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-git st
-git pull
-git st
-mongod --config /usr/local/etc/mongod.conf &
-cd ~/Projects/scms/mp
-ll
-svnlook info
-svnlook info .
-svn info
-svnlook info http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
-svnlook 
-svnlook help
-svnlook changed .
-svnlook changed http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
-svn info -r HEAD
-svnlook youngest http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
-svnlook youngest .
-svnlook youngest ~/Projects/scms/mp
-svnlook youngest .svn
-svnlook youngest
-cd ..
-svnlook youngest mp
-svnversion
-cd mp
-svnversion
-svnversion ../mp
-svnversion .
-irb
-svnversion
-ruby -e '`svnversion`.chop'
-ruby -e 'p `svnversion`.chop'
-svnversion .
-svnversion http://svn.gap.dev/svn/supplychain/scms-merchpay/tags/current
-svn ls http://svn.gap.dev/svn/supplychain/scms/tags/
-svn ls http://svn.gap.dev/svn/supplychain/scms
-svn ls http://svn.gap.dev/svn/supplychain/scms/tags
-svn ls http://svn.gap.dev/svn/supplychain/scms/branches
-svn ls http://svn.gap.dev/svn/supplychain/scms/branches/release
-svnversion http://svn.gap.dev/svn/supplychain/scms/branches/release
-svn log
-svn log | grep ITMERCHPAY
-svn log | egrep "ITMERCHPAY-[0-9]+"
-svn log | egrep --color "ITMERCHPAY-[0-9]+"
-svn log | egrep --color -h "ITMERCHPAY-[0-9]+"
-man egrep
-svn log | egrep --color -H "ITMERCHPAY-[0-9]+"
-svn log | egrep --color -n "ITMERCHPAY-[0-9]+"
-svn log | egrep --color -L "ITMERCHPAY-[0-9]+"
-svn log | egrep --color -l "ITMERCHPAY-[0-9]+"
-svn log | egrep --color -x "ITMERCHPAY-[0-9]+"
-ll
-svns t
-svnst
-svn st
-svn log | egrep --color -I "ITMERCHPAY-[0-9]+"
-svn log | egrep --color -oh "ITMERCHPAY-[0-9]+"
-svn log | egrep --color -oh "ITMERCHPAY-[0-9]+" | sort | uniq
-svn log | egrep --color -oh "ITMERCHPAY-[0-9]+" | sort
-svn log | egrep --color -oh "ITMERCHPAY-[0-9]+" | sort | uniq -c
-svn log | egrep --color -oh "ITMERCHPAY-[0-9]+"
-svn log | egrep --color -oh "ITMERCHPAY-[0-9]+" | less -R
-svn log | less -R
-svn up
-curl -s -u Is1z1j6:Th0ughtW0rks -X GET -H 'Content-Type: application/json' https://jira.gid.gap.com/rest/api/2.0.alpha1/issue/ITMERCHPAY-41
-curl -s -u Is1z1j6:Th0ughtW0rks -X GET -H 'Content-Type: application/json' https://jira.gid.gap.com/rest/api/2.0.alpha1/issue/ITMERCHPAY-1
-git st
-svn up
-svn up
-svn up
-svn up
-svn up
-svn log -L2
-svn log -l2
-svn log -l1
-svn log -l1
-svn up
-curl phxscmap011.phx.gapinc.dev:8080/
-enable_proxy
-curl phxscmap011.phx.gapinc.dev:8080/
-curl dgphxscmap011.phx.gapinc.dev:8080/
-ll
-cat /Users/isa/Projects/merchandise-payables/modules/core/src/main/resources/app.properties
-cd ~/Projects/merchandise-payables/devops/stubs/stubby4j
-ll
-./runStubby4j.sh
-cat runStubby4j.sh
-java -jar stubby4j-1.0.2.jar
-java -jar stubby4j-1.0.2.jar--config data.yaml
-ll
-less data.yaml
-ll
-java -jar stubby4j-1.0.2.jar --config data.yaml
-cd ../../../modules
-ll
-gradle atom:build
-cd ..
-gradle modules:atom:build
-git pull
-git st
-git add modules/atom/src/main/java/com/gap/scms/atom/repository/Repository.java
-git commit -m 'ITMERCHPAY-0 Still trying to make EC work :S'
-git push
-cd modules/atom
-gradle init
-enable_proxy
-gradle init
-gradle init
-git st
-git add build.gradle
-src/main/java/com/gap/scms/atom/repository/Repository.java
-git st
-git add src/main/java/com/gap/scms/atom/repository/Repository.java
-git st
-git commit -m 'ITMERCHPAY-0 Added dependency for nullable from IntelliJ'
-git push
-cd ../core/src/main/resources
-ll
-cd ../../integration/resources
-ll
-which mongoimport
-cd ../../../
-cd ../../devops/stubs/stubby4j
-java -jar stubby4j-1.0.2.jar --config data.yaml
-df -h
-df -h
-ll
-ssh admin@merchpayci.gap.com
-df -h
-http GET http://www.kure.tv/DownloadPage?Param=1&ID=49992
-http GET http://www.kure.tv/DownloadPage?Param=1&ID=49992
-ll
-http GET "http://www.kure.tv/DownloadPage?Param=1&ID=49992"
-curl "http://www.kure.tv/DownloadPage?Param=1&ID=49992"
-ping google.com
-curl "http://www.kure.tv/DownloadPage?Param=1&ID=49992"
-curl "http://www.kure.tv/DownloadPage?Param=1&ID=49992"
-ll ~/Downloads/7-86bab
-cd ~/Projects/merchandise-payables
-ll
-cd docs
-ll
-cd development
-ll
-cd ..
-ll
-cd production
-ll
-open -a iA\ Writer 01.architecture.md
-git pull
-git ll
-git pull
-git pull
-git pull
-ll
-cd ..
-cd ..
-ll
-cd modules/core
-gradle build
-cd ../atom
-ll
-gradle build
-cd ../core
-gradle build
-ll
-cd target
-ll
-cd artifacts
-ll
-cp merchpay-app-dev.war /usr/local/Cellar/tomcat/7.0.29/libexec/webapps/ROOT.war
-ll
-which catalina.sh
-gradle teamcityDeploy
-gradle modules:core:teamcityDeploy
-cd ../../../
-cd ..
-gradle modules:core:teamcityDeploy
-gradle modules:core:startLocalTomcat
-gradle modules:core:startLocalTomcat
-catalina.sh stop
-gradle modules:core:startLocalTomcat --debug
-gradle modules:core:startLocalTomcat
-gradle modules:core:startLocalTomcat
-netstat -an | grep 800
-netstat -an | grep 8080
-curl localhost:8080
-gradle modules:core:startLocalTomcat
-gradle clean modules:core:war modules:core:startLocalTomcat
-gradle clean modules:atom:build modules:core:war modules:core:startLocalTomcat
-gradle clean modules:atom:build modules:core:war modules:core:startLocalTomcat
-gradle clean modules:atom:build modules:core:war modules:core:startLocalTomcat
-gradle clean modules:atom:build modules:core:war modules:core:startLocalTomcat
-gradle modules:core:stopLocalTomcat
-mysql
-brew install mysql
-enable_proxy
-brew install mysql
-mysql -uroot
-ps -ef | grep mysql
-mysql.server start
-cat /usr/local/var/mysql/autocomplain.gap.com.pid
-unset TMPDIR
-mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
-mysqladmin -u root password 'one'
-mysql.server start
-mysql -uroot
-ll
-ll
-gradle modules:core:runLocalStubServer
-gradle modules:core:runLocalStubServer
-gradle modules:core:runLocalStubServer
-dirname .
-dirname modules
-dirname modules/core
-basene modules/core
-basename modules/core
-gradle modules:core:runLocalStubServer
-gradle modules:core:runLocalStubServer
-jps -l
-ps -ef | grep java
-jps -l
-kill -9 1 42025
-sudo kill -9 1 42025
-jps -l
-gradle modules:core:runLocalStubServer
-kill -9 1 42401
-sudo kill -9 1 42401
-gradle --version
-gradle modules:core:runLocalStubServer
-gradle modules:core:runLocalStubServer
-gradle modules:core:runLocalStubServer
-gradle modules:core:runLocalStubServer
-gradle modules:core:runLocalStubServer
-gradle modules:core:runLocalStubServer --debug
-gradle modules:core:runLocalStubServer --debug
-curl localhost:8882
-q
-jps -l
-kill -9 1 43124
-sudo kill -9 1 43124
-ll
-jps -l
-gradle modules:core:runLocalStubServer
-gradle modules:core:runLocalStubServer
-jps -mlvV
-jps -mlv
-jps -lvV
-jps -lV
-df -h
-git st
-gradle modules:core:runLocalStubServer
-e .
-gradle modules:core:runLocalStubServer
-jps -l 
-jps -l | grep stubby | cut -d\ -f1
-jps -l | grep stubby | cut -d\  -f1
-jps -l | grep stubby | cut -d\  -f1
-kill `jps -l | grep stubby | cut -d\  -f1`
-jps -l | grep stubby | cut -d\  -f1
-chmod +x devops/stubs/stubby4j/stopStubby4j.sh
-devops/stubs/stubby4j/stopStubby4j.sh
-devops/stubs/stubby4j/stopStubby4j.sh
-devops/stubs/stubby4j/stopStubby4j.sh
-gradle modules:core:runLocalStubServer
-jps -l
-devops/stubs/stubby4j/stopStubby4j.sh
-jps -l
-devops/stubs/stubby4j/stopStubby4j.sh
-jps -l
-jps -l
-devops/stubs/stubby4j/stopStubby4j.sh
-jps -l
-devops/stubs/stubby4j/stopStubby4j.sh
-gradle modules:core:runLocalStubServer
-devops/stubs/stubby4j/stopStubby4j.sh
-jps -l
-git st
-git add devops/stubs/stubby4j/stopStubby4j.sh
-gradle modules:core:runLocalStubServer
-jps -l
-gradle modules:core:runLocalStubServer
-ll
-cd /Volumes/Data/.XXX/Pornstars/Asa\ Akira
-ll
-du -sh
-ll ~/Downloads/1-0758f
-du -sh ~/Downloads/1-0758f
-rm -rf ~/Downloads/1-0758f
-cd ../..
-ll
-cd Movies
-mv ~/Downloads/7-86bab/*.mp4 .
-ll
-cd 
-cd Downloads
-cd ../Desktop
-ll
-ack "http://www.kure.tv/dizi/8-besinci-boyut" untitled.html
-ack "http://www.kure.tv/dizi/8-besinci-boyut/besinci-boyut" untitled.html
-ack "http://www.kure.tv/dizi/8-besinci-boyut/besinci-boyut" untitled.html
-ack "http://www.kure.tv/dizi/8-besinci-boyut/besinci-boyut(.*)/" untitled.html
-ack 'http://www.kure.tv/dizi/8-besinci-boyut/besinci-boyut(.*)/"' untitled.html
-man ack
-ack -o 'http://www.kure.tv/dizi/8-besinci-boyut/besinci-boyut(.*)/"' untitled.html
-ack -o 'http://www.kure.tv/dizi/8-besinci-boyut/besinci-boyut(.*)/"' untitled.html | ruby -e "p ARGV[0]"
-ack -o 'http://www.kure.tv/dizi/8-besinci-boyut/besinci-boyut(.*)/"' untitled.html
-cat untitled.html
-cat untitled.html | column
-cat untitled.html | column -2
-cat untitled.html | column -c 2
-cat untitled.html | column -c 1
-cat untitled.html | column -c2
-cat ~/.githelpers
-cat untitled.html | column -s ' ' -t |
-cat untitled.html | column -s ' ' -t
-cat untitled.html | column -s ' ' -t | wc -l
-cat untitled.html | column -t
-wget --help
-wget --help | grep list
-mkdir new
-cd new
-wget -i ../untitled2.html
-ll
-rm -rf *
-ll
-wget --referer=http://www.kure.tv --cookies=on --load-cookies=cookie.txt --keep-session-cookies --save-cookies=cookie.txt "http://www.kure.tv/DownloadPage?Param=1&ID=49717"
-ll
-less DownloadPage\?Param=1\&ID=49717
-ll
-rm -rf *
-ll
-cd ~/Projects/merchandise-payables
-cd qa
-ll
-cd acceptance
-ll
-rm -rf cuke.sh
-ll
-ll
-cd ..
-ll
-cd ..
-ll
-cd devops
-ll
-cd stubs/stubby4j
-ll
-e ../../..
-git st
-cd ../../
-cd ..
-cd modules/core
-ll
-git st
-git add src/main/resources/app_properties.stub
-git st
-git commit -m 'ITMERCHPAY-0 Trying to fix the Stubbing architecture..'
-git ll
-git push
-e ~/.gitconfig
-e ~/.githelpers
-git ll
-gradle apite
-gradle tasks --all
-cd ..
-cd ..
-cd qa/acceptance
-git st
-ll
-gradle apiTest
-gradle tasks --all
-gradle runApiTests
-gradle runApiTests
-bundle exec cucumber -r step_definitions/api -r support -r features/api -pci
-bundle exec cucumber -r step_definitions/api -r support -r features/api -pci
-git pull
-bundle exec cucumber -r step_definitions/api -r support -r features/api -pci
-bundle exec cucumber -r step_definitions/api -r support -r features/api
-ll
-vim config/cucumber.yml
-cucumber features/api
-bundle exec cucumber features/api
-bundle exec cucumber features/api -pci
-bundle exec cucumber features/api -p ci
-ll
-git st
-git add -U cuke.sh
-git add -u cuke.sh
-git st
-git add build.gradle config/cucumber.yml support/lib/utils
-git st
-git commit -m 'ITMERCHPAY-0 Trying to fix stupid EC which turned out to be our fault'
-git push
-which compass
-bundle exec cucumber features/api -p ci
-cd ..
-cd ..
-cd qa/acceptance/
-gradle runApiTests
-gradle runApiTests
-git st
-git add ../../devops/deploy/mongo/import.sh
-git pull
-git st
-git commit -m 'ITMERCHPAY-0 Changed import binary path to a variable equivalent'
-git push
-bundle exec cucumber features/api -p ci --format html --out /tmp/
-bundle exec cucumber features/api -p ci --format html --out /tmp/
-bundle exec cucumber features/api -p ci --format html --out /tmp/demo.html
-ll /tmp
-ll /tmp/
-open /tmp/demo.html
-git st
-git add build.gradle
-git pull
-git commit -m 'ITMERCHPAY-0 Added reporting to the cucumber output for smoke, api and ui tests!'
-git push
-git pull
-git push
-git st
-git add build.gradle
-git commit -m 'ITMERCHPAY-0 Gradle did not like spaces in the parameter list'
-git push
-gradle runApiTest
-cucumber -h
-cucumber -h | -f
-cucumber -h | grep '-f'
-cucumber -h | ack '-f'
-cucumber -h | ack 'f'
-cucumber -h | ack 'f '
-cucumber -h | ack '--format'
-cucumber -h | ack \-\-format'
-cucumber -h | ack \-\-format
-cucumber -h | grep "-f"
-cucumber -h | less -R
-gradle runApiTest
-gradle runApiTest
-ll
-ll build
-open build/api.html
-git st
-git add build.gradle
-git commit -m 'ITMERCHPAY-0 Gradle did not like spaces AT ALL in the parameter list'
-git push
-open build/api.html
-bundle exec cucumber features/api -p ci --format html --out /tmp/demo.html
-df -h
-cd ~/Projects/scms/mp
-svn up
-svn up
-svn up
-svn up
-svn up
-svn up
-svn up
-svn up
-svn up
-sudo svn up
-svn up
-svn up
-svn up
-while true; do svn up; done;
-svn up
-svn up
-svn diff modules/core/src/main/coffeescript/template-config.coffee
-cat modules/core/src/main/coffeescript/template-config.coffee
-which modules/core/src/main/coffeescript/template-config.coffee
-ll modules/core/src/main/coffeescript/template-config.coffee
-svn up
-svn up
-svn up
-svn up
-svn up
-svn up
-svn up
-svn up
-svn up
-svn up
-cucumber 
-man cucumber
-cucumber -h
-cd qa/acceptance
-gradle runApiTest
-svn up
-brew search chromedriver
-brew info chromedriver
-brew install chromedriver
-brew update
-enable_proxy
-brew update
-brew info tomcat
-cd /usr/local/Cellar/tomcat/7.0.29
-ll
-cd libexec/webapps
-ll
-mv ROOT ROOT.war
-mv ROOT.war ROOT.backup
-ll
-ll
-cd ../
-cd ..
-ll
-cd bin
-ll
-./catalina start
-http GET localhost:8080
-http GET http://localhost:8080
-netstat -a
-netstat -a | grep 8080
-cd ..
-ll
-cd libexec
-ll
-cd logs
-ll
-ls -altr
-tail catalina.out
-less catalina.out
-echo $JAVA_OPTS
-cd ../../bin
-ll
-./catalina stop
-vim catalina
-ll
-export JAVA_OPTS="-XX:PermSize=512M -Xmx1gb"
-./catalina start
-cat ../libexec/logs/catalina.out
-http GET http://localhost:8080
-./catalina stop
-e ../libexec/conf/web.xml
-e ../libexec/conf/context.xml
-./catalina start
-./catalina stop
-e ../libexec/conf
-scat ../libexec/conf/web.xml
-scat ../libexec/conf/web.xml
-scat ../libexec/conf/web.xml | grep html
-vim ../libexec/conf/web.xml
-./catalina stop
-./catalina start
-ll
-cd ..
-cd libexec
-ll
-cd webapps
-ll
-rm -rf ROOT.war ROOT
-ll
-cd ../../../6.0.26/libexec/webapps
-ll
-rm -rf ROOT.war ROOT
-ll
-ll
-rm -rf *.war
-ll
-ll
-ll ROOT.war
-rm -rf ROOT.war
-ll
-ll
-cd /Volumes/Data/TV\ Shows/Besinci\ Boyut/Season\ 2
-ll 12e7cda84c084ca0a51ac74c39b78297*
-ll 12e7cda84c084ca0a51ac74c39b78297.mp4
-ll
-ssh teamcity@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-ssh admin@merchpayci.gap.com
-ll
-ssh admin@merchpayci.gap.com 
-ssh teamcity@merchpayci.gap.com
-ssh teamcity@merchpayci.gap.com
-cd Desktop
-ll
-cd new
-ll
-cat ../untitled2.html
-curl http://www.kure.tv/DownloadPage?Param=1&ID=53850
-sudo pip install curlish
-sudo pip upgrade httpie
-sudo pip install httpie
-curlish "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-curlish -i "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-curlish --help
-man curl
-curlish --user info@isagoksu.com --password kalemon3  "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-curlish --user info@isagoksu.com --pass kalemon3  "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-curlish --user info@isagoksu.com   "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-curlish --user info@isagoksu.com -a "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1"  "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-curl --user info@isagoksu.com -a "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1"  "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-curl --user info@isagoksu.com -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:15.0) Gecko/20100101 Firefox/15.0.1"  "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-man curl
-man curl
-wget --user "info@isagoksu.com" --password "kalemon3" "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-less DownloadPage\?Param=1\&ID=53850
-ll
-rm -rf DownloadPage\?Param=1\&ID=53850
-ll
-man wget
-wget --http-user "info@isagoksu.com" --http-pass "kalemon3" "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-man wget
-wget --http-user "info@isagoksu.com" --http-password "kalemon3" "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-ll
-vim DownloadPage\?Param=1\&ID=53850
-ll
-rm -rf DownloadPage\?Param=1\&ID=53850
-ll
-curl -u info@isagoksu.com:kalemon3 "http://www.kure.tv/DownloadPage?Param=1&ID=53850"
-cookie_file=cookie.txt
-curl --cookie $cookie_file --cookie-jar $cookie_file --user-agent Mozilla/4.0 POST --data "txtEmail=info@isagoksu.com&txtPassword=kalemon3" http://www.kure.tv/Giris -v
-curl --cookie $cookie_file --cookie-jar $cookie_file --user-agent Mozilla/4.0 -X POST --data "txtEmail=info@isagoksu.com&txtPassword=kalemon3" http://www.kure.tv/Giris -v
-curl --cookie $cookie_file --cookie-jar $cookie_file --user-agent Mozilla/4.0 -X POST --data "txtEmail=info@isagoksu.com&txtPassword=kalemon3" "http://www.kure.tv/404.aspx?404;http://www.kure.tv:80/Giris" -v
-curl --cookie $cookie_file --cookie-jar $cookie_file --user-agent Mozilla/4.0 -X POST --data "txtEmail=info@isagoksu.com&txtPassword=kalemon3" "https://www.kure.tv/404.aspx?404;http://www.kure.tv:80/Giris" -v
-curl --cookie $cookie_file --cookie-jar $cookie_file --user-agent "Mozilla/4.0" -X POST --data "txtEmail=info@isagoksu.com&txtPassword=kalemon3" "https://www.kure.tv/404.aspx?404;http://www.kure.tv:80/Giris" -v
-curl --cookie $cookie_file --cookie-jar $cookie_file --user-agent "Mozilla/4.0" -X POST --data "txtEmail=info@isagoksu.com&txtPassword=kalemon3" "http://www.kure.tv:80/Giris" -v
-curl --cookie $cookie_file --cookie-jar $cookie_file -X POST --data "txtEmail=info@isagoksu.com&txtPassword=kalemon3" http://www.kure.tv/Giris -v
-curl --cookie $cookie_file --cookie-jar $cookie_file -A "Mozilla/5.0" -e "http://www.kure.tv/Giris" -X POST --data "__EVENTVALIDATION=/wEWBgLLt5eGCwKE8/26DAK1qbSRCwLB3ZvOBgLSnYnxAgKjm8KECHUnJ8WydvGDJimZNgC3FtgA9csS&__VIEWSTATE=/wEPDwULLTIwMjMxMzg4NTEPFgIeB1BhZ2VVUkwFG2h0dHA6Ly93d3cua3VyZS50di9BbmFzYXlmYRYCAgMPFgIeBmFjdGlvbgUpLzQwNC5hc3B4PzQwNDtodHRwOi8vd3d3Lmt1cmUudHY6ODAvR2lyaXNkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBQpiZXRhR2lyaXNzv47voOQSrjMTsvM9td3A6HGif2o=&txtEmail=info@isagoksu.com&txtPassword=kalemon3" 'http://www.kure.tv/404.aspx?404;http://www.kure.tv:80/Giris' -v
-ll
-rm -rf cookie.txt
-ll
-ls
-ls -l
-for file in *.*; do echo $file; done
-for file in *; do echo $file; done
-for file in *; do grep 'Beşinci Boyut - ' $file;  done
-for file in *; do grep -e 'Beşinci Boyut - (.*)<' $file;  done
-for file in *; do egrep 'Beşinci Boyut - (.*)<' $file;  done
-for file in *; do egrep --color 'Beşinci Boyut - (.*)<' $file;  done
-for file in *; do egrep -a --color 'Beşinci Boyut - (.*)<' $file;  done
-man grep
-for file in *; do egrep -o --color 'Beşinci Boyut - (.*)<' $file;  done
-for file in *; do sed '/Beşinci Boyut - (.*)</\1/' $file ;  done
-for file in *; do sed '/Beşinci Boyut - (.*)</\1/' -i $file ;  done
-for file in *; do egrep -o --color 'Beşinci Boyut - (.*)<' $file;  done
-for file in *; do echo `egrep -o 'Beşinci Boyut - (.*)<' $file`;  done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o '.*.mp4?' $file; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o 'http://.*.mp4?' $file; done
 for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o '.{32,}.mp4' $file; done
 for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o --color '.{32,}.mp4' $file; done
 for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o --color '.{32}.mp4' $file; done
@@ -10070,3 +9336,766 @@ p merchandise-payables
 git pull
 ack "step " *
 vim ~/movies.txt
+unzip -l Downloads/jad158g.mac.intel.zip
+unzip Downloads/jad158g.mac.intel.zip
+ll
+jad
+./jad
+mv jad /usr/local/bin
+ll
+rm -rf jad.1
+jad
+ssh teamcity@ci2
+p merchandise-payables
+gradle dependencies
+git pull
+cd modules/core
+gradle clean compile test
+gradle clean test
+time gradle clean test
+git ll
+git ll | grep Mrak | grep -v 'Merge'
+git ll
+git shortlog -sne
+git shortlog
+git pull
+git pull
+ll
+git st
+git ll
+git ll | grep 'Isa Goksu'
+git ll | grep 'Isa Goksu' | head -10
+git show 339c792
+p merchandise-payables/modules/ngf/src/main/resources
+ll
+tree 
+e .
+git st
+git diff
+git ci -m 'Tech ITMERCHPAY-0 Corrected the relative path for the sql files of H2 database'
+git ll
+git pull
+git push
+p merchandise-payables
+e .
+brew search jad
+brew search compile
+brew search decompile
+brew search java
+gradle init
+mongod --config /usr/local/etc/mongod.conf &
+git pull
+git stash
+git pull
+git stash pop
+git add modules/core/src/main/resources/servlet-context.xml
+git commit
+git ll
+git st
+gradle integrationTests
+gradle integrationTests
+killall mongod
+ll
+git st
+git push
+git ll
+git commit --amend 'Tech ITMERCHPAY-0 removed redundant converter definitions.'
+git commit --amend 'Tech ITMERCHPAY-0 removed redundant converter definitions.' .
+git reset --soft HEAD^
+git commit --amend -m 'Tech ITMERCHPAY-0 removed redundant converter definitions.'
+git ll
+git push
+git pull
+e .
+cat ../merchpay-robot/deploy.json.template
+../pyformatter/format.py ../merchpay-robot/deploy.json.template
+../pyformatter/format.py ../merchpay-robot/deploy.json.template
+workon formatter
+../pyformatter/format.py ../merchpay-robot/deploy.json.template
+ll
+scat ../merchpay-robot/deploy.json.template
+ccat ../merchpay-robot/deploy.json.template
+git st
+git ci -m 'Tech ITMERCHPAY-0 Fixed vagrant problem around chef not deploying the latest artifact'
+git pull
+git push
+git pull
+df -h
+p mp-buildr/modules/core
+buildr clean
+buildr compile
+ll
+ll target/main/classes
+buildr --tasks
+buildr
+buildr --tasks
+buildr help:tasks
+buildr help:projects
+buildr help:projects
+buildr help:projects
+buildr help:projects
+buildr help:projects
+ll /Users/isa/.m2/repository/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE.jar
+buildr
+buildr
+head -10 /Users/isa/Projects/mp-buildr/modules/core/src/main/java/com/gap/scms/mp/security/CustomAuthenticationProvider.java
+head -15 /Users/isa/Projects/mp-buildr/modules/core/src/main/java/com/gap/scms/mp/security/CustomAuthenticationProvider.java
+buildr
+buildr
+ll target/main/classes
+find target/main/classes -type f | wc -l
+buildr clean compile
+buildr clean compile
+buildr compile
+buildr test
+buildr --tasks
+buildr clean test
+buildr test --trace
+ll
+buildr test
+buildr clean compile test
+ll
+ll reports
+ll reports/junit
+ll
+ll build
+ll build/templates
+ll build/templates/main/
+ll build/templates/main/templates
+ll target
+ll target/test
+ll target/test/classes
+ll
+open reports
+cat reports/junit/TEST-com.gap.scms.mp.controllers.AtomControllerTest.txt
+buildr core:dependencies
+buildr core:tasks
+buildr help:project
+buildr help:core
+ll
+buildr clean
+buildr clean | grep slf4j
+buildr clean | grep 'slf4j-log4j12'
+buildr clean | grep 'slf4j-log4j12'
+buildr clean | grep 'slf4j-log4j12'
+buildr clean | grep 'slf4j-log4j12'
+buildr clean compile test
+time buildr clean compile test
+time buildr compile test:integration
+cd Desktop
+git clone https://github.com/daylerees/colour-schemes.git
+enable_proxy
+git clone https://github.com/daylerees/colour-schemes.git
+cd colour-schemes
+ll
+cp *.tmTheme ~/.environments/osx/sublime/Packages/User/Color\ Schemes/
+cd ~/.environments/osx/sublime/Packages/User/Color\ Schemes/
+ll
+cd ..
+ll
+git st
+ll
+cd Color\ Schemes
+ll
+unzip ~/Downloads/clouds.zip -d .
+ll
+unzip ~/Downloads/IR_White.tmTheme.zip -d .
+wget https://raw.github.com/mattsanders/Prospettiva-Theme/master/TextMate/prospettiva.tmTheme
+ll
+git st
+git ci -m 'Removed ZenCoding, added Emmet and some themes'
+git st
+git push
+ssh ci2
+p merchpay-robot
+e .
+ll
+scp teamcity@ci2:merchpay-robot/CentOS-6.2-x86_64.box .
+cat Vagrantfile
+p merchandise-payables
+git pull
+p merchandise-payables
+git st
+git ci -m 'Tech ITMERCHPAY-0 Removed redundant freemarker dependency'
+git ll
+curl localhost:8080
+curl localhost:3333
+curl -x localhost:8080 http://google.com
+curl -x localhost:8080 https://google.com
+curl --insecure -x localhost:8080 https://google.com
+curl -x localhost:8080 https://google.com
+curl -kx localhost:8080 https://google.com
+curl -kx localhost:8080 https://google.com
+curl -kx localhost:8080 https://google.com
+curl -kx localhost:8080 https://google.com
+curl -kx localhost:8080 gmail.com
+curl -kx localhost:8080 yahoo.com
+curl -kx localhost:8080 isagoksu.com
+sudo pip install mitmproxy
+mitmproxy
+mitmproxy --help
+mitmproxy
+e movies.txt
+vim Movies/movies.txt
+cd Desktop
+ll
+python reindent.py
+python reindent.py ~/Projects/pyformatter/pyformatter/ext/json.py
+cp ~/Projects/pyformatter/pyformatter/ext/json.py json.py
+e json.py
+python reindent.py -d json.py
+python reindent.py -v json.py
+python
+p merchandise-payables
+ll
+cd docs/production
+ll
+cd user-manual
+ll
+pwd
+cd Pictures/100D7000
+ll
+find name in `ll`; do echo $name; done;
+find name in `ls -alh`; do echo $name; done;
+find filename in `ls -alh`; do echo $filename; done;
+find filename in $(ls -alh); do echo $filename; done;
+find filename in $(ls -alh)
+for name in `ll`; do echo $name; done;
+for name in `ls`; do echo $name; done;
+for name in `ls`; do echo `basename $name`; done;
+for name in `ls`; do basename $name; done;
+ll
+ll | cut -d\  -f4
+ll | cut -d\  -f5
+ll | cut -d\  -f2
+ll | cut -d\  -f1
+ll | cut -d\  -f2
+ll | cut -d\  -f3
+ll | cut -d\  -f4
+ll | cut -d\  -f9
+ll | cut -d\  -f10
+ll | cut -d\  -f11
+ll | cut -d\  -f12
+ll | cut -d\  -f15
+ll | cut -d\  -f16
+ll | cut -d\  -f17
+ls
+ls | xargs -n1 basename
+basename DSC_0017.JPG
+man basename
+basename -s JPG DSC_0017.JPG
+basename -s .JPG DSC_0017.JPG
+ls | xargs -n1 cut -d. -f1
+ls | xargs -n1 cut -d\. -f1
+ls -l | xargs -n1 cut -d\. -f1
+ls | cut -d\. -f1
+ls | cut -d\. -f1 | uniq -c
+ls | cut -d\. -f1 | sort
+ls | cut -d\. -f1 | sort | uniq -c
+ls | cut -d\. -f1 | sort | uniq -c | grep '^2'
+ls | cut -d\. -f1 | sort | uniq -c | grep '^\s+2'
+ls | cut -d\. -f1 | sort | uniq -c | egrep '^\s+2'
+ls | cut -d\. -f1 | sort | uniq -c | egrep '^\s+2' | cut -d\  -f2
+ls | cut -d\. -f1 | sort | uniq -c | egrep '^\s+2' | cut -d\  -f3
+ls | cut -d\. -f1 | sort | uniq -c | egrep '^\s+2' | cut -d\  -f1
+ls | cut -d\. -f1 | sort | uniq -c | egrep '^\s+2' | cut -d\  -f0
+ls | cut -d\. -f1 | sort | uniq -c | egrep '^\s+2' | cut -d\  -f6
+ls | cut -d\. -f1 | sort | uniq -c | egrep '^\s+2' | cut -d\  -f5
+for filename in $(ls | cut -d\. -f1 | sort | uniq -c | egrep '^\s+2' | cut -d\  -f5); do echo $filename; done;
+for filename in $(ls | cut -d\. -f1 | sort | uniq -c | egrep '^\s+2' | cut -d\  -f5); do echo "$filename.jpg"; done;
+for filename in $(ls | cut -d\. -f1 | sort | uniq -c | egrep '^\s+2' | cut -d\  -f5); do rm -rf "$filename.jpg"; done;
+ll
+du -sh
+ll
+open
+open .
+brew search nef
+brew info tnef
+ll
+cd ~/Desktop
+brew tap dupes
+brew help tap
+brew tap
+brew search gcc
+brew tap homebrew/dupes
+brew update
+brew upgrade
+git ll
+ll
+rm -rf Screen\ Shot\ 2012-11-22*
+ll
+rm -rf Screen\ Shot\ 2012-11-2*
+ll
+ll
+rm -rf reindent*
+ll
+ll
+cd home
+ll
+cd ..
+ll
+brew ufraw
+brew search ufraw
+brew install ufraw
+cd home && ufraw-batch --out-type=jpeg --out-path=./jpg ./*.NEF
+ll
+mkdir jpg
+cd home && ufraw-batch --out-type=jpeg --out-path=./jpg ./*.NEF
+ufraw-batch --out-type=jpeg --out-path=./jpg ./*.NEF
+ll jpg
+open jpg
+ll
+ufraw-batch
+man ufraw-batch
+ufraw-batch --help
+enable_proxy
+curl http://c.docverter.com/convert \\
+  --form from=html \\
+  --form to=pdf \\
+  --form input_files[]=@/Users/isa/Projects/merchandise-payables/docs/production/user-manual/01.architecture.md
+cd ~/Downloads/markdown_to_pdf
+ll
+./convert.sh
+ll
+cd ..
+rm -rf markdown_to_pdf
+ll
+ssh db1
+ssh db1
+ssh db1
+p 
+ll
+svn up scms/mp
+svn up scms/po
+svn up scms/ri/core
+svn up scms/ri/sam
+ll
+svn up codesparrow
+p merchandise-payables
+git pull
+git ll
+git show 8951077
+ll
+git st
+git ll
+git push
+ll
+cd devops
+ll
+cd ci
+ll
+cd git-hooks
+ll
+cat update
+git pull
+e ../../..
+git ll
+git shortlog
+e update
+git diff
+git co -- .
+http GET https://merchpay.gap.com/feeds/payments
+git pull
+e ~/.zshrc
+cd Desktop
+ll
+scp -r ThoughtWorks@rw8403.gap.com:~/Developer/openSource/spring-restful-exception-handler .
+l
+ll
+cd sreh
+ll
+ll
+mvn
+e ~/.m2/settings.xml
+ll
+cd exception-handler
+ll
+mvn test
+mvn clean compile package
+ll
+ll target
+cd ..
+ll
+cd sample
+ll
+mvn clean test package
+e ..
+ll
+mvn compile
+touch ../pom.xml
+rm -rf ../pom.xml
+mvn compile
+mvn compile
+ll
+xmllint --format pom.xml
+xmllint --format pom.xml | tee pom.xml
+ll
+xmllint --format pom.xml | tee pom.xml
+man xmllint
+XMLLINT_INDENT="   " xmllint --format pom.xml | tee pom.xml
+XMLLINT_INDENT="   " xmllint --format ../exception-handler/pom.xml | tee ../exception-handler/pom.xml
+mvn compile
+mvn compile
+XMLLINT_INDENT="   " xmllint --format ../exception-handler/pom.xml | tee ../exception-handler/pom.xml
+XMLLINT_INDENT="   " xmllint --format pom.xml | tee pom.xml
+mvn compile
+mvn compile
+XMLLINT_INDENT="   " xmllint --format ../pom.xml | tee ../pom.xml
+mv ../../pom.xml ../
+XMLLINT_INDENT="   " xmllint --format ../pom.xml | tee ../pom.xml
+XMLLINT_INDENT="   " xmllint --format ../pom.xml | tee ../pom.xml
+rm -rf ../../pom.xml
+ll
+mvn clean
+ll tar
+ll
+mvn clean package
+cd ..
+mvn package
+ll
+mvn clean package
+ll exception-handler/target
+mvn clean
+ll exception-handler/target
+mvn clean package
+ll
+cd sample
+ll
+cd src
+ll
+cd webapp
+ll
+cd WEB-INF
+ll
+cd ..
+cd ..
+ll
+ll java
+mkdir main
+mv java resources webapp main/
+ll
+cd ..
+ll
+mvn clean package
+mvn clean package
+cd ..
+ll
+cat pom.xml
+cat exception-handler/pom.xml
+ll
+XMLLINT_INDENT="   " xmllint --format exception-handler/pom.xml | tee exception-handler/pom.xml
+XMLLINT_INDENT="   " xmllint --format sample/pom.xml | tee sample/pom.xml
+mvn compile
+mvn package
+ll
+ll sample
+ll
+ll sample/target
+mvn clean package
+ll sample/target
+unzip -l sample/target/sample.war
+ll
+cd sample
+ll
+cd src
+ll
+cd main
+ll
+cd java
+ll
+tree
+rm -rf com/raychatter/common/exception/AnnotationHandler.java
+rm -rf com/raychatter/common/annotation
+tree
+cd ../../../
+ll
+cd ..
+ll
+mvn clean package
+XMLLINT_INDENT="   " xmllint --format sample/pom.xml | tee sample/pom.xml
+mvn jetty:run
+mvn sample:jetty:run
+cd sample
+mvn jetty:run
+mvn jetty:run
+mvn jetty:run-war
+mvn jetty:run
+cd ..
+mvn jetty:run
+XMLLINT_INDENT="   " xmllint --format sample/pom.xml | tee sample/pom.xml
+XMLLINT_INDENT="   " xmllint --format pom.xml | tee pom.xml
+mvn jetty:run
+mvn jetty:run
+mvn clean package jetty:run
+mvn clean package jetty:run
+mvn --projects sample jetty:run
+cd sample
+mvn jetty:run
+mvn jetty:run
+cd ..
+mvn jetty:run
+mvn clean package
+mvn clean package
+mvn clean package
+mvn clean package
+mvn clean package
+mvn clean package jetty:run
+cd sample
+mvn jetty:run
+mvn jetty:run
+cd ../exception-handler
+mvn install
+cd ../sample
+ll
+mvn jetty:run
+mvn package
+mvn dependency:tree
+mvn dependencies
+mvn dependencies:tree
+mvn dependencies:compile
+mvn --help
+mvn dependency:tree
+cd ..
+mvn dependency:tree
+rm -rf ~/.m2/repository/com/raychatter
+mvn dependency:tree
+mvn clean package depedency:tree
+mvn clean
+mvn package
+mvn -pl sample jetty:run
+mvn -pl sample jetty:run -am
+mvn jetty:run -pl sample -am
+mvn -pl :sample jetty:run -am
+mvn -pl sample jetty:run
+mvn --help
+mvn -pl sample jetty:run -amd
+mvn -pl sample -amd
+mvn -pl sample -amd package
+cd sample
+mvn -amd package
+mvn site
+cd ..
+mvn site
+it st
+git st
+mvn install
+ll ~/.m2/repository/com/raychatter
+ll ~/.m2/repository/com/raychatter/spring-restful-exception-handler
+ll ~/.m2/repository/com/raychatter/spring-restful-exception-handler/1.0-SNAPSHOT
+mvn -pl sample package
+mvn -pl sample package jetty:run
+mvn -pl sample package jetty:run
+mvn -pl sample package jetty:run
+mvn -pl sample package jetty:run
+mvn -pl sample package jetty:run
+mvn -pl sample package jetty:run
+mvn -pl sample package jetty:run
+mvn -pl sample package jetty:run
+mvn -pl sample package jetty:run
+mvn -pl sample package jetty:run
+mvn clean package install
+mvn -pl sample package jetty:run
+git st
+cd ..
+zip sreh.zip sreh
+ll
+rm -rf sreh.zip
+zip -r sreh.zip sreh
+ll
+dig esragoksu.com
+dig cname esragoksu.com
+ping www.esragoksu.com
+nslookup
+ping domains.tumblr.com
+dig cname esragoksu.com
+dig mx esragoksu.com
+dig txt esragoksu.com
+dig txt esragoksu.com
+dig cname esragoksu.com
+dig cname esragoksu.com
+dig cname esragoksu.com
+ping esragoksu.com
+dig cname esragoksu.com
+dig cname www.esragoksu.com
+dscacheutil flushdns
+dscacheutil -flushcache
+workon merchpay-robot
+err.py
+err.py --help
+e ~/Movies/movies.txt
+p merchandise-payables
+git pull
+git ll
+git diff 4de773d..0e75c39
+ll
+git pull
+git ll
+ll
+git pull
+git init
+git ll
+ll
+gradle init
+man unzip
+man zip
+man zip
+http rw8403.gap.com:8080/status
+http rw8403.gap.com:8080/api/dpo/1231
+http --auth scmsmp rw8403.gap.com:8080/api/dpo/1231
+git pull
+cd /tmp
+ll
+mkdir spring-restful-exception-handler
+cd spring-restful-exception-handler
+ll
+touch pom.xml
+ll
+mkdir sample exception-handler
+ll
+cd exception-handler
+ll
+mkdir src/main/java src/test/java
+ll
+tree
+touch pom.xml
+ll
+cat ~/.zshrc
+ll
+http localhost:8080/sample
+http localhost:8080/sample/
+http localhost:8080/sample/welcome
+http localhost:8080/sample/welcome
+http localhost:8080/sample/welcome
+http localhost:8080/sample/welcome
+http localhost:8080/sample/
+http localhost:8080/sample/
+http localhost:8080/sample/welcome
+http localhost:8080/sample/custom
+http localhost:8080/sample/custom
+http localhost:8080/sample/custom400
+http localhost:8080/sample/custom404
+http localhost:8080/sample/custom500
+http localhost:8080/sample/custom500
+http localhost:8080/sample/custom404
+python
+nslookup google.com
+cd Desktop
+ll
+python reindent.py json.py
+ll
+cat json.py
+cat json.py.bak
+scat json.py.bak
+ccat json.py.bak
+workon formatter
+python ~/Projects/pyformatter/format.py json.py
+rm -rf *.bak
+ll
+e ~/Movies/movies.txt
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python
+python
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+python ~/Projects/pyformatter/format.py json.py
+cat json.py
+vim json.py
+python ~/Projects/pyformatter/format.py json.py
+p pyformatter
+ll
+./format.py samples/sample.json
+python format.py samples/sample.json
+python format.py samples/sample.json
+nosetests
+python format.py samples/sample.py
+cat samples/sample.json
+cat samples/sample.py
+python format.py samples/sample.py
+git st
+rm -rf pyformatter/ext/python2.py
+git st
+git diff
+git dt
+git st
+git ci -m 'Added a printer for python, we need to write a lot of tests for this'
+git st
+git ll
+git st
+ll
+cp tests/json_test.py tests/python_test.py
+git st
+git st
+ll
+cp pyformatter/ext/json.py pyformatter/ext/javascript.py
+e .
+cp tests/json_test.py tests/javascript_test.py
+ll
+git st
+nosetests
+nosetests
+pip -r dependencies.txt
+pip install -r dependencies.txt
+pip install -r dependencies.txt
+pip install -r dependencies.txt
+pip install -r dependencies.txt
+python
+e demo.py
+python demo.py
+python demo.py
+git st
+e .
+e .
+python
+nosetests
+nosetests
+nslookup
+ssh teamcity@ci2
+p merchpay-robot
+git ll
+ll
+easy_install numpy
+ll /Library/Python/2.7/site-packages/
+http GET http://yahoo.com
+enable_proxy
+http GET http://yahoo.com
+http GET http://mpci.gap.com:7001/status
+curl http://mpci.gap.com:7001/status
+curl -I http://mpci.gap.com:7001/status
+curlish  http://mpci.gap.com:7001/status
+ll /Library/Python/2.7/site-packages/
+tail -20 ~/.zshrc
+ll ~/.virtualenvs
+ll
+python
+workon merchpay-robot
+python
+e .
+python
+deactivate
+python
+workon merchpay-robot 
+pip list
+python

@@ -7,7 +7,7 @@ import sublime_plugin
 from datetime import datetime
 
 
-class SublimeTasksBase(sublime_plugin.TextCommand):
+class PlainTasksBase(sublime_plugin.TextCommand):
     def run(self, edit):
         self.open_tasks_bullet = self.view.settings().get('open_tasks_bullet')
         self.done_tasks_bullet = self.view.settings().get('done_tasks_bullet')
@@ -23,12 +23,12 @@ class SublimeTasksBase(sublime_plugin.TextCommand):
         self.runCommand(edit)
 
 
-class NewCommand(SublimeTasksBase):
+class PlainTasksNewCommand(PlainTasksBase):
     def runCommand(self, edit):
         for region in self.view.sel():
             line = self.view.line(region)
             line_contents = self.view.substr(line).rstrip()
-            has_bullet = re.match('^(\s*)[' + re.escape(self.open_tasks_bullet) + re.escape(self.done_tasks_bullet) + ']', self.view.substr(line))
+            has_bullet = re.match('^(\s*)[' + re.escape(self.open_tasks_bullet) + re.escape(self.done_tasks_bullet) + re.escape(self.canc_tasks_bullet) + ']', self.view.substr(line))
             current_scope = self.view.scope_name(self.view.sel()[0].b)
             if has_bullet:
                 grps = has_bullet.groups()
@@ -62,7 +62,7 @@ class NewCommand(SublimeTasksBase):
                     self.view.sel().add(pt)
 
 
-class CompleteCommand(SublimeTasksBase):
+class PlainTasksCompleteCommand(PlainTasksBase):
     def runCommand(self, edit):
         original = [r for r in self.view.sel()]
         done_line_end = ' %s %s' % (self.done_tag, datetime.now().strftime(self.date_format))
@@ -98,8 +98,8 @@ class CompleteCommand(SublimeTasksBase):
             new_pt = sublime.Region(pt.a + ofs, pt.b + ofs)
             self.view.sel().add(new_pt)
 
-class CancelCommand(SublimeTasksBase):
-    """docstring for CancelledCommand"""
+
+class PlainTasksCancelCommand(PlainTasksBase):
     def runCommand(self, edit):
         original = [r for r in self.view.sel()]
         canc_line_end = ' %s %s' % (self.canc_tag, datetime.now().strftime(self.date_format))
@@ -118,7 +118,8 @@ class CancelCommand(SublimeTasksBase):
                 self.view.insert(edit, line.end(), canc_line_end)
                 replacement = u'%s%s %s' % (grps[0], self.canc_tasks_bullet, grps[1].rstrip())
                 self.view.replace(edit, line, replacement)
-            elif done_matches: pass
+            elif done_matches:
+                pass
                 # grps = done_matches.groups()
                 # replacement = u'%s%s %s' % (grps[0], self.canc_tasks_bullet, grps[1].rstrip())
                 # self.view.replace(edit, line, replacement)
@@ -134,9 +135,11 @@ class CancelCommand(SublimeTasksBase):
             new_pt = sublime.Region(pt.a + ofs, pt.b + ofs)
             self.view.sel().add(new_pt)
 
-class ArchiveCommand(SublimeTasksBase):
+
+class PlainTasksArchiveCommand(PlainTasksBase):
     def runCommand(self, edit):
         rdm = '^(\s*)' + re.escape(self.done_tasks_bullet) + '\s*([^\b]*?)\s*(%s)?[\(\)\d\.:\-/ ]*[ \t]*$' % self.done_tag
+        rcm = '^(\s*)' + re.escape(self.canc_tasks_bullet) + '\s*([^\b]*?)\s*(%s)?[\(\)\d\.:\-/ ]*[ \t]*$' % self.canc_tag
 
         # finding archive section
         archive_pos = self.view.find('Archive:', 0, sublime.LITERAL)
@@ -148,21 +151,31 @@ class ArchiveCommand(SublimeTasksBase):
             done_tasks.append(done_task)
             done_task = self.view.find(rdm, done_task.end() + 1)
 
-        if done_tasks:
+        canc_tasks = []
+        canc_task = self.view.find(rcm, 0)
+        print canc_task
+        while canc_task and (not archive_pos or canc_task < archive_pos):
+            canc_tasks.append(canc_task)
+            canc_task = self.view.find(rcm, canc_task.end() + 1)
+
+        all_tasks = done_tasks + canc_tasks
+        all_tasks.sort()
+
+        if all_tasks:
             if archive_pos:
                 line = self.view.full_line(archive_pos).end()
             else:
                 self.view.insert(edit, self.view.size(), u'\n\n＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿\nArchive:\n')
                 line = self.view.size()
 
-            # adding done tasks to archive section
-            self.view.insert(edit, line, '\n'.join(self.before_tasks_bullet_spaces + self.view.substr(done_task).lstrip() for done_task in done_tasks) + '\n')
+            # adding tasks to archive section
+            self.view.insert(edit, line, '\n'.join(self.before_tasks_bullet_spaces + self.view.substr(task).lstrip() for task in all_tasks) + '\n')
             # remove moved tasks (starting from the last one otherwise it screw up regions after the first delete)
-            for done_task in reversed(done_tasks):
-                self.view.erase(edit, self.view.full_line(done_task))
+            for task in reversed(all_tasks):
+                self.view.erase(edit, self.view.full_line(task))
 
 
-class NewTaskDocCommand(sublime_plugin.WindowCommand):
+class PlainTasksNewTaskDocCommand(sublime_plugin.WindowCommand):
     def run(self):
         view = self.window.new_file()
         view.set_syntax_file('Packages/PlainTasks/PlainTasks.tmLanguage')

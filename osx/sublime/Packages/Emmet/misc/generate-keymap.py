@@ -5,7 +5,7 @@ import copy
 keymap = {
 	"expand_abbreviation": "ctrl+e",
 	"match_pair_outward": {"mac": "ctrl+d", "pc": "ctrl+,"},
-	"match_pair_inward": {"mac": "ctrl+j", "pc": "ctrl+alt+,"},
+	"match_pair_inward": {"mac": "ctrl+j", "pc": "ctrl+shift+0"},
 	"matching_pair": {"mac": "ctrl+shift+t", "pc": "ctrl+alt+j"},
 	"next_edit_point": "ctrl+alt+right",
 	"prev_edit_point": "ctrl+alt+left",
@@ -63,11 +63,11 @@ addon = [
 			{
 				"key": "selector",
 				"match_all": True,
-				"operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html, text.haml, source string",
+				"operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html, text.haml, text.scala.html, source string",
 				"operator": "equal"
 			}, {
 				"key": "selector",
-				"operand": "text.html source",
+				"operand": "text.html source.php",
 				"operator": "not_equal",
 				"match_all": True
 			}, {
@@ -103,11 +103,11 @@ addon = [
 			{
 				"key": "selector",
 				"match_all": True,
-				"operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html, text.haml, source string",
+				"operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html, text.haml, text.scala.html, source string",
 				"operator": "equal"
 			}, {
 				"key": "selector",
-				"operand": "text.html source",
+				"operand": "text.html source.php",
 				"operator": "not_equal",
 				"match_all": True
 			}, {
