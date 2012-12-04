@@ -82,7 +82,8 @@ alias sqlplus='rlwrap sqlplus'
 alias nslookup='rlwrap nslookup'
 
 # -- Variables --
-export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
+# export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home
 export GROOVY_HOME=/usr/local/Cellar/groovy/2.0.0/libexec
 export EDITOR="subl -n"
 export VISUAL="subl -n"
@@ -110,6 +111,10 @@ function _p() { _files -W ~/Projects -/; }
 compdef _p p
 
 export PATH=$HOME/.environments/osx/bin:/usr/local/sbin:/usr/local/bin:/usr/local/share/npm/bin:/usr/local/share/python:$JAVA_HOME/bin:/usr/local/Cellar/tomcat/6.0.26/bin:$PATH
+
+# -- Java Env --
+export JAVA_OPTS="-XX:PermSize=512M -Xmx2g"
+export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
 
 # -- Python Virtual Env --
 export PYTHON_VIRTUAL_ENV_HOME=$HOME/.virtualenvs

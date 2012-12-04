@@ -1,325 +1,3 @@
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o '.{32,}.mp4' $file; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o --color '.{32,}.mp4' $file; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o --color '.{32}.mp4' $file; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; filename=`egrep -o --color '.{32}.mp4' $file`; echo "$filename - $title"; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o --color '.{32}.mp4.*Yüksek' $file; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d? -f1; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1; done | wc -l
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; echo "$title - $filename.mp4"; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file | cut -d\  -f4`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; echo "$title - $filename.mp4"; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file | cut -d\  -f4 | cut -d\< -f1`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; echo "$title - $filename.mp4"; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file | cut -d\- -f2 | cut -d\< -f1`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; echo "$title - $filename.mp4"; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file | cut -d\- -f2 | cut -d\< -f1`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; egrep -o 'Bölüm:<a class="normalyazi2" style="text-decoration:none"> \d+</a> <br />' $file; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file | cut -d\- -f2 | cut -d\< -f1`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; egrep -o 'Bölüm:<a class="normalyazi2" style="text-decoration:none"> \d+</a> <br />' $file | egrep -o '\d+'; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file | cut -d\- -f2 | cut -d\< -f1`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; egrep -o 'Bölüm:<a class="normalyazi2" style="text-decoration:none"> \d+</a> <br />' $file; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file | cut -d\- -f2 | cut -d\< -f1`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; egrep -o 'Bölüm:<a class="normalyazi2" style="text-decoration:none"> \d+</a> <br />' $file | egrep -o ' \d+'; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file | cut -d\- -f2 | cut -d\< -f1`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; bolum=`egrep -o 'Bölüm:<a class="normalyazi2" style="text-decoration:none"> \d+</a> <br />' $file | egrep -o ' \d+'`; echo "$bolum - $title - $file"; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file | cut -d\- -f2 | cut -d\< -f1`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; bolum=`egrep -o 'Bölüm:<a class="normalyazi2" style="text-decoration:none"> \d+</a> <br />' $file | egrep -o ' \d+'`; echo "$bolum - $title - $filename"; done
-for file in *; do title=`egrep -o 'Beşinci Boyut - (.*)<' $file | cut -d\- -f2 | cut -d\< -f1`; filename=`egrep -o --color '.{32}.mp4.*Yüksek' $file| cut -d\? -f1 | cut -d. -f1`; bolum=`egrep -o 'Bölüm:<a class="normalyazi2" style="text-decoration:none"> \d+</a> <br />' $file | egrep -o ' \d+'`; echo "$bolum - $title - $filename.mp4"; done
-cd /Volumes/Data/TV\ Shows/Besinci\ Boyut/Season\ 2
-ll
-ll f92b90a782bb42a8b84964ebd186be05*
-ll ../Season\ 3/f92b90a782bb42a8b84964ebd186be05*
-open ../Season\ 3/f92b90a782bb42a8b84964ebd186be05*
-mv ../Season\ 3/f92b90a782bb42a8b84964ebd186be05* ../Season\ 3/106\ -\ Fotografci.mp4
-open ../Season\ 3
-ll
-man curl
-man cut
-echo "isa goksu ve esra goksu" | cut -d\  -f3*
-echo "isa goksu ve esra goksu" | cut -d\  -f3,*
-echo "isa goksu ve esra goksu" | cut -d\  -f3
-echo "isa goksu ve esra goksu" | cut -d\  -f3+
-echo "isa goksu ve esra goksu" | cut -d\  -f3,
-ssh teamcity@merchpayci.gap.com
-java -version
-java -version
-which java
-enable_proxy
-brew search java
-irb
-java -version
-echo $JAVA_HOME
-open $JAVA_HOME
-cd /System/Library/Frameworks
-ll
-cd JavaVM.framework
-ll
-ll Versions
-ll /System/Library/Java/JavaVirtualMachines
-ll /Library/Java/JavaVirtualMachines/1.7.0.jdk
-cd /Library/Java/JavaVirtualMachines
-ll
-java -version
-which java
-ll /System/Library/Frameworks/JavaVM.framework/
-ll /System/Library/Frameworks/JavaVM.framework/Versions
-sudo ln -s /System/Library/Frameworks/JavaVM.framework/Versions/1.7 /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk
-sudo ln -s /System/Library/Frameworks/JavaVM.framework/Versions/1.7.0 /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk
-ll /System/Library/Frameworks/JavaVM.framework/Versions
-ll /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk
-rm -rf /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/1.7*
-sudo rm -rf /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/1.7*
-ll /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk
-sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk /System/Library/Frameworks/JavaVM.framework/Versions/1.7
-sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk /System/Library/Frameworks/JavaVM.framework/Versions/1.7.0
-ll /System/Library/Frameworks/JavaVM.framework/Versions/
-ll /System/Library/Frameworks/JavaVM.framework/Versions/A
-echo $JAVA_HOME
-ll /System/Library/Frameworks/JavaVM.framework/Home
-ll /System/Library/Frameworks/JavaVM.framework/Versions/
-sudo rm -rf /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
-sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
-ll /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
-ll /System/Library/Frameworks/JavaVM.framework/Versions
-java -version
-javac -v
-javac -version
-java
-open /Volumes/Data/.XXX
-open /Volumes/Data/.XXX
-open /Volumes/Data/.XXX
-open /Volumes/Data/.XXX
-cd .environments
-git st
-git dt
-ll
-cd osx
-ll
-mv ~/Library/Application\ Support/Sublime\ Text\ 2 SublimeText2
-ll
-ln -s SublimeText2 ~/Library/Application\ Support/Sublime\ Text\ 2
-ll
-ll ~/Library/Application\ Support
-rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2
-ln -s /Users/isa/.environments/osx/SublimeText2 ~/Library/Application\ Support/Sublime\ Text\ 2
-ll ~/Library/Application\ Support
-ll
-git st
-git ci -m 'Updated some zsh settings, adding sublime settings too'
-brew search dos2unix
-brew install dos2unix
-dos2unix osx/SublimeText2/Backup/20120930192632/VintageEx/CHANGELOG.txt
-ll osx/SublimeText2/Backup/20120930192632/VintageEx/CHANGELOG.txt
-ll osx/SublimeText2/Backup/20120930192632/VintageEx/
-ll osx/SublimeText2/Backup/20120930192632
-ll SublimeText2/Backup/20120930192632/VintageEx/CHANGELOG.txt
-ll
-dos2unix SublimeText2/Backup/20120930192632/VintageEx/CHANGELOG.txt
-git st
-mv SublimeText2 sublime
-ll
-git st
-git ci -m 'Updated some zsh settings, adding sublime settings too'
-cd ..
-git ci -m 'Updated some zsh settings, adding sublime settings too'
-rm -rf osx/sublime/Backup
-git st
-git ci -m 'Updated some zsh settings, adding sublime settings too'
-dos2unix osx/sublime/Packages/Format SQL/README.md
-dos2unix "osx/sublime/Packages/Format SQL/README.md"
-git ci -m 'Updated some zsh settings, adding sublime settings too'
-dos2unix "osx/sublime/Packages/Nettuts+ Fetch/Fetch.py"
-git ci -m 'Updated some zsh settings, adding sublime settings too'
-dos2unix "osx/sublime/Packages/Package Control/Package Control.py"
-git ci -m 'Updated some zsh settings, adding sublime settings too'
-dos2unix osx/sublime/Packages/Package Control/Package Control.sublime-settings
-dos2unix "osx/sublime/Packages/Package Control/Package Control.sublime-settings"
-git ci -m 'Updated some zsh settings, adding sublime settings too'
-dos2unix "osx/sublime/Packages/Schemr/readme.md"
-git ci -m 'Updated some zsh settings, adding sublime settings too'
-dos2unix osx/sublime/Packages/Schemr/schemr.py
-git ci -m 'Updated some zsh settings, adding sublime settings too'
-find osx/sublime -type f -exec dos2unix {}\;
-find osx/sublime -type f -exec dos2unix {} \;
-git st
-ll
-cd osx
-ll
-cd ..
-ll
-rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2
-ln -s /Users/isa/.environments/osx/sublime ~/Library/Application\ Support/Sublime\ Text\ 2
-e ~/Projects/merchandise-payables
-git st
-git ci -m 'Updated some zsh settings, adding sublime settings too'
-git st
-git push
-ll
-ll
-ll
-ll
-pp
-ll
-gradle modules:core:runLocalStubServer
-jps -
-jps -l
-gradle modules:core:runLocalStubServer
-jps -l
-gradle modules:core:runLocalStubServer
-jps -l
-git st
-git add modules/core/build.gradle
-git pull
-git co --  modules/core/src/integration
-git st
-git dt
-git co -- modules/ngf
-git st
-git co -- modules/core/src/
-git st
-git co -- modules/atom
-git st
-git co -- devops/developer-box
-git co -- devops/tools/
-git st
-git co -- devops/deploy
-git st
-git add devops/stubs/stubby4j/runStubby4j.sh
-git st
-git co -- devops/ci/commit-git-to-svn.gradle
-git st
-git co -- modules/core/config.rb
-git co -- qa/acceptance/support/lib
-git diff qa/acceptance/support/env.rb
-git co -- qa/acceptance/step_definitions
-git co -- qa/acceptance/Jmeterscripts
-git st
-git pull
-git st
-git commit -m 'ITMERCHPAY-0 Adding acceptance tests to our CI pipeline in TeamCity'
-git pull
-git st
-git ll
-git push
-git st
-git add modules/core/build.gradle
-git commit -m 'ITMERCHPAY-0 Fixed gradle execution for deployment by default'
-git push
-ll
-gradle qa:acceptance:runApiTests
-git pull
-git pull
-git st
-git dt
-git add modules/core/build.gradle
-git commit -m 'ITMERCHPAY-0 Added remote debugging option by default to the local Tomcat'
-git pull
-git st
-ll
-df -h
-git pull
-git st
-git pull
-git pull
-git st
-git add
-git add qa/acceptance/build.gradle
-git commit -m 'ITMERCHPAY-0 Added @api tags to the runApiTests task since it is running some ui tests too'
-git push
-git st
-git add qa/acceptance/config/cucumber.yml
-git commit -m 'ITMERCHPAY-0 Changed the default profile to use CI tag instead of webkit since we cannot run just API tests otherwise'
-git pull
-git push
-git pull
-git add qa/acceptance/build.gradle
-git st
-git commit -m 'ITMERCHPAY-0 Trying bundle exec instead of cucumber call directly'
-git push
-git st
-git add qa/acceptance/build.gradle
-git commit -m 'ITMERCHPAY-0 Trying bundle exec cucumber instead of cucumber.. Seems like direct cucumber call misses some tests'
-git pull
-git push
-cucumber --help
-cucumber --help | ack profile
-gradle runApiTests
-ll
-gradle runApiTests
-bundle exec cucumber irb
-irb
-irb
-irb
-gradle runApiTests
-irb
-gradle runApiTests
-irb
-gradle runApiTests
-gradle runApiTests
-irb
-irb
-gradle runApiTests
-gradle runApiTests --stacktrace
-bundle exec cucumber -r qa/acceptance/config
-bundle exec cucumber -r qa/acceptance/config qa/acceptance/features/api
-bundle exec cucumber -r qa/acceptance qa/acceptance/features/api
-f
-bundle exec cucumber -r qa/acceptance qa/acceptance/features/api
-bundle exec cucumber -r qa/acceptance qa/acceptance/features/api
-git st
-git add qa/acceptance/config/cucumber.yml qa/acceptance/build.gradle
-git st
-git pull
-git commit -m 'ITMERCHPAY-0 Still trying to make bundle exec work'
-git push
-git pull
-gradle runApiTests
-gradle runApiTests
-gradle runApiTests --debug
-cucumber --help
-gradle runApiTests
-git st
-git pull
-git add qa/acceptance/build.gradle qa/acceptance/config/
-git st
-git commit -m 'ITMERCHPAY-0 Trying to fix cucumber.yml problem'
-git push
-java -version
-java -version
-which java
-java -version
-gradle runSmokeTests
-java -version
-which gradle
-brew update
-ll
-cd qa/acceptance
-gradle runApiTests
-echo $JAVA_HOME
-ll /System/Library/Frameworks/JavaVM.framework/Home
-ll /System/Library/Frameworks/JavaVM.framework/Home/
-ll /System/Library/Frameworks/JavaVM.framework/Home
-ll /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
-ll /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
-cd /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
-ll
-cd Contents
-ll
-cd ..
-cd ..
-ll
-rm -rf 1.7*
-ll
-sudo ll
-tail history
-history | tail
-ll
-sudo rm -rf 1.7*
-ll
-rm -rf CurrentJDK
-sudo rm -rf CurrentJDK
-sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents CurrentJDK 1.7 1.70
-l
-ll
-sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents CurrentJDK
-ll
-sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents 1.7
-sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents 1.7.0
-ll
 which java
 java -version
 echo $JAVA_HOME
@@ -10099,3 +9777,316 @@ python
 workon merchpay-robot 
 pip list
 python
+traceroute google.com
+ssh ci1
+ssh ci2
+p merchandise-payables
+git pull
+git pull
+p scms/mp
+svn up
+p scms/po
+svn up
+svn up
+gradle --version
+ssh teamcity@ci2
+cd Desktop/sreh
+ll
+e .
+cat ~/.gitconfig
+ll
+git st
+git co -- .
+git st
+ll
+rm -rf !(.git)
+rm -rf !(.git) .
+rm -f !(.git)
+bash -c "rm -rf !(.git)"
+bash -C "rm -rf !(.git)"
+ll
+shopt -s extglob
+e ~/.zshrc
+. ~/.zshrc
+e ~/.zshrc
+echo *(/)
+ll
+ls
+ls *(/)
+ls *(.)
+ls *(@)
+ls *(-/)
+echo (^.git)
+echo ^.git
+ll ^.git
+ls ^.git
+ls -A ^.git
+ls -a ^.git
+ls -H ^.git
+ls -K ^.git
+ll
+ll *
+ll -K *
+ll -C *
+ll -T *
+ls 
+ls -a
+echo ^.git
+echo .git
+echo ^SpringMVC
+rm -rf ^.git
+ll
+rm -rf ^.git .
+ll
+rm -rf ^.git
+rm -rf .c* .giti* .idea .pro* .s*
+ll
+git co -- .
+git st
+git pull
+git ll
+ll
+tree
+e ~/Movies/movies.txt
+git pull
+enable_proxy
+git pull
+ll
+cd exception-handler
+ll
+find . -name .idea
+brew update
+brew upgrade
+git pull
+git st
+cd ..
+git ll
+git t
+git st
+mvn clean install package
+ll
+mvn -pl sample jetty:run
+brew search jetty
+brew install jetty
+ll
+mvn clean package
+ll
+cd exception-handler
+ll
+cd target
+ll
+mkdir -p ~/Projects/merchandise-payables/devops/externals
+cp spring-restful-exception-handler-1.0-SNAPSHOT.jar ~/Projects/merchandise-payables/devops/externals/
+cat ../../sample/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml
+p merchandise-payables
+mongod --config /usr/local/etc/mongod.conf &
+p merchandise-payables/devops/stubs/stubby4j
+ll
+./runStubby4j.sh localhost:8882
+killall -9 mongod
+ps -ef | grep mongod
+nc localhost 8080
+ps -ef | grep jetty
+ps -ef | grep java
+jps -l
+ps -ef | grep 10476
+jps -alv
+jps -al
+jps -lvV
+curlish localhost:8080
+http localhost:8080
+http --auth scmsmp localhost:8080/api/dpo/1234
+killall mongod
+ps -ef | grep mongo
+p merchandise-payables/devops/deploy
+l
+cd mongo
+ll
+./startReplSet
+http --auth scmsmp localhost:8080/api/dpo/1234
+git st
+git ci -m 'Tech ITMERCHPAY-0 Added restful exception handler annotations to the DPO controller'
+p merchandise-payables
+gradle test
+gradle test
+git st
+git ci -m 'Tech ITMERCHPAY-0 Added restful exception handler to the compile time dependencies'
+git ll
+git pull
+git ll
+git ll
+irb
+irb
+irb
+python
+cd .environments
+git st
+git ci -m 'More sublime settings'
+git push
+git ll
+python
+git st
+p merchandise-payables/
+git pull
+git pullll
+git pull
+ll
+e .
+gradle jasmine
+coffee --version
+coffee -version
+coffee --version
+gradle jasmine
+gradle jasmineTC
+phantomjs --version
+phantomjs --help
+phantomjs true
+DIR='modules/core'
+DIR='modules/core/src/unit'
+phantomjs "$DIR"/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee "$DIR"/javascripts/jasmine-runner.html
+phantomjs "$DIR"/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee "$DIR"/javascripts/jasmine-runner.html true
+phantomjs "$DIR"/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee "$DIR"/javascripts/jasmine-runner.html false
+git st
+git ci -m 'Tech ITMERCHPAY-0 Fixed jasmine tests runner for terminal. It seems that without passing any arguments it fails since phantomjs is expecting something there'
+git push
+git pull
+git pull
+git pull
+git ll
+git pull
+git st
+ll
+cd devops/externals
+ll
+git add spring-restful-exception-handler-1.0-SNAPSHOT.jar
+git add spring-restful-exception-handler-1.0-SNAPSHOT.jar -f
+git st
+cd ..
+cd ..
+ll
+gradle init
+git pull
+cd modules/core/libs/runtime
+ll
+ll slf*
+groovysh
+p merchandise-payables/modules/core/
+ll
+git st
+gradle init
+groovysh
+gradle dependencies 
+gradle cleanDuplicates
+gradle init
+gradle init
+gradle init
+ll libs/test
+gradle init
+git st
+git ci -m 'Tech ITMERCHPAY-0 Fixed duplicate dependencies from testCompile during gradle init and started integrating restful exception handler'
+git st
+ll
+ps -ef | grep mongo
+brew search alice
+irb
+irb
+ll
+cd ..
+ll
+open -a JavaAppletPlugin.plugin
+brew search openjdk
+brew update
+ll /Library/Java/JavaVirtualMachines/
+ll /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk
+ll /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents
+ll /Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home
+e ~/.zshrc
+. ~/.zshrc
+java -version
+which java
+javac -version
+java
+scala
+jirb
+cd Desktop
+git clone https://github.com/JetBrains/colorSchemeTool.git
+cd colorSchemeTool
+ll
+cd tmThemes
+ll
+cp ~/.environments/osx/sublime/Packages/User/Color\ Schemes/prospettiva.tmTheme .
+cd ..
+ll
+sh run.sh
+bash run.sh
+cat run.sh
+python colorSchemeTool.py tmThemes/prospettiva.tmTheme intellijThemes/prospettiva.xml
+cat intellijThemes/prospettiva.xml
+ll ~/Library/Preferences/IntelliJIdea11
+ll ~/Library/Preferences/IntelliJIdea11/colors
+cp intellijThemes/prospettiva.xml ~/Library/Preferences/IntelliJIdea11/colors/
+scala
+git st
+cp ~/Library/Preferences/IntelliJIdea11/colors/prospettiva.xml ~/.environments/osx/
+cd ~/.environments
+ll
+cd osx
+ll
+git st
+scala
+brew install sbt
+e ~/.zshrc
+sbt
+sbt
+git st
+rm -rf target
+ll
+git st
+cd
+cd Desktop
+e Lists.scala
+scala
+ll
+scala
+scala
+sbt
+ll
+rm -rf target
+ll
+git clone https://github.com/isa/stylo.git
+git remote add source https://github.com/maccman/stylo
+git remote add source https://github.com/maccman/stylo.git
+git remote add source git://github.com/maccman/stylo.git
+git remote add source git://github.com/maccman/stylo.git
+git help remote
+cd stylo
+ll
+git remote add source git://github.com/maccman/stylo.git
+git pull source master
+git push 
+p merchandise-payables
+git ll
+git show 247a9dd
+git pull
+git ll
+http http://localhost:8080/welcome
+http http://localhost:8080/sample/welcome
+http http://localhost:8080/sample/custom404
+http http://localhost:8080/sample/custom500
+cd Desktop/sreh
+ll
+git st
+mvn package
+mvn -pl sample jetty:run
+cd exception-handler
+cd target
+ll
+unzip -l spring-restful-exception-handler-1.0-SNAPSHOT.jar
+cd ..
+git st
+cd ..
+git st
+ll
+cd ..
+zip -r sreh.zip sreh/
+ll

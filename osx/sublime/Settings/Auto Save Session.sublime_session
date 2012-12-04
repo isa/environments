@@ -1,10 +1,10 @@
 {
 	"folder_history":
 	[
+		"/Users/isa/Projects/merchandise-payables",
+		"/Users/isa/Projects/pyformatter",
 		"/Users/isa/Projects/merchpay-robot",
 		"/Users/isa/Desktop/sreh",
-		"/Users/isa/Projects/pyformatter",
-		"/Users/isa/Projects/merchandise-payables",
 		"/Users/isa/Projects/mp-buildr/modules/core",
 		"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/resources",
 		"/Users/isa/Projects/mp-buildr",
@@ -35,7 +35,7 @@
 		"/Users/isa/Projects/scms/mp",
 		"/Users/isa/Projects"
 	],
-	"last_window_id": 222,
+	"last_window_id": 229,
 	"settings":
 	{
 		"new_window_height": 801.0,
@@ -138,9 +138,13 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 375.0,
+				"height": 161.0,
 				"selected_items":
 				[
+					[
+						"upg",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
 					[
 						"inden",
 						"Indentation: Reindent Lines"
@@ -327,11 +331,20 @@
 			},
 			"file_history":
 			[
-				"/Users/isa/.zshrc",
+				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotFoundException.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotApprovedException.java",
+				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
+				"/Users/isa/Projects/pyformatter/samples/sample.yaml",
+				"/Volumes/Adobe Lightroom v4.1/HowTo.txt",
+				"/Users/isa/Projects/pyformatter/dependencies.txt",
+				"/Users/isa/Projects/pyformatter/tests/javascript_test.py",
 				"/Users/isa/Projects/pyformatter/pyformatter/ext/javascript.py",
+				"/Users/isa/Movies/movies.txt",
+				"/Users/isa/.zshrc",
 				"/Users/isa/Projects/pyformatter/pyformatter/base.py",
 				"/Users/isa/Projects/pyformatter/format.py",
-				"/Users/isa/Projects/pyformatter/dependencies.txt",
 				"/Users/isa/Desktop/sreh/exception-handler/pom.xml",
 				"/Users/isa/Desktop/sreh/pom.xml",
 				"/Users/isa/Desktop/sreh/sample/src/main/java/com/raychatter/common/exception/CustomException.java",
@@ -342,7 +355,6 @@
 				"/Users/isa/Desktop/sreh/exception-handler/src/main/java/com/raychatter/common/annotation/AnnotationHandler.java",
 				"/Users/isa/Desktop/pom.xml",
 				"/Users/isa/Projects/pyformatter/tests/json_test.py",
-				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
 				"/Users/isa/Projects/pyformatter/pyformatter/ext/json.py",
 				"/Users/isa/Projects/pyformatter/samples/sample.py",
 				"/Users/isa/Desktop/reindent.py",
@@ -355,7 +367,6 @@
 				"/Users/isa/Projects/mp-buildr/modules/core/build.gradle",
 				"/Users/isa/Projects/mp-buildr/modules/core/src/integration/java/com/gap/scms/mp/helpers/NFCBuilder.java",
 				"/Users/isa/Projects/mp-buildr/modules/core/Buildfile",
-				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
 				"/Users/isa/Projects/scms/mp/svn-commit.tmp",
 				"/Users/isa/Projects/formatter/formatter/printer.py",
 				"/Users/isa/Projects/formatter/formatter/printers/json.py",
@@ -447,14 +458,7 @@
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/compile-template-config.rb",
 				"/Users/isa/Projects/merchandise-payables/modules/core/build.gradle",
 				"/Users/isa/Desktop/keys/ed.id_rsa.pub",
-				"/Users/isa/Desktop/keys/avinash.id_rsa.pub",
-				"/Users/isa/Desktop/x.json",
-				"/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties",
-				"/Users/isa/Projects/merchandise-payables/devops/deploy/mongo/import.sh",
-				"/Users/isa/Projects/merchandise-payables/devops/deploy/mongo/createReplSet",
-				"/Users/isa/Projects/merchandise-payables/devops/deploy/mongo/partner.json",
-				"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/resources/config/database.xml",
-				"/Users/isa/Projects/merchandise-payables/modules/ngf/build.gradle"
+				"/Users/isa/Desktop/keys/avinash.id_rsa.pub"
 			],
 			"find":
 			{
@@ -590,18 +594,11 @@
 						0,
 						1,
 						1
-					],
-					[
-						1,
-						0,
-						2,
-						1
 					]
 				],
 				"cols":
 				[
 					0.0,
-					0.5,
 					1.0
 				],
 				"rows":
@@ -626,6 +623,42 @@
 				"selected_items":
 				[
 					[
+						"modules/core/src/integration/java/com/gap/scms/mp/models/createfctest.java",
+						"modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java"
+					],
+					[
+						"dpon",
+						"modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotApprovedException.java"
+					],
+					[
+						"dponot",
+						"modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotFoundException.java"
+					],
+					[
+						"sampe",
+						"samples/sample.yaml"
+					],
+					[
+						"dep",
+						"dependencies.txt"
+					],
+					[
+						"depe",
+						"dependencies.txt"
+					],
+					[
+						"samp",
+						"samples/sample.yaml"
+					],
+					[
+						"yaml",
+						"tests/yaml_test.py"
+					],
+					[
+						"java",
+						"tests/javascript_test.py"
+					],
+					[
 						"base",
 						"pyformatter/base.py"
 					],
@@ -636,14 +669,6 @@
 					[
 						"pyt",
 						"tests/python_test.py"
-					],
-					[
-						"java",
-						"tests/javascript_test.py"
-					],
-					[
-						"dep",
-						"dependencies.txt"
 					],
 					[
 						"nega",
@@ -800,10 +825,6 @@
 					[
 						"pgphxscmap",
 						"nodes/pgphxscmap004.phx.gapinc.com.json"
-					],
-					[
-						"samp",
-						"docs/production/user-manual/images/sample-diagram.dot"
 					],
 					[
 						"diagra",
@@ -1112,30 +1133,6 @@
 					[
 						"beans",
 						"modules/core/src/main/java/com/gap/scms/mp/configs/beans/BEANS.java"
-					],
-					[
-						"pog",
-						"modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java"
-					],
-					[
-						"logcont",
-						"modules/core/src/main/java/com/gap/scms/mp/controllers/LogController.java"
-					],
-					[
-						"logcontr",
-						"modules/core/src/integration/java/com/gap/scms/mp/controllers/LogControllerTest.java"
-					],
-					[
-						"dpogate",
-						"modules/core/src/main/java/com/gap/scms/mp/gateways/DPOGateway.java"
-					],
-					[
-						"jira",
-						"devops/ci/documentation/release-notes/src/jira_api_interrogator.rb"
-					],
-					[
-						"conf",
-						"devops/ci/documentation/release-notes/resources/conf.yml"
 					]
 				],
 				"width": 0.0
@@ -1151,7 +1148,7 @@
 			"show_minimap": false,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 333.0,
 			"status_bar_visible": true
 		},
@@ -1164,6 +1161,18 @@
 			{
 				"selected_items":
 				[
+					[
+						"numb",
+						"numberOfCallsExecute"
+					],
+					[
+						"Dumb",
+						"DumbSUT"
+					],
+					[
+						"pu",
+						"public"
+					],
 					[
 						"remove",
 						"remove_trailing_empty_lines"
@@ -1257,30 +1266,28 @@
 			"buffers":
 			[
 				{
-					"file": "/Users/isa/Movies/movies.txt",
+					"contents": "class SUT {\n   private String name = \"HELLO\";\n\n   public void execute() {\n      System.out.println(\"HELLOWORLD\");\n   }\n\n   public String getName() {\n      return this.name;\n   }\n}\n\nclass Service {\n   public void run(SUT sut) {\n      // some more stuff\n      sut.execute();\n      // some other stuff\n   }\n}\n\n// Test Double = Fake, Dumb, Stub, Mock, Spy\n\nDumbSUT extends SUT {\n   @Override public void execute() {}\n   @Override public String getName() { return \"\"; }\n}\n\nFakeSUT extends SUT {\n   private int numberOfCalls = 0;\n\n   @Override public void execute() { numberOfCalls++ }\n   @Override public String getName() { return \"I EXPECT THIS\"; }\n}\n\nStubSUT extends SUT {\n   private int numberOfCalls = 0;\n\n   public StubSUT(expected) { this.expected = expected; }\n   @Override public void execute() { numberOfCalls++ }\n   @Override public String getName() { return this.expected; }   \n}\n\nSpySUT extends SUT {\n   private int numberOfCalls = 0;\n\n   public StubSUT(expected) { this.expected = expected; }\n   @Override public void execute() { super.execute(); }   \n   @Override public String getName() { return this.expected; }   \n}\n\nsut = spy(SUT);\ndoReturn(\"isa\").when(sut).getName();\nsut.execute();\n\nMockSUT extends SUT {\n   private int numberOfCallsExecute = 0;\n   private int numberOfCallsGetName = 0;\n\n   @Override public void execute() { numberOfCallsExecute++ }\n   @Override public String getName() { numberOfCallsGetName++; return \"\"; }   \n\n   public Boolean verifyExecute() { return numberOfCallsExecute > 0; }\n   public Boolean verifyGetName() { return numberOfCallsGetName > 0; }\n}\n\nlist = mock(List.class);\nwhen(list.size()).thenReturn(0);\nverify(list).size()\n\n\nresponse = service.run(new StubSUT(\"I EXPECT THIS\"));\nresponse.name == \"I EXPECT THIS\";\n\nresponse = service.run(new StubSUT(\"I EXPECT THAT TOO\"));\nresponse.name == \"I EXPECT THAT TOO\";\n\n",
 					"settings":
 					{
-						"buffer_size": 890,
+						"buffer_size": 1856,
 						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Package Control 1.6.0 Changelog:\n  \n  Wow! It has been 9 months since the last stable release of Package Control.\n  Quite a lot has happened since then, including the release of Sublime Text 2\n  stable, and hundreds upon hundreds of new packages from the community!\n  \n  A quick thank you to Kevin Yank (@sentience) for recently volunteering to help\n  review packages for inclusion in the default channel, and ninj0x\n  (https://github.com/ninj0x) for rewriting the Package Control Community\n  Packages search functionality so it is nice and fast once again! The lists\n  below include specific thanks for code contributions.\n  \n  As Sublime Text has become increasingly more popular, and the number of\n  packages has increased so rapidly, the bandwidth requirements have also\n  significantly increased. This month the default channel will very likely serve\n  over 1TB of JSON data. If you feel so inclined, consider pitching in a small\n  amount to help cover the cost:\n  http://wbond.net/sublime_packages/package_control/say_thanks. A big thank you\n  to all of the users who have already contributed!\n  \n  \n  Enhancements\n  \n  \n   - Added full (custom) proxy authentication support for HTTPS connections\n  \n   - Added NTLM authentication for proxies on Windows\n  \n   - Proxy authentication information is now set via the new proxy_username and\n     proxy_password settings.\n  \n   - If the https_proxy setting it set to false, it will not inherit from the\n     http_proxy setting (thanks planardothum!)\n  \n   - The time of the last successful run is no longer stored in\n     Packages/User/Package Control.sublime-settings, but rather in\n     Packages/User/Package Control.last-run making it easier to ignore via git,\n     hg, etc. (thanks schlamar!)\n  \n   - Packages are now ignored during install and upgrade to help prevents errors\n     where Sublime Text tries to read a file as it is being extracted\n  \n   - Packages that include DLLs for Windows can now be upgraded. In-use\n     DLLs will be detected and the user prompted to restart.\n  \n   - Package version numbers may now include non-numeric components, and semantic\n     versioning (http://semver.org) is fully supported\n  \n   - JSON parsing messages are now printed to the console instead of being shown\n     in an error popup\n  \n   - Added support for changes to the BitBucket API\n  \n   - Added support for changes to GitHub URLs\n  \n   - Added the debug setting to help track down HTTP connection issues\n  \n   - All of the downloaders will now try to use HTTP compression\n  \n   - All of the downloaders will now follow redirects\n  \n   - Added new install_missing setting to control if Package Control should try\n     to install any packages that appear to be missing from the current machine.\n     This defaults to true, and is really only useful if you want to prevent\n     Package Control from connecting to the internet without explicitly asking\n     it to.\n  \n   - Added lots of code comments as a first step towards making contributions\n     by other developers easier\n  \n  \n  Bug Fixes\n  \n  \n   - Added support for the new preferences filename (thanks titoBouzout!)\n  \n   - If a package is missing from a machine, but not available for that\n     platform, it is no longer considered an error (thanks schlamar!)\n  \n   - Updated CA certs\n  \n   - Fixed handling of install and upgrade messages that contain non-ASCII\n     characters\n  \n   - Fixed a unicode error trying to load the CA cert bundle file on Windows when\n     the install path to Sublime Text contains non-ASCII characters\n  \n   - Better handling for edge case HTTP errors (thanks tgecho!)\n  \n   - Fixed a number of errors related to non-ASCII error messages being created\n     by the operating system (thanks quarnster!)\n  \n   - GitHub URLs will now automatically be trimmed of trailing .git suffixes\n  \n   - Badly formatted messages.json files will no longer break the install process\n\n\nAdvancedNewFile:\n---------------\n\n  New Features/Enhancements:\n  \n  - Add OS Specific Aliases to settings.\n  - Display an error when attempting to use an invalid alias.\n  - Display an error when attempting to open a directory in a view.\n  - Display an error if path creation fails.\n  \n  Please see the README for more information about the new settings.\n  \n  Bug Fixes:\n  - Status bar update causing errors when no view is present.\n  - Specifying absolute paths for Windows produced unexpected behavior.\n  \n\n\nEmmet:\n-----\n\n  New features:\n  \n  Fuzzy search for CSS abbreviations\n  ==================================\n  \n  Emmet now supports fuzzy searching of unknowns CSS abbreviations.\n  For example, instead of using ov:h abbreviation to get overflow: hidden, you can write, ov-h, ovh or even oh.\n  \n  Read more about fuzzy search feature:\n  http://docs.emmet.io/css-abbreviations/fuzzy-search/\n  \n  Emmet CSS snippets in auto-complete popup\n  =========================================\n  \n  All Emmet snippets are displayed in standard auto-complete popup,\n  so you don't need to remember them all: just start typing first \n  letters of required CSS snippet and let editor do the rest \n  (works with fuzzy search too).\n  \n  To disable Emmet completions, set\n  \n  \"show_css_completions\": false\n  \n  preference in user's Emmet.sublime-settings\n  \n  ------------------------------\n  Follow me on Twitter: @emmetio\n  ------------------------------ \n",
-					"settings":
-					{
-						"buffer_size": 5448,
-						"line_ending": "Unix",
-						"name": "Package Control Messages",
-						"scratch": true
 					}
 				}
 			],
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 375.0,
+				"height": 183.0,
 				"selected_items":
 				[
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"upg",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
 					[
 						"inden",
 						"Indentation: Reindent Lines"
@@ -1467,11 +1474,20 @@
 			},
 			"file_history":
 			[
-				"/Users/isa/.zshrc",
+				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotFoundException.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotApprovedException.java",
+				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
+				"/Users/isa/Projects/pyformatter/samples/sample.yaml",
+				"/Volumes/Adobe Lightroom v4.1/HowTo.txt",
+				"/Users/isa/Projects/pyformatter/dependencies.txt",
+				"/Users/isa/Projects/pyformatter/tests/javascript_test.py",
 				"/Users/isa/Projects/pyformatter/pyformatter/ext/javascript.py",
+				"/Users/isa/Movies/movies.txt",
+				"/Users/isa/.zshrc",
 				"/Users/isa/Projects/pyformatter/pyformatter/base.py",
 				"/Users/isa/Projects/pyformatter/format.py",
-				"/Users/isa/Projects/pyformatter/dependencies.txt",
 				"/Users/isa/Desktop/sreh/exception-handler/pom.xml",
 				"/Users/isa/Desktop/sreh/pom.xml",
 				"/Users/isa/Desktop/sreh/sample/src/main/java/com/raychatter/common/exception/CustomException.java",
@@ -1482,7 +1498,6 @@
 				"/Users/isa/Desktop/sreh/exception-handler/src/main/java/com/raychatter/common/annotation/AnnotationHandler.java",
 				"/Users/isa/Desktop/pom.xml",
 				"/Users/isa/Projects/pyformatter/tests/json_test.py",
-				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
 				"/Users/isa/Projects/pyformatter/pyformatter/ext/json.py",
 				"/Users/isa/Projects/pyformatter/samples/sample.py",
 				"/Users/isa/Desktop/reindent.py",
@@ -1495,7 +1510,6 @@
 				"/Users/isa/Projects/mp-buildr/modules/core/build.gradle",
 				"/Users/isa/Projects/mp-buildr/modules/core/src/integration/java/com/gap/scms/mp/helpers/NFCBuilder.java",
 				"/Users/isa/Projects/mp-buildr/modules/core/Buildfile",
-				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
 				"/Users/isa/Projects/scms/mp/svn-commit.tmp",
 				"/Users/isa/Projects/formatter/formatter/printer.py",
 				"/Users/isa/Projects/formatter/formatter/printers/json.py",
@@ -1587,14 +1601,7 @@
 				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/compile-template-config.rb",
 				"/Users/isa/Projects/merchandise-payables/modules/core/build.gradle",
 				"/Users/isa/Desktop/keys/ed.id_rsa.pub",
-				"/Users/isa/Desktop/keys/avinash.id_rsa.pub",
-				"/Users/isa/Desktop/x.json",
-				"/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties",
-				"/Users/isa/Projects/merchandise-payables/devops/deploy/mongo/import.sh",
-				"/Users/isa/Projects/merchandise-payables/devops/deploy/mongo/createReplSet",
-				"/Users/isa/Projects/merchandise-payables/devops/deploy/mongo/partner.json",
-				"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/resources/config/database.xml",
-				"/Users/isa/Projects/merchandise-payables/modules/ngf/build.gradle"
+				"/Users/isa/Desktop/keys/avinash.id_rsa.pub"
 			],
 			"find":
 			{
@@ -1721,49 +1728,22 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/isa/Movies/movies.txt",
 							"settings":
 							{
-								"buffer_size": 890,
+								"buffer_size": 1856,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										890,
-										890
+										1101,
+										1101
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 498.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"settings":
-							{
-								"buffer_size": 5448,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5448,
-										5448
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"word_wrap": true
+									"syntax": "Packages/Java/Java.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1821,6 +1801,42 @@
 				"selected_items":
 				[
 					[
+						"modules/core/src/integration/java/com/gap/scms/mp/models/createfctest.java",
+						"modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java"
+					],
+					[
+						"dpon",
+						"modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotApprovedException.java"
+					],
+					[
+						"dponot",
+						"modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotFoundException.java"
+					],
+					[
+						"sampe",
+						"samples/sample.yaml"
+					],
+					[
+						"dep",
+						"dependencies.txt"
+					],
+					[
+						"depe",
+						"dependencies.txt"
+					],
+					[
+						"samp",
+						"samples/sample.yaml"
+					],
+					[
+						"yaml",
+						"tests/yaml_test.py"
+					],
+					[
+						"java",
+						"tests/javascript_test.py"
+					],
+					[
 						"base",
 						"pyformatter/base.py"
 					],
@@ -1831,14 +1847,6 @@
 					[
 						"pyt",
 						"tests/python_test.py"
-					],
-					[
-						"java",
-						"tests/javascript_test.py"
-					],
-					[
-						"dep",
-						"dependencies.txt"
 					],
 					[
 						"nega",
@@ -1995,10 +2003,6 @@
 					[
 						"pgphxscmap",
 						"nodes/pgphxscmap004.phx.gapinc.com.json"
-					],
-					[
-						"samp",
-						"docs/production/user-manual/images/sample-diagram.dot"
 					],
 					[
 						"diagra",
@@ -2307,30 +2311,6 @@
 					[
 						"beans",
 						"modules/core/src/main/java/com/gap/scms/mp/configs/beans/BEANS.java"
-					],
-					[
-						"pog",
-						"modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java"
-					],
-					[
-						"logcont",
-						"modules/core/src/main/java/com/gap/scms/mp/controllers/LogController.java"
-					],
-					[
-						"logcontr",
-						"modules/core/src/integration/java/com/gap/scms/mp/controllers/LogControllerTest.java"
-					],
-					[
-						"dpogate",
-						"modules/core/src/main/java/com/gap/scms/mp/gateways/DPOGateway.java"
-					],
-					[
-						"jira",
-						"devops/ci/documentation/release-notes/src/jira_api_interrogator.rb"
-					],
-					[
-						"conf",
-						"devops/ci/documentation/release-notes/resources/conf.yml"
 					]
 				],
 				"width": 0.0
@@ -2346,10 +2326,10 @@
 			"show_minimap": false,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 333.0,
 			"status_bar_visible": true,
-			"window_id": 222,
+			"window_id": 229,
 			"workspace_name": ""
 		}
 	],
