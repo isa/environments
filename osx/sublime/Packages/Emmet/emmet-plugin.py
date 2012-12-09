@@ -114,6 +114,7 @@ def update_settings():
 
 	ctx.reset()
 	ctx.load_user_data(json.dumps(payload))
+	ctx.js()
 
 def should_perform_action(name, view=None):
 	if not view:
@@ -133,7 +134,7 @@ def should_perform_action(name, view=None):
 
 	return name not in re.split(r'\s*,\s*', disabled_actions.strip())
 
-def should_handle_tab_key():
+def should_handle_tab_key(syntax=None):
 	view = active_view()
 	scopes = settings.get('disabled_single_snippet_for_scopes', None)
 	cur_scope = view.syntax_name(view.sel()[0].begin())
@@ -145,12 +146,19 @@ def should_handle_tab_key():
 		return True
 
 	abbr = ctx.js().locals.pyExtractAbbreviation()
-	if not re.match(r'^\w+$', abbr):
+	if not re.match(r'^[\w\:]+$', abbr):
 		# it's a complex expression
 		return True
 
 	if re.match(r'^(lorem|lipsum)\d*$', abbr):
 		# hardcoded Lorem Ipsum generator
+		return True
+
+	# detect inline CSS
+	if syntax is None:
+		syntax = ctx.js().locals.pyGetSyntax();
+
+	if syntax == 'css':
 		return True
 
 	known_tags = settings.get('known_html_tags', '').split()
@@ -249,8 +257,8 @@ class ExpandAbbreviationByTab(sublime_plugin.TextCommand):
 
 
 class TabExpandHandler(sublime_plugin.EventListener):
-	def correct_syntax(self, view):
-		return view.match_selector( view.sel()[0].b, cmpl.EMMET_SCOPE )
+	def correct_syntax(self, view, syntax='html'):
+		return syntax == 'html' and view.match_selector( view.sel()[0].b, cmpl.EMMET_SCOPE )
 
 	def html_elements_attributes(self, view, prefix, pos):
 		tag         = cmpl.find_tag_name(view, pos)
@@ -289,13 +297,17 @@ class TabExpandHandler(sublime_plugin.EventListener):
 		if key != 'is_abbreviation':
 			return None
 
-		if not check_context() or not should_handle_tab_key():
+		if not check_context():
+			return False;
+
+		syntax = ctx.js().locals.pyGetSyntax();
+		if not should_handle_tab_key(syntax):
 			return False
 
 		# we need to filter out attribute completions if 
 		# 'disable_completions' option is not active
 		if (not settings.get('disable_completions', False) and 
-			self.correct_syntax(view) and 
+			self.correct_syntax(view, syntax) and 
 			self.completion_handler(view)):
 				return None
 
@@ -324,10 +336,13 @@ class TabExpandHandler(sublime_plugin.EventListener):
 					for p in completions:
 						l.append(('%s\t%s' % (p['k'], p['label']), p['v']))
 
+			if not l:
+				return []
+
 			return (l, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)
 
-		if ( not self.correct_syntax(view) or
-			 settings.get('disable_completions', False) ): return []
+		if not self.correct_syntax(view) or settings.get('disable_completions', False):
+			return []
 
 		handler = self.completion_handler(view)
 		if handler:
@@ -465,40 +480,32 @@ class ExpandAsYouType(WrapAsYouType):
 	input_message = "Enter Abbreviation: "
 
 	def setup(self):
+		view = active_view()
+		# adjust selection to non-space bounds
+		sels = []
+		for s in view.sel():
+			text = view.substr(s)
+			a = s.a + len(text) - len(text.lstrip())
+			b = s.b - len(text) + len(text.rstrip())
+
+			sels.append(sublime.Region(a, b))
+
+		view.sel().clear()
+		for s in sels:
+			view.sel().add(s)
+			
 		self.remember_sels(active_view())
 
 
-class HandleEnterKey(sublime_plugin.TextCommand):
-	def run(self, edit, **kw):
-		view = active_view()
+class EnterKeyHandler(sublime_plugin.EventListener):
+	def on_query_context(self, view, key, op, operand, match_all):
+		if key != 'clear_fields_on_enter_key':
+			return None
+
 		if settings.get('clear_fields_on_enter_key', False):
 			view.run_command('clear_fields')
 
-		snippet = '\n${0}'
-
-		if len(view.sel()) > 1:
-			return view.run_command('insert_snippet', {'contents': snippet})
-
-		# let's see if we have to insert formatted linebreak
-		caret_pos = view.sel()[0].begin()
-		scope = view.syntax_name(caret_pos)
-		if sublime.score_selector(scope, settings.get('formatted_linebreak_scopes', '')):
-			snippet = '\n\t${0}\n'
-
-		# Looks like ST2 has buggy scope matcher: sometimes it will call
-		# this action even if context selector forbids that.
-		# Thus, we have to manually filter it.
-		elif 'source.' not in scope:
-			# checking a special case: caret right after opening tag,
-			# but not exactly between pairs
-			line_range = view.line(caret_pos)
-			line = view.substr(sublime.Region(line_range.begin(), caret_pos)) or ''
-
-			m = re.search(r'<(\w+\:?[\w\-]*)(?:\s+[\w\:\-]+\s*=\s*([\'"]).*?\2)*\s*>\s*$', line)
-			if m and m.group(1).lower() not in settings.get('empty_elements', '').split():
-				snippet = '\n\t${0}'
-		
-		view.run_command('insert_snippet', {'contents': snippet})
+		return True
 
 
 class RenameTag(sublime_plugin.TextCommand):
@@ -530,5 +537,5 @@ class EmmetInsertAttribute(sublime_plugin.TextCommand):
 
 class EmmetResetContext(sublime_plugin.TextCommand):
 	def run(self, edit, **kw):
-		ctx.reset()
+		update_settings()
 

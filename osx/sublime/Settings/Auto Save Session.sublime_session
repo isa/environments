@@ -1,17 +1,17 @@
 {
 	"folder_history":
 	[
+		"/Users/isa/.environments",
+		"/Users/isa/Desktop/sreh",
 		"/Users/isa/Projects/merchandise-payables",
 		"/Users/isa/Projects/pyformatter",
 		"/Users/isa/Projects/merchpay-robot",
-		"/Users/isa/Desktop/sreh",
 		"/Users/isa/Projects/mp-buildr/modules/core",
 		"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/resources",
 		"/Users/isa/Projects/mp-buildr",
 		"/Users/isa/Projects/formatter",
 		"/Users/isa/Projects/merchandise-payables/qa/acceptance",
 		"/Users/isa/.environments/osx",
-		"/Users/isa/.environments",
 		"/Users/isa/demo",
 		"/Users/isa/Projects/merchandise-payables/devops/chef/cookbooks",
 		"/Users/isa/Projects/chef-cookbooks",
@@ -35,7 +35,7 @@
 		"/Users/isa/Projects/scms/mp",
 		"/Users/isa/Projects"
 	],
-	"last_window_id": 229,
+	"last_window_id": 280,
 	"settings":
 	{
 		"new_window_height": 801.0,
@@ -45,6 +45,18 @@
 			{
 				"selected_items":
 				[
+					[
+						"numb",
+						"numberOfCallsExecute"
+					],
+					[
+						"Dumb",
+						"DumbSUT"
+					],
+					[
+						"pu",
+						"public"
+					],
 					[
 						"remove",
 						"remove_trailing_empty_lines"
@@ -142,12 +154,28 @@
 				"selected_items":
 				[
 					[
-						"upg",
-						"Package Control: Upgrade/Overwrite All Packages"
+						"indne",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"json",
+						"Set Syntax: JSON"
 					],
 					[
 						"inden",
 						"Indentation: Reindent Lines"
+					],
+					[
+						"ruby",
+						"Set Syntax: Ruby"
+					],
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"upg",
+						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"rein",
@@ -180,10 +208,6 @@
 					[
 						"python",
 						"Set Syntax: Python"
-					],
-					[
-						"ruby",
-						"Set Syntax: Ruby"
 					],
 					[
 						"cucu",
@@ -248,10 +272,6 @@
 					[
 						"xml",
 						"Set Syntax: XML"
-					],
-					[
-						"json",
-						"Set Syntax: JSON"
 					],
 					[
 						"task",
@@ -331,11 +351,26 @@
 			},
 			"file_history":
 			[
-				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotFoundException.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotApprovedException.java",
+				"/Users/isa/Desktop/pl3.txt",
+				"/Users/isa/Desktop/pl2.txt",
+				"/Users/isa/Desktop/pl.txt",
+				"/Users/isa/Projects/merchandise-payables/qa/acceptance/features/api/fc/fc_validations.feature",
+				"/Users/teamcity/TeamCity/buildAgent2/work/merchpay/qa/acceptance/features/api/fc/fc_validations.feature",
 				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
+				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/NFCController.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotApprovedException.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/DPOController.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java",
+				"/Users/isa/Projects/merchandise-payables/.git/rebase-merge/git-rebase-todo",
+				"/Users/isa/Projects/merchandise-payables/modules/core/build.gradle",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/nfc/steps/NFCUpdateInvoiceStep.java",
+				"/Users/isa/Desktop/Demo.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/stylesheets/main.css",
+				"/Users/isa/Projects/merchandise-payables/modules/core/Guardfile",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotFoundException.java",
 				"/Users/isa/Projects/pyformatter/samples/sample.yaml",
 				"/Volumes/Adobe Lightroom v4.1/HowTo.txt",
 				"/Users/isa/Projects/pyformatter/dependencies.txt",
@@ -443,22 +478,7 @@
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/05.sample.md",
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/sample-diagram.png",
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/diagram.dot",
-				"/usr/local/share/npm/lib/node_modules/hubot/package.json",
-				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/hello.coffee",
-				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/google-images.coffee",
-				"/Users/isa/Projects/merchandise-payables/conf/data-bag.integration.json",
-				"/Users/isa/Desktop/nfc2.xml",
-				"/Users/isa/Projects/merchandise-payables/devops/boxes/definitions/CentOS-6.3-x86_64/ks.cfg",
-				"/Users/isa/Projects/merchandise-payables/devops/boxes/definitions/CentOS-6.3-x86_64/definition.rb",
-				"/Users/isa/Projects/merchandise-payables/devops/boxes/definitions/CentOS-6.3-x86_64/merchpay.sh",
-				"/Users/isa/Projects/merchandise-payables/.gitignore",
-				"/Users/isa/Projects/merchandise-payables/Gemfile",
-				"/Users/isa/Projects/merchandise-payables/.rvmrc",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/coffeescript/template-config.coffee",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/compile-template-config.rb",
-				"/Users/isa/Projects/merchandise-payables/modules/core/build.gradle",
-				"/Users/isa/Desktop/keys/ed.id_rsa.pub",
-				"/Users/isa/Desktop/keys/avinash.id_rsa.pub"
+				"/usr/local/share/npm/lib/node_modules/hubot/package.json"
 			],
 			"find":
 			{
@@ -478,6 +498,14 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"^\\d+:?\\d*\\n",
+					"^$\\n",
+					"^$",
+					"Renamed",
+					"Transmit",
+					"Draft",
+					"nfc-dpo-details",
+					"td ",
 					"inceptionYear",
 					"eat_newlines",
 					"\\x",
@@ -560,9 +588,11 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": false,
+				"regex": true,
 				"replace_history":
 				[
+					"\\n",
+					"",
 					"self.get_leading_spaces",
 					"self.indent_level",
 					"",
@@ -622,6 +652,10 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"guard",
+						"modules/core/Guardfile"
+					],
 					[
 						"modules/core/src/integration/java/com/gap/scms/mp/models/createfctest.java",
 						"modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java"
@@ -1129,10 +1163,6 @@
 					[
 						"ldapg",
 						"modules/core/src/main/java/com/gap/scms/mp/gateways/LdapGateway.java"
-					],
-					[
-						"beans",
-						"modules/core/src/main/java/com/gap/scms/mp/configs/beans/BEANS.java"
 					]
 				],
 				"width": 0.0
@@ -1266,10 +1296,18 @@
 			"buffers":
 			[
 				{
-					"contents": "class SUT {\n   private String name = \"HELLO\";\n\n   public void execute() {\n      System.out.println(\"HELLOWORLD\");\n   }\n\n   public String getName() {\n      return this.name;\n   }\n}\n\nclass Service {\n   public void run(SUT sut) {\n      // some more stuff\n      sut.execute();\n      // some other stuff\n   }\n}\n\n// Test Double = Fake, Dumb, Stub, Mock, Spy\n\nDumbSUT extends SUT {\n   @Override public void execute() {}\n   @Override public String getName() { return \"\"; }\n}\n\nFakeSUT extends SUT {\n   private int numberOfCalls = 0;\n\n   @Override public void execute() { numberOfCalls++ }\n   @Override public String getName() { return \"I EXPECT THIS\"; }\n}\n\nStubSUT extends SUT {\n   private int numberOfCalls = 0;\n\n   public StubSUT(expected) { this.expected = expected; }\n   @Override public void execute() { numberOfCalls++ }\n   @Override public String getName() { return this.expected; }   \n}\n\nSpySUT extends SUT {\n   private int numberOfCalls = 0;\n\n   public StubSUT(expected) { this.expected = expected; }\n   @Override public void execute() { super.execute(); }   \n   @Override public String getName() { return this.expected; }   \n}\n\nsut = spy(SUT);\ndoReturn(\"isa\").when(sut).getName();\nsut.execute();\n\nMockSUT extends SUT {\n   private int numberOfCallsExecute = 0;\n   private int numberOfCallsGetName = 0;\n\n   @Override public void execute() { numberOfCallsExecute++ }\n   @Override public String getName() { numberOfCallsGetName++; return \"\"; }   \n\n   public Boolean verifyExecute() { return numberOfCallsExecute > 0; }\n   public Boolean verifyGetName() { return numberOfCallsGetName > 0; }\n}\n\nlist = mock(List.class);\nwhen(list.size()).thenReturn(0);\nverify(list).size()\n\n\nresponse = service.run(new StubSUT(\"I EXPECT THIS\"));\nresponse.name == \"I EXPECT THIS\";\n\nresponse = service.run(new StubSUT(\"I EXPECT THAT TOO\"));\nresponse.name == \"I EXPECT THAT TOO\";\n\n",
+					"file": "/Users/isa/.environments/.githelpers",
 					"settings":
 					{
-						"buffer_size": 1856,
+						"buffer_size": 1712,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/isa/.environments/.gitconfig",
+					"settings":
+					{
+						"buffer_size": 1468,
 						"line_ending": "Unix"
 					}
 				}
@@ -1277,9 +1315,25 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 183.0,
+				"height": 161.0,
 				"selected_items":
 				[
+					[
+						"indne",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"json",
+						"Set Syntax: JSON"
+					],
+					[
+						"inden",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"ruby",
+						"Set Syntax: Ruby"
+					],
 					[
 						"java",
 						"Set Syntax: Java"
@@ -1287,10 +1341,6 @@
 					[
 						"upg",
 						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
-						"inden",
-						"Indentation: Reindent Lines"
 					],
 					[
 						"rein",
@@ -1323,10 +1373,6 @@
 					[
 						"python",
 						"Set Syntax: Python"
-					],
-					[
-						"ruby",
-						"Set Syntax: Ruby"
 					],
 					[
 						"cucu",
@@ -1391,10 +1437,6 @@
 					[
 						"xml",
 						"Set Syntax: XML"
-					],
-					[
-						"json",
-						"Set Syntax: JSON"
 					],
 					[
 						"task",
@@ -1474,11 +1516,26 @@
 			},
 			"file_history":
 			[
-				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotFoundException.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotApprovedException.java",
+				"/Users/isa/Desktop/pl3.txt",
+				"/Users/isa/Desktop/pl2.txt",
+				"/Users/isa/Desktop/pl.txt",
+				"/Users/isa/Projects/merchandise-payables/qa/acceptance/features/api/fc/fc_validations.feature",
+				"/Users/teamcity/TeamCity/buildAgent2/work/merchpay/qa/acceptance/features/api/fc/fc_validations.feature",
 				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
+				"/Users/isa/Projects/merchandise-payables/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/NFCController.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotApprovedException.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/controllers/DPOController.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java",
+				"/Users/isa/Projects/merchandise-payables/.git/rebase-merge/git-rebase-todo",
+				"/Users/isa/Projects/merchandise-payables/modules/core/build.gradle",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/nfc/steps/NFCUpdateInvoiceStep.java",
+				"/Users/isa/Desktop/Demo.java",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/stylesheets/main.css",
+				"/Users/isa/Projects/merchandise-payables/modules/core/Guardfile",
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotFoundException.java",
 				"/Users/isa/Projects/pyformatter/samples/sample.yaml",
 				"/Volumes/Adobe Lightroom v4.1/HowTo.txt",
 				"/Users/isa/Projects/pyformatter/dependencies.txt",
@@ -1586,22 +1643,7 @@
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/05.sample.md",
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/sample-diagram.png",
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/diagram.dot",
-				"/usr/local/share/npm/lib/node_modules/hubot/package.json",
-				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/hello.coffee",
-				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/google-images.coffee",
-				"/Users/isa/Projects/merchandise-payables/conf/data-bag.integration.json",
-				"/Users/isa/Desktop/nfc2.xml",
-				"/Users/isa/Projects/merchandise-payables/devops/boxes/definitions/CentOS-6.3-x86_64/ks.cfg",
-				"/Users/isa/Projects/merchandise-payables/devops/boxes/definitions/CentOS-6.3-x86_64/definition.rb",
-				"/Users/isa/Projects/merchandise-payables/devops/boxes/definitions/CentOS-6.3-x86_64/merchpay.sh",
-				"/Users/isa/Projects/merchandise-payables/.gitignore",
-				"/Users/isa/Projects/merchandise-payables/Gemfile",
-				"/Users/isa/Projects/merchandise-payables/.rvmrc",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/coffeescript/template-config.coffee",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/compile-template-config.rb",
-				"/Users/isa/Projects/merchandise-payables/modules/core/build.gradle",
-				"/Users/isa/Desktop/keys/ed.id_rsa.pub",
-				"/Users/isa/Desktop/keys/avinash.id_rsa.pub"
+				"/usr/local/share/npm/lib/node_modules/hubot/package.json"
 			],
 			"find":
 			{
@@ -1621,6 +1663,15 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\"\n",
+					"^\\d+:?\\d*\\n",
+					"^$\\n",
+					"^$",
+					"Renamed",
+					"Transmit",
+					"Draft",
+					"nfc-dpo-details",
+					"td ",
 					"inceptionYear",
 					"eat_newlines",
 					"\\x",
@@ -1703,9 +1754,11 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": false,
+				"regex": true,
 				"replace_history":
 				[
+					"\\n",
+					"",
 					"self.get_leading_spaces",
 					"self.indent_level",
 					"",
@@ -1720,30 +1773,67 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/Users/isa/.environments"
+				}
+			],
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
+							"file": "/Users/isa/.environments/.githelpers",
 							"settings":
 							{
-								"buffer_size": 1856,
+								"buffer_size": 1712,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1101,
-										1101
+										1595,
+										1595
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Java/Java.tmLanguage"
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+									"tab_size": 3,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 682.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/isa/.environments/.gitconfig",
+							"settings":
+							{
+								"buffer_size": 1468,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										819,
+										819
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 3,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1800,6 +1890,10 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"guard",
+						"modules/core/Guardfile"
+					],
 					[
 						"modules/core/src/integration/java/com/gap/scms/mp/models/createfctest.java",
 						"modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java"
@@ -2307,10 +2401,6 @@
 					[
 						"ldapg",
 						"modules/core/src/main/java/com/gap/scms/mp/gateways/LdapGateway.java"
-					],
-					[
-						"beans",
-						"modules/core/src/main/java/com/gap/scms/mp/configs/beans/BEANS.java"
 					]
 				],
 				"width": 0.0
@@ -2329,7 +2419,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 333.0,
 			"status_bar_visible": true,
-			"window_id": 229,
+			"window_id": 280,
 			"workspace_name": ""
 		}
 	],

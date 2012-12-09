@@ -7,7 +7,7 @@ import sublime
 import sublime_plugin
 
 
-NUMBER_RE = re.compile(r'(-?0[0-7]+)|(-?0[xX][\da-fA-F]+)|(-?\d+)')
+NUMBER_RE = re.compile(r'(-?0[0-7]+)|(-?0[xX][\da-fA-F]+)|(-?0b[01]+)|(-?\d+)')
 
 
 class ViNumberMixin(object):
@@ -54,6 +54,9 @@ class ViNumberMixin(object):
                     elif unsigned[1] in ('x', 'X'):
                         converter = hex
                         base = 16
+                    elif unsigned[1] == 'b':
+                        converter = bin
+                        base = 2
                     else:
                         converter = oct
                         base = 8

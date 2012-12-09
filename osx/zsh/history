@@ -1,661 +1,3 @@
-which java
-java -version
-echo $JAVA_HOME
-$JAVA_HOME/bin/java
-$JAVA_HOME/bin/java -version
-cd ~/Projects/merchandise-payables
-ll
-gradle
-cd qa/acceptance
-gradle runApiTests
-ll
-cd support
-ll
-cd lib
-ll
-cd ..
-ll
-find . -f -name *.rb
-find . -f -name \*.rb
-find . -name \*.rb
-cd ..
-ll
-bundle exec cucumber features/api
-bundle exec cucumber features/api
-bundle exec cucumber features/api -p ci
-bundle exec cucumber features/api -p ci
-bundle exec cucumber features/api
-bundle exec cucumber features/api -p ci -v
-bundle exec cucumber features/api -p ci -v
-bundle exec cucumber features/api -p ci -v
-bundle exec cucumber features/api -p ci
-bundle exec cucumber features/api
-git st
-cd ..
-cd ..
-git st
-git add qa/acceptance/config/cucumber.yml
-git co -- qa/acceptance/support/env.rb
-git st
-git co -b release-notes
-git st
-git reset qa/acceptance/config/cucumber.yml
-git st
-git add -u devops
-git st
-git add -u docs
-git add -a devops
-git add -A devops
-git st
-git commit -m 'ITMERCHPAY-0 Refactoring and fixing document generation tasks'
-git st
-git br -av
-git co master
-git st
-gradle runApiTests
-open qa/acceptance/build/api.html
-git st
-rm -rf qa/acceptance/saved_json.json
-ll
-git st
-git ci -m 'ITMERCHPAY-0 Added @ci to the api tests'
-git push
-git pull
-git st
-git push
-ll
-gradle smokeTest
-ll qa/acceptance/build
-open qa/acceptance/build/smoke.html
-gradle smokeTest
-gradle runApiTests
-open qa/acceptance/build/api.html
-gradle startLocalTomcat
-gradle runApiTests
-open qa/acceptance/build/api.html
-cd qa/acceptance
-ll
-mv run_cucumber_tests.sh cuke.sh
-ll
-git st
-vim .gitignore
-git st
-git ci -m 'ITMERCHPAY-0 Removed redundant smoke tests and also added git ignore files to ignore dummy files generated during smoke test'
-git pull
-git push
-gradle runUiTests
-open build/ui.html
-ll
-ps -ef
-git st
-git st
-git reset --hard HEAD
-git st
-git pull
-git ll
-git br -av
-git co release-notes
-ll
-cd ../../
-ll
-git st
-cd devops/ci/documentation
-ll
-cd release-notes
-ll
-cat README
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-cat README
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-ll
-git log -- src/report_generator.rb
-gitk .
-gitk . --all
-gitk . -all
-gitk --all .
-gitk --all ../../../..
-git log -- src/report_generator.rb
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-ll /Users/isa/Projects/merchandise-payables/devops/ci/documentation/release-notes/resources/config.yml
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-irb
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-irb
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-ll /tmp
-ll /tmp/
-open /tmp/09.28.2012.release.notes.1.1.0.html
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-open /tmp/09.28.2012.release.notes.1.1.0.html
-open /tmp/09.28.2012.release.notes.1.1.0.html
-open /tmp/09.28.2012.release.notes.1.1.0.pdf
-./generate.rb -sd ~/Projects/scms/mp -td /tmp -f release.notes
-open /tmp/09.28.2012.release.notes.1.1.0.pdf
-open /tmp/09.28.2012.release.notes.1.1.0.html
-open /tmp/09.28.2012.release.notes.1.0.0.html
-ll
-ll ..
-ll ../..
-ll ../../..
-ll ../../../../docs
-ll ../../../../docs/production
-find ../../../../ -name \*.gradle
-ll
-ll ../../../..
-ll ../../../../modules/core/target
-ll ../../../../modules/core/target/artifacts
-git st
-rm -rf ../../../../qa/acceptance/saved_json.json
-ll
-git st
-git ci -m 'ITMERCHPAY-0 Made release generation work again'
-git st
-ll
-open /tmp/09.28.2012.release.notes.1.0.0.pdf
-git st
-git co master
-git merge release-notes
-git br -av
-ll
-cd ..
-ll
-cd ..
-ll
-ll
-cd ~/Projects
-ll
-cd merchandise-payables
-git br -av
-git merge release-notes master
-git st
-git pull
-git push
-ll
-gradle tasks
-git pull
-git push
-git st
-git ci -m 'ITMERCHPAY-0 Apparently we were using git svn instead of svn'
-git push
-ll
-git svn log ../scms/mp
-cd ..
-git svn log scms/mp
-cd merchandise-payables
-ll
-gradle generateReleaseNotesTC
-gradle generateReleaseNotesTC
-ll
-open modules/core/target/artifacts/09.28.2012.release-notes.1.0.0..pdf
-git st
-git ci
-git ll
-git st
-git pull
-git push
-e .
-cd devops/ci/documentation/user-manual
-ll
-./generate.rb
-./generate.rb
-./generate.rb
-./generate.rb -sd ~/Projects/merchandise-payables/docs/production -td ~/Desktop -f mp
-open ~/Desktop/09.30.2012.mp.pdf
-defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
-./generate.rb -sd ~/Projects/merchandise-payables/docs/production -td ~/Desktop -f mp
-irb
-./generate.rb -sd ~/Projects/merchandise-payables/docs/production -td ~/Desktop -f mp
-./generate.rb -sd ~/Projects/merchandise-payables/docs/production -td ~/Desktop -f mp
-cat /usr/local/etc/mongod.conf
-ssh teamcity@merchpayci.gap.com
-brew update
-enable_proxy
-brew update
-ll
-ps -ef | grep mongod
-mongod --config /usr/local/etc/mongod.conf &
-jps -l
-killall mongod
-jps -l
-killall java
-jps -l
-ps -ef | grep catal
-ps -ef | grep java
-ssh isagoksu@ihateeclipse.com
-dig esragoksu.com
-man dig
-dig esragoksu.com mx
-mongo localhost:20003
-mongo localhost:20002
-cd .environments
-git st
-cd ~/Desktop
-ll
-cd threads
-ll
-java App1
-java App1
-java App1
-java App1
-java App1
-java App1
-cd ~/Projects/merchandise-payables
-e .
-git st
-git ci -m 'ITMERCHPAY-0 Fixed proxy problem with release notes'
-git push
-irb
-cd ../scms/mp
-cd ..
-ll
-svn info mp
-svn ls http://svn.gap.dev/svn/supplychain/scms/trun
-svn ls http://svn.gap.dev/svn/supplychain/scms/trunk
-svn co http://svn.gap.dev/svn/supplychain/scms/trunk po
-/Volumes/Data/.XXX/Pornstars/Holly\ Michaels
-open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
-cd ~/Downloads/Tutorials
-ll
-cd Java\ Threads
-ll
-rename 's/_/ /' *.*
-ll
-rename 's/_/ /g' *.*
-ll
-rename 's/Advanced Java Multi threading Part //g' *.*
-ll
-rename 's/^(\d+ )/\1- /g' *.*
-ll
-rename 's/^(\d{1})/0$1/g' *.*
-ll
-rename 's/^0(\d{2})/$1/g' *.*
-ll
-cat ~/.zshrc
-disable_proxy
-echo $http_proxy
-ssh teamcity@merchpayci.gap.com
-cd ~/Library/Application\ Support/
-ll
-mv Sublime\ Text\ 2 Sublime\ Text\ 2.backup
-ll
-cd Sublime\ Text\ 2.backup
-ll
-find . -name license
-find . -name \*license\*
-cat ./Settings/License.sublime_license
-ll
-cd Settings
-ll
-cd ..
-ll
-cd Packages
-ll
-cd User
-ll
-cat Default (OSX).sublime-keymap
-cat "Default (OSX).sublime-keymap"
-brew update
-brew install clojure
-brew search clojure
-cd ~/Desktop
-ll
-mkdir /tmp/data1 /tmp/data2 /tmp/data3
-mongod --help
-mongod --replSet mine --port 20000
-mongod --dbpath /tmp/data1 --replSet mine --port 20000
-mongod --dbpath /tmp/data1 --replSet mine --port 20001
-mongod --dbpath /tmp/data1 --replSet mine --port 20001 --host localhost
-mongod --help
-mongod --dbpath /tmp/data1 --replSet mine --port 20001 --host --bind_ip 0.0.0.0
-mongod --dbpath /tmp/data1 --replSet mine --port 20001 --bind_ip 0.0.0.0
-mongod --dbpath /tmp/data1 --replSet mine --port 20001 --bind_ip 0.0.0.0 --rest
-mongod --replSet mine --port 20001
-mongod --dbpath /tmp/data2 --replSet mine --port 20002
-mongod --dbpath /tmp/data2 --replSet mine --port 20002 --bind_ip 0.0.0.0
-mongod --dbpath /tmp/data2 --replSet mine --port 20002 --bind_ip 0.0.0.0 --rest
-mongod --dbpath /tmp/data3 --replSet mine --port 20003
-mongod --dbpath /tmp/data3 --replSet mine --port 20003 --bind_ip 0.0.0.0
-mongod --dbpath /tmp/data3 --replSet mine --port 20003 --bind_ip 0.0.0.0 --rest
-mongo localhost:20001
-mongo localhost:20001
-mongo localhost:20001
-mongo localhost:20002
-mongo localhost:20003
-mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest --fork
-mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/1.log
-tail -f /tmp/1.log
-mongod --dbpath /tmp/data2 --replSet cidemo --port 20002 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/2.log
-mongod --dbpath /tmp/data3 --replSet cidemo --port 20003 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/3.log
-tail /tmp/1.log
-tail /tmp/2.log
-tail /tmp/3.log
-mongo localhost:20001
-killall mongod
-rm -rf /tmp/data*
-mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/1.log
-mongod --dbpath /tmp/data2 --replSet cidemo --port 20002 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/2.log
-mongod --dbpath /tmp/data3 --replSet cidemo --port 20003 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/3.log
-tail -f /tmp/1.log
-ps -ef | grep mongod
-mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest
-mkdir /tmp/data1 /tmp/data2 /tmp/data3
-mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest
-mongod --dbpath /tmp/data1 --replSet cidemo --port 20001 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/1.log
-mongod --dbpath /tmp/data2 --replSet cidemo --port 20002 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/2.log
-mongod --dbpath /tmp/data3 --replSet cidemo --port 20003 --bind_ip 0.0.0.0 --rest --fork --logpath /tmp/3.log
-mongo localhost:20001
-killall mongod
-java -version
-open /Volumes/Data/.XXX
-cd ~/Projects/merchandise-payables
-git st
-git ci -m 'ITMERCHPAY-0 Fixed document generation for user manual and dev handbook'
-git pull
-git push
-ssh teamcity@merchpayci.gap.com
-irb
-irb
-ssh teamcity@merchpayci.gap.com
-git st
-git ci -m 'ITMERCHPAY-0 Added a default description to the release notes scripts'
-git pull
-git push
-git pull
-gradle runApiTests
-git pull
-git pull
-rename
-git pull
-df -h
-git pull
-ll
-git pull
-e .
-git st
-git pull
-git ci -m 'ITMERCHPAY-0 Trying to fix catalina issue on delayed stopping of tomcat'
-git push
-curl --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X GET -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search?jql=project = "IT MERCH PAY" AND Status = "Done" AND ((issuetype = "Story" AND "Story Points" > 0) OR (issuetype = Defect)) AND fixVersion != "iteration 0" ORDER BY Rank ASC'
-curl --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d 'jql=project = "IT MERCH PAY" AND Status = "Done" AND ((issuetype = "Story" AND "Story Points" > 0) OR (issuetype = Defect)) AND fixVersion != "iteration 0" ORDER BY Rank ASC' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
-curl --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d 'project = "IT MERCH PAY" AND Status = "Done" AND ((issuetype = "Story" AND "Story Points" > 0) OR (issuetype = Defect)) AND fixVersion != "iteration 0" ORDER BY Rank ASC' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
-man bundle
-bundle --help
-vim ~/.gitconfig
-git pull
-git pull
-login
-who
-who -a
-who -av
-who -am i
-git pull
-git pull
-gradle test
-git pull
-cd ../scms/mp
-ll
-svn up
-ll
-svn rm merchpay-app-dev.war
-ll build
-svn rm build
-cd modules/core
-ll
-svn rm logs
-svn rm target
-svn rm mplogs
-svn rm build
-svn st
-cd ..
-ll
-cd ngs
-ll
-cd ngf
-ll
-svn rm target
-ll
-cd ..
-ll
-cd atom
-ll
-svn rm target
-svn ls
-ll
-cd ..
-ll
-cd ..
-ll
-svn st
-svn propset svn:ignore
-e ignore.txt
-svn propset svn:ignore -F ignore.txt .
-svn propget svn:ignore
-svn ci -m 'ITMERCHPAY-0 Added svn:ignore to ignore stupid files'
-svn ci -m 'ITMERCHPAY-0 [Isa Goksu] Added svn:ignore to ignore stupid files'
-svn propget svn:ignore
-cd ..
-ll
-cd mp
-svn up
-cd ~/Projects
-ll
-cd merchandise-payables
-ll
-rm -rf ../scms/mp/ignore.txt
-git pull
-git pull
-git pull
-ll
-git pull
-git pull
-git pull
-git pull
-git pull
-git st
-git pull
-ssh teamcity@merchpayci.gap.com
-netstat -an | grep 2000
-tail -f /tmp/1.log
-curl --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
-curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
-curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
-curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"fields": "*all", "maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
-curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"fields": "summary", "maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
-curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"fields": ["summary"], "maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
-curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"fields": ["id", "key"], "maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
-curlish --insecure --noproxy jira.gid.gap.com -s -u Is1z1j6:Th0ughtW0rks -X POST -d '{"maxResults": 5000, "jql": "project=\"IT MERCH PAY\" AND Status=\"Done\""}' -H 'Content-Type: application/json' 'https://jira.gid.gap.com/rest/api/2.0.alpha1/search'
-kill -9 28510
-cd ~/Projects/merchandise-payables
-ll
-cd modules/core
-ll
-cd ..
-ll
-cd ..
-ll
-git st
-git ll
-git pull
-ll
-cd modules/core
-ll
-git pull
-cd ../..
-ll
-ssh teamcity@merchpayci.gap.com
-cd /Applications/IntelliJ\ IDEA\ 11.app/Contents
-ll
-e Info.plist
-e Info.plist
-e Info.plist
-e Info.plist
-ll
-cd MacOS
-ll
-cd ../Resources
-ll
-cd ../_CodeSignature
-ll
-cd Co
-cd ..
-ll
-cd ..
-ll
-cd bin
-ll
-e inspect.sh
-./relaunch
-./inspect.sh
-which java
-java -versino
-java -version
-ll
-cd ..
-ll
-find . -name \*.sh
-./bin/inspect.sh
-e Contents/Info.plist
-./bin/inspect.sh
-./bin/inspect.sh
-/usr/libexec/java_home
-ll /usr/bin/java
-java -version
-which java
-ll /usr/bin/java
-/usr/libexec/java_home
-while true; do jps -l; sleep 1; done;
-mv ~/Downloads/look  /Volumes/Data/.XXX/Uncategorized/
-cd /Volumes/Data/.XXX/Uncategorized/
-du -sh
-ll
-cd look
-du -sh
-ll
-cd Downloads
-ll
-mv Made\ of\ Code.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Color\ Schemes
-ll
-pp
-git pull
-git pull
-git pua
-git pull
-git ll
-e -n ~/.zshrc
-. ~/.zshrc
-e .
-git pull
-pp
-e .
-git pull
-git ll
-git pull
-/bin/sh "/Applications/Anvil.app/Contents/Resources/InstallPow.sh"; exit
-open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
-open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
-open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
-open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
-open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
-open /Volumes/Data/.XXX/Pornstars/Holly\ Michaels
-cd Downloads
-ll
-wget https://gechici:haydar.32@secure.zip.members.easynews.com/cgi-bin/zipit/1-db5c6.zip
-man wget
-wget --http-user gechici --http-password haydar.32 https://secure.zip.members.easynews.com/cgi-bin/zipit/1-db5c6.zip
-ll
-rm -rf *.zip.1
-rm -rf *.zip
-ll
-curl https://secure.zip.members.easynews.com/cgi-bin/zipit/1-db5c6.zip -v
-curl -u gechici:haydar.32 https://secure.zip.members.easynews.com/cgi-bin/zipit/1-db5c6.zip -v
-ll
-df -h
-brew install hightlight
-brew install highlight
-highlight --syntax=rb
-highlight --syntax=java "   @Override public void destroy() {\
-      LOG.info("Closing MongoDB connection.");\
-      this.db.getMongo().close();\
-   }\
-   @Override public void destroy() {\
-      LOG.info("Closing MongoDB connection.");\
-      this.db.getMongo().close();\
-   }\
-"
-ll
-rm -rf highlight.css
-ll
-man highlight
-highlight --syntax=java "   @Override public void destroy() {\
-      LOG.info("Closing MongoDB connection.");\
-      this.db.getMongo().close();\
-   }\
-   @Override public void destroy() {\
-      LOG.info("Closing MongoDB connection.");\
-      this.db.getMongo().close();\
-   }\
-" -O xterm256
-ll
-echo "   @Override public void destroy() {\
-      LOG.info("Closing MongoDB connection.");\
-      this.db.getMongo().close();\
-   }\
-"
-echo "   @Override public void destroy() {\
-      LOG.info("Closing MongoDB connection.");\
-      this.db.getMongo().close();\
-   }\
-" | highlight --syntax=java
-ll
-rm -rf highlight.css
-echo "   @Override public void destroy() {\
-      LOG.info("Closing MongoDB connection.");\
-      this.db.getMongo().close();\
-   }\
-" | highlight --syntax=java -O rtf | pbcopy
-echo "   @Override public void destroy() {\
-      LOG.info("Closing MongoDB connection.");\
-      this.db.getMongo().close();\
-   }\
-" | highlight --syntax=java -O rtf h.java | pbcopy
-scat "@Override public void destroy() {                                                           9:02PM\
-      LOG.info("Closing MongoDB connection.");\
-      this.db.getMongo().close();\
-   }"
-scat '@Override public void destroy() {                                                           9:02PM\
-      LOG.info("Closing MongoDB connection.");\
-      this.db.getMongo().close();\
-   }'
-e `which scat`
-ll
-ll
-cd forlunchtomorrow
-ll
-ccat Cross\ Functionals.pages db
-ccat "Cross\ Functionals.pages" db
-pygmentize
-ll
-cd ..
-ll
-which env
-pp
-gradle test
-cd modules/atom
-gradle build
-cd ../core
-gradle build
-ll target
-ll target/artifacts
-ll
-cd target/artifacts
 ll
 cp merchpay-app-dev.war /usr/local/Cellar/tomcat/7.0.29/libexec/webapps
 cd /usr/local/Cellar/tomcat/7.0.29/libexec/webapps
@@ -10090,3 +9432,606 @@ ll
 cd ..
 zip -r sreh.zip sreh/
 ll
+cd ~/Library/Caches/IntelliJIdea11
+ll
+cd ../../Preferences/IntelliJIdea11
+cd colors
+ll
+cp prospettiva.xml ~/.environments/osx
+ll ~/.environments/osx
+cd ~/.environments/osx
+ll
+cd ..
+git st
+git ci -m 'Added new color scheme for IntelliJ'
+git push
+enable_proxy
+git push
+p merchandise-payables
+cd devops/deploy/mongo
+ll
+./startReplSet
+git st
+cd ../../stubs/stubby4j
+./runStubby4j.sh localhost:8882
+mongo
+killall mongod
+cd /Volumes/Data/.XXX/Pornstars/Jenna Haze/
+cd "/Volumes/Data/.XXX/Pornstars/Jenna Haze"
+ll
+cd ../Asa\ Akira
+ll
+find . -size -600m
+find . -size -600M
+ssh db1
+http -u scmsmp http://mpci.gap.com:7001/api/dpo/1000054
+http --auth scmsmp http://mpci.gap.com:7001/api/dpo/1000054
+ssh admin@ci1
+hostname -f
+ipconfig
+ifconfig
+p merchandise-payables
+gradle generateTeam
+which ruby
+rbenv which ruby
+rbenv shell 1.9.3
+rbenv globals
+rbenv global
+rbenv shell 1.9.3-p327
+gradle generateTeam
+gem list
+tree -L2
+tree -L 2
+tree -L 1
+ll
+less Gemfile
+guard
+cd ..
+cd merchandise-payables
+guard
+rbenv which ruby
+rbenv shell jruby-1.7.0
+guard
+e .
+e .
+git ll
+git shortlog -sne
+git shortlog
+git shortlog -sne
+git mftf
+git mft
+http http://autoconfig.gap.com/proxy.dat
+nslookup autoconfig.gap.com
+nslookup gateway.gap.com/proxy.dat
+http gateway.gap.com/proxy.dat
+curlish gateway.gap.com/proxy.dat
+curlish GET gateway.gap.com/proxy.dat
+curlish -X GET gateway.gap.com/proxy.dat
+curl gateway.gap.com/proxy.dat
+nc gateway.gap.com *)
+nc gateway.gap.com 80
+cd Desktop
+e Demo.java
+javac Demo.java
+javac Demo.java
+java Demo
+ll
+rm -rf Demo.* DException.class
+ll
+ssh teamcity@ci2
+brew update
+enable_proxy
+brew update
+p merchandise-payables/devops/stubs/stubby4j
+cd ../..
+ll
+cd deploy/mongo
+./startReplSet
+cd ../../stubs/stubby4j
+./runStubby4j.sh localhost:8882
+killall mongod
+ps -ef | grep mongod
+p merchandise-payables
+git pull
+p scms/mp
+svn up
+p scms/po
+svn up
+p scms/ri/core
+svn up
+cd ../sam
+svn up
+p codesparrow
+svn up
+cd .
+cd ..
+ll
+rm -rf err
+cd chef-cookbooks
+git pull
+ll
+p merchandise-payables
+git diff
+git st
+git st
+git diff modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java
+git diff modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java
+git st
+git st
+git pull
+git co -- modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java
+git co -- modules/core/src/unit/java/com/gap/scms/mp/controllers/FCControllerTest.java
+git pull
+e .
+git add modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java
+git add modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotApprovedException.java
+git commit
+git pull
+git st
+git pull
+gradle test
+gradle test
+gradle test
+git pull
+git ll
+git shortlog -sne
+ll
+git pull
+git ll
+gitk --all
+git pull
+git stash
+git pull
+e modules/core/src/main/java/com/gap/scms/mp/controllers/DPOController.java
+git add modules/core/src/main/java/com/gap/scms/mp/controllers/DPOController.java
+git commit
+git stash pop
+e modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java
+git add modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java
+git commit
+git ll
+git st
+git add modules/core/src/main/java/com/gap/scms/mp/exceptions/POGatewayException.java
+git ci -m 'Tech ITMERCHPAY-0 Renamed GatewayException'
+count
+brew search count
+git st
+git pull
+enable_proxy
+git pull
+git st
+git st
+groovysh
+git st
+say -v Cello do do do do do do do
+cd modules/core/src/main/webapp
+ll
+cd stylesheets
+ll
+ack '24px'
+ack '24'
+ack '24px'
+e main.css
+ack 'nfc-dpo-details'
+p merchandise-payables
+git st
+git ci -m 'Tech ITMERCHPAY-0 Updated all the exceptions in the FCController for it to use new ExceptionHandler annotation'
+git ll
+git pull
+e modules/core/src/main/java/com/gap/scms/mp/controllers/NFCController.java
+e modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java
+git add modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java modules/core/src/main/java/com/gap/scms/mp/controllers/NFCController.java
+git st
+git commit
+git ll
+git pull
+gradle test
+gradle clean test
+gradle clean build test
+git pull
+nslookup merchpayci.gap.com
+ps -ef | grep mDNSResponder
+git pull
+gradle clean build test all
+gradle clean build testAll
+git pull
+e modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java
+git ll
+git add    @Cacheable(value = "dpo", key = "#id")
+git add modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java
+git commit
+git ll
+git pull
+git pull
+git ll
+git st
+rndc -p 54 merchpayci.gap.com
+ll
+git ll
+git st
+gradle testAll
+gradle testAll
+ll
+rbenv which ruby
+git ll
+git ll --name-only
+git show 17ace57
+echo "jruby-1.7.0" > .rbenv-version
+ll
+git st
+cd ..
+p merchandise-payables
+rbenv which ruby
+enable_proxy
+gem list
+gradle testAll
+git ll
+git st
+git st
+git ci -m 'Tech ITMERCHPAY-0 Started fixing the unit tests after the exception handler update on the FC Controller'
+git pull
+e modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java
+git add modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java
+git commit
+git pull
+git ll
+git st
+git ci -m 'Tech ITMERCHPAY-0 Fixed Integration tests for FCController after Exception handler change'
+gradle clean testAll
+git st
+git ci -m 'Tech ITMERCHPAY-0 Removed redundant test cases and also fixed some asserttions that was broken originally'
+git ll
+git pull
+git ll
+gradle clean testAll
+e /Users/isa/Projects/merchandise-payables/modules/core/src/main/java/com/gap/scms/mp/statemachine/nfc/steps/NFCUpdateInvoiceStep.java
+gradle clean testAll
+git pull
+gradle clean testAll
+open /Users/isa/Projects/merchandise-payables/modules/core/target/reports/tests/index.html
+gradle clean testAll
+open /Users/isa/Projects/merchandise-payables/modules/core/target/reports/tests/index.html
+gradle tasks
+gradle tasks | grep coverage
+gradle tasks | grep emma
+gradle cleanAll
+gradle clean
+gradle testAll
+git st
+git ci -m 'Tech ITMERCHPAY-0 Put the validation message back since it was used somewhere that I missed, also fixed the compilation problems after the merge'
+git ll
+git pull
+gradle performApiTest
+gradle performApiTests
+git ll
+git ll --name-only
+git show 4604f65
+git show 4604f65
+git st
+git pull
+cat ~/.gitconfig
+git outgoing
+e modules/core/build.gradle
+e modules/core/build.gradle
+git st
+git ci -m 'Tech ITMERCHPAY-0 Added peer review comments, also renamed the invalidPrincipal method in Authentication utils'
+git ll
+git pull
+gradle clean testAll
+git push
+git amend 74c5ae0740950b0cd2fcdc5e0d933c037cfff577
+git rebase -i 74c5ae0740950b0cd2fcdc5e0d933c037cfff577
+git rebase --abort
+git ll
+git show 74c5ae0740950b0cd2fcdc5e0d933c037cfff577
+git commit --amend -C 74c5ae0740950b0cd2fcdc5e0d933c037cfff577
+git commit --amend -C 74c5ae0740950b0cd2fcdc5e0d933c037cfff577 -m 'Tech ITMERCHPAY-0 Renamed to GatewayException to clarify which gateway it is'
+git commit --amend -C 74c5ae0740950b0cd2fcdc5e0d933c037cfff577 'Tech ITMERCHPAY-0 Renamed to GatewayException to clarify which gateway it is'
+git commit --amend -C 74c5ae0740950b0cd2fcdc5e0d933c037cfff577 . -m 'Tech ITMERCHPAY-0 Renamed to GatewayException to clarify which gateway it is'
+git rebase -i
+git rebase --continue
+git rebase --abort
+git pull
+git rebase -i
+git rebase --abort
+git rebase --interactive
+git rebase -i --continue
+git rebase --continue
+git st
+e modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java
+git add modules/core/src/integration/java/com/gap/scms/mp/models/CreateFCTest.java
+git rebase --continue
+git st
+e modules/core/src/main/java/com/gap/scms/mp/controllers/DPOController.java
+git add modules/core/src/main/java/com/gap/scms/mp/controllers/DPOController.java
+e modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotApprovedException.java
+git add modules/core/src/main/java/com/gap/scms/mp/exceptions/DPONotApprovedException.java
+git rebase --continue
+git st
+e modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java
+git add modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java
+e modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java
+git add modules/core/src/main/java/com/gap/scms/mp/gateways/PoGateway.java
+git rebase --continue
+git commit --ament
+git commit --amend
+git rebase --continue
+git st
+e modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java
+git add modules/core/src/main/java/com/gap/scms/mp/controllers/FCController.java
+e modules/core/src/main/java/com/gap/scms/mp/controllers/NFCController.java
+git add modules/core/src/main/java/com/gap/scms/mp/controllers/NFCController.java
+git st
+git rebase --continue
+git st
+git ll
+gradle clean testAll
+rbenv which ruby
+rbenv shell jruby-1.7.0
+gradle clean testAll
+gradle clean
+gradle clean testAll
+git push
+git pull
+git push
+git ll
+git ll
+git pull
+git ll
+gradle runApiTest
+e /Users/teamcity/TeamCity/buildAgent2/work/merchpay/qa/acceptance/features/api/fc/fc_validations.feature
+e qa/acceptance/features/api/fc/fc_validations.feature
+e qa/acceptance/step_definitions/api/fc_api.rb
+cd qa/acceptance
+ll
+cat cuke.sh
+./cuke.sh -t@api
+cucumber features -t @api
+rbenv shell 1.9.3-p327
+rbenv which cucumber
+cd ..
+cd ..
+ll
+grep 'gem' Gemfile
+grep '^gem' Gemfile
+grep -h '^gem' Gemfile 
+grep -x '^gem' Gemfile 
+grep -X '^gem' Gemfile 
+man grep
+grep -o '^gem' Gemfile 
+grep '^gem' Gemfile 
+grep '^gem' Gemfile | cut -d\'  -f2
+for gem in $(grep '^gem' Gemfile | cut -d\'  -f2); do gem install $gem; done
+rbenv which cucumber
+cucumber features -t @api
+gem uninstall capybara
+cucumber features -t @api
+cd qa/acceptance
+cucumber features -t @api
+git pull
+git st
+git ci -m 'Tech ITMERCHPAY-0 Added default print stacktrace option and a default xml error response to the uncaught exceptions'
+git pull
+git push
+cd ../.
+cd ../..
+gradle init
+cd merchandise-payables
+gradle init
+gradle build
+cd qa/acceptance
+cucumber features -t @api
+cucumber features -t @api
+brew list
+brew list | grep ivy
+gradle -v
+which gradle
+cd /usr/local/Cellar/gradle/1.3/libexec
+ll
+cd lib
+ll
+whereis gradle-core*.jar
+whereis gradle-core-1.3.jar
+find /usr/ -name gradle-core-1.3.jar
+cd ~/Downloads
+ll
+rm -rf grad*
+ll
+ll llll
+ll lll
+ll
+cd old
+ll
+cd ..
+ll
+rm -rf Premium.Rush.2012.720p.BluRay.DTS.x264-PublicHD.srt
+ll
+ll
+p mp-buildr
+ll
+cd modules/core
+ll
+e .
+workon formatter
+p pyformatter
+git ll
+ll
+e .
+git st
+git ll
+rm -rf pyformatter/ext/json.py.bak
+git st
+./format.py ~/Desktop/reindent.py
+./format.py ~/Desktop/reindent.py
+./format.py ~/Desktop/reindent.py
+./format.py ~/Desktop/reindent.py
+./format.py ~/Desktop/reindent.py
+./format.py ~/Desktop/reindent.py
+./format.py ~/Desktop/reindent.py
+./format.py ~/Desktop/reindent.py
+python
+./format.py ~/Desktop/reindent.py
+./format.py ~/Desktop/reindent.py
+./format.py ~/Desktop/reindent.py
+./format.py ~/Desktop/reindent.py
+python
+./format.py ~/Desktop/reindent.py
+./format.py ~/Desktop/reindent.py
+cp pyformatter/ext/python.py pyformatter/ext/python2.py 
+git st
+df -h
+nosetests
+python
+git st
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+nosetests
+git st
+git ci -m 'Added some basic test coverage for python indentation'
+git ll
+git push
+./format.py samples/sample.py
+./format.py samples/sample.py
+git st
+git ci -m 'Forgot to add these on previous check-in'
+git ll
+git st
+git ci -m 'Removed redundant lines'
+git push
+git ll
+git st
+ll
+rm -rf demo.py
+git st
+git diff
+git st
+ll
+cd pyformatter/ext
+ll
+touch yaml.py
+touch java.py
+touch ruby.py
+touch shell.py
+ll
+rm -rf *.pyc
+ll
+touch groovy.py
+touch html.py
+touch xml.py
+ll
+touch css.py
+touch coffeescript.py
+ll
+rm -rf __init__.py
+ll
+for file in `ls`; do echo $file; done;
+for file in `ls`; do basename -s .py $file; done;
+for file in `ls`; do `basename -s .py $file`; done;
+for file in `ls`; do basename -s .py $file; done;
+ll
+for file in `ls`; do basename -s .py $file; done;
+for name in $(for file in `ls`; do basename -s .py $file; done;); do echo $name; done;
+for name in $(for file in `ls`; do basename -s .py $file; done;); do echo "$name_test.py"; done;
+for name in $(for file in `ls`; do basename -s .py $file; done;); do echo "$name\_test.py"; done;
+for name in $(for file in `ls`; do basename -s .py $file; done;); do echo "${name}_test.py"; done;
+for name in $(for file in `ls`; do basename -s .py $file; done;); do touch "../../tests/${name}_test.py"; done;
+ll
+touch __init__.py
+ll ../../tests
+rm -rf ../../tests/*.pyc
+ll ../../tests
+ll
+cd ..
+ll
+cd ..
+ll
+e .
+nosetests
+touch samples/sample.yaml
+nosetests
+python
+pip install -r dependencies.txt
+python
+brew search scala
+brew info scala
+brew install scala
+scala
+drip scala
+scala
+ll
+java -version
+brew search sbt
+brew info sb
+brew info sbt
+brew search java
+java -version
+which java
+/System/Library/Frameworks/JavaVM.framework
+ll /System/Library/Frameworks/JavaVM.framework
+ll /System/Library/Frameworks/
+ll /System/Library/
+ll /System/Library/Java
+ll /System/Library/Java/Extensions
+ll /System/Library/Java/
+ll /System/Library/Java/JavaVirtualMachines
+ll /System/Library/
+pip install -r dependencies.txt
+brew search syck
+brew install syck
+pip install -r dependencies.txt
+python
+e .
+git ll
+cd Desktop/sreh
+ll
+git co -- .
+git st
+git pull
+enable_proxy
+git pull
+mvn clean install
+mvn -pl sample jetty:run
+mvn clean install
+mvn -pl sample jetty:run
+ll exception-handler/target
+ll exception-handler/target/spring-restful-exception-handler-1.0-SNAPSHOT.jar
+cp exception-handler/target/spring-restful-exception-handler-1.0-SNAPSHOT.jar ~/Projects/merchandise-payables/devops/externals/spring-restful-exception-handler-1.0-SNAPSHOT.jar
+ll
+git remote add isa https://github.com/isa/spring-restful-exception-handler
+git remote -v
+git st
+git ci -m 'Added a default behavior for the exceptions that are not checked'
+git ci -m 'Forgot to add the tests'
+git ll
+git push
+git push isa master
+e .
+open README.md
+git ci -m 'Enhanced the readme file a bit'
+git push
+git push isa master
+git ci -m 'Forgot to close code block'
+git push isa master
+git st
+git ci -m 'Added couple more descriptive things to the readme'
+git push isa master
+ll
+http localhost:8080/unchecked
+http localhost:8080/sample/unchecked
+http localhost:8080/sample/custom404
+http localhost:8080/sample/custom500
+http localhost:8080/sample/welcome
+http localhost:8080/sample/custom404
+http localhost:8080/sample/custom500
+http localhost:8080/sample/unchecked
+http PUT --auth scmsmp http://localhost:8080/api/nfc/approvaldetails/3001361-DEMO/
+http --auth scmsmp PUT http://localhost:8080/api/nfc/approvaldetails/3001361-DEMO/
+p merchandise-payables
+git pull
+git ll
+ll
+ll
+git pull

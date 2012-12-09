@@ -67,7 +67,7 @@ addon = [
 				"operator": "equal"
 			}, {
 				"key": "selector",
-				"operand": "text.html source.php",
+				"operand": "text.html source.php, storage.type.templatetag.django",
 				"operator": "not_equal",
 				"match_all": True
 			}, {
@@ -107,7 +107,7 @@ addon = [
 				"operator": "equal"
 			}, {
 				"key": "selector",
-				"operand": "text.html source.php",
+				"operand": "text.html source.php, storage.type.templatetag.django",
 				"operator": "not_equal",
 				"match_all": True
 			}, {
@@ -137,21 +137,20 @@ addon = [
 
 	# insert linebreak with formatting
 	{
-		"keys": ["enter"],
-		"command": "handle_enter_key",
+		"keys": ["enter"], 
+		"command": "insert_snippet",
+		"args": {"contents": "\n\t${0}\n"},
 		"context": [
 			{
 				"key": "selector",
-				"operand": "text.html, text.xml",
-				"match_all": True
-			}, {
-				"key": "selector",
-				"operand": "text.html source, php",
-				"operator": "not_equal",
+				"operand": "meta.scope.between-tag-pair.html, meta.scope.between-tag-pair.xml", 
 				"match_all": True
 			}, {
 				"key": "auto_complete_visible",
-				"operand": False,
+				"operand": False, 
+				"match_all": True
+			}, {
+				"key": "clear_fields_on_enter_key",
 				"match_all": True
 			}, {
 				"key": "setting.disable_formatted_linebreak",

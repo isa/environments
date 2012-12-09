@@ -51,3 +51,11 @@ what_the_commit() {
 list_most_frequently_touched_files() {
    git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort -n
 }
+
+find_in_revisions() {
+   git rev-list --all | (
+      while read revision; do
+         git grep -F $1 $revision
+      done
+   )
+}

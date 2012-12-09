@@ -22,7 +22,6 @@ NIX_ROOT_REGEX = r"^/"
 
 
 class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
-
     def run(self, is_python=False):
         self.root = None
         self.top_level_split_char = ":"
@@ -158,6 +157,7 @@ class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
         temp = view.settings().get("word_separators")
         temp = temp.replace(".", "")
         view.settings().set("word_separators", temp)
+        view.settings().set("auto_complete_commit_on_tab", True)
         # May be useful to see the popup for debugging
         if DEBUG:
             view.settings().set("auto_complete", True)
@@ -167,7 +167,6 @@ class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
 
     def update_filename_input(self, path_in):
         base, path = self.split_path(path_in)
-
         if self.top_level_split_char in path_in:
             PathAutocomplete.set_root(base, False)
         else:
@@ -179,7 +178,6 @@ class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
                     self.generate_creation_path(base, path))
             else:
                 sublime.status_message("Unable to fill status bar without view")
-
         PathAutocomplete.set_path(path)
 
     def generate_creation_path(self, base, path):
@@ -224,10 +222,10 @@ class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
                     attempt_open = False
                     sublime.error_message("Cannot create '" + file_path + "'. See console for details")
                     print "Exception: %s" % e.strerror
-
             if attempt_open:
                 if os.path.isdir(file_path):
-                    sublime.error_message("Cannot open view for '" + file_path + "'. It is a directory. ")
+                    if not re.search(r"(/|\\)$", file_path):
+                        sublime.error_message("Cannot open view for '" + file_path + "'. It is a directory. ")
                 else:
                     self.window.open_file(file_path)
         self.clear()
@@ -254,7 +252,7 @@ class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
 
     def get_cursor_path(self):
         if self.view == None:
-            return
+            return ""
 
         view = self.view
         for region in view.sel():
@@ -264,6 +262,8 @@ class AdvancedNewFileCommand(sublime_plugin.WindowCommand):
                 path = re.sub('^"|\'', '',  re.sub('"|\'$', '', path.strip()))
             else:
                 return ""
+
+        return path
 
 
 class PathAutocomplete(sublime_plugin.EventListener):
@@ -310,11 +310,11 @@ class PathAutocomplete(sublime_plugin.EventListener):
             return []
 
         pac = PathAutocomplete
-        if self.continue_previous_autocomplete():
+        if self.continue_previous_autocomplete() and prefix != "":
             if DEBUG:
                 print "AdvancedNewFile[Debug]: (Prev) Suggestions"
                 print pac.prev_suggestions
-            return pac.prev_suggestions
+            return (pac.prev_suggestions, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)
 
         suggestions = []
         suggestions_w_spaces = []
@@ -337,7 +337,6 @@ class PathAutocomplete(sublime_plugin.EventListener):
             sugg, sugg_w_spaces = self.generate_relative_auto_complete(path, base)
             suggestions += sugg
             suggestions_w_spaces += sugg_w_spaces
-
         # If suggestions exist, use complete name
         # else remove base prefix
         if len(suggestions) > 0:
@@ -354,12 +353,11 @@ class PathAutocomplete(sublime_plugin.EventListener):
         pac.prev_base = base
         pac.prev_suggestions = suggestions
         pac.prev_root = root_path
-
         if DEBUG:
             print "AdvancedNewFile[Debug]: Suggestions:"
             print suggestions
 
-        return suggestions
+        return (suggestions, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)
 
     def generate_project_auto_complete(self, base):
         folders = sublime.active_window().folders()
@@ -372,6 +370,7 @@ class PathAutocomplete(sublime_plugin.EventListener):
     def generate_auto_complete(self, base, iterable_var):
         sugg = []
         sugg_w_spaces = []
+
         for entry in iterable_var:
             compare_entry = entry
             compare_base = base
