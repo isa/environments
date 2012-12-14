@@ -1,17 +1,19 @@
 {
 	"folder_history":
 	[
-		"/Users/isa/Desktop/sreh",
-		"/Users/isa/Projects/merchandise-payables",
-		"/Users/isa/Projects/pyformatter",
 		"/Users/isa/Projects/merchpay-robot",
+		"/Users/isa/Projects/vms",
+		"/Users/isa/Desktop/scala",
+		"/Users/isa/Projects/merchandise-payables",
+		"/Users/isa/.environments",
+		"/Users/isa/Desktop/sreh",
+		"/Users/isa/Projects/pyformatter",
 		"/Users/isa/Projects/mp-buildr/modules/core",
 		"/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/resources",
 		"/Users/isa/Projects/mp-buildr",
 		"/Users/isa/Projects/formatter",
 		"/Users/isa/Projects/merchandise-payables/qa/acceptance",
 		"/Users/isa/.environments/osx",
-		"/Users/isa/.environments",
 		"/Users/isa/demo",
 		"/Users/isa/Projects/merchandise-payables/devops/chef/cookbooks",
 		"/Users/isa/Projects/chef-cookbooks",
@@ -35,7 +37,7 @@
 		"/Users/isa/Projects/scms/mp",
 		"/Users/isa/Projects"
 	],
-	"last_window_id": 276,
+	"last_window_id": 288,
 	"settings":
 	{
 		"new_window_height": 801.0,
@@ -45,6 +47,14 @@
 			{
 				"selected_items":
 				[
+					[
+						"squ",
+						"squareRootIter"
+					],
+					[
+						"s",
+						"squareRoot"
+					],
 					[
 						"numb",
 						"numberOfCallsExecute"
@@ -150,9 +160,25 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 161.0,
+				"height": 51.0,
 				"selected_items":
 				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
 					[
 						"indne",
 						"Indentation: Reindent Lines"
@@ -194,10 +220,6 @@
 						"Schemr: Dawn"
 					],
 					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
 						"remove",
 						"Package Control: Remove Package"
 					],
@@ -215,10 +237,6 @@
 					],
 					[
 						"inst",
-						"Package Control: Install Package"
-					],
-					[
-						"ins",
 						"Package Control: Install Package"
 					],
 					[
@@ -250,10 +268,6 @@
 						"Set Syntax: Shell Script (Bash)"
 					],
 					[
-						"instal",
-						"Package Control: Install Package"
-					],
-					[
 						"list ",
 						"Package Control: List Packages"
 					],
@@ -280,10 +294,6 @@
 					[
 						"fetch",
 						"Fetch: Manage"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"mark",
@@ -351,6 +361,18 @@
 			},
 			"file_history":
 			[
+				"/Users/isa/.dl-movies",
+				"/Users/isa/Movies/movies.txt",
+				"/Users/isa/.environments/osx/sublime/Packages/User/Preferences.sublime-settings",
+				"/System/Library/LaunchDaemons/com.apple.mDNSResponder.plist",
+				"/Users/isa/Desktop/scala/coursera/Newton.scala",
+				"/Users/isa/Desktop/scala/Newton.scala",
+				"/Users/isa/.environments/.githelpers",
+				"/Users/isa/.environments/.gitconfig",
+				"/Users/isa/.environments/.git/rebase-merge/git-rebase-todo",
+				"/Users/isa/Desktop/pl3.txt",
+				"/Users/isa/Desktop/pl2.txt",
+				"/Users/isa/Desktop/pl.txt",
 				"/Users/isa/Projects/merchandise-payables/qa/acceptance/features/api/fc/fc_validations.feature",
 				"/Users/teamcity/TeamCity/buildAgent2/work/merchpay/qa/acceptance/features/api/fc/fc_validations.feature",
 				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
@@ -373,7 +395,6 @@
 				"/Users/isa/Projects/pyformatter/dependencies.txt",
 				"/Users/isa/Projects/pyformatter/tests/javascript_test.py",
 				"/Users/isa/Projects/pyformatter/pyformatter/ext/javascript.py",
-				"/Users/isa/Movies/movies.txt",
 				"/Users/isa/.zshrc",
 				"/Users/isa/Projects/pyformatter/pyformatter/base.py",
 				"/Users/isa/Projects/pyformatter/format.py",
@@ -395,7 +416,6 @@
 				"/Users/isa/Desktop/reindenter.py",
 				"/Users/isa/Desktop/json.py",
 				"/Users/isa/Projects/merchandise-payables/devops/boxes/Vagrantfile",
-				"/Users/isa/.environments/osx/sublime/Packages/User/Preferences.sublime-settings",
 				"/Users/isa/Projects/mp-buildr/modules/core/build.gradle",
 				"/Users/isa/Projects/mp-buildr/modules/core/src/integration/java/com/gap/scms/mp/helpers/NFCBuilder.java",
 				"/Users/isa/Projects/mp-buildr/modules/core/Buildfile",
@@ -468,17 +488,7 @@
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/TechnicalFlow.dot",
 				"/Users/isa/Projects/merchandise-payables/docs/development/developers-handbook.md",
 				"/Users/isa/Projects/merchandise-payables/docs/development/qa-handbook.md",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/WEB-INF/web.xml",
-				"/Users/isa/Projects/merchandise-payables/conf/templates/ngf/ngf.erb",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/production-deployment.dot",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/sample-diagram.dot",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/05.sample.md",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/sample-diagram.png",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/diagram.dot",
-				"/usr/local/share/npm/lib/node_modules/hubot/package.json",
-				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/hello.coffee",
-				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/google-images.coffee",
-				"/Users/isa/Projects/merchandise-payables/conf/data-bag.integration.json"
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/WEB-INF/web.xml"
 			],
 			"find":
 			{
@@ -498,6 +508,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\"\n",
+					"^\\d+:?\\d*\\n",
+					"^$\\n",
+					"^$",
 					"Renamed",
 					"Transmit",
 					"Draft",
@@ -585,9 +599,11 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": false,
+				"regex": true,
 				"replace_history":
 				[
+					"\\n",
+					"",
 					"self.get_leading_spaces",
 					"self.indent_level",
 					"",
@@ -647,6 +663,22 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"phantom-jasmin",
+						"modules/core/src/unit/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee"
+					],
+					[
+						"run-p",
+						"modules/core/src/unit/run-phantom-jasmine-ko-headless.sh"
+					],
+					[
+						"test.gra",
+						"modules/core/gradle/testing.gradle"
+					],
+					[
+						"build.gra",
+						"modules/core/build.gradle"
+					],
 					[
 						"guard",
 						"modules/core/Guardfile"
@@ -742,10 +774,6 @@
 					[
 						"vagrant",
 						"devops/boxes/Vagrantfile"
-					],
-					[
-						"build.gra",
-						"build.gradle"
 					],
 					[
 						"defa",
@@ -1146,18 +1174,6 @@
 					[
 						"logcon",
 						"modules/core/src/main/java/com/gap/scms/mp/controllers/LogController.java"
-					],
-					[
-						"ldapso",
-						"modules/core/src/integration/resources/ldapsoapenvolop.txt"
-					],
-					[
-						"customa",
-						"modules/core/src/main/java/com/gap/scms/mp/security/CustomAuthenticationProvider.java"
-					],
-					[
-						"ldapg",
-						"modules/core/src/main/java/com/gap/scms/mp/gateways/LdapGateway.java"
 					]
 				],
 				"width": 0.0
@@ -1186,6 +1202,14 @@
 			{
 				"selected_items":
 				[
+					[
+						"squ",
+						"squareRootIter"
+					],
+					[
+						"s",
+						"squareRoot"
+					],
 					[
 						"numb",
 						"numberOfCallsExecute"
@@ -1291,9 +1315,25 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 161.0,
+				"height": 51.0,
 				"selected_items":
 				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
 					[
 						"indne",
 						"Indentation: Reindent Lines"
@@ -1335,10 +1375,6 @@
 						"Schemr: Dawn"
 					],
 					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
 						"remove",
 						"Package Control: Remove Package"
 					],
@@ -1356,10 +1392,6 @@
 					],
 					[
 						"inst",
-						"Package Control: Install Package"
-					],
-					[
-						"ins",
 						"Package Control: Install Package"
 					],
 					[
@@ -1391,10 +1423,6 @@
 						"Set Syntax: Shell Script (Bash)"
 					],
 					[
-						"instal",
-						"Package Control: Install Package"
-					],
-					[
 						"list ",
 						"Package Control: List Packages"
 					],
@@ -1421,10 +1449,6 @@
 					[
 						"fetch",
 						"Fetch: Manage"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"mark",
@@ -1492,6 +1516,18 @@
 			},
 			"file_history":
 			[
+				"/Users/isa/.dl-movies",
+				"/Users/isa/Movies/movies.txt",
+				"/Users/isa/.environments/osx/sublime/Packages/User/Preferences.sublime-settings",
+				"/System/Library/LaunchDaemons/com.apple.mDNSResponder.plist",
+				"/Users/isa/Desktop/scala/coursera/Newton.scala",
+				"/Users/isa/Desktop/scala/Newton.scala",
+				"/Users/isa/.environments/.githelpers",
+				"/Users/isa/.environments/.gitconfig",
+				"/Users/isa/.environments/.git/rebase-merge/git-rebase-todo",
+				"/Users/isa/Desktop/pl3.txt",
+				"/Users/isa/Desktop/pl2.txt",
+				"/Users/isa/Desktop/pl.txt",
 				"/Users/isa/Projects/merchandise-payables/qa/acceptance/features/api/fc/fc_validations.feature",
 				"/Users/teamcity/TeamCity/buildAgent2/work/merchpay/qa/acceptance/features/api/fc/fc_validations.feature",
 				"/Users/isa/Projects/merchandise-payables/.git/MERGE_MSG",
@@ -1514,7 +1550,6 @@
 				"/Users/isa/Projects/pyformatter/dependencies.txt",
 				"/Users/isa/Projects/pyformatter/tests/javascript_test.py",
 				"/Users/isa/Projects/pyformatter/pyformatter/ext/javascript.py",
-				"/Users/isa/Movies/movies.txt",
 				"/Users/isa/.zshrc",
 				"/Users/isa/Projects/pyformatter/pyformatter/base.py",
 				"/Users/isa/Projects/pyformatter/format.py",
@@ -1536,7 +1571,6 @@
 				"/Users/isa/Desktop/reindenter.py",
 				"/Users/isa/Desktop/json.py",
 				"/Users/isa/Projects/merchandise-payables/devops/boxes/Vagrantfile",
-				"/Users/isa/.environments/osx/sublime/Packages/User/Preferences.sublime-settings",
 				"/Users/isa/Projects/mp-buildr/modules/core/build.gradle",
 				"/Users/isa/Projects/mp-buildr/modules/core/src/integration/java/com/gap/scms/mp/helpers/NFCBuilder.java",
 				"/Users/isa/Projects/mp-buildr/modules/core/Buildfile",
@@ -1609,17 +1643,7 @@
 				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/TechnicalFlow.dot",
 				"/Users/isa/Projects/merchandise-payables/docs/development/developers-handbook.md",
 				"/Users/isa/Projects/merchandise-payables/docs/development/qa-handbook.md",
-				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/WEB-INF/web.xml",
-				"/Users/isa/Projects/merchandise-payables/conf/templates/ngf/ngf.erb",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/production-deployment.dot",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/sample-diagram.dot",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/05.sample.md",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/images/sample-diagram.png",
-				"/Users/isa/Projects/merchandise-payables/docs/production/user-manual/diagram.dot",
-				"/usr/local/share/npm/lib/node_modules/hubot/package.json",
-				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/hello.coffee",
-				"/usr/local/share/npm/lib/node_modules/hubot/src/scripts/google-images.coffee",
-				"/Users/isa/Projects/merchandise-payables/conf/data-bag.integration.json"
+				"/Users/isa/Projects/merchandise-payables/modules/core/src/main/webapp/WEB-INF/web.xml"
 			],
 			"find":
 			{
@@ -1639,6 +1663,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\"\n",
+					"^\\d+:?\\d*\\n",
+					"^$\\n",
+					"^$",
 					"Renamed",
 					"Transmit",
 					"Draft",
@@ -1726,9 +1754,11 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": false,
+				"regex": true,
 				"replace_history":
 				[
+					"\\n",
+					"",
 					"self.get_leading_spaces",
 					"self.indent_level",
 					"",
@@ -1790,6 +1820,22 @@
 				"selected_items":
 				[
 					[
+						"phantom-jasmin",
+						"modules/core/src/unit/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee"
+					],
+					[
+						"run-p",
+						"modules/core/src/unit/run-phantom-jasmine-ko-headless.sh"
+					],
+					[
+						"test.gra",
+						"modules/core/gradle/testing.gradle"
+					],
+					[
+						"build.gra",
+						"modules/core/build.gradle"
+					],
+					[
 						"guard",
 						"modules/core/Guardfile"
 					],
@@ -1884,10 +1930,6 @@
 					[
 						"vagrant",
 						"devops/boxes/Vagrantfile"
-					],
-					[
-						"build.gra",
-						"build.gradle"
 					],
 					[
 						"defa",
@@ -2288,18 +2330,6 @@
 					[
 						"logcon",
 						"modules/core/src/main/java/com/gap/scms/mp/controllers/LogController.java"
-					],
-					[
-						"ldapso",
-						"modules/core/src/integration/resources/ldapsoapenvolop.txt"
-					],
-					[
-						"customa",
-						"modules/core/src/main/java/com/gap/scms/mp/security/CustomAuthenticationProvider.java"
-					],
-					[
-						"ldapg",
-						"modules/core/src/main/java/com/gap/scms/mp/gateways/LdapGateway.java"
 					]
 				],
 				"width": 0.0
@@ -2318,7 +2348,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 333.0,
 			"status_bar_visible": true,
-			"window_id": 276
+			"window_id": 288
 		}
 	],
 	"workspaces":

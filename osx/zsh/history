@@ -1,391 +1,3 @@
-ll
-cp merchpay-app-dev.war /usr/local/Cellar/tomcat/7.0.29/libexec/webapps
-cd /usr/local/Cellar/tomcat/7.0.29/libexec/webapps
-ll
-mv merchpay-app-dev.war ROOT.war
-ll
-../bin/catalina.sh start
-lsof
-lsof -n 8080
-man lsof
-lsof -i :8080
-ps -ef | grep 9442
-pp
-e .
-git pull
-git pull
-git ci -m 'ITMERCHPAY-0 Added some todos and done some simple refactoring'
-git push
-git ci -m 'ITMERCHPAY-0 Pong message was wrong on the integration test, somehow missed out while refactoring'
-git push
-gradle test
-cd modules/core
-gradle test
-gradle integration
-gradle integrationTest
-gradle init
-git pull
-git pull
-git log --name-only
-git log --name-only 
-curl http://plugins.intellij.net
-curl http://plugins.intellij.net
-cd ..
-ll
-cd atom
-ll
-gradle build
-gradle build
-killall node
-gradle build
-ps -ef | grep pow
-kill 14736
-ps -ef | grep pow
-ps -ef | grep pow
-kill -9 14736
-ps -ef | grep pow
-git pull
-git st
-git co -- ../../.idea/encodings.xml
-git st
-git pull
-mvim
-e ../..
-cd target/libs
-ll
-pp
-git st
-git pull
-ll
-ll logs
-ll
-e .
-export scms.mp.build.number=1.0.0.1
-export SCMS_MP_BUILD_NUMBER=1.0.0.1
-gradle generateReleaseNotesTC
-curl get.pow.cx/uninstall.sh | sh
-enable_proxy
-curl get.pow.cx/uninstall.sh | sh
-gradle generateReleaseNotesTC
-gradle clean test
-git ll
-git log --name-only
-gitk --all
-gradle init
-ll
-rm -rf .gradle
-gradle init
-rm -rf ~/.gradle
-rm -rf .gradle
-gradle init
-curl http://ci.gap.dev/artifactory/libs-release//gap-gradle-plugin/1.0.0.45/ivy-1.0.0.45.xml
-curl google.com
-ps -ef | grep pow
-curl get.pow.cx/uninstall.sh | sh
-curl --no-proxy http://ci.gap.dev
-curl --noproxy http://ci.gap.dev
-curl --no-proxy ci.gap.dev http://ci.gap.dev
-jps -l
-jps -lvVa 
-jps -lvV
-/usr/local/Cellar/tomcat/7.0.29/bin/catalina stop
-/usr/local/Cellar/tomcat/7.0.29/bin/catalina jdwp start
-/usr/local/Cellar/tomcat/7.0.29/bin/catalina jpda start
-which-command /
-pp
-cd devops
-ll
-cd deploy
-ll
-cd mongo
-ll
-./createReplSet
-./startReplSet
-pp
-cd modules/core
-gradle build
-gradle test
-gradle test
-gradle test
-gradle test
-gradle clean test
-enable_proxy
-curl http://plugins.intellij.net
-git pull
-git pull
-cd ../atom
-gradle build
-gradle build
-cd ~/.pow
-ll
-cd..
-cd ..
-ps -ef | grep pow
-/Users/isa/Library/Application\ Support/Pow/Versions/0.4.0/bin/pow --help
-ll
-cd Downloads
-wget http://www.myexpospace.com/JavaOne2012/smupload/scloader.cfm?SCID=f42b583c-9740-43c1-b9bc-8fb6fba7a5aa
-wget "http://www.myexpospace.com/JavaOne2012/smupload/scloader.cfm?SCID=f42b583c-9740-43c1-b9bc-8fb6fba7a5aa"
-ll
-rm -rf scloader.cfm\?SCID=f42b583c-9740-43c1-b9bc-8fb6fba7a5aa
-pp
-cd devops/stubs/stubby4j
-ll
-./runStubby4j.sh localhost:8882
-ssh teamcity@merchpayci.gap.com
-curl http://merchpayci.gap.com:8080/api/dpo/100054
-http://merchpayci.gap.com:8080/api/dpo/1000054
-curl http://merchpayci.gap.com:8080/api/dpo/1000054
-ssh admin@merchpayci.gap.com
-pp
-ll
-git st
-gradle build
-cd modules/ngf
-ll
-ll
-cd target
-ll
-cd libs
-ll
-java -jar ngf-1.1.0.0.jar -Dconfig=/Users/isa/Projects/merchandise-payables/modules/ngf/src/main/config.properties
-ll ../../src/main
-pp
-cd devops/stubs/stubby4j
-ll
-./runStubby4j.sh localhost:8882
-vm --help | grep ext
-vm extpack install ~/Downloads/Oracle_VM_VirtualBox_Extension_Pack-4.2.0-80737.vbox-extpack
-cd Desktop
-ll
-cd Whatever
-ll
-ll
-cd out/production
-ll
-cd Whatever
-ll
-ll
-java -cp ~/Desktop Run
-java -cp .:~/Desktop Run
-echo "hello world" > ~/Desktop/dummy.file
-java -cp .:~/Desktop Run
-ll
-ll ~/Desktop
-ll
-java -cp .:~/Desktop Run
-cd ..
- cd ..
-cd ..
-cd ..
-ll
-rm -rf Whatever
-ll
-curl google.com
-enable_proxy
-curl google.com
-ll
-rm -rf .pow
-ll
-cd "/Users/isa/Library/Application Support/Pow/Hosts"
-ll
-cd ..
-ll
-cd ..
-ll
-rm -rf Pow
-ll
-rm -rf Sublime\ Text\ 2.backup
-ll
-cd ..
-cd ~/Projects/scms/mp
-svn up
-nslookup svn.gap.dev
-ping svn.gap.dev
-nslookup
-elinks ci.gap.dev
-elinks http://ci.gap.dev
-ll
-ping svn.gap.dev
-curl "http://merchpayci.gap.com:8080/api/fc/recent?limit=100&_=1349813818907"
-svn up
-pp
-ll
-cd modules/atom/target
-ll
-vim atom-dev.pom
-pp
-gradle clean module:core:build
-gradle clean module:core:build module:core:test
-gradle init
-git st
-git add devops modules/atom modules/core/build.gradle
-git st
-git commit -m 'ITMERCHPAY-0 Fixed dependency link for atom and configured build number for release notes'
-git push
-git pull
-git push
-ll
-git log modules/core/src/main/compile-app-properties.rb
-git log modules/core/src/main/compile-app-properties.rb -v
-git log modules/core/src/main/compile-app-properties.rb
-git help log
-git log modules/core/src/main/compile-app-properties.rb --full-diff
-git log --full-diff modules/core/src/main/compile-app-properties.rb
-git help log
-git pull
-e .
-cd ..
-e .
-pp
-e .
-e .
-git pull
-ll
-git pull
-ll
-git ll
-gitk --all
-git pull
-git st
-git st
-git pull
-git stash
-git pull
-git stash pop
-git help stash
-git stash branch validator-tests
-git st
-git dt
-git dt
-git commit
-git add .gitignore
-git commit
-git commit
-git st
-git reset --soft modules/core
-git reset --soft
-git st
-git reset --soft HEAD
-git st
-git reset --soft HEAD^
-git reset --soft ^HEAD
-git reset --soft HEAD^
-git st
-cat ~/.gitconfig
-git uncommit
-git st
-git pull --rebase
-git unstage
-git st
-git pull
-git st
-git co -- modules/core/build.gradle
-git co -- modules/ngf
-git st
-git pull
-git st
-git co -- .gitignore
-git st
-git pull
-ll
-git co - b validator-tests
-git co -b validator-tests
-git st
-git ci -m 'ITMERCHPAY-0 Trying to increase the coverage on validators'
-git st
-git co master
-git st
-git ll
-git pull
-git pull
-git st
-cd modules/core/src/integration
-ll
-cd ../../libs
-ll
-cd test
-ll
-rm -rf stubby4j-1.0.2.jar
-gradle init
-cd ..
-cd ..
-gradle init
-ll libs/test
-cd ..
-ll
-cd core
-ll
-cd src/integration
-ll
-cd ..
-ll
-cd ..
-cd target
-ll
-ll templates
-ll templates/integrationTest
-ll test
-ll test/Integration
-ll
-ll test/Integration
-ll classes
-ll classes/test
-cd ..
-gradle integrationTests
-gradle integrationTest
-ll
-find . -name soap.envelope
-find . -name soap.envelope
-find . -name soap.envelope\*
-git st
-git ci -m 'ITMERCHPAY-0 Removing redundant resource files and fixing the necessary tests accordingly'
-git st
-git ll
-git pull
-cd ..
-cd ..
-ll
-e .
-e .
-git st
-git pull
-git status
-git ll
-irb
-irb
-gradle test
-git pull
-git push
-ll
-mkdir conf
-cd conf
-ll
-touch data-bag.json
-git st
-cd ..
-git st
-git reset --hard HEAD
-git st
-rm -rf conf
-git st
-git pull
-git ll
-ll
-ping ci.gap.dev
-enable_proxy
-ping ci.gap.dev
-cd /etc/
-grep -r 'dev' *
-grep -r '.dev' *
-grep -r '\.dev' *
-cd /usr/local/etc
-grep -r '\.dev' *
-grep -r 'dev' *
-cd
-ll
-ll .pow
-rm -rf logs
 killall java
 sudo killall java
 /usr/local/Cellar/tomcat/7.0.29/bin/catalina stop
@@ -10035,3 +9647,394 @@ git ll
 ll
 ll
 git pull
+f
+df
+cd .environments
+ll
+git dff
+git diff
+git remote -av
+git remote -v
+git br -av
+git diff master master .gitconfig
+git diff master master .githelpers
+git diff master master .gemrc
+git diff master master osx/sublime/
+git diff master master osx/sublime/Packages/User/Package\ Control.last-run
+git log --diff-filter=D --summary
+git log --diff-filter=D --summary | grep delet
+git find
+e .
+e .
+git find
+git find sublime
+git find sublime
+git find bash
+git st
+git ci -m 'Added some additional find functionality to git'
+git ll
+git push
+git ll
+git rebase ea8e2ba^ -i
+git rebase ea8e2ba^ --interactive
+git rebase ea8e2ba --interactive
+git ll
+df -h
+df -h
+df -h
+df -h
+git find
+git find isa
+git find my
+git help grep
+git grep my
+git grep isa
+d f-h
+df -h
+git st
+p merchandise-payables
+ll
+git ll
+git find ITMERCHPAY-234
+git find 4xx
+df -h
+ssh app1
+telnet https://merchpay.gap.com 80
+telnet merchpay.gap.com 80
+nslookup merchpaya.gap.com
+dig merchpaya.gap.com
+dig cname merchpaya.gap.com
+dig cname pgphxscmap004.phx.gapinc.com
+dig CNAME pgphxscmap004.phx.gapinc.com
+nslookup pgphxscmap004.phx.gapinc.com
+dig MX pgphxscmap004.phx.gapinc.com
+ping pgphxscmap004.phx.gapinc.com
+ping merchpaya.gap.com
+ping pgphxscmap004.phx.gapinc.com
+curl https://merchpay.gap.com
+vagrant basebox templates
+vagrant basebox define 'ubuntu' 'ubuntu-12.10-server-amd64'
+vagrant basebox install 'ubuntu'
+vagrant basebox build 'ubuntu'
+enable_proxy
+vagrant basebox build 'ubuntu'
+ll
+ll
+rm -rf definitions iso
+ll
+open .
+cd VirtualBox\ VMs
+ll
+cd ..
+ll
+cat ~/.zshrc
+rbenv which jruby
+p merchandise-payables
+rbenv which jruby
+rbenv which ruby
+ll
+git ll
+ll
+rbenv global
+rbenv list
+rbenv  globals
+rbenv hep
+rbenv help
+rbenv versions
+echo "jruby-1.7.0" > .rbenv-version
+cd ..
+p merchandise-payables
+rbenv which ruby
+rbenv which gem
+cat `rbenv which gem`
+ll
+git pull
+git ll
+ll
+git st
+git gc
+git ll
+du -sh
+git ll
+git pull
+cat Gemfile
+gitk --all
+cd modules/core
+ll
+src/unit/run-phantom-jasmine-ko-headless.sh
+e ../..
+phantomjs --help
+phantomjs --help | grep coffeee
+phantomjs --help | grep coffee
+man phantomjs
+DIR=.
+phantomjs "$DIR"/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee "$DIR"/javascripts/jasmine-runner.html false
+DIR=`pwd`
+phantomjs "$DIR"/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee "$DIR"/javascripts/jasmine-runner.html false
+phantomjs "$DIR"/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee "$DIR"/javascripts/jasmine-runner.html false
+echo $DIR
+ll /Users/isa/Projects/merchandise-payables/modules/core/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee
+cd ../..
+DIR=`pwd`
+modules/core/src/unit/run-phantom-jasmine-ko-headless.sh
+phantomjs "$DIR"/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee "$DIR"/javascripts/jasmine-runner.html
+cd m/c/s/u/
+cd modules/core/src/unit
+ll
+./run-phantom-jasmine-ko-headless.sh
+phantomjs "$DIR"/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee "$DIR"/javascripts/jasmine-runner.html
+DIR=`pwd`
+phantomjs "$DIR"/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee "$DIR"/javascripts/jasmine-runner.html
+ll
+ll
+sh run-phantom-jasmine-ko-headless.sh
+sh run-phantom-jasmine-ko-headless.sh true
+sh run-phantom-jasmine-ko-headless.sh false
+gradle jasmine
+cd ..
+cd ..
+gradle jasmine
+echo "$( cd "$(dirname "$0" )" && pwd -P)"
+git find dirname
+git log modules/core/src/unit/run-phantom-jasmine-ko-headless.sh
+git ll modules/core/src/unit/run-phantom-jasmine-ko-headless.sh
+git ll modules/core/src/unit/run-phantom-jasmine-ko-headless.sh --name-only
+git ll --name-only modules/core/src/unit/run-phantom-jasmine-ko-headless.sh
+git ll --diff modules/core/src/unit/run-phantom-jasmine-ko-headless.sh
+git show 5a09785
+git show 0293999
+git ll modules/core/src/unit/run-phantom-jasmine-ko-headless.sh
+git show 5a09785
+src/unit/run-phantom-jasmine-ko-headless.sh
+phantomjs --version
+history
+gradle jasmine
+git st
+git co -- .
+git st
+git pull
+p merchandise-payables
+git pull
+git pull
+git pull
+git pull
+git pull
+git ll
+cat Gemfile
+vim 
+ssh ci
+ssh ci1
+p merchandise-payables
+git pull
+git pull
+git pull
+cd ../
+ll
+cd scms
+ll
+rm -rf mp ri
+ll
+cd po
+ll
+svn up
+p merchandise-payables
+ll
+git pull
+ssh ci1
+ssh ci1
+ssh ci2
+ssh ci2
+ps -ef | grep mongod
+ps -ef | grep java
+ps -ef | grep java | wc -l
+killall java
+jps -l
+brew update
+enable_proxy
+brew update
+brew update
+brew info ht
+brew info jq
+brew install jq
+curl http://mpci.gap.com:7003/status
+curl http://mpci.gap.com:7003/status | jq '.'
+curl -s http://mpci.gap.com:7003/status | jq '.'
+curl -s http://mpci.gap.com:7003/status | jq '.version\
+'
+curl -s http://mpci.gap.com:7003/status | jq '.version'
+curl -s http://mpci.gap.com:7003/status
+http http://mpci.gap.com:7003/status
+curl -s http://mpci.gap.com:7003/status
+curl -s http://mpci.gap.com:7003/status
+curl -s http://mpci.gap.com:7003/status | jq '.'
+curl -s http://mpci.gap.com:7003/status | jq '.dependencies.database[0]'
+curl -s http://mpci.gap.com:7003/status | jq '.dependencies.database[0].port'
+p merchpay-robot
+workon merchpay-robot
+ll
+git pull
+ll
+e .
+git pull
+git st
+git ci -m "Alex's Christmas gift'
+git ci -m "Alex's Christmas gift"
+git push
+git st
+git ci -m 'Added some more blockage for him ;)'
+git push
+scala
+scala
+scala
+cd Desktop
+ll
+mkdir scala
+cd scala
+mv ../Lists.scala .
+ll
+touch Newton.scala
+e .
+ll
+mkdir coursera
+cd coursera
+ll
+scala
+ll
+scala Newton.scala
+scala Newton.scala
+scala Newton.scala
+scala Newton.scala
+scala Newton.scala
+scala
+scala Newton.scala
+scala
+scala Newton.scala
+ll
+scala
+ll
+p
+ll
+vagrant basebox templates
+mkdir vms
+cd vms
+vagrant basebox define 'ubuntu' 'ubuntu-12.10-server-amd64'
+e.
+e .
+vagrant basebox build ubuntu
+ll
+du -sh
+cd vms
+ll
+cd definitions
+ll
+cd ..
+ll
+tree
+vagrant basebox
+vagrant basebox list
+vagrant basebox up ubuntu
+ll
+vagrant basebox up ubuntu
+htop
+ll
+top
+brew update
+ll
+git ll
+p me
+p merchandise-payables
+git ll
+git pull
+ssh ci2
+nslookup ci2
+nslookup mpci.gap.com
+ssh 10.48.128.17
+ssh 10.48.106.120
+ps -ef | grep mDNS
+kill -HUP mDNSResponder
+kill -HUP 35
+sudo kill -HUP 35
+ps -ef | grep mDNS
+ps -ef | grep mDNS
+dscacheutil -flushcache
+nslookup mpci.gap.com
+sudo killall -HUP mDNSResponder
+ps -ef | grep mDNS
+sudo kill -9 35
+ps -ef | grep mDNS
+ps -ef | grep mDNS
+ps -ef | grep mDNS
+ps -ef | grep mDNS
+nslookup mpci.gap.com
+e "/System/Library/LaunchDaemons/com.apple.mDNSResponder.plist"
+sudo killall mDNSResponder
+ps -ef | grep mDNS
+sudo launchctl unload "/System/Library/LaunchDaemons/com.apple.mDNSResponder.plist"
+sudo launchctl load "/System/Library/LaunchDaemons/com.apple.mDNSResponder.plist"
+sudo launchctl unload "/System/Library/LaunchDaemons/com.apple.mDNSResponder.plist22222"
+sudo killall mDNSResponder
+ps -ef | grep mDNS
+nslookup mpci.gap.com
+e reload.sh
+sudo bash reload.sh
+nslookup mpci.gap.com
+dig mpci.gap.com
+dig mpci.gap.com
+dig mpci.gap.com
+ssh ci2
+e /etc/hosts
+ssh ci2
+p merchandise-payables
+ll
+git pull
+time gradle help
+time gradle help
+time gradle help
+git pull
+git pull
+telnet qaproxy.gid.gap.com 8080
+git pull
+git pull
+ll
+git pull
+git pull
+git pull
+ll
+git pull
+ll
+ll
+git ll
+git mft
+cat ~/.gitconfig
+git
+e .dl-movies
+touch .dl-movies
+e .dl-movies
+df -h
+df -h
+df -h
+df -h
+df -h
+df -h
+df -h
+ll
+df
+man df
+df -H
+df -ah
+df -
+df -m
+ll
+df -h
+cd Downloads
+mv 1-3c23e .11
+ll
+cd Downloads
+mv *.zip .11
+ll
+cd .11
+ll
+cd '/Volumes/Movies/'
+ll
+ll
+df -h

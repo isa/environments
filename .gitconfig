@@ -1,6 +1,6 @@
 [user]
-   name = Isa Goksu
-   email = isa.goksu@gmail.com
+	name = Isa Goksu
+	email = isa.goksu@gmail.com
 [alias]
    ll = "!source ~/.githelpers && pretty_git_log"
    lm = "!source ~/.githelpers && pretty_git_merges"
@@ -51,7 +51,7 @@
    tool = Kaleidoscope
 [core]
    editor = subl -w
-   quotepath = false
+	quotepath = false
    excludesfile = /Users/isa/.gitignore
 	autocrlf = false
    safecrlf = true
