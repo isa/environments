@@ -76,7 +76,8 @@ def run_cmd(cwd, cmd, wait, input_str=None):
                                      stdout=subprocess.PIPE,
                                      stderr=subprocess.PIPE,
                                      stdin=(subprocess.PIPE if input_str else None))
-        output, error = proc.communicate(input_str.encode('utf8'))
+        encoded_input = None if input_str == None else input_str.encode('utf8')
+        output, error = proc.communicate(encoded_input)
         return_code = proc.poll()
         if return_code:
             sublime.error_message("The following command exited with status "
@@ -146,7 +147,7 @@ class ShellPromptCommand(sublime_plugin.WindowCommand):
                 # Since Sublime's build system doesn't support piping to STDIN
                 # directly, use a tempfile.
                 text = "".join([active_view.substr(r) for r in input_regions])
-                temp = tempfile.NamedTemporaryFile()
+                temp = tempfile.NamedTemporaryFile(delete=False)
                 temp.write(text.encode('utf8'))
                 shell_cmd = "%s < %s" % (shell_cmd, pipes.quote(temp.name))
             exec_args = settings['exec_args']
@@ -168,6 +169,7 @@ class ShellPromptCommand(sublime_plugin.WindowCommand):
             elif outpt == '>':
                 self.window.run_command("new_file")
                 new_view = self.window.active_view()
+                new_view.set_name(shell_cmd.strip())
                 edit = new_view.begin_edit()
                 new_view.insert(edit, 0, output)
                 new_view.end_edit(edit)

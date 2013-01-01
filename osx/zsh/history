@@ -1,296 +1,3 @@
-killall java
-sudo killall java
-/usr/local/Cellar/tomcat/7.0.29/bin/catalina stop
-ps -ef | grep java
-ll
-ll Library/LaunchAgents/
-resolveLinks --help
-man resolveLinks
-resolveLinks 
-cat /etc/resolv.conf
-cat /etc/resolver/dev
-ll /etc/resolver
-rm -rf /etc/resolver/dev
-sudo rm -rf /etc/resolver/dev
-ping ci.gap.dev
-pp
-git pull
-gradle modules:atom:generatePom
-e .
-gradle modules:core:build
-cd ~/Projects/scms
-ll
-svn info mp
-svn ls http://svn.gap.dev/svn/co
-svn ls http://svn.gap.dev/svn/ci
-cd po
-svn up
-cd ../mp
-svn up
-svn up
-cd ../po
-svn up
-pp
-ll
-cd devops/
-ll
-cd deploy
-ll
-cd mongo
-ll
-./startReplSet
-killall mongod
-ll
-git st
-jps -l
-ll
-./startReplSet
-ssh teamcity@merchpayci.gap.com
-enable_proxy
-echo $http_proxy
-cd ~/Projects/scms/mp
-svn up
-svn propget svn:ignore
-svn info
-e .
-cd /tmp
-svn co http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
-cd trunk
-ll
-svn propget svn:ignore
-cd ..
-rm -rf turnk
-rm -rf trunk
-svn co http://svn.gap.dev/svn/supplychain/scms-merchpay/trunk
-git st
-cd /tmp
-ll
-cd trunk
-ll
-svn propget svn:ignore
-cd Projects/merchandise-payables/devops/stubs/stubby4j
-cd ../../
-cd ../
-git st
-git pull
-git pull
-git pull
-git pull
-git pull
-gitk
-git pull
-git st
-ll
-rm -rf *.unknown
-ll
-git st
-rm -rf conf jmeter.log jmetererrorout
-ll
-git st
-git pull
-git pull
-bundle install
-bundle exec
-cd ./qa
-bundle install
-bundle exec
-cd ./acceptance
-bundle install
-profiles
-history
-profiles
-git pull
-git pull
-git pull
-gitk
-git pull
-cd ../..
-git pull
-git st
-gitk
-git pull
-git st
-git add qa/acceptance/features/api/fc.feature
-git commit -m "ITMERCHPAY-204 \
-Making build green by fixing api tests\
-"
-git push
-git pull
-git pull
-gitk
-git pull
-git diff  modules/core/src/unit/java/com/gap/scms/mp/controllers/StatusControllerTest.java 
-git diff modules/core/src/unit/java/com/gap/scms/mp/controllers/StatusControllerTest.java 
-git diff modules/core/src/unit/java/com/gap/scms/mp/controllers/StatusControllerTest.java
-git st
-git st
-git add qa/acceptance/features/api/fc.feature
-git add qa/acceptance/features/api/fc_validations.feature
-git add qa/acceptance/features/ui/fc_landing_page.feature
-git add qa/acceptance/features/ui/fc_manual_entry.feature
-git add qa/acceptance/step_definitions/api/fc_api.rb
-git pull
-git gitt add qa
-git add qa
-git commit 
-git st
-git push
-git pull
-e .
-git add qa
-git commit
-git push
-git pull
-cd Projects/merchandise-payables/devops/stubs/stubby4j
-pwd
-./runStubby4j.sh http://localhost:8080
-./runStubby4j.sh http://localhost:8882
-./runStubby4j.sh http://localhost:8882
-./runStubby4j.sh http://localhost:8882
-cd Projects/merchandise-payables/modules/core
-guard
-git pull
-pp
-scp -r teamcity@merchpayci.gap.com:~/Desktop/merchpay/conf .
-ll
-cd conf
-ll
-git st
-cd ..
-git st
-jmeter
-brew install jmeter
-brew install jmeter
-jmeter
-cd Projects/merchandise-payables/modules/core
-guard
-cd /Volumes/Data/.XXX
-open .
-df -h
-ssh 0.0.0.0:2222
-ssh localhost 2222
-ssh localhost 2222
-ssh localhost:2222
-ssh localhost:2222
-ssh localhost:2222
-ssh localhost:2222
-ssh 127.0.0.1:2222
-ssh 127.0.0.1 -p 2222
-vm 
-vm  | grep headless
-vm startvm CentOS --type headless
-ssh 127.0.0.1 -p 2222
-cd Projects/merchandise-payables/modules/core
-gaurd
-guard
-cd Projects/merchandise-payables/devops/stubs/stubby4j/
-./runStubby4j.sh
-./runStubby4j.sh http://localhost:8882
-ssh localhost -p 2222
-lsof -i :8080
-jps -l
-git pull
-pp
-git st
-gradle clean init build
-e .
-git st
-rm -rf modules/ngf/log.path_IS_UNDEFINED/
-git st
-git add modules/core/src
-git status
-git commit -m 'ITMERCHPAY-0 Fixed status controller to actually pick the build number from the property file'
-git st
-git co -- modules/core/src
-git st
-git pull
-git st
-git st
-git add modules/core/build.gradle
-git st
-git commit -m 'ITMERCHPAY-0 Added build number assignment early in the process'
-git push
-gradle -PbuildNumber=1.2.3.4
-gradle -PbuildNumber=1.2.3.4 setBuildNumber
-cat modules/core/src/main/resources/app.properties
-head modules/core/src/main/resources/app.properties
-head modules/core/src/main/resources/app.properties
-gradle -PbuildNumber=1.2.3.4 processResources
-head modules/core/src/main/resources/app.properties
-gradle -PbuildNumber=v1.2.3.4 processResources
-head modules/core/src/main/resources/app.properties
-ruby -e "IO.read('modules/core/src/main/resources/app.properties')"
-ruby -e "p IO.read('modules/core/src/main/resources/app.properties')"
-ruby -e "p IO.read('modules/core/src/main/resources/app.properties').gsub(/build.number=(.*)/,'build.number=\"#{ENV['buildNumber']}\")"
-ruby -e "p IO.read('modules/core/src/main/resources/app.properties').gsub(/build.number=(.*)/,\"build.number=#{ENV['buildNumber']}\")"
-ruby -e "p IO.read('modules/core/src/main/resources/app.properties').gsub(/build.number=(.*)/,\"build.number=#{ARGV[0]}\")"
-ruby -e "p IO.read('modules/core/src/main/resources/app.properties').gsub(/build.number=(.*)/,\"build.number=#{ARGV[0]}\")" 23
-git pull
-git rev-parse --show-toplevel
-gradle -PbuildNumber=v1.2.3.4 processResources
-gradle -PbuildNumber=v1.2.3.4 processResources
-gradle -PbuildNumber=v1.2.3.4 processResources
-gradle -PbuildNumber=v1.2.3.4 processResources
-head modules/core/src/main/resources/app.properties
-git st
-git add devops/
-git add -u devops/
-git st
-git add modules/core/
-git st
-git commit -m 'ITMERCHPAY-0 Fixed build number problem during build'
-git push
-git pull
-git st
-git add qa/acceptance/features/api/fc.feature
-git add qa/acceptance/features/ui/fc_landing_page.feature
-git add qa/acceptance/step_definitions/api/endpoints_api.rb
-git add qa/acceptance/step_definitions/api/fc_api.rb
-git add qa/acceptance/support/lib/utils/endpoints.rb
-git commit -m "ITMERCHPAY0\
-Added testcases for defects -Kenny"
-git push
-git pull
-git pull
-git pull
-df -h
-pp
-git pull
-git ll
-git st
-gitk
-cd Projects/merchandise-payables/devops/stubs/stubby4j
-./runStubby4j.sh http://localhost:8080
-./runStubby4j.sh http://localhost:8882
-jmeter
-jps -l
-catalina stop
-jps -l
-open /Volumes/Data/.XXX
-open /Volumes/Data/.XXX
-open /Volumes/Data/.XXX
-open /Volumes/Data/.XXX
-java -version
-java -version
-javac -version
-ssh teamcity@merchpayci.gap.com
-cd .environments
-git st
-git ci -m 'updated my stupid subversion unicode character'
-git push
-enable_proxy
-git push
-pp
-cd modules/core/target
-ll
-rm -rf *
-ll
-pp
-gradle modules:core:integrationTest
-cd modules/core/target
-ll
-cd classes
-ll
 cd integrationTest
 ll
 cd com/gap/scms/mp/helpers
@@ -10038,3 +9745,291 @@ cd '/Volumes/Movies/'
 ll
 ll
 df -h
+ll
+brew install rbenv
+. ~/.zshrc
+brew install pip
+which python
+sudo easy_install pip
+sudo pip install virtualenvwrapper
+sudo pip install httpie
+brew install wget jq links 
+brew search search
+brew install the_silver_searcher
+ll
+ag 'isa' .environments
+java
+brew search java
+brew install drip
+ag JAVA ~/.environments
+ll
+e
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+e ~/.zshrc
+. ~/.zshrc
+echo $SHELL
+echo $VENDOR
+echo $ZSH_NAME
+e ~/.zshrc
+. ~/.zshrc
+which ruby
+rbenv
+rbenv commands
+rbenv install 1.9.3
+rbenv install 
+rbenv install -l
+which java
+java -version
+javac -version
+jps -version
+jps -v
+ll
+rbenv install -l
+brew search gcc
+brew tap homebrew/dupes/apple-gcc42
+brew tap
+brew help tap
+brew tap dupes/apple-gcc42
+brew tap homebrew/dupes
+brew search gcc
+brew install apple-gcc42
+rbenv install 1.9.3-p327
+which ruby
+rbenv 
+rbenv global defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
+rbenv global 1.9.3-p327
+which ruby
+rbenv versions
+rbenv which ruby
+irb 
+ruby --version
+rbenv rehash
+ll
+ln -s ~/.environments/.gemrc ~/.gemrc
+ln -s ~/.environments/.gitconfig ~/.gitconfig
+ln -s ~/.environments/.gitignore ~/.gitignore
+ln -s ~/.environments/.githelpers ~/.githelpers
+ll
+git ll
+cd .environments
+git ll
+ll
+git st
+cd ..
+ll
+cd .environments
+ll
+git submodule init
+git submodule update
+git st
+cd ..
+ll
+git clone git@github.com:isa/vim-vironment.git .vim-vironment
+ll
+cd .vim-vironment
+ll
+git submodule init
+git submodule update
+ll
+ln -s ~/.vim-vironment/vimrc ~/.vimrc
+ln -s ~/.vim-vironment/vim ~/.vim
+ll
+cd ..
+vim
+ll ~/Library/Application\ Support/Sublime\ Text\ 2
+ln -s ~/.environments/osx/sublime ~/Library/Application\ Support/Sublime\ Text\ 2
+ll ~/Library/Application\ Support/Sublime\ Text\ 2
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2
+ln -s ~/.environments/osx/sublime ~/Library/Application\ Support/Sublime\ Text\ 2
+ll ~/Library/Application\ Support/Sublime\ Text\ 2
+ll ~/Library/Application\ Support/Sublime\ Text\ 2/
+defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
+e ~/.zshrc
+defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
+defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
+e ~/.zshrc
+e ~/.zshrc
+brew install pv
+brew list
+brew list
+brew search nvm
+cd /Applications/IntelliJ\ IDEA\ 12\ CE.app
+ll
+ag "1.6"
+e ./Contents/Info.plist
+e ./Contents/Info.plist
+ll
+cd bin
+ll
+cat idea.vmoptions
+cat idea.properties
+cd ..
+ll
+cd Contents/MacOS
+ll
+./idea
+export IDEA_JDK=$JAVA_HOME
+./idea
+export IDEA_JVM=$JAVA_HOME
+./idea
+./idea
+echo $JAVA_HOME
+cd ~/Library/Preferences/IdeaIC12
+ll
+cd colors
+ll
+cp ~/.environments/osx/prospettiva.xml .
+which ruby
+ll
+ll
+ll
+svn
+svn info
+cd Desktop/untitled\ folder
+ll
+ll
+ll
+ll
+du -sh
+du -sh
+ll
+ll
+ll
+ll
+ll
+du -sh
+du -sh
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+du -sh
+du -sh
+ll
+ll
+ll
+du -sh
+du -sh
+ll
+du -sh
+du -sh
+cd Downloads/lanyard
+rake
+rake
+rbenv global
+rake
+gem list
+gem install cucumber
+rake
+gem install rspec
+rake
+cat Gemfile
+cat lanyard.gemspec
+gem info aruba
+gem
+gem list aruba
+rake
+ll
+cd ..
+ll
+cd ~/Library/Preferences/IntelliJIdea12/
+ll
+ll colors
+ll ../IdeaIC12/colors
+mv ../IdeaIC12/colors/prospettiva.xml .
+ll
+mv prospettiva.xml colors
+ll
+exit
+mkdir back
+rm -rf back
+mkdir .back
+mkdir ~/.back
+ll
+ll .back
+cd ..
+ll
+cd isa
+ll
+chmod 777 .back
+ll
+cd .back
+ll
+ifconfig
+ping 192.168.1.3
+ping 192.168.1.4
+ping 192.168.1.5
+ping 192.168.1.2
+ping 192.168.1.1
+ping 192.168.1.100
+ping 192.168.1.12
+ping 192.168.1.2
+ping 192.168.1.4
+ping 192.168.1.4
+du -sh .back
+ll .back
+ll .back/Dannes
+ping 192.168.1.4
+ping 192.168.1.5
+ping 192.168.1.3
+ping 192.168.1.4
+ping 192.168.1.7
+ping 192.168.1.4
+ifconfig
+ifconfig
+ping 192.168.1.4
+ping 192.168.1.4
+ping 192.168.1.4
+ll
+chmod 644 .back
+sudo chmod 644 .back
+ll
+sudo chmod 755 .back
+ll
+ifconfig
+cd /Volumes/Untitled
+ll
+du -sh yedek
+cp -R yedek ~/.back/
+ll .back
+du -sh .back
+du -sh .back
+du -sh .back
+cd .back
+ll
+du -sh
+cd ..
+ll
+brew update
+brew update
+brew list
+ll
+bre wlist
+brew list
+ll
+brew search virtualbox
+brew search virtual
+brew update
+brew search puppet
+brew install phantomjs
+ping 10.0.2.15
+ping 10.0.2.15
+ping 10.0.2.15 -v
+ping -v 10.0.2.15 
+ll
+ifconfig en0
+nslookup
+nslookup
+brew install rlwrap
+nslookup
+ifconfig
+ping
+ping google.com
+ifconfig
+nslookup
+nslookup
