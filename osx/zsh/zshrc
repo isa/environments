@@ -74,6 +74,7 @@ alias import=python_import
 alias cls='clear'
 alias less='less -FXR'
 alias gradle='gradle --daemon'
+alias sudo="sudo env PATH=$PATH"
 
 # read-line wraps
 alias clj='rlwrap clj'
