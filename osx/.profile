@@ -50,6 +50,7 @@ alias df='df -h'
 alias du='du -sh'
 alias import=python_import
 alias cls='clear'
+alias sudo="sudo env PATH=$PATH"
 
 # Read-Line Wraps
 alias clj='rlwrap clj'
