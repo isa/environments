@@ -92,7 +92,7 @@ function enable_proxy() {
    export http_proxy="http://qaproxy.gid.gap.com:8080/"
    export https_proxy="http://qaproxy.gid.gap.com:8080/"
    export ftp_proxy="http://qaproxy.gid.gap.com:8080/"
-   export no_proxy="localhost,.gap.com,.gap.dev,127.0.0.0/8,10.0.0.0/8,192.168.0.0/16"
+   export no_proxy="localhost,127.0.0.0/8,10.0.0.0/8,192.168.0.0/16"
 }
 
 function disable_proxy() {
@@ -119,7 +119,8 @@ export PIP_RESPECT_VIRTUALENV=true
 source /usr/local/bin/virtualenvwrapper.sh
 
 # -- Ruby Virtual Env --
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+RBENV_EXISTS=`which rbenv`
+if [ $RBENV_EXISTS ]; then eval "$(rbenv init -)"; fi
 export PATH=$HOME/.rbenv/shims:$PATH
 
 source $HOME/.environments/osx/zsh/isa.theme

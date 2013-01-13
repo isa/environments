@@ -1,26 +1,129 @@
 {
 	"folder_history":
 	[
+		"/Users/isa/Projects/test-base-xruby",
+		"/Users/isa/Projects/test-base-xruby/test",
+		"/Users/isa/Projects/digit-reader",
 		"/Users/isa/Downloads/lanyard"
 	],
-	"last_window_id": 14,
+	"last_window_id": 20,
 	"settings":
 	{
-		"new_window_height": 480.0,
+		"new_window_height": 661.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"ye",
+						"yedi"
+					],
+					[
+						"alt",
+						"altmış"
+					],
+					[
+						"d",
+						"dört"
+					],
+					[
+						"whole",
+						"whole_number"
+					],
+					[
+						"nine",
+						"nine_hundred_and_one_thousand_and_twenty_two"
+					],
+					[
+						"five",
+						"five_hundred_thousand_and_three"
+					],
+					[
+						"al",
+						"altı"
+					],
+					[
+						"y",
+						"yüz"
+					],
+					[
+						"ei",
+						"eighty_nine_thousand_and_hundred_and_fifty_six"
+					],
+					[
+						"ten",
+						"ten_thousand"
+					],
+					[
+						"rever",
+						"reverse_number"
+					],
+					[
+						"hun",
+						"hundred"
+					],
+					[
+						"four",
+						"four_thousand_and_three_hundred_and_seventy_five"
+					],
+					[
+						"thousand_and_three",
+						"thousand_and_three_hundred"
+					],
+					[
+						"thousand",
+						"thousand_and_three"
+					],
+					[
+						"thou",
+						"thousands"
+					],
+					[
+						"hund",
+						"hundreds"
+					],
+					[
+						"thr",
+						"third"
+					],
+					[
+						"thre",
+						"three_hundred_sixty_eight"
+					],
+					[
+						"nin",
+						"ninety_nine"
+					],
+					[
+						"seve",
+						"seventy_six"
+					],
+					[
+						"re",
+						"require"
+					],
+					[
+						"Digi",
+						"DigitReader"
+					]
 				]
 			},
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 51.0,
+				"height": 183.0,
 				"selected_items":
 				[
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"python",
+						"Set Syntax: Python"
+					],
 					[
 						"install",
 						"Package Control: Install Package"
@@ -55,6 +158,10 @@
 			},
 			"file_history":
 			[
+				"/Users/isa/Desktop/is-tanimlari.md",
+				"/Users/isa/Downloads/users.php",
+				"/Users/isa/Projects/digit-reader/lib/digit-reader.coffee",
+				"/Users/isa/Desktop/notlar.txt",
 				"/Users/isa/.subversion/config",
 				"/Users/isa/Downloads/MacVim-snapshot-66/README.txt",
 				"/Applications/IntelliJ IDEA 12 CE.app/Contents/Info.plist",
@@ -77,6 +184,13 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"class FakeGoogleProvider implements GoogleProvider {\n   public int factorial(int number) {\n      return 120;\n   }\n}\n",
+					"read",
+					"\n      ",
+					"   it 'should return text equivalent of any two-digit number', ->\n      dr = new DigitReader\n\n      eighteen = dr.read(18)\n      seventy_six = dr.read(76)\n      ninety_nine = dr.read(99)\n\n      eighteen.should.equal 'on sekiz'\n      seventy_six.should.equal 'yetmiş altı'\n      ninety_nine.should.equal 'doksan dokuz'\n\n",
+					"      ",
+					"\n      ",
+					"turkey"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -132,6 +246,14 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"fe",
+						"test/features/calculator.feature"
+					],
+					[
+						"",
+						"src/digit-reader.coffee"
+					]
 				],
 				"width": 0.0
 			},
@@ -147,10 +269,10 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 282.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 640.0
+		"new_window_width": 1246.0
 	},
 	"windows":
 	[
@@ -159,14 +281,114 @@
 			{
 				"selected_items":
 				[
+					[
+						"ye",
+						"yedi"
+					],
+					[
+						"alt",
+						"altmış"
+					],
+					[
+						"d",
+						"dört"
+					],
+					[
+						"whole",
+						"whole_number"
+					],
+					[
+						"nine",
+						"nine_hundred_and_one_thousand_and_twenty_two"
+					],
+					[
+						"five",
+						"five_hundred_thousand_and_three"
+					],
+					[
+						"al",
+						"altı"
+					],
+					[
+						"y",
+						"yüz"
+					],
+					[
+						"ei",
+						"eighty_nine_thousand_and_hundred_and_fifty_six"
+					],
+					[
+						"ten",
+						"ten_thousand"
+					],
+					[
+						"rever",
+						"reverse_number"
+					],
+					[
+						"hun",
+						"hundred"
+					],
+					[
+						"four",
+						"four_thousand_and_three_hundred_and_seventy_five"
+					],
+					[
+						"thousand_and_three",
+						"thousand_and_three_hundred"
+					],
+					[
+						"thousand",
+						"thousand_and_three"
+					],
+					[
+						"thou",
+						"thousands"
+					],
+					[
+						"hund",
+						"hundreds"
+					],
+					[
+						"thr",
+						"third"
+					],
+					[
+						"thre",
+						"three_hundred_sixty_eight"
+					],
+					[
+						"nin",
+						"ninety_nine"
+					],
+					[
+						"seve",
+						"seventy_six"
+					],
+					[
+						"re",
+						"require"
+					],
+					[
+						"Digi",
+						"DigitReader"
+					]
 				]
 			},
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 51.0,
+				"height": 183.0,
 				"selected_items":
 				[
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"python",
+						"Set Syntax: Python"
+					],
 					[
 						"install",
 						"Package Control: Install Package"
@@ -201,6 +423,10 @@
 			},
 			"file_history":
 			[
+				"/Users/isa/Desktop/is-tanimlari.md",
+				"/Users/isa/Downloads/users.php",
+				"/Users/isa/Projects/digit-reader/lib/digit-reader.coffee",
+				"/Users/isa/Desktop/notlar.txt",
 				"/Users/isa/.subversion/config",
 				"/Users/isa/Downloads/MacVim-snapshot-66/README.txt",
 				"/Applications/IntelliJ IDEA 12 CE.app/Contents/Info.plist",
@@ -223,6 +449,13 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"class FakeGoogleProvider implements GoogleProvider {\n   public int factorial(int number) {\n      return 120;\n   }\n}\n",
+					"read",
+					"\n      ",
+					"   it 'should return text equivalent of any two-digit number', ->\n      dr = new DigitReader\n\n      eighteen = dr.read(18)\n      seventy_six = dr.read(76)\n      ninety_nine = dr.read(99)\n\n      eighteen.should.equal 'on sekiz'\n      seventy_six.should.equal 'yetmiş altı'\n      ninety_nine.should.equal 'doksan dokuz'\n\n",
+					"      ",
+					"\n      ",
+					"turkey"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -268,7 +501,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "400 167 640 502 0 0 1440 878 ",
+			"position": "137 181 1246 683 0 0 1440 878 ",
 			"replace":
 			{
 				"height": 0.0
@@ -279,6 +512,14 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"fe",
+						"test/features/calculator.feature"
+					],
+					[
+						"",
+						"src/digit-reader.coffee"
+					]
 				],
 				"width": 0.0
 			},
@@ -294,9 +535,9 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 282.0,
 			"status_bar_visible": true,
-			"window_id": 14
+			"window_id": 20
 		}
 	],
 	"workspaces":

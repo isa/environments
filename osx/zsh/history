@@ -1,790 +1,3 @@
-cd integrationTest
-ll
-cd com/gap/scms/mp/helpers
-ll
-cd ..
-cd ..
-ll
-cd mp
-ll
-cd gateways
-ll
-cd ..
-cd ..
-ll
-cd ..
-cd ..
-cd ..
-pp
-gradle modules:core:integrationTest --debug | less -R
-ll
-gradle modules:core:integrationTest --debug > /tmp/log.txt
-less /tmp/log.txt
-gradle modules:core:integrationTest
-git st
-git pull
-git ci -m 'ITMERCHPAY-0 Fixed buildDir problem where gradle cannot read the global project setting for output dir and causes integration tests to not even run'
-git push
-e ,
-e .
-irb
-cd modules/core
-ll
-./compile-app-properties.sh
-./compile-app-properties.sh ../..
-./compile-app-properties.sh /Users/isa/Projects/merchandise-payables
-git st
-git ci -m 'ITMERCHPAY-0 Apparently our prod environments cannot haz json gem'
-git push
-git pull
-cd ~/Projects/scms/mp
-svn up
-svn up
-head conf/config-generator.rb
-head -20 conf/config-generator.rb
-e ~/.zshrc
-e ~/.environments
-. ~/.zshrc
-ll
-svn up
-cd Projects/scms
-cd po
-svn up
-cd ../mp
-svn up
-git st
-svn up
-cd /usr/local/Cellar/tomcat/7.0.29/libexec/webapps
-ll
-rm -rf *
-ll
-cd ../../../6.0.26/libexec/webapps
-ll
-rm -rf *
-ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
-ll
-ll
-ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
-cd .environments
-git st
-git ci -m 'Updated some sublime settings'
-unix2dos osx/sublime/Packages/Nettuts+ Fetch/Fetch.py
-unix2dos "osx/sublime/Packages/Nettuts+ Fetch/Fetch.py"
-git ci -m 'Updated some sublime settings'
-unix2dos "osx/sublime/Packages/Nettuts+ Fetch/Fetch.py."
-unix2dos "osx/sublime/Packages/Nettuts+ Fetch/Fetch.py"
-git ci -m 'Updated some sublime settings'
-git config --global core.autocrlf false
-cat ~/.gitconfig
-e ~/.gitconfig
-e ~/.gitconfig
-git ci -m 'Updated some sublime settings'
-git push
-git st
-c d..
-cd ..
-git st
-ll
-pp
-git pull
-gradle integrationTest
-gradle modules:core:integrationTest
-e .
-git pull
-gradle modules:core:test
-gradle modules:core:contractTest
-gradle --version
-gradle modules:core:integrationTest
-gradle clean modules:core:integrationTest
-java -version
-java -version
-java -version
-gradle modules:core:test
-gradle modules:core:integrationTest
-gradle modules:core:integrationTest
-gradle modules:core:integrationTest
-gradle modules:core:integrationTest
-gradle modules:core:integrationTestCompile
-gradle modules:core:integrationTestC
-gradle tasks --all
-gradle tasks --all | less -R
-gradle modules:core:testAll
-enable_proxy
-brew install phantomjs
-gradle modules:core:testAll
-jps -l
-jps -l
-jps -l
-jps -l
-tail -f /tmp/log.txt
-git st
-git ci -m 'ITMERCHPAY-0 Obviously git is not installed in the nodes we are deploying'
-git push
-git pull
-git push
-git pull
-cd modules
-ll
-cd core
-ll
-cd src/main/resources
-ll
-pp
-cd modules/core
-gradle war
-gradle war
-ll
-ll target
-ll
-ll target/artifacts
-open target/artifacts
-gradle war
-gradle war
-open target/artifacts
-cd ..
-cd ..
-gradle war
-gradle war
-gradle war
-gradle war
-gradle war
-find / -name \*iconv\* 2>&1
-git pull
-git pull
-git pull
-git st
-gradle war
-gradle war
-gradle war
-gradle war
-gradle war
-gradle war
-vm startvm CentOS --type headless
-ssh localhost -p 2222
-vm controlvm
-ssh localhost -p 2222
-git pull
-git st
-git ci -m 'ITMERCHPAY-0 Started ignoring app configuration from the war generation'
-git push
-ssh localhost -p 2222
-ssh eminence.gap.com -p 2222
-git pull
-vm | grep power
-vm | grep power -b5
-vm controlvm CentOS acpipowerbutton
-git st
-pwd
-cd modules/core
-ll
-cd src/re
-cd src/main/resources
-ll
-cd ..
-ll
-cd webapp
-ll
-cd WEB-INF
-ll
-cd ..
-cd ..
-cd ..
-pp
-find . -name \*store\*
-git pull
-ssh eminence.gap.com -p 2222
-cd modules/core/target
-ll
-cd artifacts
-ll
-pp
-gradle war
-cd modules/core/target/artifacts
-pp
-cd m/c/t/a
-cd modules/core/target/artifacts
-ll
-cp *.war ~/Desktop/instance/webapps
-cd ~/Desktop/instance/webapps
-ll
-mv com.gap.scms.merchpay-app-1.1.0.0.war ROOT.war
-ll
-cd ../
-ll
-pp
-ll
-e .
-coffee --version
-find . -name coffee 
-git pull
-cd ~/Library/Application\ Support/IntelliJIdea11
-ll
-cd ~/Library/Preferences/IntelliJIdea11
-ll
-find . -name localhost
-cd ~/Library/Caches/IntelliJIdea11
-ll
-cd tomcat
-ll
-cd Unnamed_merch-payables
-ll
-cd conf
-ll
-e server.xml
-vm startvm CentOS --type headless
-ssh localhost -p 2222
-ll
-ssh dgphxscmap011.phx.gapinc.dev
-ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
-ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
-ll
-cat context.xml
-ll ..
-ll ../logs
-ll ../work
-ll ../work/Catalina/localhost/
-cd _
-ll ../work/Catalina/localhost/_
-ll
-pwd
-ll
-cat catalina.properties
-ll
-cat catalina.policy
-ll
-scat context.xml
-ll
-cat server.xml
-scat server.xml
-ll
-scat web.xml
-ll
-ll
-cat logging.properties
-cat logging.properties
-e ~/.zshrc
-pwd
-cd /Users/isa/Library/Caches/IntelliJIdea11/tomcat/Unnamed_merch-payables/conf
-ll
-ll
-cd ..
-ll
-ll ..
-ll ../..
-ll
-du -sh
-ssh teamcity@merchpayci.gap.com
-ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
-/dev/urand
-/dev/urandom
-sudo /dev/urandom
-cat /dev/urandom
-hostname
-ping L-SFOR20UDV7N-M.gap.com
-ping L-SFOR20UDV7N-M
-p
-cd
-p scms/mp/modules/core/libs
-p scms/mp
-svn up
-cd ../po && svn up
-p merchandise-payables
-cd conf
-ll
-./config-generator.rb
-./config-generator.rb /tmp core data-bag.default.json
-ll /tmp
-ll /tmp/
-open .
-hostname
-ll ~/Downloads
-ll ~/
-ifconfg
-ifconfig
-ssh isagoksu@ihateeclipse.com
-enable_proxy
-ssh isagoksu@ihateeclipse.com
-ping ihateeclipse.com
-telnet ihateeclipse.com 80
-curl ihateeclipse.com
-ll /Volumes
-cd Documents
-ll
-cd ../VirtualBox\ VMs
-ll
-mongo
-cd /usr/local/Cellar/tomcat/6.0.26/libexec
-ll
-cd webapps
-ll
-cp ~/Downloads/merchpay-app-1.1.0.16827.war ROOT.war
-cd ../bin/
-ll
-./catalina.sh jpda start
-tail -f ../logs/catalina.out
-ps -ef | grep mongo
-less ../logs/catalina.out
-ll
-cd ../webapps/ROOT
-ll
-cd WEB-INF
-ll
-cd classes
-ll
-cp ~/Projects/merchandise-payables/modules/core/src/main/resources/app.properties .
-cp ~/Projects/merchandise-payables/modules/core/src/main/resources/logback.xml .
-ll
-../../../../bin/catalina.sh restart
-../../../../bin/catalina.sh stop
-../../../../bin/catalina.sh start
-ll
-ll
-date
-date -t
-date -r
-date -j
-date -n
-date -u
-time
-man date
-date -f "%T"
-date -f "%y"
-date -f "y"
-date -f "yyy"
-mktemp
-mktemp .
-mktemp /tmp
-mktemp isa
-ll
-ll
-rm -rf isa
-rm -rf .youtrack
-ll
-ll .xyz
-cd ..
-ll
-rm -rf .xyz
-cd isa
-rm -rf .xyz
-du -sh
-df -h
-cat ~/Downloads/1000054
-rm -rf ~/Downloads/1000054
-sudo ls /tmp > /tmp/something2
-cat /tmp/something2
-cd /tmp
-sudo ls > /tmp/something
-ll /tmp/something
-cat /tmp/something
-bash
-p scms/mp
-svn log -l1
-curl -s http://whatthecommit.com
-curl http://whatthecommit.com
-enable_proxy
-curl http://whatthecommit.com
-curl http://whatthecommit.com | grep '<p>'
-curl http://whatthecommit.com | grep '<p>' | cut -d> -f2
-curl http://whatthecommit.com | grep '<p>' | cut -d\> -f2
-curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
-curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
-curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
-curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
-curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
-curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
-cd tmp
-cd /tmp
-ll
-mkdir -p s/s2
-ll
-mv something s/s2/
-ll
-zip s
-zip -9 s.zip s
-ll
-unzip s.zip
-ll
-mv s s2
-unzip s.zip
-ll
-curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
-curl -s http://whatthecommit.com | grep '<p>' | cut -d\> -f2
-e ~/.gitconfig
-git init somethingelse
-e ~/.githelpers
-git init somethingelse
-cd somethingelse
-touch wtf
-git aci
-enable_proxy
-git aci
-touch wtf
-git aci
-echo "hello" > wtf
-git aci
-git ll
-cd ~/.environments
-git st
-git ci -m 'some more sublime settings and git configuration for auto commit with a random message'
-git push
-cd Downloads
-ll
-ll 1-5cd5d
-mv 1-5cd5d/Deja\ Vu\ 2006\ BR\ 720p-101.mkv ~/Movies
-ll
-mv 1-5cd5d glance
-mv 3-1991c/* glance
-mv 4-f78eb/* glance
-du -sh glance
-rm -rf 3-1991c 4-f78eb
-ll
-ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
-p scms/mp
-ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
-open /Volumes/Data/.XXX
-p s/m
-p scms/mp
-svn up
-svn ../po/up
-svn up ../po
-svn up ../../codesparrow
-ll modules/core/src/main
-ll modules/core/src/main/resources
-ll modules/core/src/main/resources/templates
-ll
-cd modules/core/src/main/resources/templates
-ll
-svn rm freemarker
-svn rm handlebars
-svn st
-svn ci -m 'ITMERCHPAY-0 [Isa Goksu] Removing redundant files from the artifact'
-svn st
-ll
-cd ..
-ll
-ll
-cd ..
-ll
-cd webapp
-ll
-cd ..
-ll
-ll webapp/images
-svn rm webapp/images/jquery-datepicker
-ll webapp/images/jquery-datepicker
-svn st
-svn up
-ll webapp/images
-cd ../../..
-ll
-cd ..
-ll
-svn rm -f2
-svn rm \-f2
-svn rm "-f2"
-ll
-rm -rf -f2
-rm -rf \-f2
-rm -rf "\-f2"
-ll
-rm -rf "-f2"
-enable_proxy
-curl "https://scms01:Password03@qa-scms.gap.com/scms/resources/po/1060203"
-curl -u "scms01:Password03" "https://qa-scms.gap.com/scms/resources/po/1060203"
-man curl
-curl -u scms01:Password03 "https://qa-scms.gap.com/scms/resources/po/1060203"
-curl -u scms01:Password03 "https://dev-sysint-scms.gap.com/scms/resources/po/1060203"
-curl -u scms01:Password03 "https://dev-scms.gap.com/scms/resources/po/1060203"
-curl -u scms01:Password03 "https://demo-scms.gap.com/scms/resources/po/1060203"
-curl -u Ke0l8x7:Gap11111 "https://qa-scms.gap.com/scms/resources/po/1060203"
-curl http://merchpayci.gap.com:8080/api/dpo/1000054
-curl http://merchpayci.gap.com:8080/api/fc/search?dpoId=1000054
-curl "http://merchpayci.gap.com:8080/api/fc/search?dpoId=1000054"
-curl "http://merchpayci.gap.com:8080/api/fc/search?dpo=1000054"
-curl "http://merchpayci.gap.com:8080/api/fc/search?dpoNumber=1000054"
-curl "http://merchpayci.gap.com:8080/api/fc/search?poNumber=1000054"
-curl "http://merchpayci.gap.com:8080/api/fc/recent"
-curl "http://merchpayci.gap.com:8080/api/fc/recent"
-jps -l
-catalina stop
-jps -l
-jps -l
-catalina stop
-catalina.sh stop
-catalina stop
-jps -l
-curl localhost:8080/api/dpo/1060203
-curl localhost:8080/api/dpo/1060203
-curl localhost:8080/api/dpo/1060203
-curl localhost:8080/api/dpo/1060203
-ll
-svn up
-svn revert .
-svn up
-ll
-open .
-ll
-svn st
-svn revert modules/core/src/main/webapp/images/jquery-datepicker
-svn st
-svn up
-svn up
-svn up
-svn up
-svn up
-tcpflow
-brew install tcpflow
-tcpflow -i any -C -e port 8080
-suod tcpflow -i any -C -e port 8080
-sudo tcpflow -i any -C -e port 1234
-sudo tcpflow -i lo -C -e port 1234
-ifconfig
-sudo tcpflow -i en0 -C -e port 1234
-sudo tcpflow -i en0 -C -e port 8080
-man tcpflow
-less modules/ngf/build.gradle
-cd /Volumes/Data/.XXX
-open .
-ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
-ssh is1z1j6@dgphxscmap012.phx.gapinc.dev
-ssh is1z1j6@dgphxscmap012.phx.gapinc.dev
-ssh is1z1j6@dgphxscmap012.phx.gapinc.dev
-ssh is1z1j6@dgphxscmap012.phx.gapinc.dev
-p merchandise-payables
-git pull
-ll
-gradle build
-git pull
-ll
-cd modules/core
-ll
-cd src/main
-ll
-cd webapp
-ll
-ll META-INF
-mv ROOT.xml META-INF/Context.xml
-e .
-git st
-git add META-INF/
-git st
-p merchandise-payables
-gradle modules:core:build
-e .
-rm -rf .gradle ~/.gradle
-git st
-gradle init build
-e .
-gradle init build
-ssh ihateeclipse.com
-enable_proxy
-ssh isagoksu@ihateeclipse.com
-ping jira.gid.gap.com
-gradle module:core:war
-gradle module:core:war
-gradle module:core:war
-open modules/core/target/artifacts
-git pull
-git stash
-git pull
-git stash pop
-gradle war
-gradle war
-ping merchpay.gap.com
-ping merchpaya.gapinc.com
-nslookup
-dscacheutil --flush
-dscacheutil 
-dscacheutil -flushcache
-ping merchpaya.gapinc.com
-nslookup
-gradle war
-gradle war
-groovysh
-gradle war
-gradle war
-gradle war
-git st
-git pull
-git stash
-git pull
-git stash pop
-git ci -m 'ITMERCHPAY-0 Made sure that servlet-api jar file from being included in the war file'
-git push
-ll
-ll logs
-ll modules/core
-ll modules/core/logs
-rm -rf modules/core/logs
-gitk --all
-git st
-git ci -m 'ITMERCHPAY-0 Re-added emma exclude filters back'
-git pull
-gitk --all
-git push
-git pull
-git push
-curlish http://localhost:9992/dpo/1000054
-gitk --all
-git st
-git ci -m 'ITMERCHPAY-0 Had to add servlet-api 3.0 spec back since embedded stubby needs it, gotta revisit this after november'
-git pull
-git push
-gradle clean init
-gradle war
-git pull
-nslookup
-ping bgrccscmdb001.rcc.gapinc.com
-git st
-git pull
-ll
-git pull
-ll
-ll logs
-ll modules/core/
-ll
-git st
-ll
-ll logs
-rm -rf logs
-ll
-git st
-gradle war
-gradle war
-git st
-git diff
-git ci . -m 'ITMERCHPAY-0 Moved SSI random date generation after encoding in the head, also assigned correct sourceCompatibility attributes to build'
-git push
-gradle dependencies
-gradle modules:core:dependencies | less -R
-ll
-git st
-git diff
-git pull
-git st
-git diff
-git ci -m 'ITMERCHPAY-0 Removed context.xml for the time being to test the deployment pipeline'
-git pull
-git push
-git pull
-git pull
-git push
-git pull
-git pull
-git pull
-man mkdir
-curl 
-curl http://dgphxscmap012.phx.gapinc.dev:8080/status
-enable_proxy
-curl http://dgphxscmap012.phx.gapinc.dev:8080/status
-curl http://dgphxscmap012.phx.gapinc.dev:8080/status
-ll
-git st
-git ll
-git pull
-e .
-cd conf
-ll
-./config-generator.rb
-./config-generator.rb /tmp core data-bag.default.json 1.1.0.1231
-cat /tmp/app.properties
-head /tmp/app.properties
-git pull
-gradle build
-cd ..
-gradle build
-gradle build
-head modules/core/src/main/resources/app.properties
-git st
-git pull
-git ci -m 'ITMERCHPAY-0 Added build number to be passed to the config generator so that we can set the build number in the prod chef recipes'
-git push
-gradle build
-ll
-ll target
-ll target/distributions
-unzip -l target/distributions/merchpay-1.1.0.0.zip
-gradle build
-ll target/distributions
-git st
-git pull
-git st
-git ci -m 'ITMERCHPAY-0 Added config files to be generated as artifacts'
-git push
-git st
-cd modules/ngf
-ll
-cd src/
-ll
-cd main
-ll
-cd resources
-ll
-git st
-cd config
-ll
-cd sql
-ll
-pp
-p merchandise-payables
-git st
-git pull
-git ll
-git st
-git pull
-git st
-git co -- modules/ngf
-git st
-git reset --soft HEAD^
-git reset --soft HEAD
-git st
-git reset --soft HEAD^^
-git unstage
-git st
-git diff
-git pull
-cd modules/ngf
-ll
-mv src/main/config-db-data.sql .
-ll
-ll
-find . -name \*.xml
-find src -name \*.xml
-ksdiff src/integration/resources/config/sql/database-integration-in-memory.xml src/main/resources/config/database.xml
-ksdiff src/integration/resources/config/sql/database-integration-in-memory.xml src/main/resources/config/database.xml
-gradle init
-find src -name \*.xml
-ksdiff src/integration/resources/config/appContext-integration-no-quartz-in-memory-db.xml src/main/resources/appContext.xml
-git pull
-ll
-cd target
-ll
-cd classes/test
-ll
-cd ..
-ll
-cd ..
-ll
-cd test
-ll
-cd Integration
-ll
-ll config
-cat config/appContext.xml
-git pull
-cd ../../..
-ll
-gradle test
-gradle integrationTest
-gradle cleanintegrationTest
-gradle clean integrationTest
-open file:///Users/isa/Projects/merchandise-payables/modules/ngf/target/reports/tests/index.html
-gradle clean integrationTest
-cd target
-ll
-cd classes/integrationTest
-ll
-ll
 ll ..
 ll ../..
 cd ..
@@ -10033,3 +9246,791 @@ ping google.com
 ifconfig
 nslookup
 nslookup
+cd ~/.environments/osx/sublime
+ll
+cd Packages
+ll
+find . -name *.tmbudnle
+find . -name \*.tmbundle
+find ../ -name \*.tmbundle
+find ../../ -name \*.tmbundle
+find ../../ -name \*.tmBundle
+git st
+git ci -m 'Added puppet syntax to Sublime'
+git st
+git ll
+git ll
+git st
+ll
+git push
+git ll
+gem search vagrant
+gem search veewee
+gem isntall vagrant-hostmaster
+gem install vagrant-hostmaster
+ll
+python
+cd Desktop
+git clone https://github.com/cburyta/puppet-textmate.tmbundle.git
+rbenv global
+rbenv list
+rbenv versions
+gem list
+gem install vagrant
+gem install veewee sahara
+gem list
+function hello() { echo "isa"; }
+hello
+a=1
+b=2
+$a
+echo $a
+echo $b
+echo $a+$b
+echo eval($a+$b)
+echo ${1+2}
+function hello { echo "hello world"employees": [\
+function hello { echo "hello world"employees" }; 
+function hello() { echo "ehllo" }
+function hello() { echo "ehllo"; }
+hello
+$(1+2)
+echo $(1+2)
+ruby -e "1+2"
+ruby -e "p 1+2"
+zsh
+ls
+pwd
+mkdir dizin
+ls
+ls -G
+touch dosya
+ls -G
+ls --help
+ls -
+man ls
+ll /bin
+ls /bin
+ls /bin
+ls /usr/bin
+ls /usr/bin/t*
+/bin
+ls /bin
+ll
+ls -v
+ls --version
+man ls
+man nc
+nc --version
+nc -v
+rm --version
+mvn rm
+man rm
+ls -G
+ls --color=auto
+ls /bin
+ls /usr/bin
+/usr/sbin
+ls --help
+nc --help
+zsh --help
+ll /
+echo /dev/random 
+/dev/random 
+echo '' > /dev/random 
+cat /dev/random 
+/dev/null
+echo "isa" > /dev/null
+ls /dev/disk0s1 
+ls -al /dev/disk0s1 
+ll
+pwd
+pwd
+cd ..
+ls -alh
+cat workshop/
+cat workshop
+echo workshop
+vim workshop/
+chmod -x workshop/
+ll
+ls
+ls -l workshop/
+ls -alh workshop/
+chmod +x workshop/
+ls -alh workshop/
+ls
+ls -l
+chmod +ux +uw workshop/
+chmod 674 workshop/
+ls -alh
+ll ~
+alias
+ls -alhGF
+ls -alhGF
+alias merhaba='ls -alhGF'
+merhaba
+alias ll=merhaba
+ll
+alias
+ll
+alias l='ls -l'
+l
+l
+ll
+alias l='ls -l
+'
+alias l='ls -l'
+rm
+ll
+cd workshop/
+ll
+ll
+touch d1
+touch d2 d3 d4
+ll
+
+ll
+touch d[5-15]
+ll
+man touch
+rm d1
+alias
+mkdir demo
+ll
+rm demo
+history
+touch d1
+touch d1
+asdfasdf
+cat /var/log/adfa/asdf/asdf/asd/fasdfao
+PS1
+export PS1='workshop:) '
+ll
+export PS1='[[e32;workshop:) 
+
+export PS1='[[32e;workshop:) '
+export PS1='workshop:) '
+tail ~/.zshrc 
+ls
+find . -name d*
+find . -name d\*
+ll
+find . -name e\*
+find . -name d\* -exec chmod +w {}\;
+find . -name d\* -exec chmod +w {} \;
+ll
+find . -name d\* -exec chmod 777 {} \;
+ll
+find . -name d\* -exec chmod 744 {} \;
+ll
+$(find . -name d\*)
+for dosya in $(find . -name d\*); do echo $dosya; done;
+history
+history
+find . -name e\*
+find . -name e\*
+echo "isa goksu" > d1 
+cat d1
+echo "m. ali aydin" >> d1 
+cat d1
+echo "zeynep aydemir" >> d1 
+echo "emrah bayraktaroglu" >> d1 
+echo "bahaddin yasar" >> d1 
+echo "a. berat daglar" >> d1 
+cat de1
+cat d1
+cat d1
+grep 'e' d1
+grep --color=auto 'e' d1
+grep --color=auto -H 'e' d1
+grep --color=auto -H 'e' *
+grep --color=auto -r -H 'e' *
+echo "a. berat daglar" > d2
+grep --color=auto -r -H 'e' *
+grep --color=auto -r -n 'e' *
+man grep
+grep --help
+vim d1
+cat d1
+sort d1
+man sort
+sort -n d1
+man sort
+sort -t\, -k2
+sort -t, -k2
+sort -t, -k 2
+sort -t, -k 2 d1
+sort -t, -k2 d1
+sort -n -t, -k2 d1
+sort -n -t, -k2 d1
+cat d1
+cat d1 | cut -d, -f2
+cat d1 | cut -d, -f2 | sed 's/\s+//g'
+cat d1 | cut -d, -f2 | sed 's/\s*//g'
+cat d1 | cut -d, -f2 | sed 's/\S*//g'
+cat d1 | cut -d, -f2 | sed -e 's/\s*//g'
+cat d1 | cut -d, -f2 | sed -e 's/[::space::]*//g'
+cat d1 | cut -d, -f2 | sed 's/\S+//g'
+man sed
+cat d1 | cut -d, -f2 | sed '/\s+//g'
+cat d1 | cut -d, -f2 | sed 's/\s+//g'
+cat d1 | cut -d, -f2 | sed 's/\s+//ig'
+cat d1 | cut -d, -f2 | sed 's/\s+//Mg'
+ll
+awk '{ print $2 }' d1
+awk '{ print $3 }' d1
+column -T2 d1 | awk '{ print $3 }'
+man column
+column -t d1 | awk '{ print $3 }'
+column -t d1
+column -T2 d1 | awk '{ print $0 }'
+awk '{ print $0 }' d1
+awk -FS, '{ print $2 }' d1
+awk -FS, '{ print $1 }' d1
+awk -FS=, '{ print $1 }' d1
+man awek
+man awk
+awk -F, '{ print $1 }' d1
+awk -F, '{ print $2 }' d1
+top
+htop
+who
+who -a
+a=1
+echo $a
+vi ~/.profile
+. ~/.profile
+echo $a
+echo $b
+rm -rf ~/.profile
+vi ~/.profile
+cd ~
+pwd
+cd /tmp
+pwd
+cd
+ll
+vim
+vi
+ivm
+vim
+vim
+cd /tmp
+ll
+mkdir workshop
+cd workshop
+dot
+brew search dot
+brew search graphviz
+brew install graphviz
+bash
+who
+echo $a
+hello()
+hello
+zsh
+bash
+echo $a
+. ~/.profile
+echo $a
+bash
+coffee
+coffee
+coffee
+coffee
+cd Projects
+ll
+git init digit-reader
+cd digit-reader
+ll
+touch README.md
+e .
+e .
+brew install graphviz
+npm
+brew search node
+brew info node
+brew install node --enable-debug
+npm install -g coffee-script
+npm install -g mocha
+coffee --version
+mocha --version
+mocha
+mocha --help
+mkdir tests lib
+ll
+touch lib/digit-reader.coffee
+touch tests/digit-reader.spec.coffee
+mocha --compilers coffee:coffee-script
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mv lib src
+mv lib src
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --help
+mocha -w --compilers coffee:coffee-script tests
+mocha -w --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests -w
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script tests -w
+mocha --compilers coffee:coffee-script tests -w
+mocha --compilers coffee:coffee-script tests -w
+mocha --compilers coffee:coffee-script tests --require should -w
+mocha --help
+mocha --compilers coffee:coffee-script tests --require should
+mocha --compilers coffee:coffee-script --require should tests
+mocha --compilers coffee:coffee-script -r should tests
+mocha --compilers coffee:coffee-script -r assert tests
+mocha --compilers coffee:coffee-script  tests
+mocha --compilers coffee:coffee-script  tests
+mocha --compilers coffee:coffee-script  tests
+[A
+mocha --compilers coffee:coffee-script  tests
+mocha --compilers coffee:coffee-script -r assert tests
+mocha --compilers coffee:coffee-script -r assert tests
+mocha --compilers coffee:coffee-script -r should tests
+npm install -g should
+mocha --compilers coffee:coffee-script -r should tests
+mocha --compilers coffee:coffee-script tests
+mocha --compilers coffee:coffee-script -r should tests
+mocha --compilers coffee:coffee-script -r should tests
+mocha --compilers coffee:coffee-script -r should tests
+mocha --compilers coffee:coffee-script -r should tests -w
+mocha --compilers coffee:coffee-script -r should tests -w
+git st
+git ci -m 'Added initial implementation'
+git st
+ll
+git ll
+coffee
+mocha --compilers coffee:coffee-script -r should tests -w
+mocha --compilers coffee:coffee-script -r should tests -w
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+coffee
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+git st
+git ci -m 'finished tens'
+git ll
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+git st
+git st
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+git ci -m 'finished hundreds'
+git ll
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+git st
+git st
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should -d tests 
+mocha --help
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+ll
+git st
+git ci -m 'finished 5 digits'
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+git st
+git ci -m '6 digits are done'
+git st
+git ll
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+mocha --compilers coffee:coffee-script -r should tests 
+git st
+ll
+gti st
+git st
+mocha --compilers coffee:coffee-script -r should tests 
+git st
+git ci -m 'finished precision'
+git ll
+git
+cd .
+cd ..
+git st
+ll
+cp -R digit-reader /Volumes/Carrier
+ll /Volumes/Carrier
+brew update
+brew upgrade
+irb
+p
+ll
+git clone git@github.com:isa/test-base-xruby.git
+ll
+cd test-base-xruby
+ll
+cd test
+ll
+e .
+e .
+ll
+cucumber features
+cucumber
+cucumber
+cucumber
+cucumber
+cucumber
+cucumber
+cucumber
+git st
+ll
+ll
+vagrant basebox templates 
+vagrant basebox templates | grep rhel
+vagrant basebox templates | grep red
+vagrant basebox templates
+irb
+gem install capybara
+gem install capybara
+gem install specs
+gem list
+gem install capybara-webkit
+brew search ntfs
+brew install ntfs-3g
+brew update
+ll
+c Downloads
+cd Downloads
+ll
+cd ..
+ll
+cd /tmp
+ll
+touch idea.tar.gz
+ll
+cd
+p
+ll
+cp -R tdd-workshop /Volumes/Carrier
+brew install ntfs-3g
+sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.orig
+sudo ln -s /usr/local/Cellar/ntfs-3g/2012.1.15/sbin/mount_ntfs /sbin/mount_ntfs
+ll /Volumes/Carrier
+brew search fuse
+brew install fuse4x-kext
+ll /Library/Extensions
+	ll /usr/local/Cellar
+	ll /usr/local/Cellar/fuse4x-kext
+	ll /usr/local/Cellar/fuse4x-kext/0.9.2
+cat /usr/local/Cellar/fuse4x-kext/0.9.2
+cat /usr/local/Cellar/fuse4x-kext/0.9.2/INSTALL_RECEIPT.json
+cat /usr/local/Cellar/fuse4x-kext/0.9.2/Library
+ll /usr/local/Cellar/fuse4x-kext/0.9.2/Library
+ll /usr/local/Cellar/fuse4x-kext/0.9.2/Library/Extensions
+sudo cp -R /usr/local/Cellar/fuse4x-kext/0.9.2/Library/Extensions/fuse4x.kext /Library/Extensions
+ll /Library/Extensions
+ll /Library/Extensions/fuse4x.kext
+ll
+cd Desktop
+e demo.dot
+dot -Tpng demo.dot demo.png
+dot -Tpng demo.dot -o demo.png
+dot -Tpng demo.dot -o demo.png
+dot -Tpng demo.dot -o demo.png
+open demo.png
+dot -Tpng demo.dot -o demo.png
+p
+ll
+c digit-reader
+p digit-reader
+ll
+cat README.md
+mocha --compilers coffee:coffee-script -r should tests
+e .
+cd ..
+git clone git@github.com:isa/pekmez.js.git
+ll
+cd pekmez.js
+ll
+mkdir lib/modules
+mkdir test/modules
+ll
+cd touch lib/pekmez.js
+touch lib/pekmez.coffee
+ll
+touch test/pekmez.spec.js
+ll
+rm -rf lib/modules
+rm -rf test/modules
+ll
+tree
+brew install tree
+ll
+tree
+mv test/pekmez.spec.js test/pekmez.spec.coffee
+git st
+git ll
+tree
+e .
+git st
+touch .gitignore
+ll
+ll ~/
+git ll
+git st
+git ci -m 'Added initial read me and basic directory layout'
+git st
+git push -u origin master
+ll
+p test-base-xruby
+ll
+e .
+cucumber
+cd test
+cucumber
+ll
+cd /Des
+cd ~/Desktop
+ll
+rm -rf demo*
+ll
+cat 1.txt
+cd /usr/local
+ll
+git st
+git reset --hard HEAD
+ll
+git ll
+gem list
+rbenv rehahs
+rbenv rehash
+cd ~/.rbenv
+ll
+cd shims
+ll
+cat rake
+cd ..
+ll
+cd versions
+ll
+cd 1.9.3-p327
+ll
+cd gemsets
+ll
+cd todo
+ll
+cd bin
+ll
+./rake
+./rake --version
+cd ..
+cd ..
+ll
+rm -rf todo
+ll
+cd ..
+ll
+cd bin
+ll
+cd ..
+cd ..
+ll
+cd ..
+ll
+rbenv remove 1.9.3-p327
+rbenv
+rbenv commands
+rbenv uninstall 1.9.3-p327
+irb
+which irb
+rbenv which irb
+rbenv rehash
+brew remove rbenv-bundler
+rbenv rehash
+irb
+irb -v
+rbenv which irb
+rbenv version
+rbenv versions
+rbenv global system
+rbenv rehash
+rbenv which irb
+rbenv versions
+rbenv install
+rbenv install -l
+rbenv install 1.9.3-p362
+rbenv rehash
+rbenv global 1.9.3-p362
+rbenv versions
+rbenv rehash
+irb --version
+ruby --version
+gem list
+cat ~/.ssh/id_rsa.pub
+ssh isagoksu@ihateeclipse.com
+ssh isa.io
+ssh isagoksu@isa.io
+ssh isagoksu@ihateeclipse.com
+mongo
+ll
+brew list
+brew update
+brew install mongo
+ll
+mkdir /tmp/horhor
+mongod --dbpath /tmp/horhor
