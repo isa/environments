@@ -1,14 +1,6 @@
 #!/bin/bash
 # vim: ft=sh
 
-# Log output:
-#
-# * 51c333e    12 days    Gary Bernhardt   add vim-eunuch
-#
-# The log format uses } characters between each field, and `column` is later
-# used to split on them. A } in the commit subject or any other field will
-# break this.
-
 HASH="%C(yellow)%h%Creset"
 RELATIVE_TIME="%C(green)%ar%Creset"
 AUTHOR="%C(blue)%an%Creset"
@@ -58,4 +50,17 @@ find_in_revisions() {
          git grep -F $1 $revision
       done
    )
+}
+
+review() {
+   local SHA=${1:-HEAD}
+   local BRANCH=${2:-master}
+
+   if [ $SHA == $BRANCH ]; then
+      SHA=HEAD
+   fi
+   echo $BRANCH
+   echo $SHA
+
+   git dt -y $BRANCH...$SHA
 }

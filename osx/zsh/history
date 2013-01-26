@@ -1,434 +1,3 @@
-ll ..
-ll ../..
-cd ..
-ll
-ll main
-cd ..
-ll
-ll resources
-ll resources/integrationTest
-ll resources/integrationTest/com/gap/scms/ngf/persistence
-ll resources/integrationTest/config
-ll resources/integrationTest/config/sql/database.xml
-cat resources/integrationTest/config/sql/database.xml
-cd ..
-gradle clean integrationTest
-gradle clean integrationTest
-gradle clean integrationTest
-gradle clean integrationTest
-git st
-git st
-git pull
-git ci -m 'ITMERCHPAY-0 Refactored the directory structure of NGF to ignore test related stuff to be generated in the prod environment'
-git st
-git push
-cd ..
-cd ..
-git pull
-ll
-ll target/distributions
-git pull
-ll modules/core/src/main/resources
-ll modules/core/src/main/resources/templates
-ll modules/core/src/main/webapp/images
-vimdiff . ../scms/mp
-gradle build
-git pull
-rm -rf target
-curl http://dgphxscmap012.phx.gapinc.dev:8080/status
-git pull
-gradle test
-gradle test
-gradle integrationTest
-ll
-e .
-git ll
-git show 35aa79a
-cd qa/acceptance
-bundle exec cucumber
-./cuke.sh
-./cuke.sh
-git pull
-mkfifo pipe
-mkfifo pipe tty=`tty`; nc -l -p 1234 < pipe | tee $tty | nc $host $port | tee pipe
-rm -rf pipe
-cd /tmp
-mkfifo pipe tty=`tty`; nc -l -p 1234 < pipe | tee $tty | nc $host $port | tee pipe
-mkfifo pipe
-ll
-rm -rf *
-ll
-mkfifo pipe
-ll
-cat pipe
-tty=`tty`; nc -l -p 8080 < pipe | tee $tty | nc $host $port | tee pipe
-tty=`tty`; nc -l 8080 < pipe | tee $tty | nc $host $port | tee pipe
-man nc
-tty=`tty`; nc -l -s merchapyci.gap.com -p 8080 < pipe | tee $tty | nc $host $port | tee pipe
-tty=`tty`; nc -l -p 9999 < pipe | tee $tty | nc merchpayci.gap.com 8080 | tee pipe
-tty=`tty`; nc -l 9999 < pipe | tee $tty | nc merchpayci.gap.com 8080 | tee pipe
-p scms/mp/
-svn up
-svn st
-svn up
-svn up
-svn up
-ll
-cd modules/core
-cd ..
-ll
-cd ..
-ll
-svn up ../po
-svn up
-svn up
-svn up
-svn ../po
-svn up ../po
-svn up
-svn up
-svn up
-svn up
-svn up
-cd Desktop
-ll
-mkdir instance
-cd instance
-ll
-cp -R /usr/local/Cellar/tomcat/6.0.26/libexec .
-ll
-cd libexec
-ll
-rm -rf bin lib L* N* R*
-ll
-mv . ../
-ll
-mv * ../
-ll
-cd ..
-rm -rf libexec
-ll
-du -sh
-cd webapps
-ll
-rm -rf *
-ll
-cd ..
-ll
-rm -rf logs/*
-ll
-ll
-e start.sh
-ll /usr/local/Cellar/tomcat/6.0.26/libexec
-chmod +x start.sh
-ll
-./start.sh
-./start.sh
-./start.sh
-lsof -i :8080
-ll
-cp start.sh stop.sh
-rm -rf stop.sh
-mv start.sh catalina.sh
-ll
-./catalina.sh stop
-e catalina.sh
-./catalina.sh stop
-ll
-e .
-./catalina.sh jpda start
-lsof -i :8888
-jps -l
-jps -lav
-jps -lv
-./catalina.sh stop
-jps -la
-jps -lA
-jps -lV
-jps -lv
-jps -lv | grep catalina
-ll
-ll
-./catalina.sh start
-ll webapps
-ll webapps
-ll webapps
-ll webapps
-ll webapps
-ll webapps
-cd webapps
-mv ROOT.war com.gap.scms.merchpay-1.1.0.0.war
-ll
-cd ..
-ll
-./catalina.sh stop
-./catalina.sh start
-ll logs
-ll
-ll webapps
-ll
-cd webapps
-ll
-mv com.gap.scms.merchpay-1.1.0.0.war ROOT.war
-ll
-cd ..
-ll
-cd conf
-ll
-cd Catalina
-ll
-cd localhost
-ll
-cd ../..
-ll
-cd ..
-./catalina.sh start
-tail -f /usr/local/Cellar/tomcat/6.0.26/libexec/logs/catalina.out
-tail -20f /usr/local/Cellar/tomcat/6.0.26/libexec/logs/catalina.out
-cat /usr/local/Cellar/tomcat/6.0.26/libexec/logs/catalina.out
-./catalina.sh stop
-cat /usr/local/Cellar/tomcat/6.0.26/libexec/logs/catalina.out
-./catalina.sh start
-cat /usr/local/Cellar/tomcat/6.0.26/libexec/logs/catalina.out
-cat /usr/local/Cellar/tomcat/6.0.26/libexec/logs/catalina.out
-cat /usr/local/Cellar/tomcat/6.0.26/libexec/logs/catalina.out
-cat /usr/local/Cellar/tomcat/6.0.26/libexec/logs/catalina.out
-cat /usr/local/Cellar/tomcat/6.0.26/libexec/logs/catalina.out
-./catalina.sh stop
-ll
-cd logs
-ll
-cd ..
-ll
-find -type d -exec rm -rf {}\;
-ll
-find . -type d -exec rm -rf {}\;
-ll
-find . -type d -exec rm -rf {} \;
-ll
-ll
-traceroute pgphxscmdb004.phx.gapinc.com
-enable_proxy
-traceroute pgphxscmdb004.phx.gapinc.com
-traceroute pgphxscmap004.phx.gapinc.com
-telnet pgphxscmdb004.phx.gapinc.com
-telnet pgphxscmap004.phx.gapinc.com 80
-ll
-cp -r /usr/local/Cellar/tomcat/6.0.26/libexec/conf .
-cp -R /usr/local/Cellar/tomcat/6.0.26/libexec/conf .
-ll
-ll conf
-mkdir logs temp work webapps
-ll
-e .
-ll webapps
-cd ..
-ll
-cd instance
-ll
-./catalina.sh start
-jps -l
-jps -l
-jps -lv
-telnet localhost 8881
-telnet localhost 8081
-telnet localhost 8009
-./catalina.sh stop
-telnet localhost 8009
-./catalina.sh start
-telnet localhost 8009
-./catalina.sh stop
-ll logs
-./catalina.sh start
-ll logs
-ll logs
-ll logs
-./catalina.sh stop
-./catalina.sh stop
-./catalina.sh start
-ll logs
-tail -f logs/catalina.out
-./catalina.sh stop
-./catalina.sh start
-tail -f logs/catalina.out
-telnet localhost 8081
-ll
-cp ~/Projects/merchandise-payables/modules/core/target/artifacts/com.gap.scms.merchpay-app-1.1.0.0.war webapps/ROOT.war
-ll
-ll webapps
-telnet localhost 8081
-./catalina.sh stop
-./catalina.sh start
-ll webapps
-ll
-cat logs/catalina.out
-./catalina.sh stop
-./catalina.sh start
-cat logs/catalina.out
-cat logs/catalina.out
-cat logs/catalina.out
-./catalina.sh stop
-cp conf/Catalina/localhost/ROOT.xml ~/Projects/merchandise-payables/modules/core/src/main/webapp
-rm -rf conf/Catalina/localhost/ROOT.xml
-./catalina.sh stop
-ll
-rm -rf webapps/*
-ll webapps
-ll
-mkdir app
-cd app
-cp ~/Projects/merchandise-payables/modules/core/src/main/resources/app.properties .
-cp ~/Projects/merchandise-payables/modules/core/src/main/resources/logback.xml .
-ll
-ll
-cd ..
-ll
-cp ~/Projects/merchandise-payables/modules/core/target/artifacts/com.gap.scms.merchpay-app-1.1.0.0.war webapps
-./catalina.sh start
-ll webapps
-cat logs/catalina.out
-./catalina.sh stop
-rm -rf logs/*
-./catalina.sh start
-cat logs/catalina.out
-cat logs/catalina.out
-cat logs/catalina.out
-./catalina.sh stop
-rm -rf logs/*
-rm -rf webapps/*
-ll
-ll webapps
-cp ~/Projects/merchandise-payables/modules/core/target/artifacts/com.gap.scms.merchpay-app-1.1.0.0.war webapps
-./catalina.sh start
-cat logs/catalina.out
-ping google.com
-ping ihateeclipse.com
-rm -rf logs/*
-cp ~/Projects/merchandise-payables/modules/core/target/artifacts/com.gap.scms.merchpay-app-1.1.0.0.war webapps
-rm -rf webapps/*
-cp ~/Projects/merchandise-payables/modules/core/target/artifacts/com.gap.scms.merchpay-app-1.1.0.0.war webapps
-./catalina.sh start
-cat logs/catalina.out
-./catalina.sh stop
-rm -rf logs/*
-./catalina.sh start
-cat logs/catalina.out
-./catalina.sh stop
-rm -rf logs/*
-ll logs
-rm -rf webapps/*
-rm -rf logs/*
-rm -rf webapps/*
-cp ~/Projects/merchandise-payables/modules/core/target/artifacts/*.war webapps
-./catalina.sh start
-cat logs/catalina.out
-ll
-ll logs
-ll
-cat logs/host-manager.2012-10-16.log
-cat logs/manager.2012-10-16.log
-cat logs/catalina.out
-./catalina.sh stop
-rm -rf logs/*
-ll logs
-./catalina.sh start
-cat logs/catalina.out
-jps -lv
-jps -lv
-jps -lv
-kill 77793
-jps -lv
-./catalina.sh stop
-jps -lv
-jps -lv
-ll
-rm -rf webapps/*
-curl http://localhost:8080/
-curl http://localhost:8080/
-curl http://localhost:8080/
-ll webapps
-cp ~/Projects/merchandise-payables/modules/core/target/artifacts/*.war webapps
-./catalina.sh start
-cat logs/catalina.out
-./catalina.sh stop
-ll
-cd webapps
-ll
-rm -rf *.war
-ll
-cd merchpay-app-dev
-ll
-cd META-INF
-ll
-rm -rf Context.xml
-cd ../..
-ll
-cd ..
-ll
-rm -rf logs/*
-ll logs
-./catalina.sh start
-cat logs/catalina.out
-open webapps
-cd conf
-ll
-ksdiff context.xml ~/Library/Caches/IntelliJIdea11/tomcat/Unnamed_merch-payables_2/conf/context.xml
-ksdiff server.xml ~/Library/Caches/IntelliJIdea11/tomcat/Unnamed_merch-payables_2/conf/server.xml
-cd ..
-./catalina.sh stop
-pp
-ll
-git st
-git ci -m 'ITMERCHPAY-26 Removed DC location details from the PO, seems like we don\'t need it anymore'
-git ci -m 'ITMERCHPAY-26 Removed DC location details from the PO, seems like we dont need it anymore'
-git pull
-git push
-cd modules/core/target
-ll
-cd artifacts
-ll
-p merchpay-app-dev.war
-. ~/.zshrc
-p merchandise-payables
-ll
-cd modules/core
-ll
-pp
-cd merchandise-payables
-git st
-git ci -m 'ITMERCHPAY-26 Ignored DC location since it will be removed'
-git push
-ll
-cd modules/core
-ll
-cd src/unit
-ll
-./run-phantom-jasmine-ko-headless.sh
-cat run-phantom-jasmine-ko-headless.sh
-phantomjs
-phantomjs `pwd`/javascripts/phantomjs-jasmine/phantom-jasmine-runner.coffee /Users/isa/Projects/merchandise-payables/modules/core/src/unit/javascripts/jasmine-runner.html
-p merchandise-payables
-git up
-git pull
-git st
-git ci -m 'ITMERCHPAY-0 Enabling the security'
-git push
-git pull
-git pull
-git st
-git ci -m 'ITMERCHPAY-0 Documentation templates for devs'
-git push
-git st
-git ci -m 'ITMERCHPAY-0 Added future MP business diagram'
-git push
-ll
-cd conf
-ll
-less config-generator.rb
-ll
-e .
-ll
-git log
 git log templates/ngf/logback.xml.erb
 rm -rf ../modules/ngf/app.properties
 ./config-generator.rb
@@ -10034,3 +9603,434 @@ brew install mongo
 ll
 mkdir /tmp/horhor
 mongod --dbpath /tmp/horhor
+rails 
+which rails
+gem
+gem list
+rails
+p todo
+rails
+cd ~/.environments
+git st
+git ci -m 'Changed Rbenv settings, seems like my if condition was not working properly'
+git push
+git pull
+git push
+git st
+git ci -m 'Added puppet'
+git st
+git push
+gem list
+which rails
+ll `which rails`
+rails 
+which irb
+rbenv irb
+rbenv which irb
+rbenv which gem
+gem
+gem list
+gem install rails
+p
+ll
+ll
+git clone git@github.com:isa/book-analyzer.git
+ll
+e book-analyzer
+cd book-analyzer
+brew search rbenv
+brew install rbenv-gemset rbenv-bundler rbenv-vars
+rm -rf /Library/Caches/Homebrew/rbenv-bundler-0.95.tgz
+brew install rbenv-gemset rbenv-bundler rbenv-vars
+rm -rf /Library/Caches/Homebrew/rbenv-bundler-0.95.tgz
+ll
+brew list
+ll
+touch .rbenv-gemset
+gem list
+mv .rbenv-gemset .rbenv-gemsets
+gem list
+gem install rails
+ll
+gem list
+touch Gemfile
+cd ..
+cp -R book-analyzer todo
+cd todo
+ll
+rm -rf .git*
+ll
+vim .rbenv-gemsets
+ll
+gem list
+e .
+brew udpate
+brew update
+brew install rbenv-bundler
+brew info rbenv-bundler
+e /usr/local/Library/Formula/rbenv-bundler.rb
+brew install rbenv-bundler
+brew list
+ll
+gem install bundler
+gem install rake
+ll
+bundle install
+bundle install
+ll
+rails new tasks -T
+gem list
+rbenv rehash
+ll
+rbenv rehash
+cd ...
+cd ..
+gem list
+rbenv rehash
+rbenv help rehahs
+rbenv help rehash
+gem install rake
+cd todo
+gem list
+rbenv rehahs
+rbenv rehash
+cd ..
+cd todo
+l
+ll
+gem list
+gem install bundler
+rbenv rehash
+bundle install
+ll
+rbenv rehash
+rails new tasks -T
+gem list
+rbenv which rails
+rails new tasks -T
+cd `rbenv which rails`
+cd /Users/isa/.rbenv/versions/1.9.3-p362/gemsets/todo/bin
+ll
+./rails
+gem list
+./rails
+rails
+rbenv global
+ruby --version
+p todo
+gem list
+rbenv rehash
+rails
+./rails
+rbenv rails
+rbenv which rails
+gem env
+bundle exec rails
+bundle exec rails new tasks -T
+cd tasks
+ll
+bundle
+rails g
+bundle exec rails g
+bundle exec rails g rspec:install
+bundle
+bundle
+bundle exec guard init rspec
+rbenv rehash
+guard 
+rails
+eval "$(rbenv init -)"
+rails
+cat ~/.zshrc
+RBENV_EXISTS=`which rbenv > /dev/null`
+echo $RBENV_EXISTS
+RBENV_EXISTS=`which rbenv`
+echo $RBENV_EXISTS
+which rbenv
+e ~/.zshrc
+ll
+guard
+bundle install
+guard
+guard
+ll
+guard
+rake test
+rake tests
+rake
+rake _T
+rake -T
+rake spec
+rake -T
+rake spec:requests
+guard
+rake rspec
+rake \spec
+rake spec
+rake spec
+rake spec
+bundle install
+rake spec
+guard
+ll
+ll tmp
+ll tmp/capybara
+cd
+ifconfig
+ping 10.0.0.2
+curl http://10.0.2.2:7122
+ll
+cd /Volumes/RHEL_6.3\ x86_64/images/
+ll
+cd ..
+mongoose
+ifconfig
+p todo
+cd tasks
+ll
+rails g
+rails g integration_test
+rails g integration_test rspec
+rails g integration_test tasks
+rake routes
+rake routes
+mkdir spec/routing
+rails g controller Tasks
+rails g controller Tasks index
+rails s
+rails s
+rails g model Task
+rails g model Task task:string
+rake db:migrate
+rails c
+rails s
+rails s
+bundle install
+ksdiff
+ksdiff --help
+cd ~/.environments
+ll
+git dt
+ll
+cd /Volumes/ftp.vahit.com/public_html
+ll
+cd emlak
+ll
+chmod 644 .htaccess
+ll
+ll
+mv .htaccess _htaccess
+ll
+mv _htaccess .htaccess
+mv .htaccess _htaccess
+mv _htaccess .htaccess
+ll
+rbenv global
+gem list
+p 
+ll
+mkdir build-server
+ll
+cd build-server
+ll
+echo "build-server" > .rbenv-gemsets
+ll
+gem list
+gem install vagrant veewee
+gem list
+rbenv rehash
+vagrant basebox templates
+git clone git://gist.github.com/3091190.git definitions/RHEL-6.3-x86_64
+ll
+vagrant basebox build 'RHEL-6.3-x86_64'
+e .
+vagrant basebox build 'RHEL-6.3-x86_64'
+vagrant basebox build 'RHEL-6.3-x86_64'
+cp ~/Downloads/rhel-server-6.3-x86_64-boot.iso iso/rhel-server-6.3-x86_64-boot.iso
+ll
+vagrant basebox build 'RHEL-6.3-x86_64'
+ll
+e .
+vagrant basebox build 'RHEL-6.3-x86_64'
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+vagrant ssh
+ll
+vagrant init
+vagrant ssh
+ll
+rm -rf Vagrantfile
+ll
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+rm -rf ~/VirtualBox\ VMs/RHEL-6.3-x86_64
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+ll
+md5 iso/rhel-server-6.3-x86_64-boot.iso
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+rm -rf ~/VirtualBox\ VMs/RHEL-6.3-x86_64
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+md5 iso/rhel-server-6.3-x86_64-dvd.iso
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+rm -rf ~/VirtualBox\ VMs/RHEL-6.3-x86_64
+vagrant basebox build 'RHEL-6.3-x86_64' --force
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 7222 -l vagrant 127.0.0.1
+vagrant init
+vagrant ssh
+vagrant up
+vagrant ssh
+vagrant up
+vagrant box list
+vagrant basebox list
+vagrant basebox up 
+vagrant basebox up RHEL-6.3-x86_64 -n
+ssh vagrant@localhost -p 7222
+vagrant ssh
+vagrant status
+vagrant box status
+vagrant box list
+ll
+vagrant box up
+ll
+vagrant up
+ll
+vagrant box 
+vagrant basebox
+vagrant basebox list
+vagrant basebox build 'RHEL-6.3-x86_64'
+ll 
+ll ~
+ping learn.localdomain
+ping 192.168.2.2
+cd ..
+cd ~/Dropbox/Projects/Web/IsaGoksu.com.git
+git init --bare
+ll
+p
+ll
+git clone ~/Dropbox/Projects/Web/IstanbulHackers.com.git
+git clone ~/Dropbox/Projects/Web/IstanbulHackers.com.git
+git clone ~/Dropbox/Projects/Web/IstanbulHackers.com.git
+ll
+cd IstanbulHackers.com
+ll
+rails new .
+ll
+cd /Volumes/RHEL_6.3\ x86_64
+ll
+mongoose
+cd ..
+ll
+ll
+df
+cd ~/Dropbox/Projects/Web/IstanbulHackers.com.git
+ll
+git init
+ll
+rm -rf .git
+git init --bare
+ll
+ifconfig
+ifconfig
+grep subl ~/.zshrc
+p book-analyzer
+e .
+ll
+coffee
+ll
+cd ..
+ll
+cd digit-reader
+ll
+cd src
+ll
+cat digit-reader.coffee
+head ../tests/digit-reader.spec.coffee
+head digit-reader.coffee
+cd ~/.environments/osx/sublime
+ll
+git st
+ll
+p digit-reader
+ll
+head tests/digit-reader.spec.coffee
+head -20 tests/digit-reader.spec.coffee
+traceroute linkedin.com
+traceroute linkedin.com
+traceroute google.com
+p pekmez.js
+ll
+mocha --help
+mocha --compilers coffee:coffee-script test
+mocha --compilers coffee:coffee-script test -w
+git pull
+git 635c5cf..6081457
+git diff 635c5cf..6081457
+ll
+git ll
+coffee --version
+e .
+git st
+git ci -m 'Updated readme for a better usage info'
+git push
+mv lib src
+git st
+mocha --compilers coffee:coffee-script test -w
+git st
+git ci -m 'Created a base project structure'
+git st
+git push
+git log
+git ll
+git remote -av
+git remote -a
+git remote -v
+git remote -a
+git remote -
+git remote -v
+mocha --compilers coffee:coffee-script test -w
+mocha --compilers coffee:coffee-script test -w
+mocha --compilers coffee:coffee-script test -w
+mocha --compilers coffee:coffee-script test -w
+mocha --compilers coffee:coffee-script test -w
+mocha --compilers coffee:coffee-script test -w
+mocha --compilers coffee:coffee-script test
+mocha --compilers coffee:coffee-script test -r should
+mocha --compilers coffee:coffee-script test -r should
+mocha --compilers coffee:coffee-script test -r should
+mocha --compilers coffee:coffee-script test -r should
+mocha --compilers coffee:coffee-script test -r should
+npm install -g sinon
+mocha --compilers coffee:coffee-script test -r should -r sinon
+mocha --compilers coffee:coffee-script test -r should -r sinon
+mocha --compilers coffee:coffee-script test -r should -r sinon
+git ll
+git st
+git ci -m 'Added sinonJS for mocking and stubbing, also finished first draft content class'
+git ll
+npm search mockito
+git stash
+git pull
+ll
+git dt
+git add test/pekmez.spec.coffee
+git commit
+git st
+git stash pop
+git stash list
+mocha --compilers coffee:coffee-script test -r should -r sinon
+ll test
+mocha --compilers coffee:coffee-script test -r should -r sinon
+mocha --compilers coffee:coffee-script test -r should -r sinon
+mocha --compilers coffee:coffee-script test -r should -r sinon
+mocha --compilers coffee:coffee-script test -r should -r sinon
+git st
+git ci -m 'Tidied up a bit'
+git ll
+git push

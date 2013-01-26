@@ -1,24 +1,34 @@
 {
 	"folder_history":
 	[
-		"/Users/isa/Projects/todo",
 		"/Users/isa/Projects/book-analyzer",
 		"/Users/isa/Projects/pekmez.js",
+		"/Users/isa/Projects/build-server",
+		"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak",
+		"/Users/isa/Projects/todo",
 		"/Users/isa/Projects/digit-reader",
 		"/Users/isa/Projects/test-base-xruby",
 		"/Users/isa/Projects/test-base-xruby/test",
 		"/Users/isa/Downloads/lanyard"
 	],
-	"last_window_id": 27,
+	"last_window_id": 36,
 	"settings":
 	{
-		"new_window_height": 661.0,
+		"new_window_height": 793.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"require_",
+						"require_php_ini"
+					],
+					[
+						"req",
+						"require_server_modules"
+					],
 					[
 						"ye",
 						"yedi"
@@ -116,9 +126,21 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 183.0,
+				"height": 375.0,
 				"selected_items":
 				[
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
 					[
 						"java",
 						"Set Syntax: Java"
@@ -161,7 +183,20 @@
 			},
 			"file_history":
 			[
-				"/Users/isa/.zshrc",
+				"/Users/isa/Projects/pekmez.js/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/pekmez.js/README.md",
+				"/Users/isa/Projects/pekmez.js/test/pekmez.spec.coffee",
+				"/Users/isa/Projects/pekmez.js/lib/pekmez.coffee",
+				"/Users/isa/Projects/build-server/definitions/RHEL-6.3-x86_64/postinstall.sh",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/info.php",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/_htaccess",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/.htaccess",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/welcome.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/same-version.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/database-config-missing.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/READ-ME-FIRST.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/htaccess-example.txt",
+				"/Users/isa/Desktop/1.txt",
 				"/İşte böyle bir seyahat için iki adam sahrâya çıkıp",
 				"/Users/isa/Desktop/is-tanimlari.md",
 				"/Users/isa/Downloads/users.php",
@@ -170,7 +205,8 @@
 				"/Users/isa/.subversion/config",
 				"/Users/isa/Downloads/MacVim-snapshot-66/README.txt",
 				"/Applications/IntelliJ IDEA 12 CE.app/Contents/Info.plist",
-				"/Users/isa/.environments/osx/sublime/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt"
+				"/Users/isa/.environments/osx/sublime/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+				"/Users/isa/.zshrc"
 			],
 			"find":
 			{
@@ -188,6 +224,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"require_writable_files",
 					"class FakeGoogleProvider implements GoogleProvider {\n   public int factorial(int number) {\n      return 120;\n   }\n}\n",
 					"read",
 					"\n      ",
@@ -226,11 +263,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.402590603299,
 					1.0
 				],
 				"rows":
@@ -250,6 +294,46 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"node",
+						"test/node.spec.coffee"
+					],
+					[
+						"spec",
+						"test/edge.spec.coffee"
+					],
+					[
+						"edge",
+						"src/edge.coffee"
+					],
+					[
+						"rea",
+						"README.md"
+					],
+					[
+						"read",
+						"README.md"
+					],
+					[
+						"rout",
+						"application/config/routes.php"
+					],
+					[
+						"setup",
+						"application/controllers/setup.php"
+					],
+					[
+						".ht",
+						".htaccess"
+					],
+					[
+						"database",
+						"application/config/database.php"
+					],
+					[
+						"config",
+						"application/config/config.php"
+					],
 					[
 						"fe",
 						"test/features/calculator.feature"
@@ -272,11 +356,11 @@
 			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 282.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 1246.0
+		"new_window_width": 1440.0
 	},
 	"windows":
 	[
@@ -285,6 +369,14 @@
 			{
 				"selected_items":
 				[
+					[
+						"require_",
+						"require_php_ini"
+					],
+					[
+						"req",
+						"require_server_modules"
+					],
 					[
 						"ye",
 						"yedi"
@@ -382,21 +474,72 @@
 			"buffers":
 			[
 				{
-					"file": "/Users/isa/Desktop/1.txt",
+					"file": "/Users/isa/Projects/pekmez.js/src/pekmez.coffee",
 					"settings":
 					{
-						"buffer_size": 2313,
-						"line_ending": "Unix",
-						"name": "Birinci Soz"
+						"buffer_size": 241,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/isa/Projects/pekmez.js/src/node.coffee",
+					"settings":
+					{
+						"buffer_size": 81,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/isa/Projects/pekmez.js/src/edge.coffee",
+					"settings":
+					{
+						"buffer_size": 84,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/isa/Projects/pekmez.js/test/pekmez.spec.coffee",
+					"settings":
+					{
+						"buffer_size": 535,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/isa/Projects/pekmez.js/test/edge.spec.coffee",
+					"settings":
+					{
+						"buffer_size": 336,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/isa/Projects/pekmez.js/test/node.spec.coffee",
+					"settings":
+					{
+						"buffer_size": 165,
+						"line_ending": "Unix"
 					}
 				}
 			],
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 183.0,
+				"height": 375.0,
 				"selected_items":
 				[
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
 					[
 						"java",
 						"Set Syntax: Java"
@@ -439,6 +582,20 @@
 			},
 			"file_history":
 			[
+				"/Users/isa/Projects/pekmez.js/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/pekmez.js/README.md",
+				"/Users/isa/Projects/pekmez.js/test/pekmez.spec.coffee",
+				"/Users/isa/Projects/pekmez.js/lib/pekmez.coffee",
+				"/Users/isa/Projects/build-server/definitions/RHEL-6.3-x86_64/postinstall.sh",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/info.php",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/_htaccess",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/.htaccess",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/welcome.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/same-version.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/database-config-missing.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/READ-ME-FIRST.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/htaccess-example.txt",
+				"/Users/isa/Desktop/1.txt",
 				"/İşte böyle bir seyahat için iki adam sahrâya çıkıp",
 				"/Users/isa/Desktop/is-tanimlari.md",
 				"/Users/isa/Downloads/users.php",
@@ -466,6 +623,550 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"require_writable_files",
+					"class FakeGoogleProvider implements GoogleProvider {\n   public int factorial(int number) {\n      return 120;\n   }\n}\n",
+					"read",
+					"\n      ",
+					"   it 'should return text equivalent of any two-digit number', ->\n      dr = new DigitReader\n\n      eighteen = dr.read(18)\n      seventy_six = dr.read(76)\n      ninety_nine = dr.read(99)\n\n      eighteen.should.equal 'on sekiz'\n      seventy_six.should.equal 'yetmiş altı'\n      ninety_nine.should.equal 'doksan dokuz'\n\n",
+					"      ",
+					"\n      ",
+					"turkey"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/isa/Projects/pekmez.js"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/isa/Projects/pekmez.js/src/pekmez.coffee",
+							"settings":
+							{
+								"buffer_size": 241,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										120,
+										120
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/isa/Projects/pekmez.js/src/node.coffee",
+							"settings":
+							{
+								"buffer_size": 81,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/isa/Projects/pekmez.js/src/edge.coffee",
+							"settings":
+							{
+								"buffer_size": 84,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 3,
+							"file": "/Users/isa/Projects/pekmez.js/test/pekmez.spec.coffee",
+							"settings":
+							{
+								"buffer_size": 535,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										69,
+										69
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/isa/Projects/pekmez.js/test/edge.spec.coffee",
+							"settings":
+							{
+								"buffer_size": 336,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										59,
+										59
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/Users/isa/Projects/pekmez.js/test/node.spec.coffee",
+							"settings":
+							{
+								"buffer_size": 165,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										127,
+										127
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 41.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.402590603299,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0 63 1440 815 0 0 1440 878 ",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"node",
+						"test/node.spec.coffee"
+					],
+					[
+						"spec",
+						"test/edge.spec.coffee"
+					],
+					[
+						"edge",
+						"src/edge.coffee"
+					],
+					[
+						"rea",
+						"README.md"
+					],
+					[
+						"read",
+						"README.md"
+					],
+					[
+						"rout",
+						"application/config/routes.php"
+					],
+					[
+						"setup",
+						"application/controllers/setup.php"
+					],
+					[
+						".ht",
+						".htaccess"
+					],
+					[
+						"database",
+						"application/config/database.php"
+					],
+					[
+						"config",
+						"application/config/config.php"
+					],
+					[
+						"fe",
+						"test/features/calculator.feature"
+					],
+					[
+						"",
+						"src/digit-reader.coffee"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 282.0,
+			"status_bar_visible": true,
+			"window_id": 32,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"require_",
+						"require_php_ini"
+					],
+					[
+						"req",
+						"require_server_modules"
+					],
+					[
+						"ye",
+						"yedi"
+					],
+					[
+						"alt",
+						"altmış"
+					],
+					[
+						"d",
+						"dört"
+					],
+					[
+						"whole",
+						"whole_number"
+					],
+					[
+						"nine",
+						"nine_hundred_and_one_thousand_and_twenty_two"
+					],
+					[
+						"five",
+						"five_hundred_thousand_and_three"
+					],
+					[
+						"al",
+						"altı"
+					],
+					[
+						"y",
+						"yüz"
+					],
+					[
+						"ei",
+						"eighty_nine_thousand_and_hundred_and_fifty_six"
+					],
+					[
+						"ten",
+						"ten_thousand"
+					],
+					[
+						"rever",
+						"reverse_number"
+					],
+					[
+						"hun",
+						"hundred"
+					],
+					[
+						"four",
+						"four_thousand_and_three_hundred_and_seventy_five"
+					],
+					[
+						"thousand_and_three",
+						"thousand_and_three_hundred"
+					],
+					[
+						"thousand",
+						"thousand_and_three"
+					],
+					[
+						"thou",
+						"thousands"
+					],
+					[
+						"hund",
+						"hundreds"
+					],
+					[
+						"thr",
+						"third"
+					],
+					[
+						"thre",
+						"three_hundred_sixty_eight"
+					],
+					[
+						"nin",
+						"ninety_nine"
+					],
+					[
+						"seve",
+						"seventy_six"
+					],
+					[
+						"re",
+						"require"
+					],
+					[
+						"Digi",
+						"DigitReader"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/isa/.gitconfig",
+					"settings":
+					{
+						"buffer_size": 1756,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/isa/.githelpers",
+					"settings":
+					{
+						"buffer_size": 1648,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"python",
+						"Set Syntax: Python"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"upgra",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"list pa",
+						"Package Control: List Packages"
+					],
+					[
+						"togg",
+						"View: Toggle Minimap"
+					]
+				],
+				"width": 435.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/isa/Projects/pekmez.js/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/pekmez.js/README.md",
+				"/Users/isa/Projects/pekmez.js/test/pekmez.spec.coffee",
+				"/Users/isa/Projects/pekmez.js/lib/pekmez.coffee",
+				"/Users/isa/Projects/build-server/definitions/RHEL-6.3-x86_64/postinstall.sh",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/info.php",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/_htaccess",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/.htaccess",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/welcome.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/same-version.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/database-config-missing.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/READ-ME-FIRST.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/htaccess-example.txt",
+				"/Users/isa/Desktop/1.txt",
+				"/İşte böyle bir seyahat için iki adam sahrâya çıkıp",
+				"/Users/isa/Desktop/is-tanimlari.md",
+				"/Users/isa/Downloads/users.php",
+				"/Users/isa/Projects/digit-reader/lib/digit-reader.coffee",
+				"/Users/isa/Desktop/notlar.txt",
+				"/Users/isa/.subversion/config",
+				"/Users/isa/Downloads/MacVim-snapshot-66/README.txt",
+				"/Applications/IntelliJ IDEA 12 CE.app/Contents/Info.plist",
+				"/Users/isa/.environments/osx/sublime/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+				"/Users/isa/.zshrc"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"require_writable_files",
 					"class FakeGoogleProvider implements GoogleProvider {\n   public int factorial(int number) {\n      return 120;\n   }\n}\n",
 					"read",
 					"\n      ",
@@ -495,379 +1196,56 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/isa/Desktop/1.txt",
+							"file": "/Users/isa/.gitconfig",
 							"settings":
 							{
-								"buffer_size": 2313,
+								"buffer_size": 1756,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										263,
-										287
+										868,
+										868
 									]
 								],
 								"settings":
 								{
-									"auto_name": "Birinci Soz",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 3,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				}
-			],
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 41.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"position": "97 129 1246 683 0 0 1440 878 ",
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-					[
-						"fe",
-						"test/features/calculator.feature"
-					],
-					[
-						"",
-						"src/digit-reader.coffee"
-					]
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": false,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 282.0,
-			"status_bar_visible": true,
-			"window_id": 20,
-			"workspace_name": ""
-		},
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"ye",
-						"yedi"
-					],
-					[
-						"alt",
-						"altmış"
-					],
-					[
-						"d",
-						"dört"
-					],
-					[
-						"whole",
-						"whole_number"
-					],
-					[
-						"nine",
-						"nine_hundred_and_one_thousand_and_twenty_two"
-					],
-					[
-						"five",
-						"five_hundred_thousand_and_three"
-					],
-					[
-						"al",
-						"altı"
-					],
-					[
-						"y",
-						"yüz"
-					],
-					[
-						"ei",
-						"eighty_nine_thousand_and_hundred_and_fifty_six"
-					],
-					[
-						"ten",
-						"ten_thousand"
-					],
-					[
-						"rever",
-						"reverse_number"
-					],
-					[
-						"hun",
-						"hundred"
-					],
-					[
-						"four",
-						"four_thousand_and_three_hundred_and_seventy_five"
-					],
-					[
-						"thousand_and_three",
-						"thousand_and_three_hundred"
-					],
-					[
-						"thousand",
-						"thousand_and_three"
-					],
-					[
-						"thou",
-						"thousands"
-					],
-					[
-						"hund",
-						"hundreds"
-					],
-					[
-						"thr",
-						"third"
-					],
-					[
-						"thre",
-						"three_hundred_sixty_eight"
-					],
-					[
-						"nin",
-						"ninety_nine"
-					],
-					[
-						"seve",
-						"seventy_six"
-					],
-					[
-						"re",
-						"require"
-					],
-					[
-						"Digi",
-						"DigitReader"
-					]
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "/Users/isa/Projects/todo/Gemfile",
-					"settings":
-					{
-						"buffer_size": 30,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/isa/Projects/todo/tasks/Gemfile",
-					"settings":
-					{
-						"buffer_size": 874,
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "",
-			"command_palette":
-			{
-				"height": 183.0,
-				"selected_items":
-				[
-					[
-						"java",
-						"Set Syntax: Java"
-					],
-					[
-						"python",
-						"Set Syntax: Python"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"upgra",
-						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
-						"list pa",
-						"Package Control: List Packages"
-					],
-					[
-						"togg",
-						"View: Toggle Minimap"
-					]
-				],
-				"width": 435.0
-			},
-			"console":
-			{
-				"height": 0.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/Users/isa/.environments/.git/MERGE_MSG",
-				"/İşte böyle bir seyahat için iki adam sahrâya çıkıp",
-				"/Users/isa/Desktop/is-tanimlari.md",
-				"/Users/isa/Downloads/users.php",
-				"/Users/isa/Projects/digit-reader/lib/digit-reader.coffee",
-				"/Users/isa/Desktop/notlar.txt",
-				"/Users/isa/.subversion/config",
-				"/Users/isa/Downloads/MacVim-snapshot-66/README.txt",
-				"/Applications/IntelliJ IDEA 12 CE.app/Contents/Info.plist",
-				"/Users/isa/.environments/osx/sublime/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
-				"/Users/isa/.zshrc"
-			],
-			"find":
-			{
-				"height": 0.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"class FakeGoogleProvider implements GoogleProvider {\n   public int factorial(int number) {\n      return 120;\n   }\n}\n",
-					"read",
-					"\n      ",
-					"   it 'should return text equivalent of any two-digit number', ->\n      dr = new DigitReader\n\n      eighteen = dr.read(18)\n      seventy_six = dr.read(76)\n      ninety_nine = dr.read(99)\n\n      eighteen.should.equal 'on sekiz'\n      seventy_six.should.equal 'yetmiş altı'\n      ninety_nine.should.equal 'doksan dokuz'\n\n",
-					"      ",
-					"\n      ",
-					"turkey"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"folders":
-			[
-				{
-					"path": "/Users/isa/Projects/todo"
-				}
-			],
-			"groups":
-			[
-				{
-					"selected": 1,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"file": "/Users/isa/Projects/todo/Gemfile",
-							"settings":
-							{
-								"buffer_size": 30,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										17,
-										17
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Ruby/Ruby.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 165.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/Users/isa/Projects/todo/tasks/Gemfile",
+							"file": "/Users/isa/.githelpers",
 							"settings":
 							{
-								"buffer_size": 874,
+								"buffer_size": 1648,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										590,
-										590
+										25,
+										25
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+									"tab_size": 3,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 332.0,
+								"translation.y": 836.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -906,7 +1284,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "97 77 1246 683 0 0 1440 878 ",
+			"position": "0 94 846 784 0 0 1440 878 ",
 			"replace":
 			{
 				"height": 0.0
@@ -917,6 +1295,46 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"node",
+						"test/node.spec.coffee"
+					],
+					[
+						"spec",
+						"test/edge.spec.coffee"
+					],
+					[
+						"edge",
+						"src/edge.coffee"
+					],
+					[
+						"rea",
+						"README.md"
+					],
+					[
+						"read",
+						"README.md"
+					],
+					[
+						"rout",
+						"application/config/routes.php"
+					],
+					[
+						"setup",
+						"application/controllers/setup.php"
+					],
+					[
+						".ht",
+						".htaccess"
+					],
+					[
+						"database",
+						"application/config/database.php"
+					],
+					[
+						"config",
+						"application/config/config.php"
+					],
 					[
 						"fe",
 						"test/features/calculator.feature"
@@ -939,10 +1357,10 @@
 			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 282.0,
 			"status_bar_visible": true,
-			"window_id": 25,
+			"window_id": 35,
 			"workspace_name": ""
 		}
 	],

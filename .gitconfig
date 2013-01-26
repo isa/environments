@@ -1,6 +1,6 @@
 [user]
-	name = Isa Goksu
-	email = isa.goksu@gmail.com
+   name = Isa Goksu
+   email = isa.goksu@gmail.com
 [alias]
    ll = "!source ~/.githelpers && pretty_git_log"
    lm = "!source ~/.githelpers && pretty_git_merges"
@@ -24,6 +24,7 @@
    outgoing = !git fetch && git log origin/master ^master
    mft = "!source ~/.githelpers && list_most_frequently_touched_files"
    find = "!source ~/.githelpers && find_in_revisions $1"
+   review = "!source ~/.githelpers && review $@"
 [color]
    branch = auto
    diff = auto
@@ -43,26 +44,26 @@
    added = green
    changed = blue
    untracked = magenta
-[difftool "Kaleidoscope"]
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-[difftool]
-	prompt = false
-[diff]
-	tool = Kaleidoscope
 [core]
    editor = subl -w
-	quotepath = false
+   quotepath = false
    excludesfile = /Users/isa/.gitignore
-	autocrlf = false
+   autocrlf = false
    safecrlf = true
 [gc]
    auto = 1
-[merge]
-   summary = true
-	tool = Kaleidoscope
 [push]
-	default = matching
+   default = matching
+[difftool "Kaleidoscope"]
+   cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[diff]
+   tool = Kaleidoscope
+[difftool]
+   prompt = false
 [mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+   cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+   trustExitCode = true
 [mergetool]
-	prompt = false
+   prompt = false
+[merge]
+   tool = Kaleidoscope
