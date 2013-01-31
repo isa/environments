@@ -25,6 +25,8 @@ Bring up the command palette (it's `⌘ + shift + p`  in OS X and `ctrl + shift 
 
 ☐ **`⌘ + shift + a`** will archive the done tasks, by removing them from your list and appending them to the bottom of the file under Archive project
 
+☐ **`⌘ + shift + u`** will open the url under the cursor in your default browser
+
 ☐ Anything with colon at the end of the line is a project title, you can also nest projects by indenting them. 
 
 ☐ You can write plain text as notes or descriptions wherever you want.
@@ -74,6 +76,12 @@ Here is a list of PlainTasks' specific settings:
 PlainTasks comes with a custom todo icon that you can find in the `icons` folder. You can assign it to your todo files to give them a better look and distinguish them from other plain text files. Google and find out how to assign a custom icon to a file type in your operating system.
 
 ![](http://f.cl.ly/items/2t312B30121l2X1l0927/todo-icon.png)
+
+## [Introduction to PlainTasks Screencast](https://tutsplus.com/lesson/pretty-task-management/)
+by [Jeffrey Way](https://twitter.com/jeffrey_way) from [net.tutsplus.com](http://net.tutsplus.com/)
+
+[![](http://cl.ly/image/1a3e3C3N1Z2K/pt-sc.png)](https://tutsplus.com/lesson/pretty-task-management/)
+
 
 ## Contributors
 - [Dominique Wahli](https://github.com/bizoo)

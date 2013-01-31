@@ -1,21 +1,43 @@
 {
 	"folder_history":
 	[
+		"/Users/isa/Projects/pekmez.js",
+		"/Users/isa/Projects/todo/tasks",
+		"/Users/isa/Projects/book-analyzer",
+		"/Users/isa/Projects/build-server",
+		"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak",
+		"/Users/isa/Projects/todo",
+		"/Users/isa/Projects/digit-reader",
 		"/Users/isa/Projects/test-base-xruby",
 		"/Users/isa/Projects/test-base-xruby/test",
-		"/Users/isa/Projects/digit-reader",
 		"/Users/isa/Downloads/lanyard"
 	],
-	"last_window_id": 20,
+	"last_window_id": 45,
 	"settings":
 	{
-		"new_window_height": 661.0,
+		"new_window_height": 644.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"ex",
+						"expected_content"
+					],
+					[
+						"stu",
+						"stubDocument"
+					],
+					[
+						"require_",
+						"require_php_ini"
+					],
+					[
+						"req",
+						"require_server_modules"
+					],
 					[
 						"ye",
 						"yedi"
@@ -113,17 +135,9 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 183.0,
+				"height": 375.0,
 				"selected_items":
 				[
-					[
-						"java",
-						"Set Syntax: Java"
-					],
-					[
-						"python",
-						"Set Syntax: Python"
-					],
 					[
 						"install",
 						"Package Control: Install Package"
@@ -131,6 +145,34 @@
 					[
 						"upgra",
 						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"surrou",
+						"Surround: change surround"
+					],
+					[
+						"surr",
+						"Surround: change surround"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"python",
+						"Set Syntax: Python"
 					],
 					[
 						"list pa",
@@ -141,7 +183,7 @@
 						"View: Toggle Minimap"
 					]
 				],
-				"width": 435.0
+				"width": 499.0
 			},
 			"console":
 			{
@@ -158,6 +200,29 @@
 			},
 			"file_history":
 			[
+				"/Users/isa/.environments/osx/sublime/Packages/User/Preferences.sublime-settings",
+				"/Users/isa/Projects/pekmez.js/src/pekmez.coffee",
+				"/Users/isa/Projects/pekmez.js/README.md",
+				"/Users/isa/Projects/pekmez.js/.travis.yml",
+				"/Users/isa/Projects/pekmez.js/test/pekmez.spec.coffee",
+				"/Users/isa/Projects/pekmez.js/test/mocha.opts",
+				"/Users/isa/Projects/pekmez.js/src/node.coffee",
+				"/Users/isa/Projects/pekmez.js/src/edge.coffee",
+				"/Users/isa/Projects/pekmez.js/test/node.spec.coffee",
+				"/Users/isa/Projects/pekmez.js/test/edge.spec.coffee",
+				"/Users/isa/Projects/pekmez.js/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/pekmez.js/lib/pekmez.coffee",
+				"/Users/isa/Projects/build-server/definitions/RHEL-6.3-x86_64/postinstall.sh",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/info.php",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/_htaccess",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/.htaccess",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/welcome.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/same-version.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/database-config-missing.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/READ-ME-FIRST.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/htaccess-example.txt",
+				"/Users/isa/Desktop/1.txt",
+				"/İşte böyle bir seyahat için iki adam sahrâya çıkıp",
 				"/Users/isa/Desktop/is-tanimlari.md",
 				"/Users/isa/Downloads/users.php",
 				"/Users/isa/Projects/digit-reader/lib/digit-reader.coffee",
@@ -184,6 +249,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"doc",
+					"require_writable_files",
 					"class FakeGoogleProvider implements GoogleProvider {\n   public int factorial(int number) {\n      return 120;\n   }\n}\n",
 					"read",
 					"\n      ",
@@ -247,6 +314,66 @@
 				"selected_items":
 				[
 					[
+						"pek",
+						"src/pekmez.coffee"
+					],
+					[
+						"tra",
+						".travis.yml"
+					],
+					[
+						"moc",
+						"test/mocha.opts"
+					],
+					[
+						"rea",
+						"README.md"
+					],
+					[
+						"re",
+						"README.md"
+					],
+					[
+						"mocha",
+						"test/mocha.opts"
+					],
+					[
+						"node",
+						"test/node.spec.coffee"
+					],
+					[
+						"spec",
+						"test/edge.spec.coffee"
+					],
+					[
+						"edge",
+						"src/edge.coffee"
+					],
+					[
+						"read",
+						"README.md"
+					],
+					[
+						"rout",
+						"application/config/routes.php"
+					],
+					[
+						"setup",
+						"application/controllers/setup.php"
+					],
+					[
+						".ht",
+						".htaccess"
+					],
+					[
+						"database",
+						"application/config/database.php"
+					],
+					[
+						"config",
+						"application/config/config.php"
+					],
+					[
 						"fe",
 						"test/features/calculator.feature"
 					],
@@ -268,11 +395,11 @@
 			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 282.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 1246.0
+		"new_window_width": 934.0
 	},
 	"windows":
 	[
@@ -282,6 +409,22 @@
 				"selected_items":
 				[
 					[
+						"ex",
+						"expected_content"
+					],
+					[
+						"stu",
+						"stubDocument"
+					],
+					[
+						"require_",
+						"require_php_ini"
+					],
+					[
+						"req",
+						"require_server_modules"
+					],
+					[
 						"ye",
 						"yedi"
 					],
@@ -378,17 +521,9 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 183.0,
+				"height": 375.0,
 				"selected_items":
 				[
-					[
-						"java",
-						"Set Syntax: Java"
-					],
-					[
-						"python",
-						"Set Syntax: Python"
-					],
 					[
 						"install",
 						"Package Control: Install Package"
@@ -396,6 +531,34 @@
 					[
 						"upgra",
 						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"surrou",
+						"Surround: change surround"
+					],
+					[
+						"surr",
+						"Surround: change surround"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"python",
+						"Set Syntax: Python"
 					],
 					[
 						"list pa",
@@ -406,7 +569,7 @@
 						"View: Toggle Minimap"
 					]
 				],
-				"width": 435.0
+				"width": 499.0
 			},
 			"console":
 			{
@@ -423,6 +586,29 @@
 			},
 			"file_history":
 			[
+				"/Users/isa/.environments/osx/sublime/Packages/User/Preferences.sublime-settings",
+				"/Users/isa/Projects/pekmez.js/src/pekmez.coffee",
+				"/Users/isa/Projects/pekmez.js/README.md",
+				"/Users/isa/Projects/pekmez.js/.travis.yml",
+				"/Users/isa/Projects/pekmez.js/test/pekmez.spec.coffee",
+				"/Users/isa/Projects/pekmez.js/test/mocha.opts",
+				"/Users/isa/Projects/pekmez.js/src/node.coffee",
+				"/Users/isa/Projects/pekmez.js/src/edge.coffee",
+				"/Users/isa/Projects/pekmez.js/test/node.spec.coffee",
+				"/Users/isa/Projects/pekmez.js/test/edge.spec.coffee",
+				"/Users/isa/Projects/pekmez.js/.git/COMMIT_EDITMSG",
+				"/Users/isa/Projects/pekmez.js/lib/pekmez.coffee",
+				"/Users/isa/Projects/build-server/definitions/RHEL-6.3-x86_64/postinstall.sh",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/info.php",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/_htaccess",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/.htaccess",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/welcome.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/same-version.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/install/help/database-config-missing.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/READ-ME-FIRST.txt",
+				"/Volumes/ftp.vahit.com/domains/vahit.com/public_html/emlak/htaccess-example.txt",
+				"/Users/isa/Desktop/1.txt",
+				"/İşte böyle bir seyahat için iki adam sahrâya çıkıp",
 				"/Users/isa/Desktop/is-tanimlari.md",
 				"/Users/isa/Downloads/users.php",
 				"/Users/isa/Projects/digit-reader/lib/digit-reader.coffee",
@@ -449,6 +635,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"doc",
+					"require_writable_files",
 					"class FakeGoogleProvider implements GoogleProvider {\n   public int factorial(int number) {\n      return 120;\n   }\n}\n",
 					"read",
 					"\n      ",
@@ -501,7 +689,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "137 181 1246 683 0 0 1440 878 ",
+			"position": "253 85 934 666 0 0 1440 878 ",
 			"replace":
 			{
 				"height": 0.0
@@ -512,6 +700,66 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"pek",
+						"src/pekmez.coffee"
+					],
+					[
+						"tra",
+						".travis.yml"
+					],
+					[
+						"moc",
+						"test/mocha.opts"
+					],
+					[
+						"rea",
+						"README.md"
+					],
+					[
+						"re",
+						"README.md"
+					],
+					[
+						"mocha",
+						"test/mocha.opts"
+					],
+					[
+						"node",
+						"test/node.spec.coffee"
+					],
+					[
+						"spec",
+						"test/edge.spec.coffee"
+					],
+					[
+						"edge",
+						"src/edge.coffee"
+					],
+					[
+						"read",
+						"README.md"
+					],
+					[
+						"rout",
+						"application/config/routes.php"
+					],
+					[
+						"setup",
+						"application/controllers/setup.php"
+					],
+					[
+						".ht",
+						".htaccess"
+					],
+					[
+						"database",
+						"application/config/database.php"
+					],
+					[
+						"config",
+						"application/config/config.php"
+					],
 					[
 						"fe",
 						"test/features/calculator.feature"
@@ -534,10 +782,10 @@
 			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 282.0,
 			"status_bar_visible": true,
-			"window_id": 20
+			"window_id": 43
 		}
 	],
 	"workspaces":

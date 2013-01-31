@@ -1,5 +1,12 @@
 [
     {
+        "caption": "Schemr: Boron", 
+        "args": {
+            "s": "Packages/Boron Color Scheme/Boron.tmTheme"
+        }, 
+        "command": "switch_scheme"
+    }, 
+    {
         "caption": "Schemr: All Hallow's Eve", 
         "args": {
             "s": "Packages/Color Scheme - Default/All Hallow's Eve.tmTheme"

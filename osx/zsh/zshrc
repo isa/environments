@@ -124,5 +124,8 @@ RBENV_EXISTS=`which rbenv`
 if [ $RBENV_EXISTS ]; then eval "$(rbenv init -)"; fi
 export PATH=$HOME/.rbenv/shims:$PATH
 
+# -- NodeJS Env --
+export NODE_PATH="$(npm root -g)"
+
 source $HOME/.environments/osx/zsh/isa.theme
 source $HOME/.environments/osx/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

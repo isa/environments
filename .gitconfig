@@ -46,7 +46,7 @@
    untracked = magenta
 [core]
    editor = subl -w
-   quotepath = false
+	quotepath = false
    excludesfile = /Users/isa/.gitignore
    autocrlf = false
    safecrlf = true

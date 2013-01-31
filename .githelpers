@@ -59,8 +59,6 @@ review() {
    if [ $SHA == $BRANCH ]; then
       SHA=HEAD
    fi
-   echo $BRANCH
-   echo $SHA
 
    git dt -y $BRANCH...$SHA
 }

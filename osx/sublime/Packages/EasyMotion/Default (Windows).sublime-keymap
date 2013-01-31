@@ -1,0 +1,12 @@
+[
+    { 
+        "keys": ["ctrl+;", "<character>"], 
+        "command": "easy_motion",
+        "args": {"select_text": false} 
+    },
+    { 
+        "keys": ["ctrl+shift+;", "<character>"], 
+        "command": "easy_motion",
+        "args": {"select_text": true} 
+    }
+]

@@ -1,487 +1,3 @@
-git log templates/ngf/logback.xml.erb
-rm -rf ../modules/ngf/app.properties
-./config-generator.rb
-./config-generator.rb $HOME/Projects/merchandise-payables/modules/ngf ngf data-bag.default.json 1.0-SNAPSHOT
-cat ../modules/ngf/app.properties
-cat ../modules/ngf/logback.xml
-git st
-git ci -m 'ITMERCHPAY-0 Fixed stupid relative path reference'
-git push
-cd..
-ll
-cd ..
-ll
-gradle tasks
-gradle assemble
-gradle build
-ll
-git st
-ll /tmp
-ll /tmp/
-mkdir /tmp/ngflogs /tmp/mplogs
-cd modules/core/ngf
-cd modules/ngf
-ll
-rm -rf log.path_IS_UNDEFINED
-git st
-gradle integrationTest
-git st
-rm -rf log.path_IS_UNDEFINED
-git st
-rm -rf log.path_IS_UNDEFINED
-git st
-rm -rf log.path_IS_UNDEFINED
-git st
-rm -rf log.path_IS_UNDEFINED
-git st
-git st
-rm -rf log.path_IS_UNDEFINED
-git st
-rm -rf log.path_IS_UNDEFINED
-rm -rf log.path_IS_UNDEFINED
-ll
-l
-ll logs
-ll /tmp/ngflogs
-git st
-git ci -m 'ITMERCHPAY-0 Removed redundant path'
-git pull
-git push
-gradle integrationTest
-ll /tmp/ngflogs
-cd ../..
-gradle build
-ll
-ll target/distributions
-ll
-ll target
-open target/distributions
-modules:core:unzipWar
-git st
-cd modules
-ll
-rm -rf exchange rms router target
-git st
-ll
-ll
-cd ..
-ll
-e .
-git st
-git ci -m 'ITMERCHPAY-0 Added missing spring schemas'
-git push
-git pull
-git ll
-ll
-git push
-ll
-cd devops/
-ll
-cd deploy/mongo
-ll
-mkdir data
-cd data
-mv ../*.json .
-ll
-cd ..
-ll
-rm -rf jmeter.log
-ll
-git st
-git ci -m 'ITMERCHPAY-0 Moving sample data into a subfolder to be able to generate an artifact in the future'
-git st
-ll
-mv data ../../../conf
-ll
-./createReplSet
-git st
-git st
-git ci -m 'ITMERCHPAY-0 Moved data to the conf folder since it is more of a deployment task and everyone needs this artifact'
-git push
-gradle tasks --all | less -R
-gradle tasks --all
-cd ..
-cd ..
-cd ..
-gradle tasks --all
-cd modules/ngf
-ll
-git st
-gradle build
-cat app.properties
-gradle build
-ps -ef
-git st
-git pull
-git pull
-cd ../../conf
-ll
-e .
-git st
-git ci -m 'ITMERCHPAY-0 Changed the scms password'
-git push
-cd ..
-cd modules/ngf
-gradle build
-find . -name \*.xml
-cat ./target/resources/main/config/database.xml
-git st
-git ci -m 'ITMERCHPAY-0 Uppercased the URL key name for oracle configuration'
-git pull
-git push
-cd ..
-cd ..
-git pull
-rm -rf .gradle ~/.gradle
-gradle modules:core:test
-gradle init
-a\
-
-cd modules/core/libs
-ll
-cd runtime
-ll
-cd ..
-ll
-cd test
-ll
-git st
-git ci -m 'ITMERCHPAY-0 Fixed the compilation errors due to atom artifact'
-git push
-git pull
-git push
-p merchandise-payables
-gradle modules:core:test
-ll
-cd modules/atom
-ll
-gradle build
-ll
-cp target/libs/atom-1.1.0.0.jar ../core/libs/runtime/
-cp target/libs/atom-1.1.0.0.jar ../core/libs/test/
-cd ../core/libs/test/
-ll
-rm -rf atom-1.1.0.17104.jar
-rm -rf ../runtime/atom-1.1.0.17104.jar
-p merchandise-payables
-gradle modules:core:test
-gradle modules:atom:clean modules:atom:build
-open modules/atom/target/libs
-gradle modules:core:integrationTest
-git st
-git ci -m 'ITMERCHPAY-0 Fixed compilation problems due to the atom artifact problems'
-git st
-git push
-rm -rf .gradle ~/.gradle
-gradle modules:core:integrationTest
- .
-e .
-gradle --refresh --dependencies
-gradle --refresh-dependencies
-gradle refreshDependencies
-gradle --refresh-dependencies clean
-gradle --help
-git pull
-git pull
-gi tpull
-git pull
-curl -u Ke0l8x7:Gap11111 "https://qa-scms.gap.com/scms/resources/po/1060203"
-enable_proxy
-curl -u Ke0l8x7:Gap11111 "https://qa-scms.gap.com/scms/resources/po/1060203"
-time | curl -u Ke0l8x7:Gap11111 "https://qa-scms.gap.com/scms/resources/po/1060203"
-curl -u Ke0l8x7:Gap11111 "https://qa-scms.gap.com/scms/resources/po/1060203" | time
-curl -u scmsmp http://dgphxscmap012.phx.gapinc.dev:8080/api/dpo/1060203
-curl -u scmsmp "http://dgphxscmap012.phx.gapinc.dev:8080/api/dpo/1060203"
-enable_proxy
-curl -u scmsmp "http://dgphxscmap012.phx.gapinc.dev:8080/api/dpo/1060203"
-curl http://merchpayci.gap.com:8080/status
-enable_proxy
-curl http://merchpayci.gap.com:8080/status
-curl "http://merchpayci.gap.com:8080/status"
-curl --no-proxy merchpayci.gap.com "http://merchpayci.gap.com:8080/status"
-disable_proxy
-nslookup
-curl http://10.48.128.167:8080/status
-curl http://10.48.128.167:9002/status
-curl http://10.48.128.167:9002/
-curl -i http://10.48.128.167:9002/
-ssh admin@merchpayci.gap.com
-cd Downloads
-ll
-vim app.properties
-vim config-db-data.sql
-cp config-db-data.sql ~/Projects/merchandise-payables/modules/ngf/
-ll
-rm -rf *.db
-ll
-cd Downloads
-ll
-java -jar ngf-1.1.0.16990.jar -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties
-java -jar ngf-1.1.0.17008.jar -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties
-ll
-mkdir ngf
-cd ngf
-mv ../*.jar .
-ll
-rm -rf ngf-1.1.0.16990.jar
-ll
-jar xvf ngf-1.1.0.17008.jar
-ll
-cd META-INF
-ll
-less spring.schemas
-cd ../config
-ll
-vim database.xml
-cd ..
-java -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties com.gap.scms.ngf.AtomFeedPoller
-vim config/database.xml
-java -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties com.gap.scms.ngf.AtomFeedPoller
-vim config/database.xml
-ll
-vim META-INF/spring.schemas
-man mongoimport
-mongoimport --help
-cd META-INF
-ll
-cp ~/Projects/merchandise-payables/modules/ngf/src/main/java/META-INF/spring.* .
-cd ..
-java -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties com.gap.scms.ngf.AtomFeedPoller
-vim META-INF/spring.schemas
-vim config/database.xml
-java -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties com.gap.scms.ngf.AtomFeedPoller
-ll
-ll
-cd ..
-l
-ll
-rm -rf ngf
-ll
-ll
-java -jar ngf-1.1.0.17026.jar -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties
-java -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties -jar ngf-1.1.0.17008.jar
-java -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties -jar ngf-1.1.0.17026.jar
-cp ~/Projects/merchandise-payables/modules/ngf/config-db-data.sql .
-java -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties -jar ngf-1.1.0.17026.jar
-cp ~/Projects/merchandise-payables/modules/ngf/logback.xml .
-java -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties -jar ngf-1.1.0.17026.jar
-ll
-cp ~/Projects/merchandise-payables/modules/ngf/app.properties .
-ll
-java -DconfigurationFile=app.properties -jar ngf-1.1.0.17026.jar
-java -DconfigurationFile=/Users/isa/Projects/merchandise-payables/modules/ngf/app.properties -jar ngf-1.1.0.17026.jar
-ll
-ssh is1z1j6@dgphxscmap014.phx.gapinc.dev
-ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
-ssh is1z1j6@dgphxscmap012.phx.gapinc.dev
-ssh is1z1j6@dgphxscmap013.phx.gapinc.dev
-ssh qa-scms.gap.com
-ssh Is1z1j6@qa-scms.gap.com
-ll
-cd Downloads
-ll
-p merchandise-payables/modules/ngf
-ll
-curl http://dgphxscmap012.phx.gapinc.dev:8080/feeds/payments
-ssh is1z1j6@dgphxscmap014.phx.gapinc.dev
-ll
-p merchandise-payables
-ll
-cd conf
-ll
-cp data-bag.integration.json data-bag.dev.json
-cp data-bag.integration.json data-bag.qa.json
-cp data-bag.integration.json data-bag.showcase.json
-ll
-git st
-rm -rf data-bag.qa.json data-bag.dev.json data-bag.showcase.json
-ll
-git st
-git pull
-e ..
-ll
-git st
-git add *.json
-git st
-cd ..
-git st
-git diff modules/ngf/src/main/resources/config/database.xml
-git add modules/ngf/src/main/resources/config/database.xml
-git st
-git co -- modules/ngf/src/main/java/com
-git st
-git ci -m 'ITMERCHPAY-0 Changed the default JDBC strings for Oracle'
-git pull
-git push
-brew instal chromedriver
-ssh teamcity@merchpayci.gap.com
-ssh teamcity@merchpayci.gap.com
-git pull
-open /Volumes/Data/.XXX
-open /Volumes/Data/.XXX
-cd /Volumes/Data/Movies\ \[720p\]
-ll Indi*
-ll Indi*
-ll Indi*
-ll Indi*
-ll Indi*
-ll Indi*
-ll Indi*
-ll Indi*
-ll Indi*
-cd Desktop
-mkdir keys
-cd keys
-ll
-e .
-ll
-cp ~/.ssh/id_rsa.pub isa.id_rsa.pub
-ll
-cat *.pub
-cat *.pub
-ll
-e ~/Downloads/merchpay-app-dev
-ssh is1z1j6@dgphxscmap011.phx.gapinc.dev
-ssh is1z1j6@dgphxscmap012.phx.gapinc.dev
-brew install vangrant
-brew update
-enable_proxy
-brew update
-brew install vagrant
-p merchandise-payables
-git pull
-cd ..
-p merchandise-payables
-enable_proxy
-cd ..
-cd merchandise-payables
-cd ..
-cd ~/Desktop/merchPay
-ll
-ll
-cat README.md
-cat metadata.rb
-cat attributes
-ll
-ll ll
-ll attributes
-cat attributes/default.rb
-cd ~/
-cd Projects
-ll
-git clone gitolite@chefdev1.gap.dev:gapChef chef-cookbooks
-git clone is1z1j6@chefdev1.gap.dev:gapChef chef-cookbooks
-ll
-git clone is1z1j6@chefdev1.gap.dev:gapChef chef-cookbooks
-git clone Is1z1j6@chefdev1.gap.dev:gapChef chef-cookbooks
-git clone gitolite@chefdev1.gap.dev:gapChef chef-cookbooks
-ssh -T chefdev1.gap.dev
-ssh -T Is1z1j6@chefdev1.gap.dev
-ssh is1z1j6@dgphxscmap014.phx.gapinc.dev
-ssh is1z1j6@dgphxscmap013.phx.gapinc.dev
-ssh -T Is1z1j6@chefdev1.gap.dev
-ssh -T gitolite@chefdev1.gap.dev
-git clone gitolite@chefdev1.gap.dev:gapChef chef-cookbooks
-ll
-cd chef-cookbooks
-ll
-e .
-git st
-git ci -m 'Changed the username and password for SCMS PO access in e2e environment'
-git pull
-git push
-git pull
-cat nodes/dgphxscmap011.phx.gapinc.dev.json
-curl google.com
-enable_proxy
-curl google.com
-elinks google.com
-cd ~/.ssh
-ll
-cat id_rsa.pub
-p merchandise-payables
-git pull
-git pull
-git ll
-e .
-gradle build
-e ~/Desktop/merchPay
-git pull
-cd Downloads
-mkdir isos
-mv ubuntu-12.04.1-desktop-amd64.iso isos
-ll
-curl -C - -L 'http://centos.mirrors.tds.net/pub/linux/centos/6.2/isos/x86_64/CentOS-6.2-x86_64-minimal.iso' -o 'iso/CentOS-6.2-x86_64-minimal.iso'
-enable_proxy
-curl -C - -L 'http://centos.mirrors.tds.net/pub/linux/centos/6.2/isos/x86_64/CentOS-6.2-x86_64-minimal.iso' -o 'iso/CentOS-6.2-x86_64-minimal.iso'
-curl -C - -L 'http://centos.mirrors.tds.net/pub/linux/centos/6.2/isos/x86_64/CentOS-6.2-x86_64-minimal.iso' -o 'isos/CentOS-6.2-x86_64-minimal.iso'
-ll ~/Downloads/isos
-ll
-ll ~/Downloads/isos
-cat ~/Downloads/isos/CentOS-6.2-x86_64-minimal.iso
-ll
-rm -rf ~/Downloads/isos/CentOS-6.2-x86_64-minimal.iso
-cd Projects
-git clone https://github.com/lumoslabs/vagrant-boxes.git
-enable_proxy
-git clone https://github.com/lumoslabs/vagrant-boxes.git
-/Volumes/Vagrant/uninstall.tool ; exit;
-rvm use 1.8.7@merchandise-payables
-gem list
-gem install veewee
-vagrant basebox
-vagrant basebox list | grep 'CentOS'
-vagrant basebox templates | grep 'CentOS'
-cd Projects
-ll
-cd vagrant-boxes
-ll
-rm -rf *
-ll
-rm -rf .g*
-ll
-vagrant basebox define 'CentOS-6.3-x86_64-minimal' 'CentOS-6.3-x86_64'
-vagrant basebox define 'CentOS-6.3-x86_64' 'CentOS-6.3-x86_64-minimal'
-ll
-e .
-cd ..
-rm -rf vagrant-boxes
-p merchandise-payables
-bundle install
-bundle
-cd ..
-p merchandise-payables
-bundle install
-bundle install
-bundle install
-bundle install --local
-cd /Users/isa/.rvm/gems/ruby-1.8.7-p370@merchandise-payables/gems/veewee-0.3.1/lib/veewee/provider
-ll
-cd cd ..
-ll
-cd ..
-ll
-ll templates
-ll templates/locales
-ll
-cd provider/virtualbox
-ll
-cd box
-ll
-vim build.rb
-cd ..
-cd ..
-ll
-cd ..
-ll
-cd command/vagrant
-ll
-vim build.rb
-cd ../../
-ll
-ll
-cd templates
-ll
 cd locales
 ll
 cat en.yml
@@ -10034,3 +9550,514 @@ git st
 git ci -m 'Tidied up a bit'
 git ll
 git push
+p pekmez.js
+ll
+git st
+git diff
+mocha --compilers coffee:coffee-script test -r should -r sinon
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+npm install -g install jsdom
+npm install -g install jsDom
+npm search jsdom
+npm install -g jsdom
+brew update
+brew upgrade
+git st
+npm install -g jsdom
+curl -X HEAD http://nodejs.org/dist/v0.8.18/node-v0.8.18.tar.gz
+node --version
+npm --version
+npm install -g jsdom
+npm install -g node-gyp
+npm install -g jsdom
+npm install -g jsdom
+node
+p pekmez.js
+ll
+git st
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha -w
+mocha -w
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+node
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+git st
+git ci -m 'Added a simple locator logic and also added domino for dom stubbing'
+git st
+git pull
+git ll
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+git st
+git ci -m 'Finished content retrieval and type identification'
+git st
+git co master
+git review content-retrieval
+git review content-retrieval .
+e ~/.githelpers
+git review content-retrieval .
+git review content-retrieval
+git review content-retrieval master
+git st
+git merge content-retrieval
+git st
+git br -av
+git push
+touch .travis.yml
+node --version
+git st
+git co -b travis-setup
+git st
+git co mast
+git co master
+git st
+git br -D travis-setup
+git st
+git br -av
+git ci -m 'Added travis integration'
+git st
+git push
+rbenv versions
+gem install travis-lint
+rbenv rehash
+travis-lint .travis.yml
+git st
+git ci . -m 'Added Travis PNG to the readme file'
+git push
+coffee --help
+coffee -c src test
+ll
+ll src
+ll test
+ll
+git st
+mocha --help
+mocha help compilers
+mocha --compilers javascript:javascript
+git st
+git st
+git ci -m 'Removed sudo from travis settings'
+git push
+git st
+git ci -m 'Updated travis png'
+git push
+'$(npm root -g)'
+$(npm root -g)
+npm root -g
+git st
+git ci . -m 'Trying a fixed version of NodeJS'
+git push
+git st
+find . name *.js
+find . name  \*.js
+find . name  \*.js
+coffee
+coffee
+e .gitconfig
+ll
+sudo open -a Kaleidescope.app
+sudo open -a Kaleidascope.app
+sudo open -a /Applications/Kaleidoscope.app
+ll
+mv .gitconfig gitconfig
+mv .environments/.gitconfig .
+ll
+scat .gitconfig
+scat .gitconfig
+mv .gitconfig .environments
+mv gitconfig .gitconfig
+ll
+cat .gitconfig
+p pekmez.js
+git dt
+ll
+git ll
+git dt HEAD...c3892b2
+git dt HEAD..c3892b2
+git dt .
+git dt HEAD
+git dt c3892b2
+ll
+e ~/.gitconfig
+e ~/.gitconfig
+git review .
+git review .
+e ~/.githelpers
+git review
+git review
+ll
+git co -b content-retrieval
+git review master
+git review master
+git review content-retrieval master
+git review content-retrieval master
+git review content-retrieval master
+git config --global alias.ksreview '!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-master}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f'
+git ksreview content-retrieval master
+git ksreview content-retrieval
+git ksreview
+git co master
+git ksreview content-retrieval
+git ksreview content-retrieval master
+echo ${DEMO:-ISA}
+DEMO=3
+echo ${DEMO:-ISA}
+git ksreview content-retrieval
+git review content-retrieval
+git review content-retrieval
+git review content-retrieval
+git help difftool
+git review content-retrieval
+git review content-retrieval
+git review content-retrieval
+git review content-retrieval demo
+git br -av
+cd ..
+ll
+cd test-base-xruby
+ll
+git st
+git br -av
+git dt
+git reset --hard HEAD
+git st
+cd ~/.environments
+ll
+git st
+git br -av
+git ci -m 'Added Kaleidoscope review option for ZSH'
+git st
+git br -av
+git review remotes/origin/master
+git st
+git push
+ll
+ll osx
+npm search mockito
+p pekmez.js
+ll
+git ll
+git br -av
+git co content-retrieval
+git br -av
+mocha --compilers coffee:coffee-script test -r should -r sinon
+mocha --compilers coffee:coffee-script test -r should -r sinon
+mocha --compilers coffee:coffee-script test -r should -r sinon
+mocha --compilers coffee:coffee-script -r should -r sinon test
+mocha --compilers coffee:coffee-script -r should -r sinonjs test
+npm install -g chai
+mocha --compilers coffee:coffee-script -r should -r sinonjs test
+mocha --compilers coffee:coffee-script -r should -r sinon test
+mocha --compilers coffee:coffee-script -r should -r sinon test
+mocha --compilers coffee:coffee-script -r should -r sinon test
+ll
+mocha test
+mocha test
+mocha test
+mocha test
+mocha test
+npm list
+npm list -g
+mocha --help
+mocha test --globals sinon
+mocha test
+mocha test
+mocha test
+mocha test
+mocha test
+mocha test
+mocha test -r sinon
+mocha test -r sinonjs
+mocha test -r sinon.js
+mocha -r sinon test
+mocha --require sinon test
+mocha --require should
+mocha --require should --require sinon
+mocha -r should -r sinon -r coffee-script
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+npm test
+mock 
+mocha
+coffee
+coffee --help
+coffee -r should -r mocha -r sinon
+npm list -g coffeescript
+npm list -g coffee-script
+npm list -g should
+npm list -g sinon
+npm install -g sinon
+mocha
+mocha
+mocha
+mocha
+npm list coffee-script
+npm list -g coffee-script
+npm list -g sinon
+npm list sinon
+npm list should
+npm list -g sinon
+git st
+git add test/mocha.opts
+git st
+git commit -m 'Added default mocha options'
+git st
+git ll
+git dt 4db13
+locate mocha
+whereis mocha
+ll
+ll ~/.npm
+ll ~/.npm/sinon
+node
+node --help
+NODE_PATH=/Users/isa/.npm
+node
+NODE_PATH=/Users/isa/.npm/mocha/1.7.4
+node
+echo 'export NODE_PATH="'$(npm root -g)'"'
+ll /usr/local/share/npm/lib/node_modules
+echo 'export NODE_PATH="'$(npm root -g)'"'
+export NODE_PATH="/usr/local/share/npm/lib/node_modules"
+node
+export NODE_PATH="`$(npm root -g)`"
+export NODE_PATH="$(npm root -g)"
+echo $NODE_PATH
+export NODE_PATH=isa
+echo $NODE_PATH
+export NODE_PATH="$(npm root -g)"
+echo $NODE_PATH
+e ~/.zshrc
+. ~/.zshrc
+ll
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+mocha
+p todo
+ll
+cd tasks
+ll
+e .
+ll
+coffee
+npm list jsdom
+npm list -g jsdom
+which python
+ll /System/Library/Frameworks/Python.framework
+ll /System/Library/Frameworks/Python.framework/Python
+ll /System/Library/Frameworks/Python.framework/Python/
+ll /System/Library/Frameworks/Python.framework/Versions/Current
+ll /System/Library/Frameworks/Python.framework/Versions/Current/
+python
+ll
+npm help
+npm remove -g jsdom
+npm list -g
+npm remove -g node-gyp
+npm list -g
+npm install -g cheerio
+node
+npm list -g
+npm remove -g cheerio
+npm list -g
+python
+python --help
+python --help | grep eval
+python --help
+python - "println 'isa'"
+python - << "println 'isa'"\
+
+python - <<END\
+\
+println 'isa'\
+END
+python - <<END\
+println 'isa'\
+END
+python - <<END\
+print 'isa'\
+END
+python - <<END\
+':'.join(sys.path)\
+END
+python - <<END\
+':'.join(sys.path)\
+END
+python - <<END\
+import sys ':'.join(sys.path)\
+END
+python - <<END\
+import sys ':'.join(sys.path)\
+END
+python -
+python - <<A\
+import sys\
+':'.join(sys.path)\
+A
+python - <<A\
+import sys\
+print ':'.join(sys.path)\
+A
+PYTHONPATH=/Library/Python/2.7/site-packages/pip-1.2.1-py2.7.egg:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC:/Library/Python/2.7/site-packages:/Library/Python/2.7/site-packages/setuptools-0.6c11-py2.7.egg-info
+PYTHON_PATH=/Library/Python/2.7/site-packages/pip-1.2.1-py2.7.egg:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC:/Library/Python/2.7/site-packages:/Library/Python/2.7/site-packages/setuptools-0.6c11-py2.7.egg-info
+npm install -g jsdom
+npm remove -g jsdom
+npm list -g
+npm install -g domino
+node
+node
+e ~/.zshrc
+. ~/.zshrc
+node
+e ~/.zshrc
+alias node='node'
+alias coffee='coffee'
+node
+p pekmez.js
+find . -name \*.js
+find . -name \*.js | xargs rm -rf 
+find . -name \*.js
+git st
+ll
