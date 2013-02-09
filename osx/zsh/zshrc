@@ -66,7 +66,7 @@ alias pp='cd ~/Projects'
 alias grep='grep --color'
 alias vm='VBoxManage'
 alias rspec='rspec --color --format documentation'
-alias e='subl -n'
+alias e='subl -a'
 alias vim='mvim -v'
 alias df='df -h'
 alias du='du -sh'
@@ -85,8 +85,8 @@ alias nslookup='rlwrap nslookup'
 # -- Variables --
 export SHELL='zsh'
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home
-export EDITOR="subl -a"
-export VISUAL="subl -a"
+export EDITOR="subl -w"
+export VISUAL="subl -w"
 
 # -- Proxy Settings --
 function enable_proxy() {
