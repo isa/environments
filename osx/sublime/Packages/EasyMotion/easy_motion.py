@@ -119,11 +119,12 @@ class EasyMotionCommand(sublime_plugin.WindowCommand):
     jump_group_iterator = None
     current_jump_group = None
     select_text = False
+    winning_selection = None
 
     def run(self, character=None, select_text=False):
         sublime.status_message("SublimeJump to " + character)
 
-        settings = sublime.load_settings("Preferences.sublime-settings")
+        settings = sublime.load_settings("EasyMotion.sublime-settings")
 
         self.jump_target_scope = settings.get('jump_target_scope', 'string')
         placeholder_chars = settings.get('placeholder_chars', 'abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ')
@@ -225,3 +226,4 @@ class JumpToWinningSelection(sublime_plugin.TextCommand):
         sel = self.view.sel()
         sel.clear()
         sel.add(winning_region)
+        self.view.show(winning_region)

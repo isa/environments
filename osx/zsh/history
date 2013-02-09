@@ -1,167 +1,3 @@
-cd locales
-ll
-cat en.yml
-cd ..
-cd ..
-ll
-cat templates.rb
-cd Desktop
-ksdiff nfc.xml nfc2.xml
-p chef-cookbooks
-e .
-git pull
-ssh teamcity@merchpayci.gap.com
-cd Documents
-ll
-cd ..
-ll
-cd VirtualBox\ VMs
-ll
-du -sh CentOS-6.2-x86_64
-p merchandise-payables
-git st
-git diff
-bundle install
-ll
-cat .rvmrc
-bundle install
-ping rubygems.org
-bundle install
-bundle install
-echo $http_proxy
-disable_proxy
-bundle install
-bundle install
-cat .rvmrc
-cd ~/Downloads/isos
-curl -C - -L 'http://centos.mirrors.tds.net/pub/linux/centos/6.2/isos/x86_64/CentOS-6.2-x86_64-minimal.iso' -o 'iso/CentOS-6.2-x86_64-minimal.iso'
-curl -C - -L 'http://centos.mirrors.tds.net/pub/linux/centos/6.2/isos/x86_64/CentOS-6.2-x86_64-minimal.iso' -o 'CentOS-6.2-x86_64-minimal.iso'
-ll
-cat CentOS-6.2-x86_64-minimal.iso
-rm -rf CentOS-6.2-x86_64-minimal.iso
-curl -C - -L 'http://centos.mirrors.tds.net/pub/linux/centos/6.3/isos/x86_64/CentOS-6.3-x86_64-minimal.iso'
-curl -C - -L 'http://centos.mirrors.tds.net/pub/linux/centos/6.3/isos/x86_64/CentOS-6.3-x86_64-minimal.iso' -o 'CentOS-6.3-x86_64-minimal.iso'
-ll
-cd ..
-ll
-rm -rf *.iso
-rm -rf merchpay-app-dev
-ll
-ll
-rm -rf Vagrant-1.0.5.dmg
-ll
-rm -rf isos
-ll
-df -h
-p scms/po
-svn up
-cd ..
-ll
-svn info po
-svn ls http://svn.gap.dev/svn/supplychain/
-svn ls http://svn.gap.dev/svn/supplychain/sam ri/sam
-svn co http://svn.gap.dev/svn/supplychain/sam/trunk ri/sam
-svn co http://svn.gap.dev/svn/supplychain/regional_inventory/trunk ri/core
-ll
-cd ..
-du -sh
-du -sh scms
-du -sh merchandise-payables
-ll
-cd codesparrow
-svn up
-cd ..
-ll
-rm -rf old.merchandise-payables
-du -sh
-p scms/mp/modules/atom
-svn info
-svn up
-cd ..
-cd ..
-p merchandise-payables
-e Gemfile
-p merchandise-payables
-cd ..
-p merchandise-payables
-enable_proxy
-cd ..
-p merchandise-payables
-git co -- Gemfile
-cd ..
-p merchandise-payables
-git pull
-open /Volumes/Data/.XXX
-open /Volumes/Data/.XXX
-cd /Volumes/Data/.XXX
-nslookup https://ica01.gap.com
-nslookup ica01.gap.com
-nslookup ic01cha.gap.com
-telnet 10.107.250.10 443
-nslookup
-cd /Applications/Junos\ Pulse.app
-ll
-cd Contents
-ll
-ll MacOS
-ll Resources
-find . -m 5
-find . -c 5
-find . -c +5
-find . -c 5+
-find . -cmin 5
-find . -cmin 10
-find . -cmin 100
-find . -amin 100
-find . -mmin 100
-ll
-cd _CodeSignature
-ll
-cat CodeResources
-ssh vagrant@localhost -p 7222
-cd /tmp
-hg clone https://bitbucket.org/kevinburke/markdowncss
-brew install hg
-enable_proxy
-brew install hg
-hg clone https://bitbucket.org/kevinburke/markdowncss
-ll
-cd markdowncss
-ll
-open index.html
-cat markdown.css
-cd ~/.rvm/
-ll
-find . -name style.css
-vim ./gems/ruby-1.8.7-p370@merchandise-payables/gems/gimli-0.4.0/config/style.css
-cd ./gems/ruby-1.8.7-p370@merchandise-payables/gems/gimli-0.4.0/config/
-ll
-cp style.css style.css.bak
-e style.css
-e style.css
-gimli --help
-cd ./gems/ruby-1.8.7-p370@merchandise-payables/gems/gimli-0.4.0/config/
-ll
-cd .rvm/gems/ruby-1.8.7-p370@merchandise-payables/gems/gimli-0.4.0/config/
-ll
-mv style.css.bak style.css
-p merchandise-payables
-cd ..
-enable_proxy
-p merchandise-payables
-bundle
-git st
-pwd
-ll
-tree docs
-gimli -h
-wkhtmltopdf --help
-gimli -s
-gimli -h
-gimli -f docs/production/user-manual -s docs/production/user-manual/stylesheets/main.css -merge -output-dir /tmp/
-open /tmp
-mkdir /tmp/demo
-gimli -f docs/production/user-manual -s docs/production/user-manual/stylesheets/main.css -merge -outputdir /tmp/demo
 git st
 rm -rf 04.troubleshooting.pdf
 ll
@@ -10061,3 +9897,161 @@ find . -name \*.js | xargs rm -rf
 find . -name \*.js
 git st
 ll
+cd .environments
+git st
+git rm osx/sublime/Settings/License.sublime_license
+git rm osx/sublime/Settings/License.sublime_license --cached
+vim ~/.gitignore
+ll
+vim .gitignore
+git st
+git ci -m 'Changed some sublime text settings'
+git st
+git push
+cd ..
+ssh localhost -p 7222
+ssh veewee@localhost -p 7222
+ifconfig
+ll
+mvim tomcat
+rm -rf tomcat
+ll
+gradle
+df -h
+p pekmez.js
+e .
+cd ~/.environments/osx/sublime
+find . -name pros
+find . -name pros*
+find . -name pros\*
+e ./Packages/User/Color Schemes/prospettiva.tmTheme
+e ./Packages/User/Color\ Schemes/prospettiva.tmTheme
+git st
+git ll
+gem search riemann
+gem search riemann --remote
+gem install riemann-client riemann-dash riemann-tools
+rbenv rehash
+cd
+riemann-dash
+git st
+ll
+p
+ll
+brew search clojure
+brew install clojure
+df
+df -h
+df -h
+df -h
+svn co http://btrep/svn/csg/java/uye-girisi/trunk csg-uye-girisi
+svn ls http://btrep/svn/csg
+svn ls http://btrep/svn/csg/java
+svn co http://btrep/svn/csg/java/csg-uye-girisi/trunk csg-uye-girisi
+export http_proxy=http://svcbuild:Kalemon3@proxy:8080
+export https_proxy=$http_proxy
+brew install tomcat
+brew update
+brew update
+ping 10.40.50.110
+ping google.com
+ifconfig
+ll
+mkdir boxes
+vagrant basebox templates
+rbenv rehash
+vagrant basebox templates
+gem list
+gem install vagrant veewee
+disable_proxy
+gem install vagrant veewee
+ll
+cd boxes
+ll
+vagrant basebox templates
+vagrant basebox define 'CentOS-6.3-x86_64' 'CentOS-6.3-x86_64-minimal'
+vagrant basebox build CentOS-6.3-x86_64
+cd '/Users/isa/Library/Application Support/Sublime Text 3/Packages/'
+wget https://sublime.wbond.net/testing/Package%20Control.sublime-package
+exit
+p
+ll
+find . -type d -exec chmod 755 {} \;
+ll
+git st
+ll
+git clone https://github.com/michaelisvy/hibernate-4-spring-3.1-samples.git
+ll
+mvim 
+exit
+cd .environments
+git pull
+cd ~/Library/Preferences
+ll
+cd ..
+ll
+find . -name Sublime
+find . -name Sublime*
+find . -name Sublime\*
+cd Application\ Support
+cd Sublime\ Text\ 3
+ll
+cd Packages
+ll
+cd User
+ll
+cd ..
+ll
+cd User
+ll
+ll ../../Local
+ll
+cp ~/.environments/osx/sublime/Packages/User/Color\ Schemes .
+ll
+e Preferences.sublime-settings
+ll /usr/local/bin/
+which subl
+cd /Applications
+ll
+cd Sublime\ Text.app
+ll
+cd Contents
+ll
+open .
+e
+ll
+e Info.plist
+p member-entrance
+ll
+cd libs/runtime
+ll
+java -cp hsqldb-2.2.9.jar org.hsqldb.util.DatabaseManager -user sa -url jdbc:hsqldb:mem:test
+java -cp hsqldb-2.2.9.jar org.hsqldb.util.DatabaseManager -user sa -url jdbc:hsqldb:mem:test
+java -version
+gradle
+brew update
+brew info gradle
+brew install gradle
+gradle --version
+gradle help
+gradle help
+gradle help
+brew search drip
+brew info drip
+brew install drip
+p member-entrance
+gradle init
+ll
+mv gradle.properties gradle.properties.bak
+gradle init
+gradle init
+gradle init
+gradle init
+gradle init
+brew search tomcat
+brew install tomcat
+brew install tomcat
+ll /usr/local/Cellar/tomcat/7.0.35
+cd ~/Downloads/.xx
+ll
+exit

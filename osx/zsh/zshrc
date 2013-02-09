@@ -85,8 +85,8 @@ alias nslookup='rlwrap nslookup'
 # -- Variables --
 export SHELL='zsh'
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home
-export EDITOR="subl -n"
-export VISUAL="subl -n"
+export EDITOR="subl -a"
+export VISUAL="subl -a"
 
 # -- Proxy Settings --
 function enable_proxy() {

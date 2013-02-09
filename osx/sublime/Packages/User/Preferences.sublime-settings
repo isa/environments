@@ -3,7 +3,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Boron Color Scheme/Boron.tmTheme",
+	"color_scheme": "Packages/User/Color Schemes/prospettiva.tmTheme",
 	"detect_indentation": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Monaco",
@@ -11,7 +11,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 15.0,
+	"font_size": 22.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,

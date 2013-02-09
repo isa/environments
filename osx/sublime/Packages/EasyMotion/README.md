@@ -20,7 +20,16 @@ Then type `EasyMotion` and choose the EasyMotion plugin from the dropdown.  Hit 
 Manual installation should be as easy as cloning this git repository into your Sublime `Packages` directory.  On OSX:
 
     cd ~/Application\ Support/Sublime\ Text\ 2/Packages
-    git clone git://github.com/tednaleid/sublime-EasyMotion.git
+    git clone git://github.com/tednaleid/sublime-EasyMotion.git EasyMotion
+    
+(The directory name underneath packages __must__ be `EasyMotion` and not `sublime-EasyMotion` for some preferences to get picked up)
+
+If you're interested in trying the next release of the plugin, you can switch your branch to the development branch:
+
+    cd EasyMotion
+    git checkout development
+    
+This branch will have features that are marked as fixed in the issue, but haven't yet been merged to `master`.
 
 ## Usage
 
@@ -79,7 +88,7 @@ So in the same situation as above, if we had hit `cmd-shift-;` followed by `r` a
 
 ### Remapping the Sublime EasyMotion keyboard shortcut
 
-You can remap your keys to be something other than the defaults by entering an override value into your "User - KeyBindings" (under Sublime Text 2 -> Preferences on OSX), just make sure to copy the existing key bindings exactly and change only the first item in the `keys` stanza, otherwise it won't work.  So if you wanted the jump command to be `ctrl-,`, you'd use:
+You can remap your keys to be something other than the defaults by entering an override value into your "User - KeyBindings" (under Sublime Text 2 -> Preferences -> Package Settings -> Easy Motion on OSX), just make sure to copy the existing key bindings exactly and change only the first item in the `keys` stanza, otherwise it won't work.  So if you wanted the jump command to be `ctrl-,`, you'd use:
 
 
     [
@@ -98,7 +107,7 @@ You can remap your keys to be something other than the defaults by entering an o
 
 ### Overriding the placeholder characters used for jumping
 
-Add this to your "User Settings" file (found at "Sublime Text 2 -> Preferences -> Settings - User" on OSX) and change the string to contain whatever characters you'd like to use:
+Add this to your "User Settings" file (found at "Sublime Text 2 -> Preferences -> Package Settings -> Easy Motion -> Settings - User" on OSX) and change the string to contain whatever characters you'd like to use:
 
     // define the characters that we can jump to, in the order that they'll appear, they should be unique
     "placeholder_chars" : "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -115,3 +124,7 @@ If the highlight color used for jump targets isn't bold enough if your color sch
     // other examples include: keyword, string, number
     "jump_target_scope" : "entity.name.class"
 
+
+# Versions
+
+- 0.8 - released 2/3/13 - updates location of preferences to EasyMotion specific file and includes plugin specific preferences file.  You'll need to migrate preferences over into this file for them to stick.

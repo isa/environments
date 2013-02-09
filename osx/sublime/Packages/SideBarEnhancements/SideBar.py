@@ -801,9 +801,9 @@ class SideBarCopyTagImgCommand(sublime_plugin.WindowCommand):
 		for item in SideBarSelection(paths).getSelectedImages():
 			try:
 				image_type, width, height = self.getImageInfo(item.contentBinary())
-				items.append('<img src="'+item.pathAbsoluteFromProjectEncoded()+'" width="'+str(width)+'" height="'+str(height)+'" border="0"/>')
+				items.append('<img src="'+item.pathAbsoluteFromProjectEncoded()+'" width="'+str(width)+'" height="'+str(height)+'">')
 			except:
-				items.append('<img src="'+item.pathAbsoluteFromProjectEncoded()+'" border="0"/>')
+				items.append('<img src="'+item.pathAbsoluteFromProjectEncoded()+'">')
 		if len(items) > 0:
 			sublime.set_clipboard("\n".join(items));
 			if len(items) > 1 :
@@ -1247,7 +1247,7 @@ class SideBarOpenInBrowserCommand(sublime_plugin.WindowCommand):
 
 		for item in SideBarSelection(paths).getSelectedItems():
 			if item.projectURL(type):
-				self.try_open(item.projectURL(type) + item.pathRelativeFromProjectEncoded(), browser)
+				self.try_open(item.projectURL(type), browser)
 			else:
 				self.try_open(item.uri(), browser)
 

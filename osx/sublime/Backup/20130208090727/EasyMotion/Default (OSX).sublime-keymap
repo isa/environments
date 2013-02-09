@@ -1,0 +1,12 @@
+[
+	{ 
+		"keys": ["super+;", "<character>"], 
+		"command": "easy_motion",
+        "args": {"select_text": false}
+	},
+    { 
+        "keys": ["super+shift+;", "<character>"], 
+        "command": "easy_motion",
+        "args": {"select_text": true}
+    }
+]
