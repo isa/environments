@@ -88,21 +88,6 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home
 export EDITOR="subl -w"
 export VISUAL="subl -w"
 
-# -- Proxy Settings --
-function enable_proxy() {
-   export http_proxy="http://qaproxy.gid.gap.com:8080/"
-   export https_proxy="http://qaproxy.gid.gap.com:8080/"
-   export ftp_proxy="http://qaproxy.gid.gap.com:8080/"
-   export no_proxy="localhost,127.0.0.0/8,10.0.0.0/8,192.168.0.0/16"
-}
-
-function disable_proxy() {
-   unset http_proxy
-   unset https_proxy
-   unset ftp_proxy
-   unset no_proxy
-}
-
 function p() { cd ~/Projects/$1;  }
 function _p() { _files -W ~/Projects -/; }
 compdef _p p
